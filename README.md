@@ -1,8 +1,8 @@
-# XENSIV™ 3D Magnetic Sensor TLX493D Arduino Library
+# XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 
 ![build-check](https://github.com/Infineon/arduino-pas-co2-sensor/actions/workflows/build-check.yml/badge.svg)
 
-Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLX493D**](https://www.infineon.com/cms/en/product/sensor/magnetic-sensors/magnetic-position-sensors/3d-magnetics/) family.
+Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLx493D**](https://www.infineon.com/cms/en/product/sensor/magnetic-sensors/magnetic-position-sensors/3d-magnetics/) family.
 
 ### Supported Sensor Platforms
 
@@ -34,14 +34,8 @@ Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLX493D**](https:/
 </table>
 
 As well as the following sensors and the associated boards:
-- TLx493D_A1B6
 - TLx493D_A2B6
-- TLx493D_P2B6
-- TLx493D_W2B6
 - TLx493D_A2BW
-- TLx493D_P2B60
-- TLx493D_P3B6
-- TLx493D_P3I8
 
 ### Getting Started
 
