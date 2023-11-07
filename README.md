@@ -4,9 +4,6 @@
 
 Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLX493D**](https://www.infineon.com/cms/en/product/sensor/magnetic-sensors/magnetic-position-sensors/3d-magnetics/) family.
 
-<img src="doc/img/Sensors.png" width=200>
-
-
 ### Supported Sensor Platforms
 
 <table>
