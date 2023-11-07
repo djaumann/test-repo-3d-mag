@@ -15,10 +15,6 @@ Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLX493D**](https:/
         <td><img src="doc/img/TLV493D_A1B6_MS2GO.png" width=200></td>
         <td><img src="doc/img/TLE493D_W2B6_2GO.jpg" width=200></td>
         <td><img src="doc/img/TLV493D_A1B6_MS2GO.png" width=200></td>
-        <td><img src="doc/img/TLI493D_W2BW_2GO.jpg" width=200></td>
-        <td><img src="doc/img/.png" width=200></td>
-        <td><img src="doc/img/.png" width=200></td>
-        <td><img src="doc/img/.png" width=200></td>
     </tr>
     <tr>
         <td style="test-align : center"><a href="https://www.infineon.com/cms/en/product/evaluation-boards/tlv493d-a1b6-ms2go/">XENSIV™ TLV493D-A1B6 2GO kit</a></td>
@@ -26,11 +22,20 @@ Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLX493D**](https:/
         <td style="test-align : center"><a href="https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d_tle493dw2b6-a0/">XENSIV™ TLE493D-W2B6 Shield2Go</a></td>
         <td style="test-align : center"><a href="https://www.infineon.com/cms/en/product/evaluation-boards/tle493d-w2b6-ms2go/">XENSIV™ TLE493D-W2B6 2GO kit</a></td>
         <td style="test-align : center"><a href="https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d_tli493dw2bw-a0/">XENSIV™ TLI493D-W2BW Shield2Go</a></td>
+    </tr>
+    <tr>
+        <td><img src="doc/img/TLI493D_W2BW_2GO.jpg" width=200></td>
+        <td><img src="doc/img/.png" width=200></td>
+        <td><img src="doc/img/.png" width=200></td>
+        <td><img src="doc/img/.png" width=200></td>
+    </tr>
+    <tr>
         <td style="test-align : center"><a href="">XENSIV™ TLE493D-P3B6 Shield2Go</a></td>
         <td style="test-align : center"><a href="">XENSIV™ TLE493D-P3I8 Shield2Go</a></td>
         <td style="test-align : center"><a href="">XENSIV™ TLV493D-A1B6 Shield2Go</a></td>
         <td style="test-align : center"><a href="">XENSIV™ TLV493D-A1B6 Shield2Go</a></td>
     </tr>
+
 </table>
 
 ### Getting Started
