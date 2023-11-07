@@ -8,7 +8,7 @@ Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLX493D**](https:/
 
 <table>
     <tr>
-        <td><img src="doc/img/TLV493D_A1B6_2GO.png" width=200></td>
+        <td><img src="doc/img/TLV493D_A1B6_2GO.jpg" width=200></td>
         <td><img src="doc/img/TLV493D_A1B6_MS2GO.png" width=200></td>
         <td><img src="doc/img/TLE493D_W2B6_2GO.jpg" width=200></td>
         <td><img src="doc/img/TLV493D_A1B6_MS2GO.png" width=200></td>
