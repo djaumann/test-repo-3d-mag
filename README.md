@@ -31,8 +31,17 @@ Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLX493D**](https:/
         <td style="test-align : center"><a href="">XENSIV™ TLV493D-A1B6 Shield2Go</a></td>
         <td style="test-align : center"><a href="">XENSIV™ TLV493D-A1B6 Shield2Go</a></td>
     </tr>
-
 </table>
+
+As well as the following sensors and the associated boards:
+- TLx493D_A1B6
+- TLx493D_A2B6
+- TLx493D_P2B6
+- TLx493D_W2B6
+- TLx493D_A2BW
+- TLx493D_P2B60
+- TLx493D_P3B6
+- TLx493D_P3I8
 
 ### Getting Started
 
