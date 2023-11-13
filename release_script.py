@@ -34,10 +34,10 @@ dst_version_file = "./version_info.txt"
 
 
 # Clone latest state of the repository
-# if os.path.isdir("./temp") :
-#    shutil.rmtree("./temp", onerror=onerror)
+if os.path.isdir("./temp") :
+   shutil.rmtree("./temp", onerror=onerror)
 
-# Repo.clone_from("https://bitbucket.vih.infineon.com/scm/xfpl/magnetic-3d-sensor-tlx493d.git", "./temp")
+Repo.clone_from("https://bitbucket.vih.infineon.com/scm/xfpl/magnetic-3d-sensor-tlx493d.git", "./temp")
 
 
 # Get all the source files
@@ -75,6 +75,7 @@ for file in example_dir_list:
     full_name = os.path.join(examples_path, file)
     shutil.copy(full_name, name)
 
+
 # Get all the tests
 if os.path.exists(dst_test_path):
     shutil.rmtree(dst_test_path, onerror=onerror)
@@ -84,13 +85,10 @@ os.mkdir(dst_test_path)
 shutil.copytree(test_path, dst_test_path, dirs_exist_ok=True)
 shutil.rmtree(dst_test_path + "src/mtb/", onerror=onerror)
 
+
 # Get repository meta data
 repo = git.Repo("./")
-tag_version = str(repo.tags)
-start_pos = tag_version.find("/v")
-end_pos = tag_version.find(">")
-
-tag_version = tag_version[start_pos+1:end_pos-1] # Get tag
+tag_version = str(repo.tags[-1]) # Get tag
 tag_hash = str(repo.rev_parse("master")) # Get hash
 
 if os.path.exists(dst_version_file):
