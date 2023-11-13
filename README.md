@@ -1,6 +1,7 @@
 # XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 
 ![build-check](https://github.com/Infineon/arduino-pas-co2-sensor/actions/workflows/build-check.yml/badge.svg)
+<!--- TODO: Use right link --->
 
 Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLx493D**](https://www.infineon.com/cms/en/product/sensor/magnetic-sensors/magnetic-position-sensors/3d-magnetics/) family.
 
@@ -22,14 +23,18 @@ Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLx493D**](https:/
     <tr>
         <td><img src="doc/img/TLI493D_W2BW_2GO.jpg" width=200></td>
         <td><img src="doc/img/TLV493D_A1B6_MS2GO.png" width=200></td>
+        <!-- TODO: Add third gen as soon as available
         <td><img src="doc/img/.png" width=200></td>
         <td><img src="doc/img/.png" width=200></td>
+        -->
     </tr>
     <tr>
         <td style="test-align : center"><a href="">XENSIV™ TLI493D-W2BW Shield2Go</a></td>
         <td style="test-align : center"><a href="">XENSIV™ TLE493D-P2B6 2GO kit</a></td>
+        <!-- TODO: Add third gen as soon as available
         <td style="test-align : center"><a href="">XENSIV™ TLV493D-A1B6 Shield2Go</a></td>
         <td style="test-align : center"><a href="">XENSIV™ TLV493D-A1B6 Shield2Go</a></td>
+        -->
     </tr>
 </table>
 
@@ -39,19 +44,19 @@ As well as the following sensors and the associated boards:
 
 ### Getting Started
 
-Find a detailed getting started guide for the supported XENSIV™ 3D Magnetic TLX493D Sensors [here](link).
+Find a detailed getting started guide for the supported XENSIV™ 3D Magnetic TLX493D Sensors [here](link). <!-- TODO: ADD LINK -->
 
 ### Library Installation
 
-Look for ```XENSIV 3D Magnetic Library´´´ in the Arduino library manager in order to install this library. An alternative installation method can be found [here](link).
+Look for ```XENSIV 3D Magnetic Sensor TLx493D``` in the Arduino library manager in order to install this library. An alternative installation method can be found [here](link). <!-- TODO: ADD LINK -->
 
 ### API Reference
 
-Discover all the API features and functions in the [API Reference]() section of the documentation.
+Discover all the API features and functions in the [API Reference]() section of the documentation. <!-- TODO: ADD LINK -->
 
 ### More Information
 
-More information can be found within the library [docs]().
+More information can be found within the library [docs](). <!-- TODO: ADD LINK -->
 
 ### License
 
