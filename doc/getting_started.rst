@@ -15,7 +15,7 @@ Required Hardware
     - Picture
   * - `XENSIV™ 3D Magnetic Sensor TLE493D-W2B6 <https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d_tle493dw2b6-a0/>`_
     - .. image:: img/TLE493D_W2B6_2GO.jpg
-          :height: 60
+          :height: 50
   * - `XMC 2Go <https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc_2go_xmc1100_v1/>`_ (only needed if you chose a shield 2Go)
     - .. image:: img/xmc2go.jpg
           :height: 60
@@ -119,7 +119,7 @@ in X, Y, Z-direction as well as the temperature on the serial monitor.
 What's next?
 ------------
 
-This was only one of the available library examples - `check out the others! <>`_. The other examples will show much more of the sensor available functionality. If you need more details about the library functions
+This was only one of the available library examples - `check out the others! <>`_. The other examples will show much more of the sensor's available functionality. If you need more details about the library functions
 check out the `API reference section <>`_ of this documentation.
 
 .. |TM| replace:: XENSIV™ 3D Magnetic Sensors TLx493D
