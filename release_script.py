@@ -24,7 +24,7 @@ def onerror(func, path, exc_info):
 
 # Sources from TLx493D repo
 src_path = ["./temp/src/tlx493d/", "./temp/src/framework/arduino/", "./temp/src/interfaces/" ]
-examples_path = "./temp/examples/arduino/"
+examples_path = "./temp/examples/framework/arduino/"
 test_path = "./temp/test/" 
 # Destination paths in Arduino repo
 dst_src_path = "./src/"
@@ -83,7 +83,7 @@ if os.path.exists(dst_test_path):
 os.mkdir(dst_test_path)
 
 shutil.copytree(test_path, dst_test_path, dirs_exist_ok=True)
-shutil.rmtree(dst_test_path + "src/mtb/", onerror=onerror)
+shutil.rmtree(dst_test_path + "unit/src/framework/mtb/", onerror=onerror)
 
 
 # Get repository meta data

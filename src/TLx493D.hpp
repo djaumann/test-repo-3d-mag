@@ -1,34 +1,155 @@
-#ifndef TLx493D_HPP
-#define TLx493D_HPP
+#ifndef TLX493D_HPP
+#define TLX493D_HPP
+
 
 // std includes
 #include <stdbool.h>
 #include <stdint.h>
 
 // project cpp includes
-#include "arduino_defines.h"
+#include "types.hpp"
+#include "BoardSupportUsingKit2Go.hpp"
+#include "IICUsingTwoWire.hpp"
+#include "SPIUsingSPIClass.hpp"
+#include "TLx493DBase.hpp"
 
 // project c includes
-extern "C" {
-    #include "tlx493d_types.h"
-    #include "cInterface.h"
-}
+#include "tlx493d_types.h"
+#include "tlx493d.h"
 
 
-// keyword "export" not supported by current Arduino C++ compiler, therefore definitions must go here. Update C++ compiler to newer version ???
-// export
-template<typename BoardSupportClass, template<typename> typename ComLibrary, typename ComIF,
-         TLx493D_SupportedSensorType_te sensorType,
-         TLx493D_SupportedComLibraryInterfaceType_te comLibIFType = TLx493D_I2C_e> class TLx493D {
+/***
+ * Specialization for IIC interface.
+*/
+template<typename BoardSupport, TLx493D_SupportedSensorType_t sensorType>
+    class TLx493D<BoardSupport, TwoWireWrapper, sensorType> : public TLx493DBase {
+
     public:
-        typedef BoardSupportClass   BoardSupportClassType;
-        typedef ComLibrary<ComIF>   ComLibraryIFType;
-        typedef ComIF               ComIFType;
+
+        typedef BoardSupport                      BoardSupportType;
+        typedef TwoWireWrapper                    BusWrapperType;
+        typedef typename TwoWireWrapper::BusType  BusType;
 
  
-        TLx493D(ComIF &comIF) : bsc(), comLIF(comIF), sensor() {
-            ::tlx493d_init(&sensor, sensorType);
-            sensor.comIFType = comLibIFType;
+        TLx493D(BusType &bus, TLx493D_IICAddressType_t iicAdr = TLx493D_IIC_ADDR_A0_e) : bsc(), busWrapper(bus), iicAddress(iicAdr) {
+            tlx493d_init(&sensor, sensorType);
+        }
+
+
+        ~TLx493D() {
+        }
+
+
+        void init(bool enablePower = true, bool enableSelect = false, bool enableExtendedAddr = false) {
+            bsc.init(enablePower, enableSelect, enableExtendedAddr);
+            tlx493d_initBoardSupport(&sensor, bsc);
+            tlx493d_initCommunication(&sensor, busWrapper, iicAddress); // includes call to busWrapper.init();
+            setDefaultConfig();
+        }
+
+
+        void begin(bool enablePower = true, bool enableSelect = false, bool enableExtendedAddr = false) {
+            init(enablePower, enableSelect, enableExtendedAddr);
+        }
+
+
+        void deinit() {
+            tlx493d_deinitCommunication(&sensor); // includes call to busWrapper.deinit();
+            tlx493d_deinit(&sensor);
+            bsc.deinit();
+        }
+
+
+        void end() {
+            deinit();
+        }
+
+
+        void setPowerPin(uint8_t pinNumber, uint8_t pinDirection, uint8_t pinEnableValue, uint8_t pinDisableValue,
+                         uint8_t delayAfterDisable = 0, uint8_t  delayAfterEnable = 0) {
+            bsc.setPowerPin(pinNumber, pinDirection, pinEnableValue, pinDisableValue, delayAfterDisable, delayAfterEnable);
+        }
+
+
+        void unsetPowerPin() {
+            bsc.unsetPowerPin();
+        }
+
+
+        void setSelectPin(uint8_t pinNumber, uint8_t pinDirection, uint8_t pinEnableValue, uint8_t pinDisableValue,
+                          uint8_t delayAfterDisable = 0, uint8_t  delayAfterEnable = 0) {
+            bsc.setSelectPin(pinNumber, pinDirection, pinEnableValue, pinDisableValue, delayAfterDisable, delayAfterEnable);
+        }
+
+        void unsetSelectPin() {
+            bsc.unsetSelectPin();
+        }
+
+        void setAddrPin(uint8_t pinNumber, uint8_t pinDirection, uint8_t pinEnableValue, uint8_t pinDisableValue,
+                         uint8_t delayAfterDisable = 0, uint8_t  delayAfterEnable = 0) {
+            bsc.setAddrPin(pinNumber, pinDirection, pinEnableValue, pinDisableValue, delayAfterDisable, delayAfterEnable);
+        }
+
+        void unsetAddrPin() {
+            bsc.unsetAddrPin();
+        }
+
+        void enablePower() {
+            bsc.controlPower(true);
+        }
+
+
+        void disablePower() {
+            bsc.controlPower(false);
+        }
+
+
+        void enableSelect() {
+            bsc.controlSelect(true);
+        }
+
+
+        void disableSelect() {
+            bsc.controlSelect(false);
+        }
+
+
+        void enableAddr() {
+            bsc.controlAddr(true);
+        }
+
+
+        void disableAddr() {
+            bsc.controlAddr(false);
+        }
+
+
+    private:
+
+        TLx493D(BusType &bus);
+
+
+        BoardSupportType          bsc;
+        BusWrapperType            busWrapper;
+        TLx493D_IICAddressType_t  iicAddress;
+};
+
+
+/***
+ * Specialization for SPI interface.
+*/
+template<typename BoardSupport, TLx493D_SupportedSensorType_t sensorType>
+    class TLx493D<BoardSupport, SPIClassWrapper, sensorType> : public TLx493DBase {
+
+    public:
+
+        typedef BoardSupport                       BoardSupportType;
+        typedef SPIClassWrapper                    BusWrapperType;
+        typedef typename SPIClassWrapper::BusType  BusType;
+
+ 
+        TLx493D(BusType &bus) : bsc(), busWrapper(bus) {
+            tlx493d_init(&sensor, sensorType);
         }
 
 
@@ -37,8 +158,9 @@ template<typename BoardSupportClass, template<typename> typename ComLibrary, typ
 
 
         void init() {
-            bsc.init();
-            TLx493D_initCommunication(&sensor, comLIF); // includes call to comLIF.init();
+            bsc.init(true);
+            tlx493d_initBoardSupport(&sensor, bsc);
+            tlx493d_initCommunication(&sensor, busWrapper); // includes call to busWrapper.init();
             setDefaultConfig();
         }
 
@@ -49,8 +171,8 @@ template<typename BoardSupportClass, template<typename> typename ComLibrary, typ
 
 
         void deinit() {
-            ::tlx493d_deinit(&sensor);
-            comLIF.deinit();
+            tlx493d_deinitCommunication(&sensor); // includes call to busWrapper.deinit();
+            tlx493d_deinit(&sensor);
             bsc.deinit();
         }
 
@@ -60,168 +182,53 @@ template<typename BoardSupportClass, template<typename> typename ComLibrary, typ
         }
 
 
-        bool setDefaultConfig() {
-            return ::tlx493d_setDefaultConfig(&sensor);
+        void setPowerPin(uint8_t pinNumber, uint8_t pinDirection, uint8_t pinEnableValue, uint8_t pinDisableValue,
+                         uint8_t delayAfterDisable = 0, uint8_t  delayAfterEnable = 0) {
+            bsc.setPowerPin(pinNumber, pinDirection, pinEnableValue, pinDisableValue, delayAfterDisable, delayAfterEnable);
         }
 
 
-        bool getTemperature(double *temperature) {
-            return ::tlx493d_getTemperature(&sensor, temperature);
+        void unsetPowerPin() {
+            bsc.unsetPowerPin();
         }
 
 
-        bool getMagneticField(double *x, double *y, double *z) {
-            return ::tlx493d_getMagneticField(&sensor, x, y, z);
+        void setSelectPin(uint8_t pinNumber, uint8_t pinDirection, uint8_t pinEnableValue, uint8_t pinDisableValue,
+                          uint8_t delayAfterDisable = 0, uint8_t  delayAfterEnable = 0) {
+            bsc.setSelectPin(pinNumber, pinDirection, pinEnableValue, pinDisableValue, delayAfterDisable, delayAfterEnable);
         }
 
 
-        // bool enableTemperatureMeasurement() {
-        //     return ::tlx493d_enableTemperatureMeasurement(&sensor);
-        // }
-
-
-        // bool disableTdisableTemperatureMeasurementemperature() {
-        //     return ::tlx493d_disableTemperatureMeasurement(&sensor);
-        // }
-
-
-        bool enableInterrupt() {
-            return ::tlx493d_enableInterrupt(&sensor);
+        void unsetSelectPin() {
+            bsc.unsetSelectPin();
         }
 
 
-        bool disableInterrupt() {
-            return ::tlx493d_disableInterrupt(&sensor);
+        void enablePower() {
+            bsc.controlPower(true);
         }
 
 
-        bool enableCollisionAvoidance() {
-            return ::tlx493d_enableCollisionAvoidance(&sensor);
+        void disablePower() {
+            bsc.controlPower(false);
         }
 
 
-        bool disableCollisionAvoidance() {
-            return ::tlx493d_disableCollisionAvoidance(&sensor);
+        void enableSelect() {
+            bsc.controlSelect(true);
         }
 
 
-        bool setPowerMode(TLx493D_PowerModeType_te mode) {
-            return ::tlx493d_setPowerMode(&sensor, mode);
-        }
-
-        
-        bool setIICAddress(uint8_t addr) {
-            return ::tlx493d_setIICAddress(&sensor, addr);
-        }
-
-        
-        // bool enableAngularMeasurement() {
-        //     return ::tlx493d_enableAngularMeasurement(&sensor);
-        // }
-
-
-        // bool disableAngularMeasurement() {
-        //     return ::tlx493d_disableAngularMeasurement(&sensor);
-        // }
-
-
-        bool setTrigger(uint8_t bits) {
-            return ::tlx493d_setTrigger(&sensor, bits);
-        }
-
-        
-        bool setUpdateRate(uint8_t bit) {
-            return ::tlx493d_setUpdateRate(&sensor, bit);
-        }
-
-        
-        bool setSensitivity(TLx493D_SensitivityType_te range) {
-            return ::tlx493d_setSensitivity(&sensor, range);
-        }
-
-
-        bool isWakeUpActive() {
-            return ::tlx493d_isWakeUpActive(&sensor);
-        }
-
-
-        bool enableWakeUpMode() {
-            return ::tlx493d_enableWakeUpMode(&sensor);
-        }
-
-
-        bool disableWakeUpMode() {
-            return ::tlx493d_disableWakeUpMode(&sensor);
-        }
-        
-        bool setLowerWakeUpThresholdX(int16_t threshold) {
-            return ::tlx493d_setLowerWakeUpThresholdX(&sensor, threshold);
-        }
-
-        bool setLowerWakeUpThresholdY(int16_t threshold) {
-            return ::tlx493d_setLowerWakeUpThresholdY(&sensor, threshold);
-        }
-
-        bool setLowerWakeUpThresholdZ(int16_t threshold) {
-            return ::tlx493d_setLowerWakeUpThresholdZ(&sensor, threshold);
-        }
-
-        bool setUpperWakeUpThresholdX(int16_t threshold) {
-            return ::tlx493d_setUpperWakeUpThresholdX(&sensor, threshold);
-        }
-
-        bool setUpperWakeUpThresholdY(int16_t threshold) {
-            return ::tlx493d_setUpperWakeUpThresholdY(&sensor, threshold);
-        }
-
-        bool setUpperWakeUpThresholdZ(int16_t threshold) {
-            return ::tlx493d_setUpperWakeUpThresholdZ(&sensor, threshold);
-        }
-
-        bool setWakeUpThresholdsAsInteger(int16_t xl_th, int16_t xh_th, int16_t yl_th, int16_t yh_th, int16_t zl_th, int16_t zh_th) {
-            return ::tlx493d_setWakeUpThresholdsAsInteger(&sensor, xl_th, xh_th, yl_th, yh_th, zl_th, zh_th);
-        }
-
-        bool setWakeUpThresholds(double xl_th, double xh_th, double yl_th, double yh_th, double zl_th, double zh_th) {
-            return ::tlx493d_setWakeUpThresholds(&sensor, xl_th, xh_th, yl_th, yh_th, zl_th, zh_th);
-        }
-
-
-        TLx493D_ts *getSensor() {
-            return &sensor;
-        }
-
-
-        TLx493D_SupportedSensorType_te getSensorType() {
-            return sensor.sensorType;
-        }
-
-
-        TLx493D_SupportedComLibraryInterfaceType_te getComLibIFType() {
-            return sensor.comIFType;
-        }
-
-
-        uint8_t *getRegisterMap() {
-            return sensor.regMap;
-        }
-
-
-        uint8_t getRegisterMapSize() {
-            return sensor.regMapSize;
-        }
-
-
-        uint8_t getI2CAddress() {
-            return sensor.comLibIFParams.i2c_params.address;
+        void disableSelect() {
+            bsc.controlSelect(false);
         }
 
 
     private:
 
-        BoardSupportClassType  bsc;
-        ComLibraryIFType       comLIF;
-        TLx493D_ts              sensor;
+        BoardSupportType  bsc;
+        BusWrapperType    busWrapper;
 };
 
-#endif // TLx493D_HPP
+
+#endif // TLX493D_HPP
