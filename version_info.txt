@@ -1,2 +1,2 @@
 Current tag of the repository is: 		v0.0.3
-Current hash of the repository is: 		3822a54f5d33cf49d728264178cd07204552ed28
+Current hash of the repository is: 		430dfab9ce6046fc44c92bf106841d8515628dd9
