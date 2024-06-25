@@ -37,8 +37,9 @@ dst_version_file = "./version_info.txt"
 if os.path.isdir("./temp") :
    shutil.rmtree("./temp", onerror=onerror)
 
-Repo.clone_from("https://bitbucket.vih.infineon.com/scm/xfpl/magnetic-3d-sensor-tlx493d.git", "./temp")
-
+repo = Repo.clone_from("https://bitbucket.vih.infineon.com/scm/xfpl/magnetic-3d-sensor-tlx493d.git", "./temp")
+git_d = repo.git
+# git_d.checkout("feature/DESMAKERS-3616-create-the-doxygen-documentation")
 
 # Get all the source files
 if os.path.exists(dst_src_path):

@@ -1,14 +1,19 @@
-/** Project CPP includes */ 
+/** Project CPP includes. */ 
 #include "TLx493D_inc.hpp"
+
+
+using namespace ifx::tlx493d;
+
 
 /** Declaration of three sensor objects with the same default address (A0). */
 TLx493D_W2B6 dut1(Wire, TLx493D_IIC_ADDR_A0_e);
 TLx493D_W2B6 dut2(Wire, TLx493D_IIC_ADDR_A0_e);
 TLx493D_W2B6 dut3(Wire, TLx493D_IIC_ADDR_A0_e);
 
+
 void setup() {
-    delay(3000);
     Serial.begin(115200);
+    delay(3000);
 
     /** In this example we're using the XMC4700-Relax-Kit. 
      *  Here we're using three GPIOs to power up the sensors, one
@@ -16,9 +21,9 @@ void setup() {
      *  Board Support Class and its functions. The power up pins are
      *  enabled during the SensorClassObject.begin() call. See below. 
     */
-    dut1.setPowerPin(8, OUTPUT, HIGH, LOW, 50, 50);
-    dut2.setPowerPin(9, OUTPUT, HIGH, LOW, 50, 50);
-    dut3.setPowerPin(10, OUTPUT, HIGH, LOW, 50, 50);
+    dut1.setPowerPin(8, OUTPUT, INPUT, HIGH, LOW, 0, 250000);
+    dut2.setPowerPin(9, OUTPUT, INPUT, HIGH, LOW, 0, 250000);
+    dut3.setPowerPin(10, OUTPUT, INPUT, HIGH, LOW, 0, 250000);
 
     /** Here we're enabling one sensor after the other. This procedure 
      *  is necessary, otherwise it can happen that the initialization of the
@@ -28,20 +33,15 @@ void setup() {
      *  required anymore, since the other two have a new address.
      */
     dut1.begin();
-    delay(500);
     dut1.setIICAddress(TLx493D_IIC_ADDR_A2_e);
-    delay(500);
     dut2.begin();
-    delay(500);
     dut2.setIICAddress(TLx493D_IIC_ADDR_A1_e);
-    delay(500);
     dut3.begin();
-    delay(500);
 
     Serial.print("setup done.\n");
 }
 
-/** In the loop we're reading out the temperature values as well as the magnetic values in X, Y, Z-direction 
+/** In the loop we're reading out the temperature value as well as the magnetic values in X, Y, Z-direction 
  *  of all three sensors. After that they're all printed to the serial output.
  */
 void loop() {

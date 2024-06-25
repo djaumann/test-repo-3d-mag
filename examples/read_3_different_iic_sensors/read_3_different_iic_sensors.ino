@@ -1,5 +1,9 @@
-/** Project CPP includes */ 
+/** Project CPP includes. */ 
 #include "TLx493D_inc.hpp"
+
+
+using namespace ifx::tlx493d;
+
 
 /** Declaration of three sensor objects. One of the second generation
  *  and two of the third generation. The two sensors of the third generation
@@ -7,28 +11,25 @@
 */
 TLx493D_W2BW dut1(Wire, TLx493D_IIC_ADDR_A0_e);
 
-TLx493D_P3B6 dut2(Wire, TLx493D_IIC_ADDR_A0_e);
-TLx493D_P3B6 dut3(Wire, TLx493D_IIC_ADDR_A1_e);
+TLx493D_P3B6 dut2(Wire, TLx493D_IIC_ADDR_A1_e);
+TLx493D_P3B6 dut3(Wire, TLx493D_IIC_ADDR_A2_e);
+
 
 void setup() {
-    delay(3000);
     Serial.begin(115200);
-    delay(100);
+    delay(3000);
 
-    /** Here we don't need a special routine for the initialization of the sensors,
-     *  because only the second generation is critical in this case. So you have
+    /** The second generation is critical with respect to interrupts, so you have
      *  to make sure to initialize this sensor first. Otherwise it will trigger an
      *  interrupt on the interrupt line (default config of the sensor) which will
      *  mess up the sensor's communication interface. 
      */
+    dut1.setPowerPin(8, OUTPUT, INPUT, HIGH, LOW, 0, 250000);
+
     dut1.begin();
     dut2.begin();
     dut3.begin();
     
-    delay(100);
-    Serial.print("setup done.\n");
-
-    delay(100);
     Serial.print("setup done.\n");
 }
 

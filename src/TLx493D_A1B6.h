@@ -2,17 +2,12 @@
 #define TLx493D_A1B6_H
 
 
-// std includes
+/** std includes. */
 #include <stdbool.h>
 #include <stdint.h>
 
-// project c includes
-// common to all sensors
+/** project c includes. */
 #include "tlx493d_types.h"
-
-// common to same generation of sensors
-
-// sensor specicifc includes
 
 
 #ifdef __cplusplus
@@ -28,14 +23,6 @@ typedef enum {
 } TLx493D_A1B6_Reg_LOW_POWER_PERIOD_t;
 
 
-typedef enum {
-	POWERDOWNMODE = 0,
-	FASTMODE,
-	LOWPOWERMODE,
-	ULTRALOWPOWERMODE,
-	MASTERCONTROLLEDMODE
-} TLx493D_A1B6_PowerMode_t;	
-
 typedef struct{
 	uint8_t FAST;
 	uint8_t LOW_POWER;
@@ -44,11 +31,12 @@ typedef struct{
 } TLx493D_A1B6_PowerModeCombinations_t;
 
 
-// common functions
+/** common functions. */
 bool TLx493D_A1B6_init(TLx493D_t *sensor);
 bool TLx493D_A1B6_deinit(TLx493D_t *sensor);
 
 bool TLx493D_A1B6_readRegisters(TLx493D_t *sensor);
+bool TLx493D_A1B6_readRegistersAndCheck(TLx493D_t *sensor);
 
 void TLx493D_A1B6_calculateRawTemperature(TLx493D_t *sensor, int16_t *temperature);
 bool TLx493D_A1B6_getRawTemperature(TLx493D_t *sensor, int16_t *temperature);
@@ -90,11 +78,11 @@ bool TLx493D_A1B6_setPowerMode(TLx493D_t *sensor, TLx493D_PowerModeType_t mode);
 bool TLx493D_A1B6_setUpdateRate(TLx493D_t *sensor, TLx493D_UpdateRateType_t rate);
 
 
-bool TLx493D_A1B6_hasValidData(TLx493D_t *sensor);
-bool TLx493D_A1B6_isFunctional(TLx493D_t *sensor);
+bool TLx493D_A1B6_hasValidData(const TLx493D_t *sensor);
+bool TLx493D_A1B6_isFunctional(const TLx493D_t *sensor);
 
-bool TLx493D_A1B6_hasWakeUp(TLx493D_t *sensor);
-bool TLx493D_A1B6_isWakeUpEnabled(TLx493D_t *sensor);
+bool TLx493D_A1B6_hasWakeUp(const TLx493D_t *sensor);
+bool TLx493D_A1B6_isWakeUpEnabled(const TLx493D_t *sensor);
 bool TLx493D_A1B6_enableWakeUpMode(TLx493D_t *sensor);
 bool TLx493D_A1B6_disableWakeUpMode(TLx493D_t *sensor);
 
@@ -103,31 +91,31 @@ bool TLx493D_A1B6_setWakeUpThresholds(TLx493D_t *sensor, double temperature, dou
 
 bool TLx493D_A1B6_softwareReset(TLx493D_t *sensor);
 
-// utilities
-uint8_t TLx493D_A1B6_calculateFuseParity(TLx493D_t *sensor);
-uint8_t TLx493D_A1B6_calculateBusParity(TLx493D_t *sensor);
+/** utilities. */
+uint8_t TLx493D_A1B6_calculateFuseParity(const TLx493D_t *sensor);
+uint8_t TLx493D_A1B6_calculateBusParity(const TLx493D_t *sensor);
 uint8_t TLx493D_A1B6_calculateConfigurationParity(TLx493D_t *sensor);
 
-bool TLx493D_A1B6_hasValidTBit(TLx493D_t *sensor);
-bool TLx493D_A1B6_hasValidIICadr(TLx493D_t *sensor);
+bool TLx493D_A1B6_hasValidTBit(const TLx493D_t *sensor);
+bool TLx493D_A1B6_hasValidIICadr(const TLx493D_t *sensor);
 
-bool TLx493D_A1B6_hasValidFuseParity(TLx493D_t *sensor);
-bool TLx493D_A1B6_hasValidBusParity(TLx493D_t *sensor);
-bool TLx493D_A1B6_hasValidConfigurationParity(TLx493D_t *sensor);
+bool TLx493D_A1B6_hasValidFuseParity(const TLx493D_t *sensor);
+bool TLx493D_A1B6_hasValidBusParity(const TLx493D_t *sensor);
+bool TLx493D_A1B6_hasValidConfigurationParity(const TLx493D_t *sensor);
 
-bool TLx493D_A1B6_hasValidWakeUpParity(TLx493D_t *sensor);
-bool TLx493D_A1B6_isInTestMode(TLx493D_t *sensor);
+bool TLx493D_A1B6_hasValidWakeUpParity(const TLx493D_t *sensor);
+bool TLx493D_A1B6_isInTestMode(const TLx493D_t *sensor);
 
 void TLx493D_A1B6_setResetValues(TLx493D_t *sensor);
 void TLx493D_A1B6_setReservedRegisterValues(TLx493D_t *sensor);
 
-uint8_t TLx493D_A1B6_selectIICAddress(TLx493D_t *sensor, TLx493D_IICAddressType_t addr);
+uint8_t TLx493D_A1B6_selectIICAddress(const TLx493D_t *sensor, TLx493D_IICAddressType_t addr);
 
-void TLx493D_A1B6_calculateRawMagneticFieldAtTemperature(TLx493D_t *sensor, int16_t rawTemp, TLx493D_SensitivityType_t sens,
+void TLx493D_A1B6_calculateRawMagneticFieldAtTemperature(const TLx493D_t *sensor, int16_t rawTemp, TLx493D_SensitivityType_t sens,
                                                          double xInmT, double yInmT, double zInmT,
                                                          int16_t *x, int16_t *y, int16_t *z);
 
-double TLx493D_A1B6_getSensitivityScaleFactor(TLx493D_t *sensor);
+double TLx493D_A1B6_getSensitivityScaleFactor(const TLx493D_t *sensor);
 
 bool TLx493D_A1B6_transferWriteRegisters(TLx493D_t *sensor);
 
@@ -137,7 +125,9 @@ bool TLx493D_A1B6_disableParityTest(TLx493D_t *sensor);
 uint8_t TLx493D_A1B6_returnBitfield(TLx493D_t *sensor, uint8_t bitField);
 void TLx493D_A1B6_setBitfield(TLx493D_t *sensor, uint8_t bitField, uint8_t newBitFieldValue);
 
-bool TLx493D_A1B6_hasValidPDBit(TLx493D_t *sensor);
+bool TLx493D_A1B6_hasValidPDBit(const TLx493D_t *sensor);
+
+void TLx493D_A1B6_printRegisters(const TLx493D_t *sensor);
 
 
 #ifdef __cplusplus
@@ -148,4 +138,4 @@ bool TLx493D_A1B6_hasValidPDBit(TLx493D_t *sensor);
 #endif
 
 
-#endif // TLx493D_A1B6_H
+#endif /** TLx493D_A1B6_H */

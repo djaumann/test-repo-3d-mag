@@ -1,81 +1,137 @@
-// std includes
-#include <malloc.h>
-#include <stddef.h>
+/** std includes. */
+#ifdef __AVR__
 
-// project c includes
-// common to all sensors
+    #include <stddef.h>
+    #include <stdlib.h>
+
+#else
+
+    // #include <malloc.h>
+    #include <cstddef>
+    #include <cstdlib>
+
+#endif
+
+
+/** project c includes. */
 #include "tlx493d_types.h"
 
-// common to same generation of sensors
+/** TODO: fix XMCLib SPISettings incompatibilities ! P3I8 will not work for any other platform other than XMCLib ! */
+#include "tlx493d_common_defines.h"
 
-// sensor specific includes
-
-// project cpp includes
+/** project cpp includes. */
 #include "types.hpp"
 #include "SPIUsingSPIClass.hpp"
 
 
-extern "C" bool tlx493d_initSPI(TLx493D_t *sensor) {
-    sensor->comInterface.comLibObj.spi_obj->spi->init();
-
-    sensor->comInterface.comLibObj.spi_obj->spi->getBus().setDataMode(SPI_MODE2);
-    sensor->comInterface.comLibObj.spi_obj->spi->getBus().setClockDivider(SPI_CLOCK_DIV8);
-    sensor->comInterface.comLibObj.spi_obj->spi->getBus().setBitOrder(MSBFIRST);
-
-    return true;
-}
+namespace ifx {
+    namespace tlx493d {
+        static uint8_t   spiReadAddress = 0x00;
 
 
-extern "C" bool tlx493d_deinitSPI(TLx493D_t *sensor) {
-    sensor->comInterface.comLibObj.spi_obj->spi->deinit();
-    return true;
-}
+#ifdef USE_TLx493D_P3I8      
+
+        static uint32_t  clockFreq = 200000;
+        static uint8_t   bitOrder  = MSBFIRST;
+        static uint8_t   dataMode  = SPI_MODE2;
+
+#endif
 
 
-extern "C" bool tlx493d_transferSPI(TLx493D_t *sensor, uint8_t *txBuffer, uint8_t txLen, uint8_t *rxBuffer, uint8_t rxLen) {
-    if( sensor->boardSupportInterface.boardSupportObj.k2go_obj != NULL ) {
-        sensor->boardSupportInterface.boardSupportObj.k2go_obj->k2go->controlSelect(true);
+        static bool initSPI(TLx493D_t *sensor) {
+
+#ifdef USE_TLx493D_P3I8      
+
+            sensor->comInterface.comLibObj.spi_obj->spi->init(SPISettings(clockFreq, bitOrder, dataMode));
+
+#endif
+
+            return true;
+        }
+
+
+        static bool deinitSPI(TLx493D_t *sensor) {
+            sensor->comInterface.comLibObj.spi_obj->spi->deinit();
+            return true;
+        }
+
+
+        static bool transferSPI(TLx493D_t *sensor, uint8_t *txBuffer, uint8_t txLen, uint8_t *rxBuffer, uint8_t rxLen) {
+            if( sensor->boardSupportInterface.boardSupportObj.k2go_obj != NULL ) {
+                sensor->boardSupportInterface.boardSupportObj.k2go_obj->k2go->enableSelect(true);
+            }
+
+            bool b = sensor->comInterface.comLibObj.spi_obj->spi->transfer(txBuffer, txLen, rxBuffer, rxLen, spiReadAddress);
+
+            if( sensor->boardSupportInterface.boardSupportObj.k2go_obj != NULL ) {
+                sensor->boardSupportInterface.boardSupportObj.k2go_obj->k2go->enableSelect(false);
+            }
+
+            return b;
+        }
+
+
+        static void setReadAddressSPI(TLx493D_t *sensor, uint8_t address) {
+            (void) sensor;
+            
+            spiReadAddress = address;
+        }
+
+
+        static TLx493D_ComLibraryFunctions_t  comLibFuncs_spi = {
+                                                    .init           = { .spi_init           = initSPI },
+                                                    .deinit         = { .spi_deinit         = deinitSPI },
+                                                    .transfer       = { .spi_transfer       = transferSPI },
+                                                    .setReadAddress = { .spi_setReadAddress = setReadAddressSPI },
+                                            };
+
+
+        bool initCommunication(TLx493D_t *sensor, SPIClassWrapper &spi, bool executeInit,
+                               uint32_t pClockFreq, uint8_t pBitOrder, uint8_t pDataMode) {
+            sensor->comInterface.comLibObj.spi_obj                = (TLx493D_SPIObject_t *) malloc(sizeof(TLx493D_SPIObject_t));
+            sensor->comInterface.comLibObj.spi_obj->spi           = &spi;
+            sensor->comInterface.comLibObj.spi_obj->isToBeDeleted = false;
+
+            sensor->comInterface.comLibFuncs                      = &comLibFuncs_spi;
+
+            if( executeInit ) {
+
+#ifdef USE_TLx493D_P3I8      
+
+                clockFreq = pClockFreq;
+                bitOrder  = pBitOrder;
+                dataMode  = pDataMode;
+
+#endif
+
+                sensor->comInterface.comLibFuncs->init.spi_init(sensor);
+            }
+
+            return true;
+        }
+
+
+        bool initCommunication(TLx493D_t *sensor, SPIClass &spi, bool executeInit, uint32_t pClockFreq, uint8_t pBitOrder, uint8_t pDataMode) {
+            sensor->comInterface.comLibObj.spi_obj                = (TLx493D_SPIObject_t *) malloc(sizeof(TLx493D_SPIObject_t));
+            sensor->comInterface.comLibObj.spi_obj->spi           = new SPIClassWrapper(spi);
+            sensor->comInterface.comLibObj.spi_obj->isToBeDeleted = true;
+
+            sensor->comInterface.comLibFuncs                      = &comLibFuncs_spi;
+
+            if( executeInit ) {
+
+#ifdef USE_TLx493D_P3I8      
+
+                clockFreq = pClockFreq;
+                bitOrder  = pBitOrder;
+                dataMode  = pDataMode;
+
+#endif
+
+                sensor->comInterface.comLibFuncs->init.spi_init(sensor);
+            }
+
+            return true;
+        }
     }
-
-    bool b = sensor->comInterface.comLibObj.spi_obj->spi->transfer(txBuffer, txLen, rxBuffer, rxLen);
-
-    if( sensor->boardSupportInterface.boardSupportObj.k2go_obj != NULL ) {
-        sensor->boardSupportInterface.boardSupportObj.k2go_obj->k2go->controlSelect(false);
-    }
-
-    return b;
-
-    // return sensor->comInterface.comLibObj.spi_obj->spi->transfer(txBuffer, txLen, rxBuffer, rxLen);
-}
-
-
-TLx493D_ComLibraryFunctions_t  comLibFuncs_spi = {
-                                            .init     = { .spi_init     = tlx493d_initSPI },
-                                            .deinit   = { .spi_deinit   = tlx493d_deinitSPI },
-                                            .transfer = { .spi_transfer = tlx493d_transferSPI },
-                                       };
-
-
-bool tlx493d_initCommunication(TLx493D_t *sensor, SPIClassWrapper &spi) {
-    sensor->comInterface.comLibObj.spi_obj      = (TLx493D_SPIObject_t *) malloc(sizeof(TLx493D_SPIObject_t));
-    sensor->comInterface.comLibObj.spi_obj->spi = &spi;
-    sensor->comInterface.comLibObj.spi_obj->isToBeDeleted          = false;
-    // sensor->comInterface.isToBeDeleted          = false;
-    sensor->comInterface.comLibFuncs            = &comLibFuncs_spi;
-
-    sensor->comInterface.comLibFuncs->init.spi_init(sensor);
-    return true;
-}
-
-
-bool tlx493d_initCommunication(TLx493D_t *sensor, SPIClass &spi) {
-    sensor->comInterface.comLibObj.spi_obj      = (TLx493D_SPIObject_t *) malloc(sizeof(TLx493D_SPIObject_t));
-    sensor->comInterface.comLibObj.spi_obj->spi = new SPIClassWrapper(spi);
-    sensor->comInterface.comLibObj.spi_obj->isToBeDeleted          = true;
-    // sensor->comInterface.isToBeDeleted          = true;
-
-    sensor->comInterface.comLibFuncs            = &comLibFuncs_spi;
-
-    sensor->comInterface.comLibFuncs->init.spi_init(sensor);  
-    return true;
 }

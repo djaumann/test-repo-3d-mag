@@ -2,7 +2,8 @@
 #include "Test_includes.hpp"
 
 
-#define POWER_PIN LED2 // 15
+// #define POWER_PIN LED2 // 15
+const uint8_t POWER_PIN = LED2;
 
 
 extern "C" {
@@ -122,11 +123,6 @@ void setup() {
     Serial.begin(115200);
     delay(3000);
 
-    // required for S2Go
-    pinMode(POWER_PIN, OUTPUT);
-    digitalWrite(POWER_PIN, HIGH);
-
-    delay(500);
     Serial.print("setup done.\n");
 }
 
@@ -137,7 +133,7 @@ void setup() {
 void loop() {
     Serial.println("\n");
 
-    int         argc       = 2;
+    const int   argc       = 2;
     const char *argv[argc] = { "", "-v" };
 
     (void) UnityMain(argc, argv, RunAllTests);

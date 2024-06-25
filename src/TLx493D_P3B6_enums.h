@@ -58,6 +58,7 @@ typedef enum {
                 P3B6_CHIP_ID_4_e,
                 P3B6_ID_PAR_e,
                 P3B6_CHIP_ID_5_e,
+                P3B6_CHANNEL_SEL_SAVE_e,
 } TLx493D_P3B6_registerNames_te;
 
 
@@ -69,4 +70,4 @@ typedef enum {
 } TLx493D_P3B6_SpecialRegisters_te;
 
 
-#endif // TLX493D_P3B6_ENUMS_H
+#endif /** TLX493D_P3B6_ENUMS_H */

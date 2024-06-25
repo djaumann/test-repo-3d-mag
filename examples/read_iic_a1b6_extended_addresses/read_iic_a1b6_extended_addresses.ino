@@ -1,30 +1,33 @@
-// std includes
-
-// Arduino includes
-
-// project cpp includes
+/** Project CPP includes. */ 
 #include "TLx493D_inc.hpp"
 
-#define POWERPIN 8
-#define SDA_ADDR_PIN 7 
 
-// address 0x3E when SDA/ADDR held low at power up
-TLx493D_A1B6 dut(Wire, TLx493D_IIC_ADDR_A4_e); //0x3E
+using namespace ifx::tlx493d;
+
+
+/** Use XMC1100 Boot Kit or XMC4700 Relax Kit for this test and connect to power and I2C SDA, respectively. */
+const uint8_t POWER_PIN       = 8;
+const uint8_t SDA_ADDRESS_PIN = 7 ;
+
+
+/** Device at address 0x3E. */
+TLx493D_A1B6 dut(Wire, TLx493D_IIC_ADDR_A4_e);
+
 
 void setup() {
-    delay(3000);
     Serial.begin(115200);
+    delay(3000);
 
-    // explicit power pin needed to power up board after the addrPin is pulled down
-    dut.setPowerPin(POWERPIN, OUTPUT, HIGH, LOW, 50, 50);
-    // set pin used to drive SDA/ADDR pin before power up
-    // This pin is then isolated from the I2C bus by switching it high-Z before I2C init
-    dut.setAddrPin(SDA_ADDR_PIN, OUTPUT, LOW, HIGH, 1, 1);
+    /** Explicit power pin needed to power up board after the addressPin is pulled down. */
+    dut.setPowerPin(POWER_PIN, OUTPUT, INPUT, HIGH, LOW, 0, 250000);
+    /** Set pin used to drive SDA/ADDR pin before power up.
+      * This pin is then isolated from the I2C bus by switching it high-Z before I2C init. */
+    dut.setAddressPin(SDA_ADDRESS_PIN, OUTPUT, INPUT, LOW, HIGH, 1000, 1000);
     
-    // Set the sensor constructor to activate extended address switching pin
+    /** Set the sensor constructor to activate extended address switching pin. */
     dut.begin(true, false, true);
 
-    // Options to set the other remaining addresses when SDA low at power-up.
+    /* Options to set the other remaining addresses when SDA low at power-up. */
     // dut.setIICAddress(TLx493D_IIC_ADDR_A5_e); // 0x36
     // dut.setIICAddress(TLx493D_IIC_ADDR_A6_e); // 0x1E
     // dut.setIICAddress(TLx493D_IIC_ADDR_A7_e); // 0x16
@@ -33,6 +36,9 @@ void setup() {
 }
 
 
+/** In the loop we're reading out the temperature value as well as the magnetic values in X, Y, Z-direction 
+ *  of the sensors. After that they're all printed to the serial output.
+ */
 void loop() {
     double temp = 0.0;
     double valX = 0, valY = 0, valZ = 0;
@@ -55,7 +61,7 @@ void loop() {
     Serial.print(valZ);
     Serial.println(" mT");
 
-    printRegisters(dut.getSensor());
+    dut.printRegisters();
     Serial.print("\n");
 
     delay(1000);

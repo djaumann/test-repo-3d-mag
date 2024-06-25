@@ -2,48 +2,40 @@
 #define TLX493D_ARDUINO_TYPES_H
 
 
-// std includes
-
-// Arduino includes
+/** Arduino includes. */
 #include <Arduino.h>
-#include <SPI.h>
-#include <Wire.h>
 
-// project cpp includes
-#include "Kit2GoBoardSupport.hpp"
+/** project cpp includes. */
+#include "baseTypes.hpp"
 #include "TLx493D.hpp"
 
-// project c includes
-// common to all sensors
-#include "tlx493d_types.h"
+
+namespace ifx {
+    namespace tlx493d {
+        /** Definiton of the specific sensor constructors. This makes instantiation of the sensors easier for the user,
+         *  since they can use a "regular" constructor call, instead of using the template notation. 
+         */
+        
+        // typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_A1B6_e>  TLx493D_A1B6;
+        // typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_A2B6_e>  TLx493D_A2B6;
+        // typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_P2B6_e>  TLx493D_P2B6;
+        // typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_W2B6_e>  TLx493D_W2B6;
+        // typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_W2BW_e>  TLx493D_W2BW;
+        // typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_P3B6_e>  TLx493D_P3B6;
+
+        // typedef TLx493D<Kit2GoBoardSupport, SPIClassWrapper, TLx493D_P3I8_e>  TLx493D_P3I8;
 
 
-typedef struct TLx493D_I2CObject_t {
-    TwoWireWrapper *wire;
-    bool            isToBeDeleted;
-} TLx493D_I2CObject_t;
+        using TLx493D_A1B6 = TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_A1B6_e>;
+        using TLx493D_A2B6 = TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_A2B6_e>;
+        using TLx493D_P2B6 = TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_P2B6_e>;
+        using TLx493D_W2B6 = TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_W2B6_e>;
+        using TLx493D_W2BW = TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_W2BW_e>;
+        using TLx493D_P3B6 = TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_P3B6_e>;
 
-
-typedef struct TLx493D_SPIObject_t {
-    SPIClassWrapper *spi;
-    bool             isToBeDeleted;
-} TLx493D_SPIObject_t;
-
-
-typedef struct TLx493D_Kit2GoBoardSupportObject_t {
-    Kit2GoBoardSupport  *k2go;
-    bool                 isToBeDeleted;
-} TLx493D_Kit2GoBoardSupportObject_t;
-
-
-typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_A1B6_e>  TLx493D_A1B6;
-typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_A2B6_e>  TLx493D_A2B6;
-typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_P2B6_e>  TLx493D_P2B6;
-typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_W2B6_e>  TLx493D_W2B6;
-typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_W2BW_e>  TLx493D_W2BW;
-typedef TLx493D<Kit2GoBoardSupport, TwoWireWrapper, TLx493D_P3B6_e>  TLx493D_P3B6;
-
-typedef TLx493D<Kit2GoBoardSupport, SPIClassWrapper, TLx493D_P3I8_e> TLx493D_P3I8;
-
+        // using TLx493D_P3I8 = TLx493D<Kit2GoBoardSupport, SPIClass, TLx493D_P3I8_e>;
+        using TLx493D_P3I8 = TLx493D<Kit2GoBoardSupport, SPIClassWrapper, TLx493D_P3I8_e>;
+    }
+}
 
 #endif // TLX493D_ARDUINO_TYPES_H

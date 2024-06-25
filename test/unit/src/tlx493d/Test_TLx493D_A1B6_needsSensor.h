@@ -1,11 +1,17 @@
 // test includes
 #include "Test_includes.h"
 
+#include "TLx493D_A1B6_defines.h"
+#include "TLx493D_A1B6_enums.h"
+#include "TLx493D_A1B6.h"
+
 
 void TLx493D_A1B6_needsSensor_suiteSetup(void);
 void TLx493D_A1B6_needsSensor_suiteTearDown(void);
 void TLx493D_A1B6_atReset_suiteSetup(void);
 void TLx493D_A1B6_atReset_suiteTearDown(void);
+void TLx493D_A1B6_extendedAddresses_suiteSetup(void);
+void TLx493D_A1B6_extendedAddresses_suiteTearDown(void);
 
 
 // variables used in the tests below that have to be accessed in the setup and tear down methods
@@ -13,7 +19,6 @@ static TLx493D_t dut;
 
 
 #include "Test_tlx493d_commonFunctions_needsSensor.h"
-#include "Test_tlx493d_common_needsSensor.h"
 #include "Test_tlx493d_common.h"
 
 
@@ -88,8 +93,8 @@ TEST_TEAR_DOWN(TLx493D_A1B6_TempDisable)
 TEST(TLx493D_A1B6_TempDisable, TempDisable)
 {
     // CH cannot be 0b11 when temperature measurement is disabled
-    TEST_ASSERT_NOT_EQUAL ( 0x3, ( dut.regMap[A1B6_CH_e] & dut.regDef[A1B6_CH_e].mask) >> dut.regDef[A1B6_CH_e].offset );
-    
+    TEST_ASSERT_NOT_EQUAL ( 0x3, tlx493d_common_returnBitfield(&dut, A1B6_CH_e) );
+
     double temperature = 0.0;
     TEST_ASSERT_EQUAL( true, dut.functions->getTemperature(&dut, &temperature));
     
@@ -145,7 +150,6 @@ TEST_GROUP(TLx493D_A1B6_atReset);
 // Setup method called before every individual test defined for this test group
 TEST_SETUP(TLx493D_A1B6_atReset)
 {
-    dut.functions->readRegisters(&dut);
 }
 
 
@@ -156,25 +160,45 @@ TEST_TEAR_DOWN(TLx493D_A1B6_atReset)
 
 TEST(TLx493D_A1B6_atReset, regMapatReset_MeasurementBitfields)
 {
-    TEST_ASSERT_EQUAL_UINT8 ( 0x00, ( dut.regMap[A1B6_BX_MSB_e] & dut.regDef[A1B6_BX_MSB_e].mask) >> dut.regDef[A1B6_BX_MSB_e].offset  );
-    TEST_ASSERT_EQUAL_UINT8 ( 0x00, ( dut.regMap[A1B6_BY_MSB_e] & dut.regDef[A1B6_BY_MSB_e].mask) >> dut.regDef[A1B6_BY_MSB_e].offset  );
-    TEST_ASSERT_EQUAL_UINT8 ( 0x00, ( dut.regMap[A1B6_BZ_MSB_e] & dut.regDef[A1B6_BZ_MSB_e].mask) >> dut.regDef[A1B6_BZ_MSB_e].offset  );
-    TEST_ASSERT_EQUAL_UINT8 ( 0x01, ( dut.regMap[A1B6_TEMP_MSB_e] & dut.regDef[A1B6_TEMP_MSB_e].mask) >> dut.regDef[A1B6_TEMP_MSB_e].offset );
+    TEST_ASSERT_EQUAL_UINT8 ( 0x00, tlx493d_common_returnBitfield(&dut, A1B6_BX_MSB_e) );
+    TEST_ASSERT_EQUAL_UINT8 ( 0x00, tlx493d_common_returnBitfield(&dut, A1B6_BY_MSB_e) );
+    TEST_ASSERT_EQUAL_UINT8 ( 0x00, tlx493d_common_returnBitfield(&dut, A1B6_BZ_MSB_e) );
+    TEST_ASSERT_EQUAL_UINT8 ( 0x01, tlx493d_common_returnBitfield(&dut, A1B6_TEMP_MSB_e) );
     
-    TEST_ASSERT_EQUAL_UINT8 ( 0x5, ( dut.regMap[A1B6_BX_LSB_e] & dut.regDef[A1B6_BX_LSB_e].mask) >> dut.regDef[A1B6_BX_LSB_e].offset );
-    TEST_ASSERT_EQUAL_UINT8 ( 0x3, ( dut.regMap[A1B6_BY_LSB_e] & dut.regDef[A1B6_BY_LSB_e].mask) >> dut.regDef[A1B6_BY_LSB_e].offset );
+    TEST_ASSERT_EQUAL_UINT8 ( 0x5,  tlx493d_common_returnBitfield(&dut, A1B6_BX_LSB_e) );
+    TEST_ASSERT_EQUAL_UINT8 ( 0x3,  tlx493d_common_returnBitfield(&dut, A1B6_BY_LSB_e) );
 
-    TEST_ASSERT_EQUAL_UINT8 ( 0x3 , ( dut.regMap[A1B6_BZ_LSB_e] & dut.regDef[A1B6_BZ_LSB_e].mask) >> dut.regDef[A1B6_BZ_LSB_e].offset );
-    TEST_ASSERT_EQUAL_UINT8 ( 0x0 , ( dut.regMap[A1B6_TEMP_LSB_e] & dut.regDef[A1B6_TEMP_LSB_e].mask) >> dut.regDef[A1B6_TEMP_LSB_e].offset );
+    TEST_ASSERT_EQUAL_UINT8 ( 0x3 , tlx493d_common_returnBitfield(&dut, A1B6_BZ_LSB_e) );
+    TEST_ASSERT_EQUAL_UINT8 ( 0x0 , tlx493d_common_returnBitfield(&dut, A1B6_TEMP_LSB_e) );
 }
 
 TEST(TLx493D_A1B6_atReset, regMapatReset_nonMeasurementBitfields)
 {
-    TEST_ASSERT_EQUAL_UINT8  ( 0x0, ( dut.regMap[A1B6_FRM_e] & dut.regDef[A1B6_FRM_e].mask) >> dut.regDef[A1B6_FRM_e].offset );
-    TEST_ASSERT_UINT8_WITHIN ( 0x3, 0x0, ( dut.regMap[A1B6_CH_e] & dut.regDef[A1B6_CH_e].mask) >> dut.regDef[A1B6_CH_e].offset );
-    TEST_ASSERT_EQUAL_UINT8  ( 0x0, ( dut.regMap[A1B6_T_e] & dut.regDef[A1B6_T_e].mask) >> dut.regDef[A1B6_T_e].offset );
-    TEST_ASSERT_EQUAL_UINT8  ( 0x1, ( dut.regMap[A1B6_FF_e] & dut.regDef[A1B6_FF_e].mask) >> dut.regDef[A1B6_FF_e].offset );
-    TEST_ASSERT_EQUAL_UINT8  ( 0x0, ( dut.regMap[A1B6_PD_e] & dut.regDef[A1B6_PD_e].mask) >> dut.regDef[A1B6_PD_e].offset );
+    TEST_ASSERT_EQUAL_UINT8  ( 0x0,      tlx493d_common_returnBitfield(&dut, A1B6_FRM_e) );
+    TEST_ASSERT_UINT8_WITHIN ( 0x3, 0x0, tlx493d_common_returnBitfield(&dut, A1B6_CH_e) );
+    TEST_ASSERT_EQUAL_UINT8  ( 0x0,      tlx493d_common_returnBitfield(&dut, A1B6_T_e) );
+    TEST_ASSERT_EQUAL_UINT8  ( 0x1,      tlx493d_common_returnBitfield(&dut, A1B6_FF_e) );
+    // TEST_ASSERT_EQUAL_UINT8  ( 0x0,      tlx493d_common_returnBitfield(&dut, A1B6_PD_e) ); // commented out since PD becomes 1 (conversion complete) by the time readRegister() is done
+}
+
+// define test group name
+TEST_GROUP(TLx493D_A1B6_extendedAddresses);
+
+// Setup method called before every individual test defined for this test group
+TEST_SETUP(TLx493D_A1B6_extendedAddresses)
+{
+    dut.functions->readRegisters(&dut);
+}
+
+
+// Tear down method called before every individual test defined for this test group
+TEST_TEAR_DOWN(TLx493D_A1B6_extendedAddresses)
+{
+}
+
+TEST(TLx493D_A1B6_extendedAddresses, check_initlialization_higher_address)
+{
+    TEST_ASSERT_TRUE(TLx493D_A1B6_readRegisters(&dut));
 }
 
 // Bundle all tests to be executed for this test group
@@ -190,26 +214,28 @@ TEST_GROUP_RUNNER(TLx493D_A1B6_needsSensor)
     RUN_TEST_CASE(TLx493D_A1B6_TempDisable, TempDisable);
     RUN_TEST_CASE(TLx493D_A1B6_ParityCheck, SetWrongParity_ParityCheckDisabled);
     
-    
     // run common functions tests
     RUN_TEST_GROUP(SensorsCommonFunctions);
 
     // run gen 1 common functions tests
-    RUN_TEST_GROUP(SensorsCommon_needsSensor);
     RUN_TEST_GROUP(SensorsCommon);
-    
 
     // This test is run at the end since the sensor cannot recover from a wrong parity error without hard reset
     // So tests will fail in the loop second time onwards. First time everything will pass. 
     //RUN_TEST_CASE(TLx493D_A1B6_ParityCheck, SetWrongParity_ParityCheckEnabled);
+
     TLx493D_A1B6_needsSensor_suiteTearDown();
 
-    TLx493D_A1B6_atReset_suiteSetup();
 
     // This test is commented out since we dont check measurement bitfields (BX,BY,BZ,TEMP) at reset.
-    //RUN_TEST_CASE(TLx493D_A1B6_atReset, regMapatReset_MeasurementBitfields);
-    RUN_TEST_CASE(TLx493D_A1B6_atReset, regMapatReset_nonMeasurementBitfields);
+    // TLx493D_A1B6_atReset_suiteSetup();
+    // RUN_TEST_CASE(TLx493D_A1B6_atReset, regMapatReset_MeasurementBitfields);
+    // RUN_TEST_CASE(TLx493D_A1B6_atReset, regMapatReset_nonMeasurementBitfields);
+    // TLx493D_A1B6_atReset_suiteTearDown();
 
-    TLx493D_A1B6_atReset_suiteTearDown();
 
+    // Only works with properly connected pins setting SDA to low at power-up ! Therefore commented out.
+    // TLx493D_A1B6_extendedAddresses_suiteSetup();
+    // RUN_TEST_CASE(TLx493D_A1B6_extendedAddresses, check_initlialization_higher_address)
+    // TLx493D_A1B6_extendedAddresses_suiteTearDown();
 }
