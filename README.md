@@ -10,10 +10,10 @@ Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLx493D**](https:/
 
 <table>
     <tr>
-        <td><img src="doc/img/TLV493D_A1B6_2GO.jpg" width=200></td>
-        <td><img src="doc/img/TLV493D_A1B6_MS2GO.png" width=200></td>
-        <td><img src="doc/img/TLE493D_A2B6.jpg" width=200></td>
-        <td><img src="doc/img/TLE493D_A2B6.jpg" width=200></td>
+        <td><img src="docs/img/TLV493D_A1B6_2GO.jpg" width=200></td>
+        <td><img src="docs/img/TLV493D_A1B6_MS2GO.png" width=200></td>
+        <td><img src="docs/img/TLE493D_A2B6.jpg" width=200></td>
+        <td><img src="docs/img/TLE493D_A2B6.jpg" width=200></td>
     </tr>
     <tr>
         <td style="test-align : center"><a href="https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d-sense_tlv493d/">XENSIV™ TLV493D-A1B6 Shield2Go</a></td>
@@ -22,10 +22,10 @@ Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLx493D**](https:/
         <td style="test-align : center"><a href="https://www.infineon.com/cms/en/product/sensor/magnetic-sensors/magnetic-position-sensors/3d-magnetics/tli493d-a2b6/">XENSIV™ TLI493D-A2B6</a></td>
     </tr>
     <tr>
-        <td><img src="doc/img/TLV493D_A2BW.jpg" width=200></td>
-        <td><img src="doc/img/TLE493D_W2B6_2GO.jpg" width=200></td>
-        <td><img src="doc/img/TLV493D_A1B6_MS2GO.png" width=200></td>
-        <td><img src="doc/img/TLI493D_W2BW_2GO.jpg" width=200></td>
+        <td><img src="docs/img/TLV493D_A2BW.jpg" width=200></td>
+        <td><img src="docs/img/TLE493D_W2B6_2GO.jpg" width=200></td>
+        <td><img src="docs/img/TLV493D_A1B6_MS2GO.png" width=200></td>
+        <td><img src="docs/img/TLI493D_W2BW_2GO.jpg" width=200></td>
     </tr>
     <tr>
         <td style="test-align : center"><a href="https://www.infineon.com/cms/en/product/sensor/magnetic-sensors/magnetic-position-sensors/3d-magnetics/tlv493d-a2bw/">XENSIV™ TLV493D-A2BW</a></td>
@@ -34,7 +34,7 @@ Arduino Library of Infineon's [**XENSIV™ 3D Magnetic Sensor TLx493D**](https:/
         <td style="test-align : center"><a href="">XENSIV™ TLI493D-W2BW Shield2Go</a></td>
     </tr>
     <tr>
-        <td><img src="doc/img/TLV493D_A1B6_MS2GO.png" width=200></td>
+        <td><img src="docs/img/TLV493D_A1B6_MS2GO.png" width=200></td>
     </tr>
     <tr>
         <td style="test-align : center"><a href="">XENSIV™ TLE493D-P2B6 2GO kit</a></td>
