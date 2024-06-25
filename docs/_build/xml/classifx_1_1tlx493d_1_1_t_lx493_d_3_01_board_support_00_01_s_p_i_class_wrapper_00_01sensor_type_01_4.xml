@@ -1,0 +1,698 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4" kind="class" language="C++" prot="public">
+    <compoundname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</compoundname>
+    <basecompoundref refid="classifx_1_1tlx493d_1_1_t_lx493_d_base" prot="public" virt="non-virtual">ifx::tlx493d::TLx493DBase</basecompoundref>
+    <includes refid="_t_lx493_d_8hpp" local="no">TLx493D.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">typename</ref> <ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">BoardSupport</ref></type>
+      </param>
+      <param>
+        <type>TLx493D_SupportedSensorType_t</type>
+        <declname>sensorType</declname>
+        <defname>sensorType</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a418a4e82b14fa99ded1c75a7e14fc63b" prot="public" static="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">BoardSupport</ref></type>
+        <definition>typedef BoardSupport ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::BoardSupportType</definition>
+        <argsstring></argsstring>
+        <name>BoardSupportType</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::BoardSupportType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="270" column="74" bodyfile="src/TLx493D.hpp" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1ac490770fd3fa543c9daf48eabfae8cbb" prot="public" static="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a25aa5d6e30df8901d86ca76736feea46" kindref="member">ifx::tlx493d::SPIClassWrapper::BusType</ref></type>
+        <definition>typedef ifx::tlx493d::SPIClassWrapper::BusType ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::BusType</definition>
+        <argsstring></argsstring>
+        <name>BusType</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::BusType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="272" column="74" bodyfile="src/TLx493D.hpp" bodystart="272" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a00daea8eb2b8622313590ef2900a800c" prot="private" static="no" mutable="no">
+        <type>BoardSupportType</type>
+        <definition>BoardSupportType ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::bsc</definition>
+        <argsstring></argsstring>
+        <name>bsc</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::bsc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>BoardSupportClass </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="429" column="35" bodyfile="src/TLx493D.hpp" bodystart="429" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1ac8e5ac7165addef63c2794733e784eb1" prot="private" static="no" mutable="no">
+        <type>BusType</type>
+        <definition>BusType ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::bus</definition>
+        <argsstring></argsstring>
+        <name>bus</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::bus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bus Class </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="431" column="35" bodyfile="src/TLx493D.hpp" bodystart="431" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a93b038c3658f03e1e132ad0799226fa3" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::TLx493D</definition>
+        <argsstring>(BusType &amp;busObj)</argsstring>
+        <name>TLx493D</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::TLx493D</qualifiedname>
+        <param>
+          <type>BusType &amp;</type>
+          <declname>busObj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="275" column="26" bodyfile="src/TLx493D.hpp" bodystart="275" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a935a2199c7574ed849accd5b517372f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::~TLx493D</definition>
+        <argsstring>()</argsstring>
+        <name>~TLx493D</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::~TLx493D</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>~TLx493D</computeroutput> is the constructor of the template class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="284" column="17" bodyfile="src/TLx493D.hpp" bodystart="284" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a56159f001b4bdf52ff99ae5a8c754b35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::init</definition>
+        <argsstring>(bool enablePower=false, bool enableSelect=true)</argsstring>
+        <name>init</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::init</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>enablePower</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">false</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>enableSelect</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">true</ref></defval>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>init</computeroutput> initializes all necessary peripherals of the chosen sensor board. It initializes the BoardSupportClass, the communication interface and calls the <computeroutput>setDefaultConfig</computeroutput> function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="293" column="22" bodyfile="src/TLx493D.hpp" bodystart="293" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a0ebcc77a3e9809b70eeb7ac9711c847d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::begin</definition>
+        <argsstring>(bool enablePower=false, bool enableSelect=true)</argsstring>
+        <name>begin</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::begin</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>enablePower</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">false</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>enableSelect</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">true</ref></defval>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>begin</computeroutput> calls the <computeroutput>init</computeroutput> function. For details see <computeroutput>init</computeroutput> function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="306" column="22" bodyfile="src/TLx493D.hpp" bodystart="306" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a351d19403bb45fb6943309de9f0eee17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::deinit</definition>
+        <argsstring>()</argsstring>
+        <name>deinit</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::deinit</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>deinit</computeroutput> de-initializes the sensor and its peripherals. It de-initializes the communication interface, the BoardSupportClass as well as all allocated memory (free the memory to be precise). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="317" column="22" bodyfile="src/TLx493D.hpp" bodystart="317" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a82d5e866d5c788761f8fc570187ca036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::end</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>end</computeroutput> calls the <computeroutput>deinit</computeroutput> function. For details see <computeroutput>deinit</computeroutput>function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="328" column="22" bodyfile="src/TLx493D.hpp" bodystart="328" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a352135eb884b4d0ffa06fb73f2f4d44d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::setPowerPin</definition>
+        <argsstring>(uint8_t pinNumber, uint8_t pinDriveDirection, uint8_t pinTristateDirection, uint8_t pinEnableValue, uint8_t pinDisableValue, uint32_t delayAfterEnable=0, uint32_t delayAfterDisable=0)</argsstring>
+        <name>setPowerPin</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::setPowerPin</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinNumber</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinDriveDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinTristateDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinEnableValue</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinDisableValue</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+          <declname>delayAfterEnable</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+          <declname>delayAfterDisable</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>setPowerPin</computeroutput> defines a power pin, which can be used to power up the sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pinNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pin number of the desired pin. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pin direction of the pin (OUTPUT, INPUT, INPUT-PULLUP). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinEnableValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to enable the power pin, depends on the pin (Active high or low). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinDisableValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to disable the power pin, depends on the pin (Active high or low). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delayAfterEnable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Delay after enabling the power pin in [ms]. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delayAfterDisable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Delay after disabling the power pin in [ms]. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="342" column="22" bodyfile="src/TLx493D.hpp" bodystart="342" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1ab178b738a6926c8b3a43401202e26517" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::unsetPowerPin</definition>
+        <argsstring>()</argsstring>
+        <name>unsetPowerPin</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::unsetPowerPin</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>unsetPowerPin</computeroutput> does remove the power pin from the BoardSupportClass. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="352" column="22" bodyfile="src/TLx493D.hpp" bodystart="352" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a4cd2f31d4ca31b5b57a42aa094943f66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::setSelectPin</definition>
+        <argsstring>(uint8_t pinNumber, uint8_t pinDriveDirection, uint8_t pinTristateDirection, uint8_t pinEnableValue, uint8_t pinDisableValue, uint32_t delayAfterEnable=0, uint32_t delayAfterDisable=0)</argsstring>
+        <name>setSelectPin</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::setSelectPin</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinNumber</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinDriveDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinTristateDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinEnableValue</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinDisableValue</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+          <declname>delayAfterEnable</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+          <declname>delayAfterDisable</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>setSelectPin</computeroutput> defines a select pin, which can be used as chip select for the SPI communication. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pinNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pin number of the desired pin. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pin direction of the pin (OUTPUT, INPUT, INPUT-PULLUP). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinEnableValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to enable the power pin, depends on the pin (Active high or low). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinDisableValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to disable the power pin, depends on the pin (Active high or low). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delayAfterEnable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Delay after enabling the power pin in [ms]. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delayAfterDisable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Delay after disabling the power pin in [ms]. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="367" column="22" bodyfile="src/TLx493D.hpp" bodystart="367" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a4fa03cf7f035a568c87f4d63b5bbd1cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::unsetSelectPin</definition>
+        <argsstring>()</argsstring>
+        <name>unsetSelectPin</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::unsetSelectPin</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>unsetSelectPin</computeroutput> does remove the select pin from the BoardSupportClass. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="377" column="22" bodyfile="src/TLx493D.hpp" bodystart="377" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1ae6858901ad95af6cdb6daea423b3f484" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::enablePower</definition>
+        <argsstring>()</argsstring>
+        <name>enablePower</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::enablePower</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>enablePower</computeroutput> enables the defined power pin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="385" column="22" bodyfile="src/TLx493D.hpp" bodystart="385" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a98c61dc1862df8e410a1c2e61e276133" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::disablePower</definition>
+        <argsstring>()</argsstring>
+        <name>disablePower</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::disablePower</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>disablePower</computeroutput> disables the defined power pin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="393" column="22" bodyfile="src/TLx493D.hpp" bodystart="393" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a53b00eae67132f8ea6f3e19730b30bdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::reset</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>reset</computeroutput> set the sensor&apos;s registers to its reset values and resets the communication interface. After that the register maps will be set to its default values. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="401" column="22" bodyfile="src/TLx493D.hpp" bodystart="401" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a3f099f81ddf3b7c569d742014babb9fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::enableSelect</definition>
+        <argsstring>()</argsstring>
+        <name>enableSelect</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::enableSelect</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>enableSelect</computeroutput> enables the defined select pin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="414" column="22" bodyfile="src/TLx493D.hpp" bodystart="414" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a7b46127907a95b2ace201fda2b9c2a9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::disableSelect</definition>
+        <argsstring>()</argsstring>
+        <name>disableSelect</name>
+        <qualifiedname>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;::disableSelect</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>disableSelect</computeroutput> disables the defined select pin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D.hpp" line="422" column="22" bodyfile="src/TLx493D.hpp" bodystart="422" bodyend="424"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Specialization of the template class <computeroutput><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">TLx493D</ref></computeroutput> for the SPI interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>BoardSupport</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A helper class, which takes care of needed power pins as well user defined pins. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sensorType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specific sensor type of the used sensor. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</label>
+        <link refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ifx::tlx493d::TLx493DBase</label>
+        <link refid="classifx_1_1tlx493d_1_1_t_lx493_d_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>TLx493D_BoardSupportInterface_t</label>
+        <link refid="struct_t_lx493_d___board_support_interface__t"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>boardSupportObj</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>TLx493D_BoardSupportObject_t</label>
+        <link refid="union_t_lx493_d___board_support_object__t"/>
+      </node>
+      <node id="7">
+        <label>TLx493D_ComLibraryFunctions_t</label>
+        <link refid="struct_t_lx493_d___com_library_functions__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>iic_deinit</edgelabel>
+          <edgelabel>iic_init</edgelabel>
+          <edgelabel>iic_setReadAddress</edgelabel>
+          <edgelabel>iic_transfer</edgelabel>
+          <edgelabel>spi_deinit</edgelabel>
+          <edgelabel>spi_init</edgelabel>
+          <edgelabel>spi_setReadAddress</edgelabel>
+          <edgelabel>spi_transfer</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>TLx493D_ComLibraryObject_t</label>
+        <link refid="union_t_lx493_d___com_library_object__t"/>
+      </node>
+      <node id="8">
+        <label>TLx493D_ComLibraryParameters_t</label>
+        <link refid="union_t_lx493_d___com_library_parameters__t"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>spi_params</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>iic_params</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>TLx493D_CommonFunctions_t</label>
+        <link refid="struct_t_lx493_d___common_functions__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>calculateBusParity</edgelabel>
+          <edgelabel>calculateConfigurationParity</edgelabel>
+          <edgelabel>calculateFuseParity</edgelabel>
+          <edgelabel>calculateMagneticField</edgelabel>
+          <edgelabel>calculateMagneticFieldAndTemperature</edgelabel>
+          <edgelabel>calculateRawMagneticField</edgelabel>
+          <edgelabel>calculateRawMagneticFieldAndTemperature</edgelabel>
+          <edgelabel>calculateRawMagneticFieldAtTemperature</edgelabel>
+          <edgelabel>calculateRawTemperature</edgelabel>
+          <edgelabel>calculateTemperature</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>TLx493D_CommunicationInterface_t</label>
+        <link refid="struct_t_lx493_d___communication_interface__t"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>comLibFuncs</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>comLibParams</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>comLibObj</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>TLx493D_I2CParameters_t</label>
+        <link refid="struct_t_lx493_d___i2_c_parameters__t"/>
+      </node>
+      <node id="4">
+        <label>TLx493D_Register_t</label>
+        <link refid="struct_t_lx493_d___register__t"/>
+      </node>
+      <node id="9">
+        <label>TLx493D_SPIParameters_t</label>
+        <link refid="struct_t_lx493_d___s_p_i_parameters__t"/>
+      </node>
+      <node id="3">
+        <label>TLx493D_t</label>
+        <link refid="struct_t_lx493_d__t"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>regDef</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>functions</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>comInterface</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>boardSupportInterface</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</label>
+        <link refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ifx::tlx493d::TLx493DBase</label>
+        <link refid="classifx_1_1tlx493d_1_1_t_lx493_d_base"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>sensor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/TLx493D.hpp" line="266" column="13" bodyfile="src/TLx493D.hpp" bodystart="266" bodyend="433"/>
+    <listofallmembers>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a0ebcc77a3e9809b70eeb7ac9711c847d" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>begin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a418a4e82b14fa99ded1c75a7e14fc63b" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>BoardSupportType</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a00daea8eb2b8622313590ef2900a800c" prot="private" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>bsc</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1ac8e5ac7165addef63c2794733e784eb1" prot="private" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>bus</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1ac490770fd3fa543c9daf48eabfae8cbb" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>BusType</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a099c3a0aabcdd89f19d5eead75dc5848" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>calculateRawMagneticFieldAtTemperature</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a351d19403bb45fb6943309de9f0eee17" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>deinit</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1ad202988c2ec6e4b2933cf39cc3181307" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>disableCollisionAvoidance</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a2c52a80fe7a1330efb88df7ba609688d" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>disableInterrupt</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a98c61dc1862df8e410a1c2e61e276133" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>disablePower</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a7b46127907a95b2ace201fda2b9c2a9d" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>disableSelect</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a1bed4884d6d8b94478f6c51e25467029" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>disableWakeUpMode</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a8ed387fc20229e511a3b28f014ba9124" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>enableCollisionAvoidance</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a94ad0d2de8c157093f0147bc962a3838" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>enableInterrupt</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1ae6858901ad95af6cdb6daea423b3f484" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>enablePower</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a3f099f81ddf3b7c569d742014babb9fb" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>enableSelect</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a94a8515a4f55fbed9c24fc0db7036bf4" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>enableWakeUpMode</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a82d5e866d5c788761f8fc570187ca036" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>end</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a33cc04691fe722ed9b903cb38024e351" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getComLibIFType</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a6ba8cfdaf1e90b11d06cb02d5d84f0a6" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getI2CAddress</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a94dd25babad646f77c23b6bea6cefbea" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getMagneticField</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a83b11b5501c4f5a56b14b0e22df4ccbc" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getMagneticFieldAndTemperature</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1aca40ab62e823a3a023152950acca3616" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getRawMagneticField</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1af6625e220da1e6778e2683a6c86a443a" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getRawMagneticFieldAndTemperature</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1ad6fc56fe8e622358b899914a509b618d" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getRawTemperature</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1aa7093eecfdfe289ec59de705e976a959" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getRegisterMap</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a1df25ee8099e8bb47e964cd4b41cb499" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getRegisterMapSize</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a401c020eec95bedb533097948a25c983" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getSensor</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1af1c8bbfd4d22690329de2163eee4acba" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getSensorType</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a50a2b733e072eaf7a33f6f210a45eda8" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getTemperature</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1ae4b4f16e008ad5386b4a7a6f4a6e59ba" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>getTypeAsString</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a69b1048a8dcd2b27b5acc4b29c5278ca" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>hasValidData</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1aa8b1dadac82e6bd2f2fb55fb0e1e25a4" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>hasWakeUp</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a56159f001b4bdf52ff99ae5a8c754b35" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>init</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a8a53e83a0c2c39bd5191270e899ccfac" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>isFunctional</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1ae0ea1e5243062809a7340963890ac86f" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>isWakeUpEnabled</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1aae77874085c0fb8c61b600225160709b" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>printRegisters</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a5b7ef6a538441e34214266588c7da24f" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>readRegisters</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a53b00eae67132f8ea6f3e19730b30bdf" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>reset</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a0459a98ac5163dbccd71e87ad6ed869b" prot="protected" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>sensor</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a4819dbb661044e3abbee2cb7361d8495" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>setDefaultConfig</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a82aa43dd9b6481f5257f7ef068aadd39" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>setIICAddress</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a25cede7adea18d8102dff6a042ac8eaf" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>setMeasurement</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a897dd0914d7755d101d0cb998b11adfd" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>setPowerMode</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a352135eb884b4d0ffa06fb73f2f4d44d" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>setPowerPin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a4cd2f31d4ca31b5b57a42aa094943f66" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>setSelectPin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a1486af09f7f556b5cbee7084f6164991" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>setSensitivity</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a7872446202dcb1e07f764df2f0db15db" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>setTrigger</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a30bfd717a0eb8163fb47ccfe4b1b60c9" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>setUpdateRate</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1acde50a5b09d4a1ae76915e3a764d47cc" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>setWakeUpThresholds</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1aa3a8228db290cb8bd6e41d87c81ac1a3" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>setWakeUpThresholdsAsInteger</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a6a2b436d4eb274187d6c0bd6ebe9d17d" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>softwareReset</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a93b038c3658f03e1e132ad0799226fa3" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>TLx493D</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a87f0fa42b4133a514d86f0780d1bcb45" prot="protected" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>TLx493DBase</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1ab178b738a6926c8b3a43401202e26517" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>unsetPowerPin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a4fa03cf7f035a568c87f4d63b5bbd1cc" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>unsetSelectPin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4_1a935a2199c7574ed849accd5b517372f5" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>~TLx493D</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_t_lx493_d_base_1a24f4d862b63590f82e1f8020bc2161ec" prot="public" virt="non-virtual"><scope>ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</scope><name>~TLx493DBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

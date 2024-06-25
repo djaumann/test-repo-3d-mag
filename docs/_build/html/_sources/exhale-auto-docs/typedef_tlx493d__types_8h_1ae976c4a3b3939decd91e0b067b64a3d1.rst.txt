@@ -1,0 +1,14 @@
+.. _exhale_typedef_tlx493d__types_8h_1ae976c4a3b3939decd91e0b067b64a3d1:
+
+Typedef TLx493D_TransferFuncPtr
+===============================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_TransferFuncPtr
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

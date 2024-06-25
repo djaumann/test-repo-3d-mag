@@ -1,0 +1,14 @@
+.. _exhale_define_tlx493d__gen__2__common__defines_8h_1a693fca042cecb9bcaedbdcdf41beb512:
+
+Define GEN_2_TEMP_REF
+=====================
+
+- Defined in :ref:`file_src_tlx493d_gen_2_common_defines.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: GEN_2_TEMP_REF
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

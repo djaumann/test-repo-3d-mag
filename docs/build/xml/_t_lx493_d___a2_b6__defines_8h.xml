@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_t_lx493_d___a2_b6__defines_8h" kind="file" language="C++">
+    <compoundname>TLx493D_A2B6_defines.h</compoundname>
+    <includedby refid="_t_lx493_d___a2_b6_8c" local="yes">src/TLx493D_A2B6.c</includedby>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="_t_lx493_d___a2_b6__defines_8h_1ae577275a314a116f6050429135a93321" prot="public" static="no">
+        <name>TLX493D_A2B6_REGISTER_HEADLINE</name>
+        <initializer>&quot;      Bx      By      Bz    Temp     Bx2   Temp2    Diag    Res.    Res.    Res.    Res.    Res.    Res.    Res.    Res.    Res.  Config    MOD1    Res.    MOD2    Res.    Res.     Ver\n\----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6_defines.h" line="6" column="9" bodyfile="src/TLx493D_A2B6_defines.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TLX493D_A2B6_DEFINES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TLX493D_A2B6_DEFINES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TLX493D_A2B6_REGISTER_HEADLINE<sp/><sp/><sp/>&quot;<sp/><sp/><sp/><sp/><sp/><sp/>Bx<sp/><sp/><sp/><sp/><sp/><sp/>By<sp/><sp/><sp/><sp/><sp/><sp/>Bz<sp/><sp/><sp/><sp/>Temp<sp/><sp/><sp/><sp/><sp/>Bx2<sp/><sp/><sp/>Temp2<sp/><sp/><sp/><sp/>Diag<sp/><sp/><sp/><sp/>Res.<sp/><sp/><sp/><sp/>Res.<sp/><sp/><sp/><sp/>Res.<sp/><sp/><sp/><sp/>Res.<sp/><sp/><sp/><sp/>Res.<sp/><sp/><sp/><sp/>Res.<sp/><sp/><sp/><sp/>Res.<sp/><sp/><sp/><sp/>Res.<sp/><sp/><sp/><sp/>Res.<sp/><sp/>Config<sp/><sp/><sp/><sp/>MOD1<sp/><sp/><sp/><sp/>Res.<sp/><sp/><sp/><sp/>MOD2<sp/><sp/><sp/><sp/>Res.<sp/><sp/><sp/><sp/>Res.<sp/><sp/><sp/><sp/><sp/>Ver\n\</highlight></codeline>
+<codeline lineno="6"><highlight class="preprocessor">----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>TLX493D_A2B6_DEFINES_H</highlight></codeline>
+    </programlisting>
+    <location file="src/TLx493D_A2B6_defines.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+.. _exhale_typedef_types_8hpp_1a3a4f8bc6d4c932148d91e7a49e9a8c23:
+
+Typedef TLx493D_SPIObject_t
+===========================
+
+- Defined in :ref:`file_src_types.hpp`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_SPIObject_t
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

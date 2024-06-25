@@ -1,0 +1,697 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Program Listing for File TLx493D_W2BW.c &mdash; XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/collapsible-lists\css\tree_view.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/collapsible-lists\js\CollapsibleLists.compressed.js"></script>
+        <script src="../_static/collapsible-lists\js\apply-collapsible-lists.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library
+          
+
+          
+            
+            <img src="../_static/ifx_logo_white_green_s.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Content</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hw-platforms.html">Hardware Platforms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lib-install.html">Library installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples.html">Examples</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Program Listing for File TLx493D_W2BW.c</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/api/program_listing_file_src_TLx493D_W2BW.c.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="program-listing-for-file-tlx493d-w2bw-c">
+<span id="program-listing-file-src-tlx493d-w2bw-c"></span><h1>Program Listing for File TLx493D_W2BW.c<a class="headerlink" href="#program-listing-for-file-tlx493d-w2bw-c" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="file_src_TLx493D_W2BW.c.html#file-src-tlx493d-w2bw-c"><span class="std std-ref">Return to documentation for file</span></a> (<code class="docutils literal notranslate"><span class="pre">src\TLx493D_W2BW.c</span></code>)</p>
+<div class="highlight-cpp notranslate"><div class="highlight"><pre><span></span><span class="c1">// std includes</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdbool.h&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdint.h&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;string.h&gt;</span>
+
+<span class="c1">// project c includes</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;Logger.h&quot;</span>
+
+<span class="c1">// common to all sensors</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;tlx493d_types.h&quot;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;tlx493d_common_defines.h&quot;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;tlx493d_common.h&quot;</span>
+
+<span class="c1">// common to same generation of sensors</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;tlx493d_gen_2_common_defines.h&quot;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;tlx493d_gen_2_common.h&quot;</span>
+
+<span class="c1">// sensor specific includes</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;TLx493D_W2BW_defines.h&quot;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;TLx493D_W2BW_enums.h&quot;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;TLx493D_W2BW.h&quot;</span>
+
+
+<span class="k">static</span><span class="w"> </span><span class="n">TLx493D_Register_t</span><span class="w"> </span><span class="n">TLx493D_W2BW_regDef</span><span class="p">[]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_BX_MSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x00</span><span class="p">,</span><span class="w">   </span><span class="mh">0xFF</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">8</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_BY_MSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x01</span><span class="p">,</span><span class="w">   </span><span class="mh">0xFF</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">8</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_BZ_MSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x02</span><span class="p">,</span><span class="w">   </span><span class="mh">0xFF</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">8</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_TEMP_MSBS_e, */</span><span class="w">  </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x03</span><span class="p">,</span><span class="w">   </span><span class="mh">0xFF</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">8</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_BX_LSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x04</span><span class="p">,</span><span class="w">   </span><span class="mh">0xF0</span><span class="p">,</span><span class="w">   </span><span class="mi">4</span><span class="p">,</span><span class="w">  </span><span class="mi">4</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_BY_LSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x04</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0F</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">4</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_TEMP_LSBS_e, */</span><span class="w">  </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x05</span><span class="p">,</span><span class="w">   </span><span class="mh">0xC0</span><span class="p">,</span><span class="w">   </span><span class="mi">6</span><span class="p">,</span><span class="w">  </span><span class="mi">2</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_ID_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x05</span><span class="p">,</span><span class="w">   </span><span class="mh">0x30</span><span class="p">,</span><span class="w">   </span><span class="mi">4</span><span class="p">,</span><span class="w">  </span><span class="mi">2</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_BZ_LSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x05</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0F</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">4</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_P_e, */</span><span class="w">          </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x06</span><span class="p">,</span><span class="w">   </span><span class="mh">0x80</span><span class="p">,</span><span class="w">   </span><span class="mi">7</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_FF_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x06</span><span class="p">,</span><span class="w">   </span><span class="mh">0x40</span><span class="p">,</span><span class="w">   </span><span class="mi">6</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_CF_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x06</span><span class="p">,</span><span class="w">   </span><span class="mh">0x20</span><span class="p">,</span><span class="w">   </span><span class="mi">5</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_T_e, */</span><span class="w">          </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x06</span><span class="p">,</span><span class="w">   </span><span class="mh">0x10</span><span class="p">,</span><span class="w">   </span><span class="mi">4</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_PD3_e, */</span><span class="w">        </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x06</span><span class="p">,</span><span class="w">   </span><span class="mh">0x08</span><span class="p">,</span><span class="w">   </span><span class="mi">3</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_PD0_e, */</span><span class="w">        </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x06</span><span class="p">,</span><span class="w">   </span><span class="mh">0x04</span><span class="p">,</span><span class="w">   </span><span class="mi">2</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_FRM_e, */</span><span class="w">        </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x06</span><span class="p">,</span><span class="w">   </span><span class="mh">0x03</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">2</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_XL_MSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x07</span><span class="p">,</span><span class="w">   </span><span class="mh">0xFF</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">8</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_XH_MSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x08</span><span class="p">,</span><span class="w">   </span><span class="mh">0xFF</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">8</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_YL_MSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x09</span><span class="p">,</span><span class="w">   </span><span class="mh">0xFF</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">8</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_YH_MSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0A</span><span class="p">,</span><span class="w">   </span><span class="mh">0xFF</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">8</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_ZL_MSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0B</span><span class="p">,</span><span class="w">   </span><span class="mh">0xFF</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">8</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_ZH_MSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0C</span><span class="p">,</span><span class="w">   </span><span class="mh">0xFF</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">8</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_WA_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x0D</span><span class="p">,</span><span class="w">   </span><span class="mh">0x80</span><span class="p">,</span><span class="w">   </span><span class="mi">7</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_WU_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0D</span><span class="p">,</span><span class="w">   </span><span class="mh">0x40</span><span class="p">,</span><span class="w">   </span><span class="mi">6</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_XH_LSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0D</span><span class="p">,</span><span class="w">   </span><span class="mh">0x38</span><span class="p">,</span><span class="w">   </span><span class="mi">3</span><span class="p">,</span><span class="w">  </span><span class="mi">3</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_XL_LSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0D</span><span class="p">,</span><span class="w">   </span><span class="mh">0x07</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">3</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_YH_LSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0E</span><span class="p">,</span><span class="w">   </span><span class="mh">0x38</span><span class="p">,</span><span class="w">   </span><span class="mi">3</span><span class="p">,</span><span class="w">  </span><span class="mi">3</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_YL_LSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0E</span><span class="p">,</span><span class="w">   </span><span class="mh">0x07</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">3</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_ZH_LSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0F</span><span class="p">,</span><span class="w">   </span><span class="mh">0x38</span><span class="p">,</span><span class="w">   </span><span class="mi">3</span><span class="p">,</span><span class="w">  </span><span class="mi">3</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_ZL_LSBS_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0F</span><span class="p">,</span><span class="w">   </span><span class="mh">0x07</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">3</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_DT_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x10</span><span class="p">,</span><span class="w">   </span><span class="mh">0x80</span><span class="p">,</span><span class="w">   </span><span class="mi">7</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_AM_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x10</span><span class="p">,</span><span class="w">   </span><span class="mh">0x40</span><span class="p">,</span><span class="w">   </span><span class="mi">6</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_TRIG_e, */</span><span class="w">       </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x10</span><span class="p">,</span><span class="w">   </span><span class="mh">0x30</span><span class="p">,</span><span class="w">   </span><span class="mi">4</span><span class="p">,</span><span class="w">  </span><span class="mi">2</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_X2_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x10</span><span class="p">,</span><span class="w">   </span><span class="mh">0x08</span><span class="p">,</span><span class="w">   </span><span class="mi">3</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_TL_MAG_e, */</span><span class="w">     </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x10</span><span class="p">,</span><span class="w">   </span><span class="mh">0x06</span><span class="p">,</span><span class="w">   </span><span class="mi">1</span><span class="p">,</span><span class="w">  </span><span class="mi">2</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_CP_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x10</span><span class="p">,</span><span class="w">   </span><span class="mh">0x01</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_FP_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x11</span><span class="p">,</span><span class="w">   </span><span class="mh">0x80</span><span class="p">,</span><span class="w">   </span><span class="mi">7</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_IICADR_e, */</span><span class="w">     </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x11</span><span class="p">,</span><span class="w">   </span><span class="mh">0x60</span><span class="p">,</span><span class="w">   </span><span class="mi">5</span><span class="p">,</span><span class="w">  </span><span class="mi">2</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_PR_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x11</span><span class="p">,</span><span class="w">   </span><span class="mh">0x10</span><span class="p">,</span><span class="w">   </span><span class="mi">4</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_CA_e, */</span><span class="w">         </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x11</span><span class="p">,</span><span class="w">   </span><span class="mh">0x08</span><span class="p">,</span><span class="w">   </span><span class="mi">3</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_INT_e, */</span><span class="w">        </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x11</span><span class="p">,</span><span class="w">   </span><span class="mh">0x04</span><span class="p">,</span><span class="w">   </span><span class="mi">2</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_MODE_e, */</span><span class="w">       </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x11</span><span class="p">,</span><span class="w">   </span><span class="mh">0x03</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">2</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_PRD_e, */</span><span class="w">        </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x13</span><span class="p">,</span><span class="w">   </span><span class="mh">0xE0</span><span class="p">,</span><span class="w">   </span><span class="mi">5</span><span class="p">,</span><span class="w">  </span><span class="mi">3</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_X4_e, */</span><span class="w">         </span><span class="n">TLx493D_WRITE_MODE_e</span><span class="p">,</span><span class="w">        </span><span class="mh">0x14</span><span class="p">,</span><span class="w">   </span><span class="mh">0x01</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_TYPE_e, */</span><span class="w">       </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x16</span><span class="p">,</span><span class="w">   </span><span class="mh">0x30</span><span class="p">,</span><span class="w">   </span><span class="mi">4</span><span class="p">,</span><span class="w">  </span><span class="mi">2</span><span class="w"> </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_HWV_e, */</span><span class="w">        </span><span class="n">TLx493D_READ_MODE_e</span><span class="p">,</span><span class="w">         </span><span class="mh">0x16</span><span class="p">,</span><span class="w">   </span><span class="mh">0x0F</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">4</span><span class="w"> </span><span class="p">},</span>
+
+<span class="w">    </span><span class="cm">/* From here on write-only fields are listed. These are not part of the registers set !*/</span>
+<span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="cm">/* W2BW_X4_READWRITE_e, */</span><span class="w">    </span><span class="n">TLx493D_READ_WRITE_MODE_e</span><span class="p">,</span><span class="w">   </span><span class="mh">0x17</span><span class="p">,</span><span class="w">   </span><span class="mh">0x01</span><span class="p">,</span><span class="w">   </span><span class="mi">0</span><span class="p">,</span><span class="w">  </span><span class="mi">1</span><span class="w"> </span><span class="p">},</span>
+<span class="p">};</span>
+
+
+<span class="k">static</span><span class="w"> </span><span class="n">TLx493D_CommonFunctions_t</span><span class="w"> </span><span class="n">TLx493D_W2BW_commonFunctions</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="p">.</span><span class="n">init</span><span class="w">                           </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_init</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">deinit</span><span class="w">                         </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_deinit</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">readRegisters</span><span class="w">                  </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_readRegisters</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">readRegistersAndCheck</span><span class="w">          </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_readRegistersAndCheck</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">calculateRawTemperature</span><span class="w">        </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_calculateRawTemperature</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">getRawTemperature</span><span class="w">              </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_getRawTemperature</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">calculateRawMagneticField</span><span class="w">      </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_calculateRawMagneticField</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">getRawMagneticField</span><span class="w">            </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_getRawMagneticField</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">calculateRawMagneticFieldAndTemperature</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_calculateRawMagneticFieldAndTemperature</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">getRawMagneticFieldAndTemperature</span><span class="w">       </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_getRawMagneticFieldAndTemperature</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">calculateTemperature</span><span class="w">           </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_calculateTemperature</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">getTemperature</span><span class="w">                 </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_getTemperature</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">calculateMagneticField</span><span class="w">         </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_calculateMagneticField</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">getMagneticField</span><span class="w">               </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_getMagneticField</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">calculateMagneticFieldAndTemperature</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_calculateMagneticFieldAndTemperature</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">getMagneticFieldAndTemperature</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_getMagneticFieldAndTemperature</span><span class="p">,</span>
+
+<span class="w">    </span><span class="c1">// functions related to the &quot;Config&quot; register</span>
+<span class="w">    </span><span class="p">.</span><span class="n">setMeasurement</span><span class="w">                 </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_setMeasurement</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">setTrigger</span><span class="w">                     </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_setTrigger</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">setSensitivity</span><span class="w">                 </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_setSensitivity</span><span class="p">,</span>
+
+<span class="w">    </span><span class="c1">// functions related to the &quot;Mod1&quot; and &quot;Mod2&quot; registers</span>
+<span class="w">    </span><span class="p">.</span><span class="n">setDefaultConfig</span><span class="w">               </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_setDefaultConfig</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">setIICAddress</span><span class="w">                  </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_setIICAddress</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">enable1ByteReadMode</span><span class="w">            </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_enable1ByteReadMode</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">enableInterrupt</span><span class="w">                </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_enableInterrupt</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">disableInterrupt</span><span class="w">               </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_disableInterrupt</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">enableCollisionAvoidance</span><span class="w">       </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_enableCollisionAvoidance</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">disableCollisionAvoidance</span><span class="w">      </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_disableCollisionAvoidance</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">setPowerMode</span><span class="w">                   </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_setPowerMode</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">setUpdateRate</span><span class="w">                  </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_setUpdateRate</span><span class="p">,</span>
+
+<span class="w">    </span><span class="c1">// functions related to the &quot;Diag&quot; register</span>
+<span class="w">    </span><span class="p">.</span><span class="n">hasValidData</span><span class="w">                   </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_hasValidData</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">isFunctional</span><span class="w">                   </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_isFunctional</span><span class="p">,</span>
+
+<span class="w">    </span><span class="c1">// functions available only to a subset of sensors with wake-up functionality</span>
+<span class="w">    </span><span class="c1">// functions related to the &quot;WU&quot; register</span>
+<span class="w">    </span><span class="p">.</span><span class="n">hasWakeUp</span><span class="w">                      </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_hasWakeUp</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">isWakeUpEnabled</span><span class="w">                </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_isWakeUpEnabled</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">enableWakeUpMode</span><span class="w">               </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_enableWakeUpMode</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">disableWakeUpMode</span><span class="w">              </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_disableWakeUpMode</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">setWakeUpThresholdsAsInteger</span><span class="w">   </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_setWakeUpThresholdsAsInteger</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">setWakeUpThresholds</span><span class="w">            </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_setWakeUpThresholds</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">softwareReset</span><span class="w">                  </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_softwareReset</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">printRegisters</span><span class="w">                 </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_printRegisters</span><span class="p">,</span>
+
+<span class="w">    </span><span class="c1">// functions used internally and not accessible through the common interface</span>
+<span class="w">    </span><span class="p">.</span><span class="n">calculateFuseParity</span><span class="w">            </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_calculateFuseParity</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">calculateBusParity</span><span class="w">             </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_calculateBusParity</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">calculateConfigurationParity</span><span class="w">   </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_calculateConfigurationParity</span><span class="p">,</span>
+<span class="w">    </span><span class="c1">// .calculateConfigurationParity   = TLx493D_W2BW_calculateConfigurationParityBit,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">hasValidFuseParity</span><span class="w">             </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_hasValidFuseParity</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">hasValidBusParity</span><span class="w">              </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_hasValidBusParity</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">hasValidConfigurationParity</span><span class="w">    </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_hasValidConfigurationParity</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">hasValidWakeUpParity</span><span class="w">           </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_hasValidWakeUpParity</span><span class="p">,</span>
+<span class="w">    </span><span class="p">.</span><span class="n">isInTestMode</span><span class="w">                   </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_isInTestMode</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">hasValidTBit</span><span class="w">                   </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_hasValidTBit</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">setResetValues</span><span class="w">                 </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_setResetValues</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">selectIICAddress</span><span class="w">               </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_selectIICAddress</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">calculateRawMagneticFieldAtTemperature</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_calculateRawMagneticFieldAtTemperature</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">.</span><span class="n">getSensitivityScaleFactor</span><span class="w">      </span><span class="o">=</span><span class="w"> </span><span class="n">TLx493D_W2BW_getSensitivityScaleFactor</span><span class="p">,</span>
+<span class="p">};</span>
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_init</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_common_init</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">GEN_2_REG_MAP_SIZE</span><span class="p">,</span><span class="w"> </span><span class="n">TLx493D_W2BW_regDef</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">TLx493D_W2BW_commonFunctions</span><span class="p">,</span><span class="w"> </span><span class="n">TLx493D_W2BW_e</span><span class="p">,</span><span class="w"> </span><span class="n">TLx493D_I2C_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_deinit</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_common_deinit</span><span class="p">(</span><span class="n">sensor</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_readRegisters</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_common_readRegisters</span><span class="p">(</span><span class="n">sensor</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_readRegistersAndCheck</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_common_readRegistersAndCheck</span><span class="p">(</span><span class="n">sensor</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">TLx493D_W2BW_calculateRawTemperature</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">temperature</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">tlx493d_gen_2_calculateRawTemperature</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_TEMP_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_TEMP_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">temperature</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_getRawTemperature</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">temperature</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_common_getRawTemperature</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">temperature</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">TLx493D_W2BW_calculateRawMagneticField</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">tlx493d_gen_2_calculateRawMagneticField</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BX_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BX_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BY_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BY_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BZ_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BZ_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_getRawMagneticField</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_common_getRawMagneticField</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">TLx493D_W2BW_calculateRawMagneticFieldAndTemperature</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">temperature</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">TLx493D_W2BW_calculateRawMagneticField</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">);</span>
+<span class="w">    </span><span class="n">TLx493D_W2BW_calculateRawTemperature</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">temperature</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_getRawMagneticFieldAndTemperature</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">temperature</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_common_getRawMagneticFieldAndTemperature</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="n">temperature</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">TLx493D_W2BW_calculateTemperature</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">temp</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">tlx493d_gen_2_calculateTemperature</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_TEMP_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_TEMP_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">temp</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_getTemperature</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">temp</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_common_getTemperature</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">temp</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">TLx493D_W2BW_calculateMagneticField</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">tlx493d_gen_2_calculateMagneticField</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BX_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BX_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BY_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BY_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BZ_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_BZ_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_getMagneticField</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_common_getMagneticField</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">TLx493D_W2BW_calculateMagneticFieldAndTemperature</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">temp</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">TLx493D_W2BW_calculateMagneticField</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">);</span>
+<span class="w">    </span><span class="n">TLx493D_W2BW_calculateTemperature</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">temp</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_getMagneticFieldAndTemperature</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="o">*</span><span class="n">temp</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_common_getMagneticFieldAndTemperature</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">,</span><span class="w"> </span><span class="n">temp</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_setMeasurement</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">TLx493D_MeasurementType_t</span><span class="w"> </span><span class="n">val</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setMeasurement</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_DT_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_AM_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CP_e</span><span class="p">,</span><span class="w"> </span><span class="n">val</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_setTrigger</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">TLx493D_TriggerType_t</span><span class="w"> </span><span class="n">trigger</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setTrigger</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_TRIG_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CP_e</span><span class="p">,</span><span class="w"> </span><span class="n">trigger</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_setSensitivity</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">TLx493D_SensitivityType_t</span><span class="w"> </span><span class="n">val</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">shortVal</span><span class="w">      </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">extraShortVal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">switch</span><span class="p">(</span><span class="n">val</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="no">TLx493D_FULL_RANGE_e</span><span class="w">  </span><span class="p">:</span><span class="w"> </span><span class="n">shortVal</span><span class="w">      </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">                                     </span><span class="n">extraShortVal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">                                     </span><span class="k">break</span><span class="p">;</span>
+
+<span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="no">TLx493D_SHORT_RANGE_e</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">shortVal</span><span class="w">      </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">                                     </span><span class="n">extraShortVal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">                                     </span><span class="k">break</span><span class="p">;</span>
+
+<span class="w">        </span><span class="k">case</span><span class="w"> </span><span class="no">TLx493D_EXTRA_SHORT_RANGE_e</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">shortVal</span><span class="w">      </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">                                           </span><span class="n">extraShortVal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">                                           </span><span class="k">break</span><span class="p">;</span>
+
+<span class="w">        </span><span class="k">default</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">tlx493d_errorSelectionNotSupportedForSensorType</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">val</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;TLx493D_SensitivityType_t&quot;</span><span class="p">);</span>
+<span class="w">                  </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="c1">// logPrint(&quot;\nsetSensitivity    short : %d    xtra_short : %d\n&quot;, shortVal, extraShortVal);</span>
+<span class="w">    </span><span class="n">tlx493d_common_setBitfield</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_X4_READWRITE_e</span><span class="p">,</span><span class="w"> </span><span class="n">extraShortVal</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setOneConfigBitfield</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_X2_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CP_e</span><span class="p">,</span><span class="w"> </span><span class="n">shortVal</span><span class="p">)</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="n">tlx493d_gen_2_setOneConfigBitfield</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_X4_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CP_e</span><span class="p">,</span><span class="w"> </span><span class="n">extraShortVal</span><span class="p">)</span>
+<span class="w">                                                                                      </span><span class="o">:</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_setDefaultConfig</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setDefaultConfig</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CP_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CA_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_INT_e</span><span class="p">);</span>
+<span class="w">    </span><span class="c1">// return tlx493d_gen_2_setDefaultConfig(sensor, W2BW_CONFIG_REG_e, W2BW_MOD1_REG_e, W2BW_MOD2_REG_e, W2BW_CP_e, W2BW_CA_e, W2BW_INT_e);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_setIICAddress</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">TLx493D_IICAddressType_t</span><span class="w"> </span><span class="n">address</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setIICAddress</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_IICADR_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_FP_e</span><span class="p">,</span><span class="w"> </span><span class="n">address</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_enable1ByteReadMode</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_set1ByteReadMode</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_PR_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_FP_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_PRD_e</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_enableCollisionAvoidance</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setCollisionAvoidance</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CA_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_FP_e</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_disableCollisionAvoidance</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setCollisionAvoidance</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CA_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_FP_e</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_enableInterrupt</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setInterrupt</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_INT_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_FP_e</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_disableInterrupt</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setInterrupt</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_INT_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_FP_e</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_setPowerMode</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">uint8_t</span><span class="w"> </span><span class="n">mode</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setPowerMode</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_MODE_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_FP_e</span><span class="p">,</span><span class="w"> </span><span class="n">mode</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_setUpdateRate</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">TLx493D_UpdateRateType_t</span><span class="w"> </span><span class="n">val</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setUpdateRate</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_FP_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_PRD_e</span><span class="p">,</span><span class="w"> </span><span class="n">val</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_hasValidData</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_hasValidData</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_MODE_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_PD3_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_PD0_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_isFunctional</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_isFunctional</span><span class="p">(</span><span class="n">sensor</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_hasWakeUp</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="w"> </span><span class="n">sensor</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_isWakeUpEnabled</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_isWakeUpEnabled</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_WA_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_enableWakeUpMode</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">tlx493d_common_setBitfield</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_WU_e</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
+<span class="w">    </span><span class="n">tlx493d_common_setBitfield</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CP_e</span><span class="p">,</span><span class="w"> </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">functions</span><span class="o">-&gt;</span><span class="n">calculateConfigurationParity</span><span class="p">(</span><span class="n">sensor</span><span class="p">));</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_writeConfigurationRegisters</span><span class="p">(</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">functions</span><span class="o">-&gt;</span><span class="n">readRegisters</span><span class="p">(</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_disableWakeUpMode</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_disableWakeUpMode</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_WU_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CP_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_setWakeUpThresholdsAsInteger</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="n">xlTh</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="n">xhTh</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="n">ylTh</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="n">yhTh</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="n">zlTh</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="n">zhTh</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setWakeUpThresholdsAsInteger</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CP_e</span><span class="p">,</span>
+<span class="w">                                                      </span><span class="n">W2BW_XL_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_XL_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_XH_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_XH_LSBS_e</span><span class="p">,</span>
+<span class="w">                                                      </span><span class="n">W2BW_YL_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_YL_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_YH_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_YH_LSBS_e</span><span class="p">,</span>
+<span class="w">                                                      </span><span class="n">W2BW_ZL_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_ZL_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_ZH_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_ZH_LSBS_e</span><span class="p">,</span>
+<span class="w">                                                      </span><span class="n">xlTh</span><span class="p">,</span><span class="w"> </span><span class="n">xhTh</span><span class="p">,</span><span class="w"> </span><span class="n">ylTh</span><span class="p">,</span><span class="w"> </span><span class="n">yhTh</span><span class="p">,</span><span class="w"> </span><span class="n">zlTh</span><span class="p">,</span><span class="w"> </span><span class="n">zhTh</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="c1">// thesholds im mT, to be converted to proper format</span>
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_setWakeUpThresholds</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span>
+<span class="w">                                      </span><span class="kt">double</span><span class="w"> </span><span class="n">temperature</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">xLow</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">xHigh</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">yLow</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">yHigh</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">zLow</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">zHigh</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_setWakeUpThresholds</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CP_e</span><span class="p">,</span>
+<span class="w">                                             </span><span class="n">W2BW_XL_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_XL_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_XH_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_XH_LSBS_e</span><span class="p">,</span>
+<span class="w">                                             </span><span class="n">W2BW_YL_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_YL_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_YH_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_YH_LSBS_e</span><span class="p">,</span>
+<span class="w">                                             </span><span class="n">W2BW_ZL_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_ZL_LSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_ZH_MSBS_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_ZH_LSBS_e</span><span class="p">,</span>
+<span class="w">                                             </span><span class="n">TLx493D_HAS_X4_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_X2_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_X4_READWRITE_e</span><span class="p">,</span>
+<span class="w">                                             </span><span class="n">temperature</span><span class="p">,</span><span class="w"> </span><span class="n">xLow</span><span class="p">,</span><span class="w"> </span><span class="n">xHigh</span><span class="p">,</span><span class="w"> </span><span class="n">yLow</span><span class="p">,</span><span class="w"> </span><span class="n">yHigh</span><span class="p">,</span><span class="w"> </span><span class="n">zLow</span><span class="p">,</span><span class="w"> </span><span class="n">zHigh</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_softwareReset</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">tlx493d_warnFeatureNotAvailableForSensorType</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;softwareReset&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="kt">uint8_t</span><span class="w"> </span><span class="nf">TLx493D_W2BW_calculateFuseParity</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_calculateFuseParity</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_FP_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_PRD_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">uint8_t</span><span class="w"> </span><span class="nf">TLx493D_W2BW_calculateBusParity</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_calculateBusParity</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">uint8_t</span><span class="w"> </span><span class="nf">TLx493D_W2BW_calculateConfigurationParity</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_calculateConfigurationParityWakeUp</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CP_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_hasValidFuseParity</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_hasValidFuseParity</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_FF_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_hasValidBusParity</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_hasValidBusParity</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_P_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_hasValidConfigurationParity</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_hasValidConfigurationParity</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_CF_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_hasValidWakeUpParity</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">tlx493d_warnFeatureNotAvailableForSensorType</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;hasValidWakeUpParity&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_isInTestMode</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">tlx493d_warnFeatureNotAvailableForSensorType</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;isInTestMode&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_hasValidIICadr</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_hasValidIICadr</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_ID_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_IICADR_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">TLx493D_W2BW_hasValidTBit</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_hasValidTBit</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_T_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">TLx493D_W2BW_setResetValues</span><span class="p">(</span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x07</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x80</span><span class="p">;</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x08</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x7F</span><span class="p">;</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x09</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x80</span><span class="p">;</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x0A</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x7F</span><span class="p">;</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x0B</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x80</span><span class="p">;</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x0C</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x7F</span><span class="p">;</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x0D</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x38</span><span class="p">;</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x0E</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x38</span><span class="p">;</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x0F</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x38</span><span class="p">;</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x10</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x01</span><span class="p">;</span><span class="w"> </span><span class="c1">// CONFIG</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x11</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x80</span><span class="p">;</span><span class="w"> </span><span class="c1">// MOD1 : A0 : 0x80, A1 : 0x20, A2 : 0x40, A3 : 0xE0</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x13</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x00</span><span class="p">;</span><span class="w"> </span><span class="c1">// MOD2</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x14</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x00</span><span class="p">;</span><span class="w"> </span><span class="c1">// CONFIG2</span>
+
+<span class="w">    </span><span class="c1">// W2BW_X4_READWRITE_e</span>
+<span class="w">    </span><span class="n">sensor</span><span class="o">-&gt;</span><span class="n">regMap</span><span class="p">[</span><span class="mh">0x17</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mh">0x00</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="kt">uint8_t</span><span class="w"> </span><span class="nf">TLx493D_W2BW_selectIICAddress</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">TLx493D_IICAddressType_t</span><span class="w"> </span><span class="n">addr</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_selectIICAddress</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">addr</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">TLx493D_W2BW_calculateRawMagneticFieldAtTemperature</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="n">rawTemp</span><span class="p">,</span><span class="w"> </span><span class="n">TLx493D_SensitivityType_t</span><span class="w"> </span><span class="n">sens</span><span class="p">,</span>
+<span class="w">                                                         </span><span class="kt">double</span><span class="w"> </span><span class="n">xInmT</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">yInmT</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">zInmT</span><span class="p">,</span>
+<span class="w">                                                         </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">int16_t</span><span class="w"> </span><span class="o">*</span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">tlx493d_gen_2_calculateRawMagneticFieldAtTemperature</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">rawTemp</span><span class="p">,</span><span class="w"> </span><span class="n">sens</span><span class="p">,</span><span class="w"> </span><span class="n">xInmT</span><span class="p">,</span><span class="w"> </span><span class="n">yInmT</span><span class="p">,</span><span class="w"> </span><span class="n">zInmT</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="n">z</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">double</span><span class="w"> </span><span class="nf">TLx493D_W2BW_getSensitivityScaleFactor</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">tlx493d_gen_2_getSensitivityScaleFactor</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">TLx493D_HAS_X4_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_X2_e</span><span class="p">,</span><span class="w"> </span><span class="n">W2BW_X4_READWRITE_e</span><span class="p">);</span>
+<span class="p">}</span>
+
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">TLx493D_W2BW_printRegisters</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">TLx493D_t</span><span class="w"> </span><span class="o">*</span><span class="n">sensor</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">logPrintRegisters</span><span class="p">(</span><span class="n">sensor</span><span class="p">,</span><span class="w"> </span><span class="n">TLX493D_W2BW_REGISTER_HEADLINE</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2024, Infineon Technologies AG
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

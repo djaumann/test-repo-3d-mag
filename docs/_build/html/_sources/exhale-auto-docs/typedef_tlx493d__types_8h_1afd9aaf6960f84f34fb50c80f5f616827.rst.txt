@@ -1,0 +1,14 @@
+.. _exhale_typedef_tlx493d__types_8h_1afd9aaf6960f84f34fb50c80f5f616827:
+
+Typedef TLx493D_DisableCollisionAvoidanceFuncPtr
+================================================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_DisableCollisionAvoidanceFuncPtr
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

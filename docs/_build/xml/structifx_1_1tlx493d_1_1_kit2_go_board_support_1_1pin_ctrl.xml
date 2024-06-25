@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl" kind="struct" language="C++" prot="private">
+    <compoundname>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1aa4124fd34b88aa156c9b53eaa94ef43a" prot="public" static="no" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+        <definition>bool ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::isSet</definition>
+        <argsstring></argsstring>
+        <name>isSet</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::isSet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the state of the pin, to be activated at <computeroutput>init</computeroutput> or not. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="234" column="30" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1a510513cb54902340fac0a1ef85f404bd" prot="public" static="no" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+        <definition>uint8_t ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::pinNumber</definition>
+        <argsstring></argsstring>
+        <name>pinNumber</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::pinNumber</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the Arduino pin number of the pin. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="235" column="30" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1ae042520c36d02a57c4ffae11f3fae661" prot="public" static="no" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+        <definition>uint8_t ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::driveDirection</definition>
+        <argsstring></argsstring>
+        <name>driveDirection</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::driveDirection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the direction for the Arduino pin when actively driving. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="237" column="30" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1abcca861ab098e83fec0d04e26277cf75" prot="public" static="no" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+        <definition>uint8_t ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::tristateDirection</definition>
+        <argsstring></argsstring>
+        <name>tristateDirection</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::tristateDirection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the direction for the Arduino pin when in tristate. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="238" column="30" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1a3a90c3104cd3c5420cc104e1160f7143" prot="public" static="no" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+        <definition>uint8_t ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::enableValue</definition>
+        <argsstring></argsstring>
+        <name>enableValue</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::enableValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the value of the pin to be enabled or set by the <computeroutput>init</computeroutput> function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="240" column="30" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1abd6a9c5437cbab97987c083789e3e282" prot="public" static="no" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+        <definition>uint8_t ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::disableValue</definition>
+        <argsstring></argsstring>
+        <name>disableValue</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::disableValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the value of the pin when the pin is disabled. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="241" column="30" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1aa951cddd8092938795003b30f7a15104" prot="public" static="no" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+        <definition>uint32_t ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::delayAfterEnable</definition>
+        <argsstring></argsstring>
+        <name>delayAfterEnable</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::delayAfterEnable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the delay in ms after the pin is enabled. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="243" column="30" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1a9e8cd208fa1e7f6ea1713f11aa7bfbba" prot="public" static="no" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+        <definition>uint32_t ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::delayAfterDisable</definition>
+        <argsstring></argsstring>
+        <name>delayAfterDisable</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl::delayAfterDisable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the delay in ms after the pin is disabled. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="244" column="30" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="244" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A structure to represent pins with all necessary parameters. </para>
+    </detaileddescription>
+    <location file="src/Kit2GoBoardSupport.hpp" line="232" column="17" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="232" bodyend="246"/>
+    <listofallmembers>
+      <member refid="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1a9e8cd208fa1e7f6ea1713f11aa7bfbba" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</scope><name>delayAfterDisable</name></member>
+      <member refid="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1aa951cddd8092938795003b30f7a15104" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</scope><name>delayAfterEnable</name></member>
+      <member refid="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1abd6a9c5437cbab97987c083789e3e282" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</scope><name>disableValue</name></member>
+      <member refid="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1ae042520c36d02a57c4ffae11f3fae661" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</scope><name>driveDirection</name></member>
+      <member refid="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1a3a90c3104cd3c5420cc104e1160f7143" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</scope><name>enableValue</name></member>
+      <member refid="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1aa4124fd34b88aa156c9b53eaa94ef43a" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</scope><name>isSet</name></member>
+      <member refid="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1a510513cb54902340fac0a1ef85f404bd" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</scope><name>pinNumber</name></member>
+      <member refid="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl_1abcca861ab098e83fec0d04e26277cf75" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</scope><name>tristateDirection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

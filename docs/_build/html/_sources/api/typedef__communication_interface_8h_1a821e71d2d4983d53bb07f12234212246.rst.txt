@@ -1,0 +1,14 @@
+.. _exhale_typedef__communication_interface_8h_1a821e71d2d4983d53bb07f12234212246:
+
+Typedef TLx493D_t
+=================
+
+- Defined in :ref:`file_src_CommunicationInterface.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_t
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

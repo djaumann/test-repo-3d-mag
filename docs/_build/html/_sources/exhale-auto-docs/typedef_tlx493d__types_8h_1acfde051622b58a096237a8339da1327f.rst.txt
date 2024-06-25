@@ -1,0 +1,14 @@
+.. _exhale_typedef_tlx493d__types_8h_1acfde051622b58a096237a8339da1327f:
+
+Typedef TLx493D_SetResetValuesFuncPtr
+=====================================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_SetResetValuesFuncPtr
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

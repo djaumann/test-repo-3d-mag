@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d_8c_1ad5277b68c058856b116aa9ca6d602566:
+
+Function tlx493d_getRawMagneticField(TLx493D_t \*, int16_t \*, int16_t \*, int16_t \*)
+======================================================================================
+
+- Defined in :ref:`file_src_tlx493d.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_getRawMagneticField(TLx493D_t *, int16_t *, int16_t *, int16_t *)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___w2_b6_8h_1ae339d16f00923d87a62576ce9940e2a1:
+
+Function TLx493D_W2B6_setMeasurement(TLx493D_t \*, TLx493D_MeasurementType_t)
+=============================================================================
+
+- Defined in :ref:`file_src_TLx493D_W2B6.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_W2B6_setMeasurement(TLx493D_t *, TLx493D_MeasurementType_t)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

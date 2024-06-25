@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_s_p_i_class_wrapper_8hpp" kind="file" language="C++">
+    <compoundname>SPIClassWrapper.hpp</compoundname>
+    <includes local="no">Arduino.h</includes>
+    <includes local="no">SPI.h</includes>
+    <includedby refid="_s_p_i_using_s_p_i_class_8hpp" local="yes">src/SPIUsingSPIClass.hpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>Arduino.h</label>
+      </node>
+      <node id="1">
+        <label>src/SPIClassWrapper.hpp</label>
+        <link refid="_s_p_i_class_wrapper_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SPI.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>src/SPIClassWrapper.hpp</label>
+        <link refid="_s_p_i_class_wrapper_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/SPIUsingSPIClass.hpp</label>
+        <link refid="_s_p_i_using_s_p_i_class_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/TLx493D.hpp</label>
+        <link refid="_t_lx493_d_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>src/TLx493DBase.hpp</label>
+        <link refid="_t_lx493_d_base_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/TLx493D_inc.hpp</label>
+        <link refid="_t_lx493_d__inc_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>src/types.hpp</label>
+        <link refid="types_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" prot="public">ifx::tlx493d::SPIClassWrapper</innerclass>
+    <innernamespace refid="namespaceifx">ifx</innernamespace>
+    <innernamespace refid="namespaceifx_1_1tlx493d">ifx::tlx493d</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TLX493D_SPICLASS_WRAPPER_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TLX493D_SPICLASS_WRAPPER_HPP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>std<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Arduino<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Arduino.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;SPI.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceifx" kindref="compound">ifx</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">tlx493d<sp/>{</highlight></codeline>
+<codeline lineno="18" refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" kindref="compound">SPIClassWrapper</ref><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a25aa5d6e30df8901d86ca76736feea46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a25aa5d6e30df8901d86ca76736feea46" kindref="member">BusType</ref><sp/>=<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPIClass</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>static<sp/>constexpr<sp/>uint8_t<sp/>TLX493D_SPI_READ_BIT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x80;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref><sp/>TLX493D_SPI_READ_BIT_ON<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x80;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>static<sp/>constexpr<sp/>uint8_t<sp/>TLX493D_SPI_READ_BIT_OFF<sp/><sp/><sp/><sp/><sp/>=<sp/>0x00;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>static<sp/>constexpr<sp/>uint8_t<sp/>TLX493D_SPI_AUTO_INC_BIT<sp/><sp/><sp/><sp/><sp/>=<sp/>0x60;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>static<sp/>constexpr<sp/>uint8_t<sp/>TLX493D_SPI_AUTO_INC_BIT_ON<sp/><sp/>=<sp/>0x60;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>static<sp/>constexpr<sp/>uint8_t<sp/>TLX493D_SPI_AUTO_INC_BIT_OFF<sp/>=<sp/>0x00;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a507f25be7d16ec089e83fb3f98cdcbb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a507f25be7d16ec089e83fb3f98cdcbb5" kindref="member">SPIClassWrapper</ref>()<sp/>:<sp/>spi(<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">nullptr</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a9b0d9a43e752bff17c8d4f8a335787df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a9b0d9a43e752bff17c8d4f8a335787df" kindref="member">SPIClassWrapper</ref>(<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPIClass</ref><sp/>&amp;bus)<sp/>:<sp/>spi(&amp;bus)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a2f6f0743cefa6d5c9495d7c8fb55e4b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a2f6f0743cefa6d5c9495d7c8fb55e4b8" kindref="member">~SPIClassWrapper</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a3d1280034f4c5c8d52f6baabf09d1f07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a3d1280034f4c5c8d52f6baabf09d1f07" kindref="member">init</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPISettings</ref><sp/>&amp;settings)<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>void<sp/>init(uint32_t<sp/>clockFreq,<sp/>uint8_t<sp/>bitOrder,<sp/>uint8_t<sp/>dataMode)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>SPISettings<sp/>settings(clockFreq,<sp/>bitOrder,<sp/>dataMode);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spi-&gt;beginTransaction(settings);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>spi.beginTransaction(settings);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>spi.begin();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1adcc5dc889115ae1fab86fc60587b79b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1adcc5dc889115ae1fab86fc60587b79b4" kindref="member">deinit</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spi-&gt;end();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>spi.end();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a7c5b08d9612965c854ea2553ebad84ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a7c5b08d9612965c854ea2553ebad84ac" kindref="member">transfer</ref>(<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref><sp/>*<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">txBuffer</ref>,<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">txLen</ref>,<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref><sp/>*<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">rxBuffer</ref>,<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">rxLen</ref>,<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">readAddress</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>(<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">txLen</ref><sp/>&gt;<sp/>0)<sp/>&amp;&amp;<sp/>(<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">txBuffer</ref><sp/>!=<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">NULL</ref>)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bytesWritten</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bytesWritten</ref><sp/>&lt;<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">txLen</ref>;<sp/>++<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bytesWritten</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spi-&gt;transfer(<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">txBuffer</ref>[<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bytesWritten</ref>]);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>spi.transfer(txBuffer[bytesWritten]);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bytesWritten</ref><sp/>!=<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">txLen</ref><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>(<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">rxLen</ref><sp/>&gt;<sp/>0)<sp/><sp/>&amp;&amp;<sp/>(<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">rxBuffer</ref><sp/>!=<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">NULL</ref>)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint16_t</ref><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bytesRead</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spi-&gt;transfer(TLX493D_SPI_READ_BIT_ON<sp/>|<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">readAddress</ref>);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>spi.transfer(TLX493D_SPI_READ_BIT_ON<sp/>|<sp/>readAddress);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bytesRead</ref><sp/>&lt;<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">rxLen</ref>;<sp/>++<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bytesRead</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">rxBuffer</ref>[<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bytesRead</ref>]<sp/>=<sp/>spi-&gt;transfer(TLX493D_SPI_READ_BIT_ON<sp/>|<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">readAddress</ref>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>rxBuffer[bytesRead]<sp/>=<sp/>spi.transfer(TLX493D_SPI_READ_BIT_ON<sp/>|<sp/>readAddress);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bytesRead</ref><sp/>!=<sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">rxLen</ref><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a45f2d5dbc0e52c06e42de04dc33cb17f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPIClass</ref><sp/>&amp;<ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a45f2d5dbc0e52c06e42de04dc33cb17f" kindref="member">getBus</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*spi;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a1fd5fcdf796658ae6d17329b233c1227" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a1fd5fcdf796658ae6d17329b233c1227" kindref="member">setBus</ref>(<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPIClass</ref><sp/>&amp;<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">spiObj</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spi<sp/>=<sp/>&amp;<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">spiObj</ref>;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPIClass</ref><sp/>*spi;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>TLX493D_SPICLASS_WRAPPER_HPP</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/SPIClassWrapper.hpp"/>
+  </compounddef>
+</doxygen>

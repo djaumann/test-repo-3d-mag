@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p3_b6_8c_1af973a215cb74c55d7a8c831148d4cec9:
+
+Function TLx493D_P3B6_calculateConfigurationParity(TLx493D_t \*)
+================================================================
+
+- Defined in :ref:`file_src_TLx493D_P3B6.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P3B6_calculateConfigurationParity(TLx493D_t *)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

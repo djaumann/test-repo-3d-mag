@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="tlx493d__gen__3__common__defines_8h" kind="file" language="C++">
+    <compoundname>tlx493d_gen_3_common_defines.h</compoundname>
+    <includedby refid="_t_lx493_d___p3_b6_8c" local="yes">src/TLx493D_P3B6.c</includedby>
+    <includedby refid="_t_lx493_d___p3_i8_8c" local="yes">src/TLx493D_P3I8.c</includedby>
+    <includedby refid="tlx493d__gen__3__common_8c" local="yes">src/tlx493d_gen_3_common.c</includedby>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a9f93ce7104d2fef5cec4c3c54ba5b165" prot="public" static="no">
+        <name>GEN_3_O0x</name>
+        <initializer>17.3267854124448L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="5" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a8b8eda75cdf22ba9be7a695b5ff47b0e" prot="public" static="no">
+        <name>GEN_3_O1x</name>
+        <initializer>-7.35697488204487e-3L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="6" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a1f1ddb271b9b1211f82b49e86d90bd4a" prot="public" static="no">
+        <name>GEN_3_O2x</name>
+        <initializer>9.04386700139679e-7L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="7" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a76961b1200ce072933ea385a8d56d0d2" prot="public" static="no">
+        <name>GEN_3_O3x</name>
+        <initializer>-4.11136942302164e-11L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="8" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a84bbd75fce9526d2de3bfe650708c95d" prot="public" static="no">
+        <name>GEN_3_L0x</name>
+        <initializer>-1.97791738051192L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="9" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a353ab9ef2ce5a75ff8da191a77c3dbb5" prot="public" static="no">
+        <name>GEN_3_L1x</name>
+        <initializer>2.16084455894181e-3L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="10" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1af0ad5ee489665ee13013de074698e518" prot="public" static="no">
+        <name>GEN_3_L2x</name>
+        <initializer>-5.11108553761453e-7L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="11" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a6b069fb6aeae405acabe544e4ea966aa" prot="public" static="no">
+        <name>GEN_3_L3x</name>
+        <initializer>3.92456873185757e-11L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="12" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a5574568d7c30367dcd0c12c8ab263c8b" prot="public" static="no">
+        <name>GEN_3_O0y</name>
+        <initializer>13.1429984746861L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="13" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a345ac106554b8831cfa92e98e300b73a" prot="public" static="no">
+        <name>GEN_3_O1y</name>
+        <initializer>-6.60898501857681e-3L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="14" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a82f3341f465484010d88c9ab2e8b67f9" prot="public" static="no">
+        <name>GEN_3_O2y</name>
+        <initializer>1.01138132545504e-6L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="15" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1ab02052ca734243d936b9c8ffc117663d" prot="public" static="no">
+        <name>GEN_3_O3y</name>
+        <initializer>-6.48339760449271e-11L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="16" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a9232134ea8d5296b3cdd04e9b9556f58" prot="public" static="no">
+        <name>GEN_3_L0y</name>
+        <initializer>-1.92651899997075L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="17" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a4f6c4663d87e55cefe498e60ab1afc6f" prot="public" static="no">
+        <name>GEN_3_L1y</name>
+        <initializer>2.12764348620027e-3L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="18" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1aad233695817f6c2846563b594f13da55" prot="public" static="no">
+        <name>GEN_3_L2y</name>
+        <initializer>-5.03546107645159e-7L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="19" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a594bdd9aea34ebe80137d7b5cfc1b431" prot="public" static="no">
+        <name>GEN_3_L3y</name>
+        <initializer>3.86667828787361e-11L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="20" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a59aefde98bc01a2152893fef34c1ccca" prot="public" static="no">
+        <name>GEN_3_O0z</name>
+        <initializer>11.7678191529052L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="21" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1af062e3f3fbe2296ab55cd8cb807aef14" prot="public" static="no">
+        <name>GEN_3_O1z</name>
+        <initializer>-9.99695732514966e-3L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="22" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a36e6b8df6ef433d7547d23f4d1d4bdd0" prot="public" static="no">
+        <name>GEN_3_O2z</name>
+        <initializer>2.54072819527595e-6L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="23" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1aa39a793b4cd99c8d76eabb99f942ed96" prot="public" static="no">
+        <name>GEN_3_O3z</name>
+        <initializer>-2.04419211153673e-10L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="24" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1aceee4bccc1eb50706bf306023efaceca" prot="public" static="no">
+        <name>GEN_3_L0z</name>
+        <initializer>-0.912964983702195L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="25" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a6d82beca5de69f655c4f6ad97d139741" prot="public" static="no">
+        <name>GEN_3_L1z</name>
+        <initializer>1.41770522399259e-3L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="26" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1afaa63aaa56f3532f2690f547189f8a36" prot="public" static="no">
+        <name>GEN_3_L2z</name>
+        <initializer>-3.38806085881603e-7L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="27" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1abc845c35d5eec3b05144ba5982fdc268" prot="public" static="no">
+        <name>GEN_3_L3z</name>
+        <initializer>2.61297188837947e-11L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="28" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1ad4ba62dd3d6d879cf99a61324ee7a30b" prot="public" static="no">
+        <name>GEN_3_FULL_RANGE_FIELD_SENSITIVITY</name>
+        <initializer>30.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="30" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a1aa068254c9f0018c7f30ccc00132ea1" prot="public" static="no">
+        <name>GEN_3_TEMP_SENSITIVITY</name>
+        <initializer>15.2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="35" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a742a9662d25f9e0f482ae22a5b0fe99d" prot="public" static="no">
+        <name>GEN_3_TEMP_OFFSET</name>
+        <initializer>4200.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="36" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a230cc2cb5e0726ea698dbd087caab0e4" prot="public" static="no">
+        <name>GEN_3_TEMP_REF</name>
+        <initializer>25.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="37" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a1fc2665fdc197b52ef84e0e264d9d404" prot="public" static="no">
+        <name>GEN_3_STD_IIC_ADDR_WRITE_A0</name>
+        <initializer>0xBA</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="41" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1aaa1a2cc9d823f91333269925179df78b" prot="public" static="no">
+        <name>GEN_3_STD_IIC_ADDR_READ_A0</name>
+        <initializer>0xBB</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="42" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a5b31880b95a9babdfd36ff9b54cc19de" prot="public" static="no">
+        <name>GEN_3_STD_IIC_ADDR_WRITE_A1</name>
+        <initializer>0x26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="45" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1aa6db271c2a2300404532af5a337f849f" prot="public" static="no">
+        <name>GEN_3_STD_IIC_ADDR_READ_A1</name>
+        <initializer>0x27</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="46" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a8c61742cca6755b88f249698d3b49e20" prot="public" static="no">
+        <name>GEN_3_STD_IIC_ADDR_WRITE_A2</name>
+        <initializer>0x52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="49" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1afc2f432cded18a2ff1edf09de4edaf73" prot="public" static="no">
+        <name>GEN_3_STD_IIC_ADDR_READ_A2</name>
+        <initializer>0x53</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="50" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a0e2c5125768fc67f3a38de29b58d53f4" prot="public" static="no">
+        <name>GEN_3_STD_IIC_ADDR_WRITE_A3</name>
+        <initializer>0x8C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="53" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a26b05d7ddcc4aaf65fafb45907f23cec" prot="public" static="no">
+        <name>GEN_3_STD_IIC_ADDR_READ_A3</name>
+        <initializer>0x8D</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="54" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="tlx493d__gen__3__common__defines_8h_1a0ba3b796335a38d7f45219286bd9d0f5" prot="public" static="no">
+        <name>GEN_3_REG_MAP_SIZE</name>
+        <initializer>27</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_gen_3_common_defines.h" line="57" column="9" bodyfile="src/tlx493d_gen_3_common_defines.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TLX493D_GEN_3_CONFIG_COMMON_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TLX493D_GEN_3_CONFIG_COMMON_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O0x<sp/><sp/><sp/>17.3267854124448L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O1x<sp/><sp/><sp/>-7.35697488204487e-3L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O2x<sp/><sp/><sp/>9.04386700139679e-7L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O3x<sp/><sp/><sp/>-4.11136942302164e-11L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L0x<sp/><sp/><sp/>-1.97791738051192L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L1x<sp/><sp/><sp/>2.16084455894181e-3L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L2x<sp/><sp/><sp/>-5.11108553761453e-7L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L3x<sp/><sp/><sp/>3.92456873185757e-11L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O0y<sp/><sp/><sp/>13.1429984746861L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O1y<sp/><sp/><sp/>-6.60898501857681e-3L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O2y<sp/><sp/><sp/>1.01138132545504e-6L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O3y<sp/><sp/><sp/>-6.48339760449271e-11L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L0y<sp/><sp/><sp/>-1.92651899997075L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L1y<sp/><sp/><sp/>2.12764348620027e-3L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L2y<sp/><sp/><sp/>-5.03546107645159e-7L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L3y<sp/><sp/><sp/>3.86667828787361e-11L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O0z<sp/><sp/><sp/>11.7678191529052L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O1z<sp/><sp/><sp/>-9.99695732514966e-3L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O2z<sp/><sp/><sp/>2.54072819527595e-6L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_O3z<sp/><sp/><sp/>-2.04419211153673e-10L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L0z<sp/><sp/><sp/>-0.912964983702195L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L1z<sp/><sp/><sp/>1.41770522399259e-3L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L2z<sp/><sp/><sp/>-3.38806085881603e-7L<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_L3z<sp/><sp/><sp/>2.61297188837947e-11L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_FULL_RANGE_FIELD_SENSITIVITY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>30.5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>#define<sp/>GEN_3_SHORT_RANGE_FIELD_SENSITIVITY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>61.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>#define<sp/>GEN_3_EXTRA_SHORT_RANGE_FIELD_SENSITIVITY<sp/><sp/>122.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//<sp/>#define<sp/>GEN_3_TEMP_MULT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>15.2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_TEMP_SENSITIVITY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>15.2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_TEMP_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4200.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_TEMP_REF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>25.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IIC<sp/>address</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_STD_IIC_ADDR_WRITE_A0<sp/><sp/><sp/><sp/><sp/>0xBA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_STD_IIC_ADDR_READ_A0<sp/><sp/><sp/><sp/><sp/><sp/>0xBB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_STD_IIC_ADDR_WRITE_A1<sp/><sp/><sp/><sp/><sp/>0x26</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_STD_IIC_ADDR_READ_A1<sp/><sp/><sp/><sp/><sp/><sp/>0x27</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_STD_IIC_ADDR_WRITE_A2<sp/><sp/><sp/><sp/><sp/>0x52</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_STD_IIC_ADDR_READ_A2<sp/><sp/><sp/><sp/><sp/><sp/>0x53</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_STD_IIC_ADDR_WRITE_A3<sp/><sp/><sp/><sp/><sp/>0x8C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_STD_IIC_ADDR_READ_A3<sp/><sp/><sp/><sp/><sp/><sp/>0x8D</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GEN_3_REG_MAP_SIZE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>27</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>TLX493D_GEN_3_CONFIG_COMMON_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/tlx493d_gen_3_common_defines.h"/>
+  </compounddef>
+</doxygen>

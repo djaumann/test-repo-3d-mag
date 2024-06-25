@@ -1,0 +1,850 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classifx_1_1tlx493d_1_1_kit2_go_board_support" kind="class" language="C++" prot="public">
+    <compoundname>ifx::tlx493d::Kit2GoBoardSupport</compoundname>
+    <includes refid="_kit2_go_board_support_8hpp" local="no">Kit2GoBoardSupport.hpp</includes>
+    <innerclass refid="structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl" prot="private">ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</innerclass>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1adad8c0c042536982ed8abf2500f319f7" prot="private" static="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">struct</ref> ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</type>
+        <definition>typedef struct ifx::tlx493d::Kit2GoBoardSupport::pinCtrl ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</definition>
+        <argsstring></argsstring>
+        <name>pinCtrl</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::pinCtrl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A structure to represent pins with all necessary parameters. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="246" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a6640d3268ecce6487d22df12ea211279" prot="private" static="no" mutable="no">
+        <type>pinCtrl</type>
+        <definition>pinCtrl ifx::tlx493d::Kit2GoBoardSupport::powerPins[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>powerPins</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::powerPins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Structure variables to hold parameters of powerPins, selectPins and addressPins. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="297" column="25" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1af9b0c7a5ccc8a35f2edcf91aa4165814" prot="private" static="no" mutable="no">
+        <type>pinCtrl</type>
+        <definition>pinCtrl ifx::tlx493d::Kit2GoBoardSupport::selectPins[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>selectPins</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::selectPins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="298" column="25" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1ac0911033a4e00e31eaad6f9d1e382a1f" prot="private" static="no" mutable="no">
+        <type>pinCtrl</type>
+        <definition>pinCtrl ifx::tlx493d::Kit2GoBoardSupport::addressPins[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>addressPins</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::addressPins</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="299" column="25" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="299" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a43d70801705c5cea385c302bf81929dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ifx::tlx493d::Kit2GoBoardSupport::Kit2GoBoardSupport</definition>
+        <argsstring>()</argsstring>
+        <name>Kit2GoBoardSupport</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::Kit2GoBoardSupport</qualifiedname>
+        <briefdescription>
+<para>Default constructor with no parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new <ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">Kit2GoBoardSupport</ref> object with initialised data structures of type PinCtrl to hold parameters for powerPins, selectPins and addressPins. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="37" column="17" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="37" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1aceff549fef2962dfd8e8b2d6cd30f074" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ifx::tlx493d::Kit2GoBoardSupport::~Kit2GoBoardSupport</definition>
+        <argsstring>()</argsstring>
+        <name>~Kit2GoBoardSupport</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::~Kit2GoBoardSupport</qualifiedname>
+        <briefdescription>
+<para>Destructor of the <ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">Kit2GoBoardSupport</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="43" column="17" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="43" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1ad37e0dbab8e01fcdb9c01cb1f5df4b88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::init</definition>
+        <argsstring>(bool isEnablePower=true, bool isEnableSelect=false, bool isEnableExtendedAddress=false)</argsstring>
+        <name>init</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::init</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>isEnablePower</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">true</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>isEnableSelect</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">false</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>isEnableExtendedAddress</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">false</ref></defval>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>init</computeroutput> sets/resets the board pin modes and/or values based on the values of the data structures set in the main code. <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">enablePower</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to power up the board using this class. In this case the board 3V3 is routed through a GPIO of the host MCU. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">enableSelect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether SPI slaves SELECT lines need to be controlled using this class. A particular slave is selected by pulling its corresponding SELECT line low. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">enableExtendedAddress</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Only relevant for Generation 1, A1B6 devices) Whether to use extended addressing feature. In this case, the pin stored in addressPins structure is activated and later isolated in a prescribed way to enable the 4 extended addresses of the said device. <linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="56" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="56" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1af2da5723614153ac4dc68f3518d6ebcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::begin</definition>
+        <argsstring>(bool enablePower=true, bool enableSelect=false, bool enableExtendedAddress=false)</argsstring>
+        <name>begin</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::begin</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>enablePower</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">true</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>enableSelect</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">false</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>enableExtendedAddress</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">false</ref></defval>
+        </param>
+        <briefdescription>
+<para>The <computeroutput>begin</computeroutput> function recursively calls the <computeroutput>init</computeroutput> function of the same class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">enablePower</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether to power up the board using this class. In this case the board 3V3 is routed through a GPIO of the host MCU. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">enableSelect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether SPI slaves SELECT lines need to be controlled using this class. A particular slave is selected by pulling its corresponding SELECT line low. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">enableExtendedAddress</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(Only relevant for Generation 1, A1B6 devices) Whether to use extended addressing feature. In this case, the pin stored in addressPins structure is activated and later isolated in a prescribed way to enable the 4 extended addresses of the said device. <linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="99" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1af431e6c2ba9e76d722e39308d79fc515" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::deinit</definition>
+        <argsstring>()</argsstring>
+        <name>deinit</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::deinit</qualifiedname>
+        <briefdescription>
+<para>The <computeroutput>deinit</computeroutput> function sets all the pins to their disable value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="106" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1ade5648cf2334a923a33210c10d0f60af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::end</qualifiedname>
+        <briefdescription>
+<para>The <computeroutput>end</computeroutput> function recursively calls the <computeroutput>deinit</computeroutput> function of the same class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="114" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="114" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1aaab9bd1303f4b9f91fc9c6c0736f66d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::setPowerPin</definition>
+        <argsstring>(uint8_t pinNumber, uint8_t pinDriveDirection, uint8_t pinTristateDirection, uint8_t pinEnableValue, uint8_t pinDisableValue, uint32_t delayAfterEnable=0, uint32_t delayAfterDisable=0)</argsstring>
+        <name>setPowerPin</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::setPowerPin</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinNumber</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinDriveDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinTristateDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinEnableValue</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinDisableValue</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+          <declname>delayAfterEnable</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+          <declname>delayAfterDisable</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>The <computeroutput>setPowerPin</computeroutput> function is setter function to route pin parameters from the main code into the data structures/variables of this class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pinNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arduino pin number of the GPIO to be used as 3V3 POWER pin for the sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinDriveDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Direction of the Arduino pin to be used as the 3V3 POWER pin. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinTristateDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Direction of the Arduino pin when in tristate. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinEnableValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value of the pin in enabled state. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinDisableValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value of the pin in disabled state. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delayAfterEnable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delay in ms after the pin is enabled. Needed to meet settling time constraints. <linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delayAfterDisable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delay in ms after the pin is disabled. Needed to meet settling time constraints. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="129" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="129" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a35c2b2823d8526ee98d9e7a7027d5b8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::unsetPowerPin</definition>
+        <argsstring>()</argsstring>
+        <name>unsetPowerPin</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::unsetPowerPin</qualifiedname>
+        <briefdescription>
+<para>The <computeroutput>unsetPowerPin</computeroutput> function disables all actions on the pins set in powerPins that would otherwise be performed by the <computeroutput>init</computeroutput> function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="138" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="138" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a8aad23ae7cdf4a6e7dba03f9689204dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::setSelectPin</definition>
+        <argsstring>(uint8_t pinNumber, uint8_t pinDriveDirection, uint8_t pinTristateDirection, uint8_t pinEnableValue, uint8_t pinDisableValue, uint32_t delayAfterEnable=0, uint32_t delayAfterDisable=0)</argsstring>
+        <name>setSelectPin</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::setSelectPin</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinNumber</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinDriveDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinTristateDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinEnableValue</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinDisableValue</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+          <declname>delayAfterEnable</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+          <declname>delayAfterDisable</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>The <computeroutput>setSelectPin</computeroutput> function is setter function to route pin parameters from the main code into the datastructures/variables of this class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pinNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arduino pin number of the GPIO to be used as SELECT pin for the sensor used as SPI slave. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Direction of the Arduino pin to be used as the select pin for the sensor used as SPI slave. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinEnableValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value of the pin in enabled state. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinDisableValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value of the pin in disabled state. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delayAfterEnable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delay in ms after the pin is enabled. Needed to meet settling time constraints. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delayAfterDisable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delay in ms after the pin is disabled. Needed to meet settling time constraints. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="151" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="151" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1abae1fc5754e3f1b7e734d4ae7892ff7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::unsetSelectPin</definition>
+        <argsstring>()</argsstring>
+        <name>unsetSelectPin</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::unsetSelectPin</qualifiedname>
+        <briefdescription>
+<para>The <computeroutput>unsetSelectPin</computeroutput> function disables all actions on the pins set in selectPins that would otherwise be performed by the <computeroutput>init</computeroutput> function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="160" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="160" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1af21b793ccda5c4cd395a4b1b6900ba79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::setAddressPin</definition>
+        <argsstring>(uint8_t pinNumber, uint8_t pinDriveDirection, uint8_t pinTristateDirection, uint8_t pinEnableValue, uint8_t pinDisableValue, uint32_t delayAfterEnable=0, uint32_t delayAfterDisable=0)</argsstring>
+        <name>setAddressPin</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::setAddressPin</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinNumber</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinDriveDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinTristateDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinEnableValue</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>pinDisableValue</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+          <declname>delayAfterEnable</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+          <declname>delayAfterDisable</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>The <computeroutput>setAddressPin</computeroutput> function is setter function to route pin parameters from the main code into the data structures/variables of this class. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">pinNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Arduino pin number of the GPIO to be used as the ADDR pin for the sensor used as SPI slave. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Direction of the Arduino pin to be used as the ADDR pin for the sensor used as SPI slave. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinEnableValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value of the pin in enabled state. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pinDisableValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value of the pin in disabled state. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delayAfterEnable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delay in ms after the pin is enabled. Needed to meet settling time constraints. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">delayAfterDisable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>delay in ms after the pin is disabled. Needed to meet settling time constraints. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="174" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="174" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a4f78422d480bd9088ba43c1df4bce649" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::unsetAddressPin</definition>
+        <argsstring>()</argsstring>
+        <name>unsetAddressPin</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::unsetAddressPin</qualifiedname>
+        <briefdescription>
+<para>The <computeroutput>unsetAddressPin</computeroutput> function disables all actions on the pins set in selectPins that would otherwise be performed by the <computeroutput>init</computeroutput> function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="183" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="183" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a9e868c8d8f7fb8ae7c6ad429e90e02cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::enablePower</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>enablePower</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::enablePower</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>The <computeroutput>enablePower</computeroutput> function sets/resets the pins in powerPins based on argument. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sets pin to pinEnableValue if true, else to pinDisableValue. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="193" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="193" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1ae12a71b73b0cd73245ca6497a58b111b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::enableSelect</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>enableSelect</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::enableSelect</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>The <computeroutput>enableSelect</computeroutput> function sets/resets the pins in selectPins based on argument. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sets pin to pinEnableValue if true, else to pinDisableValue. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="204" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="204" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1aebd47f463997ffc04460bfda210a61d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::enableAddress</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>enableAddress</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::enableAddress</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>The <computeroutput>enableAddress</computeroutput> function sets/resets the pins in selectPins based on argument. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sets pin to pinEnableValue if true, else to pinDisableValue. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="215" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="215" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a0e0a688bc5f35c68cab3dccc1921f720" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="221" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="221" bodyend="224"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a278661ed31a061aaab845db3f2b981e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::enablePin</definition>
+        <argsstring>(const pinCtrl &amp;p, bool enable)</argsstring>
+        <name>enablePin</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::enablePin</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">const</ref> pinCtrl &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+<para>The <computeroutput>enablePin</computeroutput> function sets/resets the pin on the basis of parameters in the structure <computeroutput>pinCtrl</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Structure of type <computeroutput>pinCtrl</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">enable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sets pin to pinEnableValue if true, else to pinDisableValue. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="254" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="254" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a66a7f516daf29bef75beb326485e0c17" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::initPin</definition>
+        <argsstring>(const pinCtrl &amp;p)</argsstring>
+        <name>initPin</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::initPin</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">const</ref> pinCtrl &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>The <computeroutput>initPin</computeroutput> function sets the direction and value of the pin on the basis of parameters in the structure <computeroutput>pinCtrl</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Structure of type <computeroutput>pinCtrl</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="266" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="266" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1abd15913465beff576b235b3376a6daff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::setPinDirectionToDrive</definition>
+        <argsstring>(pinCtrl &amp;p)</argsstring>
+        <name>setPinDirectionToDrive</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::setPinDirectionToDrive</qualifiedname>
+        <param>
+          <type>pinCtrl &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>The <computeroutput>setPinDirectionToDrive</computeroutput> function sets the direction of the pin to drive mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Structure of type <computeroutput>pinCtrl</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="277" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="277" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a7a43b018f5fc36e0b60fa9b7585fe73d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::Kit2GoBoardSupport::setPinDirectionToTristate</definition>
+        <argsstring>(pinCtrl &amp;p)</argsstring>
+        <name>setPinDirectionToTristate</name>
+        <qualifiedname>ifx::tlx493d::Kit2GoBoardSupport::setPinDirectionToTristate</qualifiedname>
+        <param>
+          <type>pinCtrl &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>The <computeroutput>setPinDirectionToTristate</computeroutput> function sets the direction of the pin to tristate mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Structure of type <computeroutput>pinCtrl</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Kit2GoBoardSupport.hpp" line="288" column="22" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="288" bodyend="292"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">Kit2GoBoardSupport</ref> class used for custom board bring up, for control of SPI slave select lines and for controlling address lines for extended addressing of certain devices. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/Kit2GoBoardSupport.hpp" line="28" column="9" bodyfile="src/Kit2GoBoardSupport.hpp" bodystart="28" bodyend="300"/>
+    <listofallmembers>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1ac0911033a4e00e31eaad6f9d1e382a1f" prot="private" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>addressPins</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1af2da5723614153ac4dc68f3518d6ebcf" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>begin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1af431e6c2ba9e76d722e39308d79fc515" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>deinit</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1aebd47f463997ffc04460bfda210a61d1" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>enableAddress</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a278661ed31a061aaab845db3f2b981e1" prot="private" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>enablePin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a9e868c8d8f7fb8ae7c6ad429e90e02cb" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>enablePower</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1ae12a71b73b0cd73245ca6497a58b111b" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>enableSelect</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1ade5648cf2334a923a33210c10d0f60af" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>end</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1ad37e0dbab8e01fcdb9c01cb1f5df4b88" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>init</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a66a7f516daf29bef75beb326485e0c17" prot="private" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>initPin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a43d70801705c5cea385c302bf81929dd" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>Kit2GoBoardSupport</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1adad8c0c042536982ed8abf2500f319f7" prot="private" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>pinCtrl</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a6640d3268ecce6487d22df12ea211279" prot="private" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>powerPins</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a0e0a688bc5f35c68cab3dccc1921f720" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>reset</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1af9b0c7a5ccc8a35f2edcf91aa4165814" prot="private" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>selectPins</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1af21b793ccda5c4cd395a4b1b6900ba79" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>setAddressPin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1abd15913465beff576b235b3376a6daff" prot="private" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>setPinDirectionToDrive</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a7a43b018f5fc36e0b60fa9b7585fe73d" prot="private" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>setPinDirectionToTristate</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1aaab9bd1303f4b9f91fc9c6c0736f66d9" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>setPowerPin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a8aad23ae7cdf4a6e7dba03f9689204dd" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>setSelectPin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a4f78422d480bd9088ba43c1df4bce649" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>unsetAddressPin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1a35c2b2823d8526ee98d9e7a7027d5b8c" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>unsetPowerPin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1abae1fc5754e3f1b7e734d4ae7892ff7b" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>unsetSelectPin</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_kit2_go_board_support_1aceff549fef2962dfd8e8b2d6cd30f074" prot="public" virt="non-virtual"><scope>ifx::tlx493d::Kit2GoBoardSupport</scope><name>~Kit2GoBoardSupport</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

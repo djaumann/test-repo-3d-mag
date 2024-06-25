@@ -1,0 +1,27 @@
+.. _exhale_class_classifx_1_1tlx493d_1_1_kit2_go_board_support:
+
+Class Kit2GoBoardSupport
+========================
+
+- Defined in :ref:`file_src_Kit2GoBoardSupport.hpp`
+
+
+Nested Relationships
+--------------------
+
+
+Nested Types
+************
+
+- :ref:`exhale_struct_structifx_1_1tlx493d_1_1_kit2_go_board_support_1_1pin_ctrl`
+
+
+Class Documentation
+-------------------
+
+
+.. doxygenclass:: ifx::tlx493d::Kit2GoBoardSupport
+   :project: XENSIV 3D Magnetic Sensors Arduino Library
+   :members:
+   :protected-members:
+   :undoc-members:

@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_t_lx493_d___w2_b6__enums_8h" kind="file" language="C++">
+    <compoundname>TLx493D_W2B6_enums.h</compoundname>
+    <includedby refid="_t_lx493_d___w2_b6_8c" local="yes">src/TLx493D_W2B6.c</includedby>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TLx493D_W2B6_registerNames_t</name>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549ab2554e8c9cb0a15b968ffd0c6c6a269e" prot="public">
+          <name>W2B6_BX_MSBS_e</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549af986f5882e4f3324862bc0e3532cfada" prot="public">
+          <name>W2B6_BY_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549ab30a876abf10a7fdfa39fc25bb544065" prot="public">
+          <name>W2B6_BZ_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549ad5c9ae9124ed48b2d66edc13f9bf63fe" prot="public">
+          <name>W2B6_TEMP_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a795325ff7eab5260cd34ca1f919b1153" prot="public">
+          <name>W2B6_BX_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a4dad0a9ea6b3f59a294a768c75fa7d7a" prot="public">
+          <name>W2B6_BY_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a75f425a0b7e43e6c8937192a2f2d94f9" prot="public">
+          <name>W2B6_TEMP_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549afcec3a2baa166eb54af85515e9cb94bc" prot="public">
+          <name>W2B6_ID_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a32be4c23d38a2be8e3ade3e9e589f43c" prot="public">
+          <name>W2B6_BZ_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a5552b483bb0aee3b7cc4089006709706" prot="public">
+          <name>W2B6_P_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a2892cfe2f70618d9798a51af13fce7f1" prot="public">
+          <name>W2B6_FF_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549afcd0e506b5f0b2723b9c2ca3357a9c16" prot="public">
+          <name>W2B6_CF_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549aa7fd107b7937c4c52638d704fc3d0a64" prot="public">
+          <name>W2B6_T_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a20ca3e4cf146a8074939ddc14c567753" prot="public">
+          <name>W2B6_PD3_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a1da1b8bedff9881d94d0f6b2121aabba" prot="public">
+          <name>W2B6_PD0_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a8570a45c38dc0605c129ac3b13f9a1b5" prot="public">
+          <name>W2B6_FRM_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549ae55c845465e9beb1ab0f0b8c58c9767c" prot="public">
+          <name>W2B6_XL_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549aa8574d8d2e9c4a8e61871ab98330327c" prot="public">
+          <name>W2B6_XH_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549adfa9ab6338832c63a7cc42c355da1c50" prot="public">
+          <name>W2B6_YL_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a29c91658342804d71fc918f9b5c840a4" prot="public">
+          <name>W2B6_YH_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a30a57017c9495b18befd093b30a99ede" prot="public">
+          <name>W2B6_ZL_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a3b342997fc2b80f392246e24259f4b91" prot="public">
+          <name>W2B6_ZH_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a3b7ace7762c19b4d194a5678183c6424" prot="public">
+          <name>W2B6_WA_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a7082f21f6c12932bbffe0a43625238c1" prot="public">
+          <name>W2B6_WU_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a5410e7ff2fc2dde27b967a75324dae6d" prot="public">
+          <name>W2B6_XH_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549af6996ed820350f2c60c96b8bcadc3e8f" prot="public">
+          <name>W2B6_XL_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549addba3488bd2b797cfa948edda0710707" prot="public">
+          <name>W2B6_TST_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549aa6965039822f35bfca25a27b0bf0ba5d" prot="public">
+          <name>W2B6_YH_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549adcef2c6f781dc010ab2f0dde7458acb0" prot="public">
+          <name>W2B6_YL_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a62a8f60dd0a6a39fda76911622ed276d" prot="public">
+          <name>W2B6_PH_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549ad8ebff15eebbb358c64fa342d26d3eda" prot="public">
+          <name>W2B6_ZH_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a4c6236550d53f1f43af3d9b364f3f4ac" prot="public">
+          <name>W2B6_ZL_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a957d03725dca65f1bb35fec3e64cef4b" prot="public">
+          <name>W2B6_DT_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a020f23df2d82da7f3631a1f8c56708e8" prot="public">
+          <name>W2B6_AM_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a2dc0baed4cd18a67987d841c41aaa7e6" prot="public">
+          <name>W2B6_TRIG_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a6251767fcb0d6db4fba4cb8034f1fa26" prot="public">
+          <name>W2B6_X2_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549affe1fa442fcac569866cffb922a4bb1d" prot="public">
+          <name>W2B6_TL_MAG_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a6bd2cfebd40f83e5545f82ba6f750c7c" prot="public">
+          <name>W2B6_CP_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a2aea16fdf5fc4e0810c24b22f4b74cad" prot="public">
+          <name>W2B6_FP_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549ad95f3122c7226937d90de079081b8f97" prot="public">
+          <name>W2B6_IICADR_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a3fdbca8c206aded723d486bd0bbe8fe0" prot="public">
+          <name>W2B6_PR_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a4658a50c56b6d2c3d63f354b3909f1b0" prot="public">
+          <name>W2B6_CA_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a9f749152593668a6a8cb6a89c9a416a5" prot="public">
+          <name>W2B6_INT_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a87440012f5cfde5d8060fd8875ef7e85" prot="public">
+          <name>W2B6_MODE_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549af96cc116849cdd16269e2b8b867a8834" prot="public">
+          <name>W2B6_PRD_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549abe634329f22ad3a94c9d9b67dc55593b" prot="public">
+          <name>W2B6_TYPE_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a658be54fce092dd364cebc3da7978549a30b35de99baea72f8ef25ff0e09dc7af" prot="public">
+          <name>W2B6_HWV_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_W2B6_enums.h" line="9" column="1" bodyfile="src/TLx493D_W2B6_enums.h" bodystart="9" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="enum" id="_t_lx493_d___w2_b6__enums_8h_1a82944f5c1f91ba97ca1b3c90da5d1c37" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TLx493D_W2B6_specialRegisters_t</name>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a82944f5c1f91ba97ca1b3c90da5d1c37a7fd2b4807ce5845963e1bc10fbe192dd" prot="public">
+          <name>W2B6_TEMP2_REG_e</name>
+          <initializer>= 0x05</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a82944f5c1f91ba97ca1b3c90da5d1c37a60893e7267fcb421c5c4d0e57b1f3155" prot="public">
+          <name>W2B6_DIAG_REG_e</name>
+          <initializer>= 0x06</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a82944f5c1f91ba97ca1b3c90da5d1c37aca2c08287a6993d81b8c507cee4db4c0" prot="public">
+          <name>W2B6_CONFIG_REG_e</name>
+          <initializer>= 0x10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a82944f5c1f91ba97ca1b3c90da5d1c37a760472c1e33a4e0dab5c3312db848686" prot="public">
+          <name>W2B6_MOD1_REG_e</name>
+          <initializer>= 0x11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a82944f5c1f91ba97ca1b3c90da5d1c37a7c8a6056661b8389107c94839f43e8a8" prot="public">
+          <name>W2B6_MOD2_REG_e</name>
+          <initializer>= 0x13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___w2_b6__enums_8h_1a82944f5c1f91ba97ca1b3c90da5d1c37a1ac72284822275e38e53b6d90a31bc7c" prot="public">
+          <name>W2B6_VER_REG_e</name>
+          <initializer>= 0x16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_W2B6_enums.h" line="60" column="1" bodyfile="src/TLx493D_W2B6_enums.h" bodystart="60" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TLX493D_W2B6_ENUMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TLX493D_W2B6_ENUMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>Listing<sp/>of<sp/>all<sp/>register<sp/>names<sp/>for<sp/>this<sp/>sensor.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>Used<sp/>to<sp/>index<sp/>&quot;TLx493D_W2B6_regDef&quot;<sp/>defined<sp/>below_e,<sp/>so<sp/>index<sp/>values<sp/>must<sp/>match<sp/>!</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_BX_MSBS_e<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_BY_MSBS_e,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_BZ_MSBS_e,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_TEMP_MSBS_e,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_BX_LSBS_e,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_BY_LSBS_e,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_TEMP_LSBS_e,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_ID_e,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_BZ_LSBS_e,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_P_e,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_FF_e,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_CF_e,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_T_e,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_PD3_e,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_PD0_e,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_FRM_e,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_XL_MSBS_e,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_XH_MSBS_e,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_YL_MSBS_e,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_YH_MSBS_e,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_ZL_MSBS_e,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_ZH_MSBS_e,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_WA_e,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_WU_e,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_XH_LSBS_e,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_XL_LSBS_e,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_TST_e,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_YH_LSBS_e,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_YL_LSBS_e,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_PH_e,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_ZH_LSBS_e,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_ZL_LSBS_e,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_DT_e,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_AM_e,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_TRIG_e,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_X2_e,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_TL_MAG_e,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_CP_e,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_FP_e,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_IICADR_e,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_PR_e,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_CA_e,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_INT_e,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_MODE_e,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_PRD_e,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_TYPE_e,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_HWV_e,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}<sp/>TLx493D_W2B6_registerNames_t;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_TEMP2_REG_e<sp/><sp/>=<sp/>0x05,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_DIAG_REG_e<sp/><sp/><sp/>=<sp/>0x06,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_CONFIG_REG_e<sp/>=<sp/>0x10,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_MOD1_REG_e<sp/><sp/><sp/>=<sp/>0x11,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_MOD2_REG_e<sp/><sp/><sp/>=<sp/>0x13,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>W2B6_VER_REG_e<sp/><sp/><sp/><sp/>=<sp/>0x16,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}<sp/>TLx493D_W2B6_specialRegisters_t;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>TLX493D_W2B6_ENUMS_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/TLx493D_W2B6_enums.h"/>
+  </compounddef>
+</doxygen>

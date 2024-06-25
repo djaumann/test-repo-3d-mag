@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p3_b6_8h_1a158d4d853977e00183431080b230b706:
+
+Function TLx493D_P3B6_selectIICAddress(const TLx493D_t \*, TLx493D_IICAddressType_t)
+====================================================================================
+
+- Defined in :ref:`file_src_TLx493D_P3B6.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P3B6_selectIICAddress(const TLx493D_t *, TLx493D_IICAddressType_t)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

@@ -1,0 +1,14 @@
+.. _exhale_variable__logger_8cpp_1a4e5187a52772a9a7a00f26e735e16917:
+
+Variable ifx::tlx493d::LOGGER_BUFFER_SIZE
+=========================================
+
+- Defined in :ref:`file_src_Logger.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: ifx::tlx493d::LOGGER_BUFFER_SIZE
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

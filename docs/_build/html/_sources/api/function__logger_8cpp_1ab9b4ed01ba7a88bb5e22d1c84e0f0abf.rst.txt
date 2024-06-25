@@ -1,0 +1,14 @@
+.. _exhale_function__logger_8cpp_1ab9b4ed01ba7a88bb5e22d1c84e0f0abf:
+
+Function logInfo(const char \*, ...)
+====================================
+
+- Defined in :ref:`file_src_Logger.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: logInfo(const char *, ...)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

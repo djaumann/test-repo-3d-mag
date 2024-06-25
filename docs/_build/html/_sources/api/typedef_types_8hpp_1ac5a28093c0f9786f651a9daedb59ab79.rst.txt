@@ -1,0 +1,14 @@
+.. _exhale_typedef_types_8hpp_1ac5a28093c0f9786f651a9daedb59ab79:
+
+Typedef TLx493D_Kit2GoBoardSupportObject_t
+==========================================
+
+- Defined in :ref:`file_src_types.hpp`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_Kit2GoBoardSupportObject_t
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceifx_1_1tlx493d" kind="namespace" language="C++">
+    <compoundname>ifx::tlx493d</compoundname>
+    <innerclass refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" prot="public">ifx::tlx493d::Kit2GoBoardSupport</innerclass>
+    <innerclass refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" prot="public">ifx::tlx493d::SPIClassWrapper</innerclass>
+    <innerclass refid="classifx_1_1tlx493d_1_1_t_lx493_d" prot="public">ifx::tlx493d::TLx493D</innerclass>
+    <innerclass refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_s_p_i_class_wrapper_00_01sensor_type_01_4" prot="public">ifx::tlx493d::TLx493D&lt; BoardSupport, SPIClassWrapper, sensorType &gt;</innerclass>
+    <innerclass refid="classifx_1_1tlx493d_1_1_t_lx493_d_3_01_board_support_00_01_two_wire_wrapper_00_01sensor_type_01_4" prot="public">ifx::tlx493d::TLx493D&lt; BoardSupport, TwoWireWrapper, sensorType &gt;</innerclass>
+    <innerclass refid="classifx_1_1tlx493d_1_1_t_lx493_d_base" prot="public">ifx::tlx493d::TLx493DBase</innerclass>
+    <innerclass refid="classifx_1_1tlx493d_1_1_two_wire_wrapper" prot="public">ifx::tlx493d::TwoWireWrapper</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="types_8hpp_1a30b8cf49b5f5312aa5d2b7896c8cef1f" prot="public" static="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">TLx493D</ref>&lt; <ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">Kit2GoBoardSupport</ref>, <ref refid="classifx_1_1tlx493d_1_1_two_wire_wrapper" kindref="compound">TwoWireWrapper</ref>, TLx493D_A1B6_e &gt;</type>
+        <definition>using ifx::tlx493d::TLx493D_A1B6 = typedef TLx493D&lt;Kit2GoBoardSupport, TwoWireWrapper, TLx493D_A1B6_e&gt;</definition>
+        <argsstring></argsstring>
+        <name>TLx493D_A1B6</name>
+        <qualifiedname>ifx::tlx493d::TLx493D_A1B6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Definiton of the specific sensor constructors. This makes instantiation of the sensors easier for the user, since they can use a &quot;regular&quot; constructor call, instead of using the template notation. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/types.hpp" line="51" column="9" bodyfile="src/types.hpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="types_8hpp_1af6603fda0f9592ce97a29e3bcc504ec9" prot="public" static="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">TLx493D</ref>&lt; <ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">Kit2GoBoardSupport</ref>, <ref refid="classifx_1_1tlx493d_1_1_two_wire_wrapper" kindref="compound">TwoWireWrapper</ref>, TLx493D_A2B6_e &gt;</type>
+        <definition>using ifx::tlx493d::TLx493D_A2B6 = typedef TLx493D&lt;Kit2GoBoardSupport, TwoWireWrapper, TLx493D_A2B6_e&gt;</definition>
+        <argsstring></argsstring>
+        <name>TLx493D_A2B6</name>
+        <qualifiedname>ifx::tlx493d::TLx493D_A2B6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/types.hpp" line="52" column="9" bodyfile="src/types.hpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="types_8hpp_1ab47bde58ad10b5d6871f4444c6f92160" prot="public" static="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">TLx493D</ref>&lt; <ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">Kit2GoBoardSupport</ref>, <ref refid="classifx_1_1tlx493d_1_1_two_wire_wrapper" kindref="compound">TwoWireWrapper</ref>, TLx493D_P2B6_e &gt;</type>
+        <definition>using ifx::tlx493d::TLx493D_P2B6 = typedef TLx493D&lt;Kit2GoBoardSupport, TwoWireWrapper, TLx493D_P2B6_e&gt;</definition>
+        <argsstring></argsstring>
+        <name>TLx493D_P2B6</name>
+        <qualifiedname>ifx::tlx493d::TLx493D_P2B6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/types.hpp" line="53" column="9" bodyfile="src/types.hpp" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="types_8hpp_1ae500f2090dc0a0067268b3e0cf85d665" prot="public" static="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">TLx493D</ref>&lt; <ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">Kit2GoBoardSupport</ref>, <ref refid="classifx_1_1tlx493d_1_1_two_wire_wrapper" kindref="compound">TwoWireWrapper</ref>, TLx493D_W2B6_e &gt;</type>
+        <definition>using ifx::tlx493d::TLx493D_W2B6 = typedef TLx493D&lt;Kit2GoBoardSupport, TwoWireWrapper, TLx493D_W2B6_e&gt;</definition>
+        <argsstring></argsstring>
+        <name>TLx493D_W2B6</name>
+        <qualifiedname>ifx::tlx493d::TLx493D_W2B6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/types.hpp" line="54" column="9" bodyfile="src/types.hpp" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="types_8hpp_1a2607b670a495445641cefa695721ecb9" prot="public" static="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">TLx493D</ref>&lt; <ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">Kit2GoBoardSupport</ref>, <ref refid="classifx_1_1tlx493d_1_1_two_wire_wrapper" kindref="compound">TwoWireWrapper</ref>, TLx493D_W2BW_e &gt;</type>
+        <definition>using ifx::tlx493d::TLx493D_W2BW = typedef TLx493D&lt;Kit2GoBoardSupport, TwoWireWrapper, TLx493D_W2BW_e&gt;</definition>
+        <argsstring></argsstring>
+        <name>TLx493D_W2BW</name>
+        <qualifiedname>ifx::tlx493d::TLx493D_W2BW</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/types.hpp" line="55" column="9" bodyfile="src/types.hpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="types_8hpp_1aabd5bd616e121791d25c8f9ef04bc6e7" prot="public" static="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">TLx493D</ref>&lt; <ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">Kit2GoBoardSupport</ref>, <ref refid="classifx_1_1tlx493d_1_1_two_wire_wrapper" kindref="compound">TwoWireWrapper</ref>, TLx493D_P3B6_e &gt;</type>
+        <definition>using ifx::tlx493d::TLx493D_P3B6 = typedef TLx493D&lt;Kit2GoBoardSupport, TwoWireWrapper, TLx493D_P3B6_e&gt;</definition>
+        <argsstring></argsstring>
+        <name>TLx493D_P3B6</name>
+        <qualifiedname>ifx::tlx493d::TLx493D_P3B6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/types.hpp" line="56" column="9" bodyfile="src/types.hpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="types_8hpp_1a0616d6baa98f305d0cac8b23dc34ac48" prot="public" static="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">TLx493D</ref>&lt; <ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">Kit2GoBoardSupport</ref>, <ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" kindref="compound">SPIClassWrapper</ref>, TLx493D_P3I8_e &gt;</type>
+        <definition>using ifx::tlx493d::TLx493D_P3I8 = typedef TLx493D&lt;Kit2GoBoardSupport, SPIClassWrapper, TLx493D_P3I8_e&gt;</definition>
+        <argsstring></argsstring>
+        <name>TLx493D_P3I8</name>
+        <qualifiedname>ifx::tlx493d::TLx493D_P3I8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/types.hpp" line="59" column="9" bodyfile="src/types.hpp" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_i_i_c_using_two_wire_8cpp_1a753397a99c4b185d12a1474ea5cdead0" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct_t_lx493_d___com_library_functions__t" kindref="compound">TLx493D_ComLibraryFunctions_t</ref></type>
+        <definition>TLx493D_ComLibraryFunctions_t ifx::tlx493d::comLibFuncs_iic</definition>
+        <argsstring></argsstring>
+        <name>comLibFuncs_iic</name>
+        <qualifiedname>ifx::tlx493d::comLibFuncs_iic</qualifiedname>
+        <initializer>= {
+                                                    .init           = { .iic_init           = initIIC },
+                                                    .deinit         = { .iic_deinit         = deinitIIC },
+                                                    .transfer       = { .iic_transfer       = transferIIC },
+                                                    .setReadAddress = { .iic_setReadAddress = setReadAddressIIC },
+                                            }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/IICUsingTwoWire.cpp" line="50" column="47" bodyfile="src/IICUsingTwoWire.cpp" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="variable" id="_logger_8cpp_1a4e5187a52772a9a7a00f26e735e16917" prot="public" static="no" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">const</ref> <ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint16_t</ref></type>
+        <definition>const uint16_t ifx::tlx493d::LOGGER_BUFFER_SIZE</definition>
+        <argsstring></argsstring>
+        <name>LOGGER_BUFFER_SIZE</name>
+        <qualifiedname>ifx::tlx493d::LOGGER_BUFFER_SIZE</qualifiedname>
+        <initializer>= 512<ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">U</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Logger.cpp" line="19" column="24" bodyfile="src/Logger.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_s_p_i_using_s_p_i_class_8cpp_1a1cdd5eed8c0970c27c01efadc62fec63" prot="public" static="yes" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+        <definition>uint8_t ifx::tlx493d::spiReadAddress</definition>
+        <argsstring></argsstring>
+        <name>spiReadAddress</name>
+        <qualifiedname>ifx::tlx493d::spiReadAddress</qualifiedname>
+        <initializer>= 0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIUsingSPIClass.cpp" line="20" column="28" bodyfile="src/SPIUsingSPIClass.cpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_s_p_i_using_s_p_i_class_8cpp_1a787719298abafff5852bc29b1e0c9046" prot="public" static="yes" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPISettings</ref></type>
+        <definition>SPISettings ifx::tlx493d::settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <qualifiedname>ifx::tlx493d::settings</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIUsingSPIClass.cpp" line="21" column="28" bodyfile="src/SPIUsingSPIClass.cpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_s_p_i_using_s_p_i_class_8cpp_1a8d0cbad12704c9a2199536b9d80a171b" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct_t_lx493_d___com_library_functions__t" kindref="compound">TLx493D_ComLibraryFunctions_t</ref></type>
+        <definition>TLx493D_ComLibraryFunctions_t ifx::tlx493d::comLibFuncs_spi</definition>
+        <argsstring></argsstring>
+        <name>comLibFuncs_spi</name>
+        <qualifiedname>ifx::tlx493d::comLibFuncs_spi</qualifiedname>
+        <initializer>= {
+                                                    .init           = { .spi_init           = initSPI },
+                                                    .deinit         = { .spi_deinit         = deinitSPI },
+                                                    .transfer       = { .spi_transfer       = transferSPI },
+                                                    .setReadAddress = { .spi_setReadAddress = setReadAddressSPI },
+                                            }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIUsingSPIClass.cpp" line="75" column="47" bodyfile="src/SPIUsingSPIClass.cpp" bodystart="75" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_board_support_using_kit2_go_8cpp_1aabafa7daca817f6e2aadd684b6d2382d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+        <definition>bool ifx::tlx493d::initBoardSupport</definition>
+        <argsstring>(TLx493D_t *sensor, Kit2GoBoardSupport &amp;bsc)</argsstring>
+        <name>initBoardSupport</name>
+        <qualifiedname>ifx::tlx493d::initBoardSupport</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">Kit2GoBoardSupport</ref> &amp;</type>
+          <declname>bsc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BoardSupportUsingKit2Go.cpp" line="15" column="14" bodyfile="src/BoardSupportUsingKit2Go.cpp" bodystart="15" bodyend="19" declfile="src/BoardSupportUsingKit2Go.hpp" declline="30" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="_communication_interface_8cpp_1ad3fb8f88e419e4fce2a5da1f9d46e467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::deinitCommunication</definition>
+        <argsstring>(TLx493D_t *sensor, bool executeDeinit)</argsstring>
+        <name>deinitCommunication</name>
+        <qualifiedname>ifx::tlx493d::deinitCommunication</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>executeDeinit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/CommunicationInterface.cpp" line="36" column="14" bodyfile="src/CommunicationInterface.cpp" bodystart="36" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="_i_i_c_using_two_wire_8cpp_1ac4a81213bac7bf4d413749ce7ba0e7bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+        <definition>static bool ifx::tlx493d::initIIC</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>initIIC</name>
+        <qualifiedname>ifx::tlx493d::initIIC</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/IICUsingTwoWire.cpp" line="22" column="21" bodyfile="src/IICUsingTwoWire.cpp" bodystart="22" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="_i_i_c_using_two_wire_8cpp_1ac70a5073b06cbf38be0f1e79d5aa23f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+        <definition>static bool ifx::tlx493d::deinitIIC</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>deinitIIC</name>
+        <qualifiedname>ifx::tlx493d::deinitIIC</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/IICUsingTwoWire.cpp" line="30" column="21" bodyfile="src/IICUsingTwoWire.cpp" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="_i_i_c_using_two_wire_8cpp_1a71b9919b35fb385f87dca73ae5bcd06b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+        <definition>static bool ifx::tlx493d::transferIIC</definition>
+        <argsstring>(TLx493D_t *sensor, uint8_t *txBuffer, uint8_t txLen, uint8_t *rxBuffer, uint8_t rxLen)</argsstring>
+        <name>transferIIC</name>
+        <qualifiedname>ifx::tlx493d::transferIIC</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref> *</type>
+          <declname>txBuffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>txLen</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref> *</type>
+          <declname>rxBuffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>rxLen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/IICUsingTwoWire.cpp" line="37" column="21" bodyfile="src/IICUsingTwoWire.cpp" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="_i_i_c_using_two_wire_8cpp_1a6950d804c6d89d71dc196388affff9dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>static void ifx::tlx493d::setReadAddressIIC</definition>
+        <argsstring>(TLx493D_t *sensor, uint8_t address)</argsstring>
+        <name>setReadAddressIIC</name>
+        <qualifiedname>ifx::tlx493d::setReadAddressIIC</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/IICUsingTwoWire.cpp" line="43" column="21" bodyfile="src/IICUsingTwoWire.cpp" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="_i_i_c_using_two_wire_8cpp_1aaeea8449534f65751775ec666406012e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+        <definition>bool ifx::tlx493d::initCommunication</definition>
+        <argsstring>(TLx493D_t *sensor, TwoWire &amp;tw, TLx493D_IICAddressType_t iicAdr, bool executeInit)</argsstring>
+        <name>initCommunication</name>
+        <qualifiedname>ifx::tlx493d::initCommunication</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">TwoWire</ref> &amp;</type>
+          <declname>tw</declname>
+        </param>
+        <param>
+          <type>TLx493D_IICAddressType_t</type>
+          <declname>iicAdr</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>executeInit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/IICUsingTwoWire.cpp" line="75" column="14" bodyfile="src/IICUsingTwoWire.cpp" bodystart="75" bodyend="91" declfile="src/IICUsingTwoWire.hpp" declline="33" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="_logger_8cpp_1a7242601d27b8f8a3fda25bab1090b057" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>static void ifx::tlx493d::logMessage</definition>
+        <argsstring>(const char *prefix, const char *format, va_list vaList)</argsstring>
+        <name>logMessage</name>
+        <qualifiedname>ifx::tlx493d::logMessage</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">const</ref> <ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">char</ref> *</type>
+          <declname>prefix</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">const</ref> <ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">char</ref> *</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">va_list</ref></type>
+          <declname>vaList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/Logger.cpp" line="21" column="21" bodyfile="src/Logger.cpp" bodystart="21" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="_s_p_i_using_s_p_i_class_8cpp_1ab7c60e17d8fe916c0054af07e3db5f30" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+        <definition>static bool ifx::tlx493d::initSPI</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>initSPI</name>
+        <qualifiedname>ifx::tlx493d::initSPI</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIUsingSPIClass.cpp" line="31" column="21" bodyfile="src/SPIUsingSPIClass.cpp" bodystart="31" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="_s_p_i_using_s_p_i_class_8cpp_1a48bd33f34c3375f7df321f7fdfadb89f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+        <definition>static bool ifx::tlx493d::deinitSPI</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>deinitSPI</name>
+        <qualifiedname>ifx::tlx493d::deinitSPI</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIUsingSPIClass.cpp" line="45" column="21" bodyfile="src/SPIUsingSPIClass.cpp" bodystart="45" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="_s_p_i_using_s_p_i_class_8cpp_1a54ff20e9ec23412acafddbaeafff75b9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+        <definition>static bool ifx::tlx493d::transferSPI</definition>
+        <argsstring>(TLx493D_t *sensor, uint8_t *txBuffer, uint8_t txLen, uint8_t *rxBuffer, uint8_t rxLen)</argsstring>
+        <name>transferSPI</name>
+        <qualifiedname>ifx::tlx493d::transferSPI</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref> *</type>
+          <declname>txBuffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>txLen</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref> *</type>
+          <declname>rxBuffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>rxLen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIUsingSPIClass.cpp" line="52" column="21" bodyfile="src/SPIUsingSPIClass.cpp" bodystart="52" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="_s_p_i_using_s_p_i_class_8cpp_1a3ca82230917fabde1ad03daafc92d408" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>static void ifx::tlx493d::setReadAddressSPI</definition>
+        <argsstring>(TLx493D_t *sensor, uint8_t address)</argsstring>
+        <name>setReadAddressSPI</name>
+        <qualifiedname>ifx::tlx493d::setReadAddressSPI</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIUsingSPIClass.cpp" line="68" column="21" bodyfile="src/SPIUsingSPIClass.cpp" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="_s_p_i_using_s_p_i_class_8cpp_1aaae1626775e7e7cc9b262ab972c3ac85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+        <definition>bool ifx::tlx493d::initCommunication</definition>
+        <argsstring>(TLx493D_t *sensor, SPIClass &amp;spi, bool executeInit=false, uint32_t clockFreq=200000, uint8_t bitOrder=MSBFIRST, uint8_t dataMode=SPI_MODE2)</argsstring>
+        <name>initCommunication</name>
+        <qualifiedname>ifx::tlx493d::initCommunication</qualifiedname>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPIClass</ref> &amp;</type>
+          <declname>spi</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+          <declname>executeInit</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">false</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint32_t</ref></type>
+          <declname>clockFreq</declname>
+          <defval>200000</defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>bitOrder</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">MSBFIRST</ref></defval>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>dataMode</declname>
+          <defval><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPI_MODE2</ref></defval>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>initCommunication</computeroutput> is used to initialize the communication interface of the sensor. In this case the SPI interface. The communication interfaces is determined automatically depending on the chosen sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the <ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">TLx493D</ref> sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">spi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer the used SPIClass instance. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">executeInit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean flag which determines whether the initialization is executed or not. The default value is <bold>false</bold>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">clockFreq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Desired clock frequency of the SPI-bus. The default value is <bold>200000</bold>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">bitOrder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Determines the desired bit order of the communication. MSB or LSB first. Default value is <bold>MSBFIRST</bold>. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">dataMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Determines the desired data mode for the SPI communication. The default values is <bold>SPI_MODE2</bold>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A boolean value which indicates if the initialization was successful or not. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIUsingSPIClass.cpp" line="105" column="14" bodyfile="src/SPIUsingSPIClass.cpp" bodystart="105" bodyend="124" declfile="src/SPIUsingSPIClass.hpp" declline="36" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/BoardSupportUsingKit2Go.cpp" line="14" column="5"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_t_lx493_d___a1_b6__enums_8h" kind="file" language="C++">
+    <compoundname>TLx493D_A1B6_enums.h</compoundname>
+    <includedby refid="_t_lx493_d___a1_b6_8c" local="yes">src/TLx493D_A1B6.c</includedby>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TLx493D_A1B6_registerNames_te</name>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da0893a8ff55194186b52b0d97ab763785" prot="public">
+          <name>A1B6_BX_MSB_e</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3dabe91440c8a5f8f639df8497d53fdd81d" prot="public">
+          <name>A1B6_BY_MSB_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3dac86abd6de875ad9946f0806693284b52" prot="public">
+          <name>A1B6_BZ_MSB_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da3878fc7675980e7868dfa3c2561e4599" prot="public">
+          <name>A1B6_TEMP_MSB_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da1f565865957145f1338b1d7e4e99f4e8" prot="public">
+          <name>A1B6_FRM_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3dac434883a3064580992126aa85c069875" prot="public">
+          <name>A1B6_CH_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da7621f088eef760c80e192e0e86e9a225" prot="public">
+          <name>A1B6_BX_LSB_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da8f8b23f75d42b3180117fb599e36a076" prot="public">
+          <name>A1B6_BY_LSB_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da6297f1e418687c7f18957c6970a1a5a0" prot="public">
+          <name>A1B6_T_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3daa7629074bf739f7d24235e79fa1bdbb4" prot="public">
+          <name>A1B6_FF_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3dae6f11ced79ae2cbc6722441491568f27" prot="public">
+          <name>A1B6_PD_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da6e4cf549bdfa368ec79854ea2738523c" prot="public">
+          <name>A1B6_BZ_LSB_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da7081d8e9b388fa7baf7029813732a867" prot="public">
+          <name>A1B6_TEMP_LSB_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3daadfa2e38f70850d92430ac9cca577d34" prot="public">
+          <name>A1B6_R_RES_1_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3dac8388025b03e3cabcc6f00747bfcff9e" prot="public">
+          <name>A1B6_R_RES_2_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3daa4dfee9232583bc366c3d732fd8c03f4" prot="public">
+          <name>A1B6_R_RES_3_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3dab7cbe96a79eab294c806720010374a05" prot="public">
+          <name>A1B6_W_RES_0_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3dae1c5dba4a2a89e008392937d6af13d95" prot="public">
+          <name>A1B6_P_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da9d67d5f8ef585d91ec7cf93092c2e128" prot="public">
+          <name>A1B6_IICADR_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da5222b5a154e3f7eae479a2cc9d7d862a" prot="public">
+          <name>A1B6_W_RES_1_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da4fe12df00083342e3b19813023fce043" prot="public">
+          <name>A1B6_INT_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da254786a0e18404224672508604e33679" prot="public">
+          <name>A1B6_FAST_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da501bfcce1f12bb2ebc70995a8a1d6c42" prot="public">
+          <name>A1B6_LOW_POWER_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3daffd39e56585a697de89cf9699a048611" prot="public">
+          <name>A1B6_W_RES_2_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3daa440317e738cbd8d4f292a3b11c04efd" prot="public">
+          <name>A1B6_Temp_NEN_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da5cdae1298e9490870168663c1847a571" prot="public">
+          <name>A1B6_LP_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3dab4ec0318327d0b8b114ee571761c1b36" prot="public">
+          <name>A1B6_PT_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1adf2830cd8b75eddc230ead1257f41f3da2423423030c3b9869eea6768a8498515" prot="public">
+          <name>A1B6_W_RES_3_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A1B6_enums.h" line="9" column="1" bodyfile="src/TLx493D_A1B6_enums.h" bodystart="9" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="enum" id="_t_lx493_d___a1_b6__enums_8h_1a69bc2233c7f4fa325105915ab40217e3" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TLx493D_A1B6_SpecialRegisters_te</name>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1a69bc2233c7f4fa325105915ab40217e3a22833fd2321e3148b482aa53c182fc83" prot="public">
+          <name>A1B6_MOD1_REG_e</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___a1_b6__enums_8h_1a69bc2233c7f4fa325105915ab40217e3a6a2b2414be014b2afcfe4f41348b1d52" prot="public">
+          <name>A1B6_MOD2_REG_e</name>
+          <initializer>= 0x03</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A1B6_enums.h" line="41" column="1" bodyfile="src/TLx493D_A1B6_enums.h" bodystart="41" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TLX493D_A1B6_ENUMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TLX493D_A1B6_ENUMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>Listing<sp/>of<sp/>all<sp/>register<sp/>names<sp/>for<sp/>this<sp/>sensor.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>Used<sp/>to<sp/>index<sp/>&quot;TLx493D_A1B6_regDef&quot;<sp/>defined<sp/>below,<sp/>so<sp/>index<sp/>values<sp/>must<sp/>match<sp/>!</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_BX_MSB_e<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_BY_MSB_e,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_BZ_MSB_e,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_TEMP_MSB_e,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_FRM_e,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_CH_e,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_BX_LSB_e,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_BY_LSB_e,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_T_e,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_FF_e,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_PD_e,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_BZ_LSB_e,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_TEMP_LSB_e,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_R_RES_1_e,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_R_RES_2_e,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_R_RES_3_e,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_W_RES_0_e,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_P_e,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_IICADR_e,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_W_RES_1_e,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_INT_e,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_FAST_e,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_LOW_POWER_e,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_W_RES_2_e,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_Temp_NEN_e,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_LP_e,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_PT_e,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_W_RES_3_e,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}<sp/>TLx493D_A1B6_registerNames_te;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_MOD1_REG_e<sp/><sp/><sp/>=<sp/>0x01,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>A1B6_MOD2_REG_e<sp/><sp/><sp/>=<sp/>0x03,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}<sp/>TLx493D_A1B6_SpecialRegisters_te;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>TLX493D_A1B6_ENUMS_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/TLx493D_A1B6_enums.h"/>
+  </compounddef>
+</doxygen>

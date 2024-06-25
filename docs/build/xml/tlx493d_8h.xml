@@ -1,0 +1,2183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="tlx493d_8h" kind="file" language="C++">
+    <compoundname>tlx493d.h</compoundname>
+    <includes refid="tlx493d__types_8h" local="yes">tlx493d_types.h</includes>
+    <includedby refid="_t_lx493_d_8hpp" local="yes">src/TLx493D.hpp</includedby>
+    <includedby refid="_t_lx493_d_base_8hpp" local="yes">src/TLx493DBase.hpp</includedby>
+    <includedby refid="_t_lx493_d__inc_8hpp" local="yes">src/TLx493D_inc.hpp</includedby>
+    <includedby refid="tlx493d_8c" local="yes">src/tlx493d.c</includedby>
+    <includedby refid="tlx493d__common_8c" local="yes">src/tlx493d_common.c</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>CommunicationInterface.h</label>
+        <link refid="_communication_interface_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>pal.h</label>
+        <link refid="pal_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tlx493d.h</label>
+        <link refid="tlx493d_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tlx493d_types.h</label>
+        <link refid="tlx493d__types_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/TLx493D.hpp</label>
+        <link refid="_t_lx493_d_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>src/TLx493DBase.hpp</label>
+        <link refid="_t_lx493_d_base_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/TLx493D_inc.hpp</label>
+        <link refid="_t_lx493_d__inc_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>src/tlx493d.h</label>
+        <link refid="tlx493d_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/types.hpp</label>
+        <link refid="types_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="tlx493d_8h_1a4163f0874af2f5360558c6c3fce5b1e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_init</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_SupportedSensorType_t sensorType)</argsstring>
+        <name>tlx493d_init</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_SupportedSensorType_t</type>
+          <declname>sensorType</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_init</computeroutput> initializes a TLx493D sensor based on the specified sensor type. It is calling the initialization function of the corresponding sensor, depending on the sensor type that is passed to the function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Project C includes - common to all sensors </para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure, which represents the sensor being initialized. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">sensorType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The sensorType parameter is of type TLx493D_SupportedSensorType_t, which is an enumeration representing the supported sensor types for the TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_init</computeroutput> returns a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="27" column="6" bodyfile="src/tlx493d.c" bodystart="26" bodyend="51" declfile="src/tlx493d.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a8496fe017c7a42c475b17aadc6773144" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_deinit</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_deinit</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_deinit</computeroutput> is used to deinitialize a TLx493D sensor. It frees all allocated memory which was allocated through the initialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure, which represents the sensor being de-initialized.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_deinit</computeroutput> returns a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="39" column="6" bodyfile="src/tlx493d.c" bodystart="54" bodyend="56" declfile="src/tlx493d.h" declline="39" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a97cc879b8a5a6bb3a878fd700ad25a31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_readRegisters</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_readRegisters</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_readRegisters</computeroutput> reads registers from a TLx493D sensor. It is reading out the complete register map of the sensor and is saving the current values to the &quot;internal&quot; register map of the sensor object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_readRegisters</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="52" column="6" bodyfile="src/tlx493d.c" bodystart="59" bodyend="61" declfile="src/tlx493d.h" declline="52" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1ad69aac2343d29d4355450fa1d3bef319" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_getRawTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *temperature)</argsstring>
+        <name>tlx493d_getRawTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_getRawTemperature</computeroutput> retrieves the raw temperature from a TLx493D sensor. It is reading out the temperature registers of the sensor and is returning its value as LSB. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">temperature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to an int16_t variable where the raw temperature value will be stored.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_getRawTemperature</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="66" column="6" bodyfile="src/tlx493d.c" bodystart="64" bodyend="66" declfile="src/tlx493d.h" declline="66" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1ad5277b68c058856b116aa9ca6d602566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_getRawMagneticField</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *x, int16_t *y, int16_t *z)</argsstring>
+        <name>tlx493d_getRawMagneticField</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_getRawMagneticField</computeroutput> retrieves the raw magnetic field values from a TLx493D sensor. It is reading the magnetic field value registers of the sensor and is returning them as LSB for the X, Y, Z-direction. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure that represents the sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the raw magnetic field value along the x-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the raw magnetic field value along the y-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the raw magnetic field value along the z-axis will be stored.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_getRawMagneticField</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="83" column="6" bodyfile="src/tlx493d.c" bodystart="69" bodyend="71" declfile="src/tlx493d.h" declline="83" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a4e571c511f5baa9eac086a86a5a9cfa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_getRawMagneticFieldAndTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *x, int16_t *y, int16_t *z, int16_t *temperature)</argsstring>
+        <name>tlx493d_getRawMagneticFieldAndTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_getRawMagneticFieldAndTemperature</computeroutput> retrieves the raw magnetic field and temperature values from a TLx493D sensor. It is reading out the magnetic field value registers, as well as the temperature value registers of the sensor and is returning them as LSB. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure that represents the sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the raw magnetic field value along the x-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the raw magnetic field value along the y-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the raw magnetic field value along the z-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">temperature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the raw temperature value will be stored.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_getRawMagneticFieldAndTemperature</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="101" column="6" bodyfile="src/tlx493d.c" bodystart="74" bodyend="76" declfile="src/tlx493d.h" declline="101" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a41026f7b3d45cccf65c7aaff1785458d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_getTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, double *temperature)</argsstring>
+        <name>tlx493d_getTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_getTemperature</computeroutput> retrieves the temperature from a TLx493D sensor in °C. It is reading out the temperature registers of the sensor and converts the values into °C with the formula that is provided in the datasheet of the sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">temperature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a double variable where the temperature value will be stored in °C.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_getTemperature</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="116" column="6" bodyfile="src/tlx493d.c" bodystart="79" bodyend="81" declfile="src/tlx493d.h" declline="116" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a042f63ba2b82b0359e74b188469c5fc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_getMagneticField</definition>
+        <argsstring>(TLx493D_t *sensor, double *x, double *y, double *z)</argsstring>
+        <name>tlx493d_getMagneticField</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_getMagneticField</computeroutput> retrieves the magnetic field values from a TLx493D sensor. It is reading out the magnetic field value registers of the sensor and is converting the retrieved data into values in mT for each magnetic field axis. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the magnetic field value in mT along the x-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the magnetic field value in mT along the y-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the magnetic field value in mT along the z-axis will be stored.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_getMagneticField</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="132" column="6" bodyfile="src/tlx493d.c" bodystart="84" bodyend="86" declfile="src/tlx493d.h" declline="132" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a728866ad32b470544dce84c9a6756593" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_getMagneticFieldAndTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, double *x, double *y, double *z, double *temperature)</argsstring>
+        <name>tlx493d_getMagneticFieldAndTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_getMagneticFieldAndTemperature</computeroutput> retrieves the magnetic field and temperature readings from a TLx493D sensor. It combines the two functions <computeroutput>tlx493d_getTemperature</computeroutput> and <computeroutput>tlx493d_getMagneticField</computeroutput> in order to have one function which is providing the temperature as well as the magnetic field values of the sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure that represents the sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the magnetic field value in mT along the x-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the magnetic field value in mT along the y-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the magnetic field value in mT along the z-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">temperature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a double variable where the temperature value in °C will be stored.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_getMagneticFieldAndTemperature</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="150" column="6" bodyfile="src/tlx493d.c" bodystart="89" bodyend="91" declfile="src/tlx493d.h" declline="150" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1ad73411923f26ba9915cda4e324ea54a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_setMeasurement</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_MeasurementType_t meas)</argsstring>
+        <name>tlx493d_setMeasurement</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_MeasurementType_t</type>
+          <declname>meas</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_setMeasurement</computeroutput> sets the measurement type for a TLx493D sensor. It is writing to the corresponding bitfields in the config-register in order to set the desired measuring mode of the sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">meas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <computeroutput>meas</computeroutput> parameter is of type <computeroutput>TLx493D_MeasurementType_t</computeroutput>, which is an enumeration type representing different measurement types for the TLx493D sensor. All available options can be found in the enum <computeroutput>TLx493D_MeasurementType_t</computeroutput> in the library file <computeroutput><ref refid="tlx493d__types_8h_source" kindref="compound">tlx493d_types.h</ref></computeroutput>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_setMeasurement</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="168" column="6" bodyfile="src/tlx493d.c" bodystart="94" bodyend="96" declfile="src/tlx493d.h" declline="168" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a3604a130b5841cba995581b8f4146868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_setTrigger</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_TriggerType_t trigger)</argsstring>
+        <name>tlx493d_setTrigger</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_TriggerType_t</type>
+          <declname>trigger</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_setTrigger</computeroutput> sets the trigger type for a TLx493D sensor. It is writing to the corresponding bitfields in the config-register in order to set the desired trigger mode of the sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">trigger</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <computeroutput>trigger</computeroutput> parameter is of type <computeroutput>TLx493D_TriggerType_t</computeroutput>, which is an enumeration type representing different trigger types for the TLx493D sensor. All the available options can be found in the enum <computeroutput>TLx493D_TriggerType_t</computeroutput> in the library file <computeroutput>tlx493d_types</computeroutput>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_setTrigger</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="184" column="6" bodyfile="src/tlx493d.c" bodystart="99" bodyend="101" declfile="src/tlx493d.h" declline="184" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a28123bcbfe51f99d4012d8d8a3140fe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_setSensitivity</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_SensitivityType_t range)</argsstring>
+        <name>tlx493d_setSensitivity</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_SensitivityType_t</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_setSensitivity</computeroutput> sets the sensitivity of a TLx493D sensor. It is writing to the corresponding bitfields in the registers of the sensor in order to set the desired measuring range. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <computeroutput>range</computeroutput> parameter is of type <computeroutput>TLx493D_SensitivityType_t, which is an enumeration type that represents the sensitivity range of the sensor. All available options can be found in the enum </computeroutput>TLx493D_SensitivityType_t<computeroutput>in the library file</computeroutput>tlx493d_types`.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_setSensitivity</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="200" column="6" bodyfile="src/tlx493d.c" bodystart="104" bodyend="106" declfile="src/tlx493d.h" declline="200" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1acf2217a810b5d13ddb7e7122e9b63db7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_setDefaultConfig</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_setDefaultConfig</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_setDefaultConfig</computeroutput> sets the default configuration for a TLx493D sensor. It puts the sensor into the 1-Byte-Read-Mode and turns off the interrupt. This is required to guarantee the proper functionality of the sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_setDefaultConfig</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="215" column="6" bodyfile="src/tlx493d.c" bodystart="109" bodyend="111" declfile="src/tlx493d.h" declline="215" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1ab153e121de93c404cb9f52f54b76299a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_setIICAddress</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_IICAddressType_t addr)</argsstring>
+        <name>tlx493d_setIICAddress</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_IICAddressType_t</type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_setIICAddress</computeroutput> sets the IIC address of a TLx493D sensor. It is writing to the corresponding bitfields of the sensor in order to change the I2C-Default-Address of the sensor to the desired address of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">addr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <computeroutput>addr</computeroutput> parameter is of type <computeroutput>TLx493D_IICAddressType_t</computeroutput> , which is an enumeration type representing the I2C address of the sensor. You can see all available addresses in the enum <computeroutput>TLx493D_IICAddressType_t</computeroutput> in the library file <computeroutput><ref refid="tlx493d__types_8h_source" kindref="compound">tlx493d_types.h</ref></computeroutput>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_setIICAddress</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="231" column="6" bodyfile="src/tlx493d.c" bodystart="114" bodyend="116" declfile="src/tlx493d.h" declline="231" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a933393ea072cf69e779393ee7170b480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_enableCollisionAvoidance</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_enableCollisionAvoidance</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_enableCollisionAvoidance</computeroutput> enables collision avoidance for a TLx493D sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_enableCollisionAvoidance</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="242" column="6" bodyfile="src/tlx493d.c" bodystart="119" bodyend="121" declfile="src/tlx493d.h" declline="242" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1adeb1bb9d98d1803622184e66ca3b565c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_disableCollisionAvoidance</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_disableCollisionAvoidance</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_disableCollisionAvoidance</computeroutput> disables collision avoidance for a TLx493D sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_disableCollisionAvoidance</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="253" column="6" bodyfile="src/tlx493d.c" bodystart="124" bodyend="126" declfile="src/tlx493d.h" declline="253" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a3f64da23dd7d6ec708f87388426e40f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_enableInterrupt</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_enableInterrupt</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_enableInterrupt</computeroutput> enables interrupts for a TLx493D sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_enableInterrupt</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="264" column="6" bodyfile="src/tlx493d.c" bodystart="129" bodyend="131" declfile="src/tlx493d.h" declline="264" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a0c85d9a616f8ac945c7c8bc32189c138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_disableInterrupt</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_disableInterrupt</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_disableInterrupt</computeroutput> is used to disable interrupts for a TLx493D sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_disableInterrupt</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="275" column="6" bodyfile="src/tlx493d.c" bodystart="134" bodyend="136" declfile="src/tlx493d.h" declline="275" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a2bd946d6dc97b2f5a9ab3bb57a4516a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_setPowerMode</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_PowerModeType_t mode)</argsstring>
+        <name>tlx493d_setPowerMode</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_PowerModeType_t</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_setPowerMode</computeroutput> sets the power mode of a TLx493D sensor. It is writing to the corresponding bitfields of the sensor in order to set one of the three available power modes of the sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <computeroutput>mode</computeroutput> parameter is of type <computeroutput>TLx493D_PowerModeType_t</computeroutput>, which is an enumeration type representing different power modes for the TLx493D sensor. All available options can be found in the enum <computeroutput>TLx493D_PowerModeType_t</computeroutput> in the library file <computeroutput><ref refid="tlx493d__types_8h_source" kindref="compound">tlx493d_types.h</ref></computeroutput>.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_setPowerMode</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="291" column="6" bodyfile="src/tlx493d.c" bodystart="139" bodyend="141" declfile="src/tlx493d.h" declline="291" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1acca3d79ba1e790a6d12663255c620114" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_setUpdateRate</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_UpdateRateType_t rate)</argsstring>
+        <name>tlx493d_setUpdateRate</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_UpdateRateType_t</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_setUpdateRate</computeroutput> sets the update rate of a TLx493D sensor. It is writing to the corresponding bitfields of the sensor in order to set the desired update frequency, with which the sensor will update his measured values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <computeroutput>rate</computeroutput> parameter is of type <computeroutput>TLx493D_UpdateRateType_t</computeroutput>, which is an enumeration type representing different update rates for the sensor. All available options can be found in the enum <computeroutput>TLx493D_UpdateRateType_t</computeroutput> in the library file ´tlx493d_types.h`.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_setUpdateRate</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="307" column="6" bodyfile="src/tlx493d.c" bodystart="144" bodyend="146" declfile="src/tlx493d.h" declline="307" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a4a87a4ca9ea064116635f3b434567c95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_hasValidData</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_hasValidData</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_hasValidData</computeroutput> checks if the TLx493D sensor has valid data. It is checking the corresponding bitfield of the sensor which indicates if the acquired measurement data is valid or not. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_hasValidData</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="322" column="6" bodyfile="src/tlx493d.c" bodystart="149" bodyend="151" declfile="src/tlx493d.h" declline="322" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a577271b6ab5f5e931c633e3264effc80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_isFunctional</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_isFunctional</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_isFunctional</computeroutput> checks if a TLx493D sensor is functional. It checks the internal fuse parity bit as well as the config parity bit in order to confirm that the sensor is still functional. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents a TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_isFunctional</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="335" column="6" bodyfile="src/tlx493d.c" bodystart="154" bodyend="156" declfile="src/tlx493d.h" declline="335" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1abfecc0b73406b643ebeb8076722622ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_hasWakeUp</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_hasWakeUp</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_hasWakeUp</computeroutput> checks if a TLx493D sensor has wake-up functionality. It simply checks the bitfield which indicates if the sensor has a wake-up functionality or not. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents a TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_hasWakeUp</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="350" column="6" bodyfile="src/tlx493d.c" bodystart="159" bodyend="161" declfile="src/tlx493d.h" declline="350" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1aefcb1e788e683a57fdb93fefcb5a0a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_isWakeUpEnabled</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_isWakeUpEnabled</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_isWakeUpEnabled</computeroutput> checks if wake-up mode is enabled for a TLx493D sensor. It checks the bitfield of the sensor which gives you the information if the wake-up is enabled or not. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sensor is a pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents a sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_isWakeUpEnabled</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="362" column="6" bodyfile="src/tlx493d.c" bodystart="164" bodyend="166" declfile="src/tlx493d.h" declline="362" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a05fde2e524e74924104ab977e0a33366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_enableWakeUpMode</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_enableWakeUpMode</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_enableWakeUpMode</computeroutput> enables the wake-up mode for the TLx493D sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_enableWakeUpMode</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="373" column="6" bodyfile="src/tlx493d.c" bodystart="169" bodyend="171" declfile="src/tlx493d.h" declline="373" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1add6708056f74004120f76a141213373d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_disableWakeUpMode</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_disableWakeUpMode</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_disableWakeUpMode</computeroutput> disables the wake-up mode of a TLx493D sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_disableWakeUpMode</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="384" column="6" bodyfile="src/tlx493d.c" bodystart="174" bodyend="176" declfile="src/tlx493d.h" declline="384" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a3b77ba2fe8fb0aaca85419da8a4013c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_setWakeUpThresholdsAsInteger</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t xl_th, int16_t xh_th, int16_t yl_th, int16_t yh_th, int16_t zl_th, int16_t zh_th)</argsstring>
+        <name>tlx493d_setWakeUpThresholdsAsInteger</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>xl_th</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>xh_th</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>yl_th</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>yh_th</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>zl_th</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>zh_th</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_setWakeUpThresholdsAsInteger</computeroutput> sets the wake-up thresholds for a TLx493D sensor using integer values. It sets the lower and upper threshold for each of three axis. If one of these thresholds is exceeded the sensor will trigger an interrupt. It will continue to trigger interrupts as long as the threshold is exceeded. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure, which represents the sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">xl_th</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower threshold value for the magnetic field in x-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">xh_th</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper threshold value for the magnetic field in x-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">yl_th</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower threshold value for the magnetic field in y-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">yh_th</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper threshold value for the magnetic field in y-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">zl_th</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower threshold value for the magnetic field in z-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">zh_th</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper threshold value for the magnetic field in z-axis.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_setWakeUpThresholdsAsInteger</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="404" column="6" bodyfile="src/tlx493d.c" bodystart="179" bodyend="182" declfile="src/tlx493d.h" declline="404" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a6c973b39024306ba8c737a1985fbb48c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_setWakeUpThresholds</definition>
+        <argsstring>(TLx493D_t *sensor, double temperature, double xLow, double xHigh, double yLow, double yHigh, double zLow, double zHigh)</argsstring>
+        <name>tlx493d_setWakeUpThresholds</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>temperature</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xLow</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xHigh</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yLow</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yHigh</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zLow</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zHigh</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_setWakeUpThresholds</computeroutput> sets the wake-up thresholds for the TLx493D sensor in mT. It sets the lower and upper threshold for each of three axis in mT. If one of these thresholds is exceeded the sensor will trigger an interrupt. It will continue to trigger interrupts as long as the threshold is exceeded. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure, which represents the sensor device. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">temperature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The temperature to be used for derating the field values. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">xLow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower threshold value for the magnetic field in x-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">xHigh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper threshold value for the magnetic field in x-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">yLow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower threshold value for the magnetic field in y-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">yHigh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper threshold value for the magnetic field in y-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">zLow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lower threshold value for the magnetic field in z-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">zHigh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The upper threshold value for the magnetic field in z-axis.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_setWakeUpThresholds</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="425" column="6" bodyfile="src/tlx493d.c" bodystart="184" bodyend="187" declfile="src/tlx493d.h" declline="425" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1afa4045a614943f3d7603a25022a5410d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_softwareReset</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_softwareReset</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_softwareReset</computeroutput> performs a software reset on the TLx493D sensor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure, which represents the sensor device.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_softwareReset</computeroutput> is returning a boolean value. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error.. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Function execution was successful. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="439" column="6" bodyfile="src/tlx493d.c" bodystart="190" bodyend="192" declfile="src/tlx493d.h" declline="439" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a905ea02b5a16f26a1608515af83d1950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * tlx493d_getTypeAsString</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_getTypeAsString</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_getTypeAsString</computeroutput> returns the type of the TLx493D sensor as a string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure, which represents the TLx493D sensor.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>tlx493d_getTypeAsString</computeroutput> returns a pointer to a constant character string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="448" column="12" bodyfile="src/tlx493d.c" bodystart="195" bodyend="197" declfile="src/tlx493d.h" declline="448" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a26610728f9636920d70e062f7d3f013d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_calculateRawMagneticFieldAtTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t rawTemp, TLx493D_SensitivityType_t sens, double xInmT, double yInmT, double zInmT, int16_t *x, int16_t *y, int16_t *z)</argsstring>
+        <name>tlx493d_calculateRawMagneticFieldAtTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>rawTemp</declname>
+        </param>
+        <param>
+          <type>TLx493D_SensitivityType_t</type>
+          <declname>sens</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xInmT</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yInmT</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zInmT</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_calculateRawMagneticFieldAtTemperature</computeroutput> calculates the raw magnetic field at a given temperature. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rawTemp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The raw temperature value obtained from the sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">sens</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameter <computeroutput>sens</computeroutput> is of type <computeroutput>TLx493D_SensitivityType_t</computeroutput>, which is an enumeration type representing the sensitivity level of the sensor. It is used to specify the desired sensitivity level for calculating the raw magnetic field. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">xInmT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameter <computeroutput>xInmT</computeroutput> represents the magnetic field strength in Millitesla (mT) along the x-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">yInmT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameter <computeroutput>yInmT</computeroutput> represents the magnetic field strength in Millitesla (mT) along the y-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">zInmT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameter <computeroutput>zInmT</computeroutput> represents the magnetic field strength in Millitesla (mT) along the z-axis. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the calculated raw magnetic field in the x-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the calculated raw magnetic field in the y-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a variable where the calculated raw magnetic field in the z-axis will be stored. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="472" column="6" bodyfile="src/tlx493d.c" bodystart="200" bodyend="204" declfile="src/tlx493d.h" declline="472" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d_8h_1a2d0ebdf158d17775c3973bdde0ed5f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_printRegisters</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_printRegisters</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>tlx493d_printRegisters</computeroutput> prints out the internal registers of the sensor object. It can be used to check certain values of the sensor register map. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> structure, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d.h" line="482" column="6" bodyfile="src/tlx493d.c" bodystart="207" bodyend="209" declfile="src/tlx493d.h" declline="482" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TLX493D_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TLX493D_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tlx493d_types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_init(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_SupportedSensorType_t<sp/>sensorType);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_deinit(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_readRegisters(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_getRawTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*temperature);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_getRawMagneticField(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,<sp/>int16_t<sp/>*z);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_getRawMagneticFieldAndTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,<sp/>int16_t<sp/>*z,<sp/>int16_t<sp/>*temperature);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_getTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*temperature);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_getMagneticField(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*z);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_getMagneticFieldAndTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*z,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*temperature);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="comment">//<sp/>functions<sp/>related<sp/>to<sp/>the<sp/>&quot;Config&quot;<sp/>register</highlight></codeline>
+<codeline lineno="168"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_setMeasurement(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_MeasurementType_t<sp/>meas);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_setTrigger(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_TriggerType_t<sp/>trigger);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_setSensitivity(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_SensitivityType_t<sp/>range);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="comment">//<sp/>functions<sp/>related<sp/>to<sp/>the<sp/>&quot;Mod1&quot;<sp/>and<sp/>&quot;Mod2&quot;<sp/>registers</highlight></codeline>
+<codeline lineno="215"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_setDefaultConfig(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_setIICAddress(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_IICAddressType_t<sp/>addr);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_enableCollisionAvoidance(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_disableCollisionAvoidance(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_enableInterrupt(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_disableInterrupt(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_setPowerMode(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_PowerModeType_t<sp/>mode);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_setUpdateRate(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_UpdateRateType_t<sp/>rate);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="comment">//<sp/>functions<sp/>related<sp/>to<sp/>the<sp/>&quot;Diag&quot;<sp/>register</highlight></codeline>
+<codeline lineno="322"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_hasValidData(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_isFunctional(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight><highlight class="comment">//<sp/>functions<sp/>available<sp/>only<sp/>to<sp/>a<sp/>subset<sp/>of<sp/>sensors<sp/>with<sp/>wake-up<sp/>functionality</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight><highlight class="comment">//<sp/>functions<sp/>related<sp/>to<sp/>the<sp/>&quot;WU&quot;<sp/>register</highlight></codeline>
+<codeline lineno="350"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_hasWakeUp(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_isWakeUpEnabled(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_enableWakeUpMode(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_disableWakeUpMode(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight></codeline>
+<codeline lineno="404"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_setWakeUpThresholdsAsInteger(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>xl_th,<sp/>int16_t<sp/>xh_th,<sp/>int16_t<sp/>yl_th,<sp/>int16_t<sp/>yh_th,</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>zl_th,<sp/>int16_t<sp/>zh_th);</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"></highlight></codeline>
+<codeline lineno="425"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_setWakeUpThresholds(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temperature,</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xLow,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xHigh,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yLow,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yHigh,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zLow,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zHigh);</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"></highlight></codeline>
+<codeline lineno="428"><highlight class="normal"></highlight></codeline>
+<codeline lineno="429"><highlight class="normal"></highlight><highlight class="comment">//<sp/>utilities</highlight></codeline>
+<codeline lineno="439"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_softwareReset(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"></highlight></codeline>
+<codeline lineno="448"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tlx493d_getTypeAsString(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight></codeline>
+<codeline lineno="472"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_calculateRawMagneticFieldAtTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>rawTemp,<sp/>TLx493D_SensitivityType_t<sp/>sens,</highlight></codeline>
+<codeline lineno="473"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xInmT,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yInmT,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zInmT,</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,<sp/>int16_t<sp/>*z);</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"></highlight></codeline>
+<codeline lineno="482"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_printRegisters(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="483"><highlight class="normal"></highlight></codeline>
+<codeline lineno="484"><highlight class="normal"></highlight></codeline>
+<codeline lineno="485"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="486"><highlight class="normal"></highlight></codeline>
+<codeline lineno="487"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"></highlight></codeline>
+<codeline lineno="489"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="490"><highlight class="normal"></highlight></codeline>
+<codeline lineno="491"><highlight class="normal"></highlight></codeline>
+<codeline lineno="492"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>TLX493D_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/tlx493d.h"/>
+  </compounddef>
+</doxygen>

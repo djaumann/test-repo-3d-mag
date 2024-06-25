@@ -1,0 +1,14 @@
+.. _exhale_enum_tlx493d__types_8h_1ab0b9d5875fb2a81147034a29ed88d567:
+
+Enum TLx493D_SupportedSensorType_t
+==================================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: TLx493D_SupportedSensorType_t
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

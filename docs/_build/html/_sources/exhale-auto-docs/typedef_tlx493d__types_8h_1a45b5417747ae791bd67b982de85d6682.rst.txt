@@ -1,0 +1,14 @@
+.. _exhale_typedef_tlx493d__types_8h_1a45b5417747ae791bd67b982de85d6682:
+
+Typedef TLx493D_CalculateFuseParityFuncPtr
+==========================================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_CalculateFuseParityFuncPtr
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

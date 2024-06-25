@@ -1,0 +1,14 @@
+.. _exhale_typedef_types_8hpp_1a30b8cf49b5f5312aa5d2b7896c8cef1f:
+
+Typedef ifx::tlx493d::TLx493D_A1B6
+==================================
+
+- Defined in :ref:`file_src_types.hpp`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: ifx::tlx493d::TLx493D_A1B6
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

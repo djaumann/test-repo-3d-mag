@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d__gen__2__common_8c_1a5a7b716cf5d48eb65d5b37cfaacf89ba:
+
+Function tlx493d_gen_2_setMeasurement(TLx493D_t \*, uint8_t, uint8_t, uint8_t, TLx493D_MeasurementType_t)
+=========================================================================================================
+
+- Defined in :ref:`file_src_tlx493d_gen_2_common.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_gen_2_setMeasurement(TLx493D_t *, uint8_t, uint8_t, uint8_t, TLx493D_MeasurementType_t)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

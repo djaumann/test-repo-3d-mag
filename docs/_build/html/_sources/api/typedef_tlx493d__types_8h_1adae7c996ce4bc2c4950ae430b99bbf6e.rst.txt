@@ -1,0 +1,14 @@
+.. _exhale_typedef_tlx493d__types_8h_1adae7c996ce4bc2c4950ae430b99bbf6e:
+
+Typedef TLx493D_EnableInterruptFuncPtr
+======================================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_EnableInterruptFuncPtr
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

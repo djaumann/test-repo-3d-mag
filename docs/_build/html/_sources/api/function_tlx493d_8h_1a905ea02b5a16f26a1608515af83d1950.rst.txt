@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d_8h_1a905ea02b5a16f26a1608515af83d1950:
+
+Function tlx493d_getTypeAsString(const TLx493D_t \*)
+====================================================
+
+- Defined in :ref:`file_src_tlx493d.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_getTypeAsString(const TLx493D_t *)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

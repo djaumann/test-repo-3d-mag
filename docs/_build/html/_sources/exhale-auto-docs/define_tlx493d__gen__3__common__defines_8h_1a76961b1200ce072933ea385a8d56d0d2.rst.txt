@@ -1,0 +1,14 @@
+.. _exhale_define_tlx493d__gen__3__common__defines_8h_1a76961b1200ce072933ea385a8d56d0d2:
+
+Define GEN_3_O3x
+================
+
+- Defined in :ref:`file_src_tlx493d_gen_3_common_defines.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: GEN_3_O3x
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

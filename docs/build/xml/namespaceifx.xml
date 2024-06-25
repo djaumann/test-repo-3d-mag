@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceifx" kind="namespace" language="C++">
+    <compoundname>ifx</compoundname>
+    <innernamespace refid="namespaceifx_1_1tlx493d">ifx::tlx493d</innernamespace>
+    <briefdescription>
+<para>The <computeroutput>initBoardSupport</computeroutput> function initializes the board support class. It can be used to define power, address and select pins and makes the handling with Kit2GOs easier for the user. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The function <computeroutput>initCommunication</computeroutput> initializes the communication interface of the sensor. In this case it initializes the I2C-interface. The initialized interfaces depends on the chosen sensor and is determined automatically.</para>
+<para>std includes. project c includes. project cpp includes.</para>
+<para>std includes. Arduino includes. project cpp includes. project c includes. </para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">bsc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a board support class instance.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The function <computeroutput>initBoardSupport</computeroutput> returns a bool value to indicate if the execution was successful. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Successful.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+std includes. Arduino includes. project cpp includes. project c includes. </para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="inout">sensor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to a <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> struct, which represents the TLx493D sensor. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">tw</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A reference to an instance of the TwoWire object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">iicAdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The I2C address of the sensor. See <computeroutput>TLx493D_IICAddressType_t</computeroutput> for the available ones. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">executeInit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A boolean flag which determines if the initialization is executed or not.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns a boolean to indicate if the function execution was successful or not. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+std includes project cpp includes project c includes</para>
+<para>Arduino includes </para>
+    </detaileddescription>
+    <location file="src/BoardSupportUsingKit2Go.cpp" line="13" column="1"/>
+  </compounddef>
+</doxygen>

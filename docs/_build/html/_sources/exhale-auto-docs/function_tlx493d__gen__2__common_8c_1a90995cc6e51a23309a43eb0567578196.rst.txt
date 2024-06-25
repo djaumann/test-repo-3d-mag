@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d__gen__2__common_8c_1a90995cc6e51a23309a43eb0567578196:
+
+Function tlx493d_gen_2_setPowerMode(TLx493D_t \*, uint8_t, uint8_t, TLx493D_PowerModeType_t)
+============================================================================================
+
+- Defined in :ref:`file_src_tlx493d_gen_2_common.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_gen_2_setPowerMode(TLx493D_t *, uint8_t, uint8_t, TLx493D_PowerModeType_t)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

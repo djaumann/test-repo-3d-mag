@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___a2_b6_8h_1a6ad7673718e3119b519b66be649a31c0:
+
+Function TLx493D_A2B6_getRawTemperature(TLx493D_t \*, int16_t \*)
+=================================================================
+
+- Defined in :ref:`file_src_TLx493D_A2B6.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_A2B6_getRawTemperature(TLx493D_t *, int16_t *)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

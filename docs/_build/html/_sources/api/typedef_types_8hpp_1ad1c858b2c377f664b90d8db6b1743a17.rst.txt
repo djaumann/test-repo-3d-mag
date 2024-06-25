@@ -1,0 +1,14 @@
+.. _exhale_typedef_types_8hpp_1ad1c858b2c377f664b90d8db6b1743a17:
+
+Typedef TLx493D_I2CObject_t
+===========================
+
+- Defined in :ref:`file_src_types.hpp`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_I2CObject_t
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

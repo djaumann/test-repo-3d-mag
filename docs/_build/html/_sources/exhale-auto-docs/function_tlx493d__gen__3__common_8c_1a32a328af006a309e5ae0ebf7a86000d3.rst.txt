@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d__gen__3__common_8c_1a32a328af006a309e5ae0ebf7a86000d3:
+
+Function tlx493d_gen_3_getSensitivityScaleFactorFromSensitivity
+===============================================================
+
+- Defined in :ref:`file_src_tlx493d_gen_3_common.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_gen_3_getSensitivityScaleFactorFromSensitivity(const TLx493D_SensitivityType_t)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

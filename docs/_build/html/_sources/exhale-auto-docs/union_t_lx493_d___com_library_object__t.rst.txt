@@ -1,0 +1,14 @@
+.. _exhale_union_union_t_lx493_d___com_library_object__t:
+
+Union TLx493D_ComLibraryObject_t
+================================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Union Documentation
+-------------------
+
+
+.. doxygenunion:: TLx493D_ComLibraryObject_t
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

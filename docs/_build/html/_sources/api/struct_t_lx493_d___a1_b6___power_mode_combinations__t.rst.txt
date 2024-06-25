@@ -1,0 +1,17 @@
+.. _exhale_struct_struct_t_lx493_d___a1_b6___power_mode_combinations__t:
+
+Struct TLx493D_A1B6_PowerModeCombinations_t
+===========================================
+
+- Defined in :ref:`file_src_TLx493D_A1B6.h`
+
+
+Struct Documentation
+--------------------
+
+
+.. doxygenstruct:: TLx493D_A1B6_PowerModeCombinations_t
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library
+   :members:
+   :protected-members:
+   :undoc-members:

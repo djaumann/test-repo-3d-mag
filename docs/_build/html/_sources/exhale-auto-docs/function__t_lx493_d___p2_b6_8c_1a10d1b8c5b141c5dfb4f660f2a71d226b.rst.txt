@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p2_b6_8c_1a10d1b8c5b141c5dfb4f660f2a71d226b:
+
+Function TLx493D_P2B6_setSensitivity(TLx493D_t \*, TLx493D_SensitivityType_t)
+=============================================================================
+
+- Defined in :ref:`file_src_TLx493D_P2B6.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P2B6_setSensitivity(TLx493D_t *, TLx493D_SensitivityType_t)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

@@ -1,0 +1,14 @@
+.. _exhale_typedef_pal_8h_1ab6ebe51bb0df05cb3f33c62c873643ac:
+
+Typedef TLx493D_ComLibraryParameters_t
+======================================
+
+- Defined in :ref:`file_src_pal.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_ComLibraryParameters_t
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

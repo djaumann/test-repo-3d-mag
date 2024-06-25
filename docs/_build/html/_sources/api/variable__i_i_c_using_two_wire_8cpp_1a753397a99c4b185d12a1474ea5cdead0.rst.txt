@@ -1,0 +1,14 @@
+.. _exhale_variable__i_i_c_using_two_wire_8cpp_1a753397a99c4b185d12a1474ea5cdead0:
+
+Variable ifx::tlx493d::comLibFuncs_iic
+======================================
+
+- Defined in :ref:`file_src_IICUsingTwoWire.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: ifx::tlx493d::comLibFuncs_iic
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

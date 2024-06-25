@@ -1,0 +1,14 @@
+.. _exhale_define_tlx493d__gen__2__common__defines_8h_1a0ba4657deb9d19d53839793f3e6afdac:
+
+Define GEN_2_REG_MAP_SIZE
+=========================
+
+- Defined in :ref:`file_src_tlx493d_gen_2_common_defines.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: GEN_2_REG_MAP_SIZE
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

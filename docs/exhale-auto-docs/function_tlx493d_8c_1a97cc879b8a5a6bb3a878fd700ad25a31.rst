@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d_8c_1a97cc879b8a5a6bb3a878fd700ad25a31:
+
+Function tlx493d_readRegisters(TLx493D_t \*)
+============================================
+
+- Defined in :ref:`file_src_tlx493d.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_readRegisters(TLx493D_t *)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

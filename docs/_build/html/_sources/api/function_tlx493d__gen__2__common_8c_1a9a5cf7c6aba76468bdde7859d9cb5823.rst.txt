@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d__gen__2__common_8c_1a9a5cf7c6aba76468bdde7859d9cb5823:
+
+Function tlx493d_gen_2_calculateBusParity(const TLx493D_t \*, uint8_t)
+======================================================================
+
+- Defined in :ref:`file_src_tlx493d_gen_2_common.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_gen_2_calculateBusParity(const TLx493D_t *, uint8_t)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

@@ -1,0 +1,14 @@
+.. _exhale_typedef_pal_8h_1ab5e1f0bdd2af21b57d08fee33034e003:
+
+Typedef TLx493D_I2CObject_t
+===========================
+
+- Defined in :ref:`file_src_pal.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_I2CObject_t
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

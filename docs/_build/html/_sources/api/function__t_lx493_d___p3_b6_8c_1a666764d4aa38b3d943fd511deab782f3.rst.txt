@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p3_b6_8c_1a666764d4aa38b3d943fd511deab782f3:
+
+Function TLx493D_P3B6_hasValidTBit(const TLx493D_t \*)
+======================================================
+
+- Defined in :ref:`file_src_TLx493D_P3B6.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P3B6_hasValidTBit(const TLx493D_t *)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

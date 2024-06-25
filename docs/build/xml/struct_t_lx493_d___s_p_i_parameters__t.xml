@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_t_lx493_d___s_p_i_parameters__t" kind="struct" language="C++" prot="public">
+    <compoundname>TLx493D_SPIParameters_t</compoundname>
+    <includes refid="tlx493d__types_8h" local="no">tlx493d_types.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_t_lx493_d___s_p_i_parameters__t_1adbdd84447b5ccf75a50ecdf866d3157b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_SPIParameters_t::dummy</definition>
+        <argsstring></argsstring>
+        <name>dummy</name>
+        <qualifiedname>TLx493D_SPIParameters_t::dummy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_types.h" line="189" column="13" bodyfile="src/tlx493d_types.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The structure <computeroutput><ref refid="struct_t_lx493_d___s_p_i_parameters__t" kindref="compound">TLx493D_SPIParameters_t</ref></computeroutput> stores the parameter of the SPI interface. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/tlx493d_types.h" line="188" column="1" bodyfile="src/tlx493d_types.h" bodystart="188" bodyend="190"/>
+    <listofallmembers>
+      <member refid="struct_t_lx493_d___s_p_i_parameters__t_1adbdd84447b5ccf75a50ecdf866d3157b" prot="public" virt="non-virtual"><scope>TLx493D_SPIParameters_t</scope><name>dummy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

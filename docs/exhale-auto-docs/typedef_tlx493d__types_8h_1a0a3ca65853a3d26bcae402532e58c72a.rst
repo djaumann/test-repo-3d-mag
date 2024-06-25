@@ -1,0 +1,14 @@
+.. _exhale_typedef_tlx493d__types_8h_1a0a3ca65853a3d26bcae402532e58c72a:
+
+Typedef TLx493D_DeinitFuncPtr
+=============================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_DeinitFuncPtr
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

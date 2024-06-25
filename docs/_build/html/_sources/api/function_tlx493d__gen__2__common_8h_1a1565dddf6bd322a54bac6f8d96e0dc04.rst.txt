@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d__gen__2__common_8h_1a1565dddf6bd322a54bac6f8d96e0dc04:
+
+Function tlx493d_gen_2_calculateConfigurationParity(const TLx493D_t \*, uint8_t)
+================================================================================
+
+- Defined in :ref:`file_src_tlx493d_gen_2_common.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_gen_2_calculateConfigurationParity(const TLx493D_t *, uint8_t)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

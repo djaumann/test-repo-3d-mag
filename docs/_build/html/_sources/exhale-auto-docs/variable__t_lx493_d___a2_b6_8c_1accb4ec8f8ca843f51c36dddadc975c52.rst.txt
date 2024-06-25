@@ -1,0 +1,14 @@
+.. _exhale_variable__t_lx493_d___a2_b6_8c_1accb4ec8f8ca843f51c36dddadc975c52:
+
+Variable TLx493D_A2B6_commonFunctions
+=====================================
+
+- Defined in :ref:`file_src_TLx493D_A2B6.c`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: TLx493D_A2B6_commonFunctions
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

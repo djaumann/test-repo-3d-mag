@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___w2_b6_8c_1a4da89f177d3e4ee138fbb05b59151317:
+
+Function TLx493D_W2B6_setWakeUpThresholds(TLx493D_t \*, double, double, double, double, double, double, double)
+===============================================================================================================
+
+- Defined in :ref:`file_src_TLx493D_W2B6.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_W2B6_setWakeUpThresholds(TLx493D_t *, double, double, double, double, double, double, double)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

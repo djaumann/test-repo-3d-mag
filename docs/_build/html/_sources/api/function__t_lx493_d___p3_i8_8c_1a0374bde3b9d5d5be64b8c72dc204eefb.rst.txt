@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p3_i8_8c_1a0374bde3b9d5d5be64b8c72dc204eefb:
+
+Function TLx493D_P3I8_setWakeUpThresholds(TLx493D_t \*, double, double, double, double, double, double, double)
+===============================================================================================================
+
+- Defined in :ref:`file_src_TLx493D_P3I8.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P3I8_setWakeUpThresholds(TLx493D_t *, double, double, double, double, double, double, double)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

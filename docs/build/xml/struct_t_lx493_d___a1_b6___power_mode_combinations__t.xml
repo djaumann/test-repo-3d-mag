@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_t_lx493_d___a1_b6___power_mode_combinations__t" kind="struct" language="C++" prot="public">
+    <compoundname>TLx493D_A1B6_PowerModeCombinations_t</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_t_lx493_d___a1_b6___power_mode_combinations__t_1ad922dfb4a75803e07557c6c32ee1d653" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_A1B6_PowerModeCombinations_t::FAST</definition>
+        <argsstring></argsstring>
+        <name>FAST</name>
+        <qualifiedname>TLx493D_A1B6_PowerModeCombinations_t::FAST</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A1B6.h" line="31" column="9" bodyfile="src/TLx493D_A1B6.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_lx493_d___a1_b6___power_mode_combinations__t_1aa67ee0c290942cdb3a2e1d39bc6a662b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_A1B6_PowerModeCombinations_t::LOW_POWER</definition>
+        <argsstring></argsstring>
+        <name>LOW_POWER</name>
+        <qualifiedname>TLx493D_A1B6_PowerModeCombinations_t::LOW_POWER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A1B6.h" line="32" column="9" bodyfile="src/TLx493D_A1B6.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_lx493_d___a1_b6___power_mode_combinations__t_1ae1b482ec66ecde7a92bc888a1f32abc6" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_A1B6_PowerModeCombinations_t::LP</definition>
+        <argsstring></argsstring>
+        <name>LP</name>
+        <qualifiedname>TLx493D_A1B6_PowerModeCombinations_t::LP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A1B6.h" line="33" column="9" bodyfile="src/TLx493D_A1B6.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_lx493_d___a1_b6___power_mode_combinations__t_1a6c18447dad81451fa6c177d381347b81" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t TLx493D_A1B6_PowerModeCombinations_t::MEAS_TIME</definition>
+        <argsstring></argsstring>
+        <name>MEAS_TIME</name>
+        <qualifiedname>TLx493D_A1B6_PowerModeCombinations_t::MEAS_TIME</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A1B6.h" line="34" column="10" bodyfile="src/TLx493D_A1B6.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/TLx493D_A1B6.h" line="30" column="1" bodyfile="src/TLx493D_A1B6.h" bodystart="30" bodyend="35"/>
+    <listofallmembers>
+      <member refid="struct_t_lx493_d___a1_b6___power_mode_combinations__t_1ad922dfb4a75803e07557c6c32ee1d653" prot="public" virt="non-virtual"><scope>TLx493D_A1B6_PowerModeCombinations_t</scope><name>FAST</name></member>
+      <member refid="struct_t_lx493_d___a1_b6___power_mode_combinations__t_1aa67ee0c290942cdb3a2e1d39bc6a662b" prot="public" virt="non-virtual"><scope>TLx493D_A1B6_PowerModeCombinations_t</scope><name>LOW_POWER</name></member>
+      <member refid="struct_t_lx493_d___a1_b6___power_mode_combinations__t_1ae1b482ec66ecde7a92bc888a1f32abc6" prot="public" virt="non-virtual"><scope>TLx493D_A1B6_PowerModeCombinations_t</scope><name>LP</name></member>
+      <member refid="struct_t_lx493_d___a1_b6___power_mode_combinations__t_1a6c18447dad81451fa6c177d381347b81" prot="public" virt="non-virtual"><scope>TLx493D_A1B6_PowerModeCombinations_t</scope><name>MEAS_TIME</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

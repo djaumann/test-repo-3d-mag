@@ -1,0 +1,14 @@
+.. _exhale_typedef_tlx493d__types_8h_1ae856de6a61763ee21b2ce4d4f90555ec:
+
+Typedef TLx493D_SetUpdateRateFuncPtr
+====================================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_SetUpdateRateFuncPtr
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

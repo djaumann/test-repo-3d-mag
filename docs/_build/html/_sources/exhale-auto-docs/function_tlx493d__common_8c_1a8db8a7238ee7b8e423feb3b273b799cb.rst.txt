@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d__common_8c_1a8db8a7238ee7b8e423feb3b273b799cb:
+
+Function tlx493d_common_getRawMagneticFieldAndTemperature(TLx493D_t \*, int16_t \*, int16_t \*, int16_t \*, int16_t \*)
+=======================================================================================================================
+
+- Defined in :ref:`file_src_tlx493d_common.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_common_getRawMagneticFieldAndTemperature(TLx493D_t *, int16_t *, int16_t *, int16_t *, int16_t *)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

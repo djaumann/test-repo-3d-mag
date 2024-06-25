@@ -1,0 +1,14 @@
+.. _exhale_function__i_i_c_using_two_wire_8cpp_1ac4a81213bac7bf4d413749ce7ba0e7bf:
+
+Function ifx::tlx493d::initIIC
+==============================
+
+- Defined in :ref:`file_src_IICUsingTwoWire.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: ifx::tlx493d::initIIC(TLx493D_t *)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

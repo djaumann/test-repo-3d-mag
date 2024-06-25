@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p2_b6_8h_1acff923d5202a3d0a98df085c7ba3f9b7:
+
+Function TLx493D_P2B6_setResetValues(TLx493D_t \*)
+==================================================
+
+- Defined in :ref:`file_src_TLx493D_P2B6.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P2B6_setResetValues(TLx493D_t *)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

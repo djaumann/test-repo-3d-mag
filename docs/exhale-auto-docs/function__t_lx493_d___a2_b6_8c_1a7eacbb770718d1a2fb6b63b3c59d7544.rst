@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___a2_b6_8c_1a7eacbb770718d1a2fb6b63b3c59d7544:
+
+Function TLx493D_A2B6_softwareReset(TLx493D_t \*)
+=================================================
+
+- Defined in :ref:`file_src_TLx493D_A2B6.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_A2B6_softwareReset(TLx493D_t *)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

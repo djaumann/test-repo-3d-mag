@@ -1,0 +1,1326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_t_lx493_d___a2_b6_8h" kind="file" language="C++">
+    <compoundname>TLx493D_A2B6.h</compoundname>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes refid="tlx493d__types_8h" local="yes">tlx493d_types.h</includes>
+    <includedby refid="_t_lx493_d___a2_b6_8c" local="yes">src/TLx493D_A2B6.c</includedby>
+    <includedby refid="_t_lx493_d__inc_8hpp" local="yes">src/TLx493D_inc.hpp</includedby>
+    <includedby refid="tlx493d_8c" local="yes">src/tlx493d.c</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>CommunicationInterface.h</label>
+        <link refid="_communication_interface_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/TLx493D_A2B6.h</label>
+        <link refid="_t_lx493_d___a2_b6_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>pal.h</label>
+        <link refid="pal_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>tlx493d_types.h</label>
+        <link refid="tlx493d__types_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>src/TLx493D_A2B6.h</label>
+        <link refid="_t_lx493_d___a2_b6_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>src/TLx493D_inc.hpp</label>
+        <link refid="_t_lx493_d__inc_8hpp_source"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a128d9501e619e2801668953bd3d2ef47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_init</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_init</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="26" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="150" bodyend="152" declfile="src/TLx493D_A2B6.h" declline="26" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a0078224be586a80d8ce3284a6572c0a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_deinit</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_deinit</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="27" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="155" bodyend="157" declfile="src/TLx493D_A2B6.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a1c0dd6bb4a269a29ddc2e006db4c1d73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_readRegisters</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_readRegisters</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="29" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="160" bodyend="162" declfile="src/TLx493D_A2B6.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1ae712a996f396b6e7d0944113fb4b9629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_readRegistersAndCheck</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_readRegistersAndCheck</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="30" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="165" bodyend="167" declfile="src/TLx493D_A2B6.h" declline="30" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1adab3e18874798c2fa6a886c7ec516e17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TLx493D_A2B6_calculateRawTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *temperature)</argsstring>
+        <name>TLx493D_A2B6_calculateRawTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="32" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="170" bodyend="172" declfile="src/TLx493D_A2B6.h" declline="32" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a6ad7673718e3119b519b66be649a31c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_getRawTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *temperature)</argsstring>
+        <name>TLx493D_A2B6_getRawTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="33" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="175" bodyend="177" declfile="src/TLx493D_A2B6.h" declline="33" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a21574009388d3e412dd7e7fe16cbde2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TLx493D_A2B6_calculateRawMagneticField</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *x, int16_t *y, int16_t *z)</argsstring>
+        <name>TLx493D_A2B6_calculateRawMagneticField</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="35" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="180" bodyend="182" declfile="src/TLx493D_A2B6.h" declline="35" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a2bdbb8c3b93b363f283d60c0f3ec2c29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_getRawMagneticField</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *x, int16_t *y, int16_t *z)</argsstring>
+        <name>TLx493D_A2B6_getRawMagneticField</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="36" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="185" bodyend="187" declfile="src/TLx493D_A2B6.h" declline="36" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1ab16cabd9d0161e36c131fe88a761deac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TLx493D_A2B6_calculateRawMagneticFieldAndTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *x, int16_t *y, int16_t *z, int16_t *temperature)</argsstring>
+        <name>TLx493D_A2B6_calculateRawMagneticFieldAndTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="38" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="190" bodyend="193" declfile="src/TLx493D_A2B6.h" declline="38" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1ad00fd58d2af706cab930811ec9ce120a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_getRawMagneticFieldAndTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *x, int16_t *y, int16_t *z, int16_t *temperature)</argsstring>
+        <name>TLx493D_A2B6_getRawMagneticFieldAndTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="39" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="196" bodyend="198" declfile="src/TLx493D_A2B6.h" declline="39" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a262bee8302e8201f6c2126f62629d573" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TLx493D_A2B6_calculateTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, double *temp)</argsstring>
+        <name>TLx493D_A2B6_calculateTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>temp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="41" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="201" bodyend="203" declfile="src/TLx493D_A2B6.h" declline="41" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a66483e2eb6c933785177a8fe239582b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_getTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, double *temp)</argsstring>
+        <name>TLx493D_A2B6_getTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>temp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="42" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="206" bodyend="208" declfile="src/TLx493D_A2B6.h" declline="42" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a1373cae3e299a6a2fb57b1ee6603a31f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TLx493D_A2B6_calculateMagneticField</definition>
+        <argsstring>(TLx493D_t *sensor, double *x, double *y, double *z)</argsstring>
+        <name>TLx493D_A2B6_calculateMagneticField</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="44" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="211" bodyend="213" declfile="src/TLx493D_A2B6.h" declline="44" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a3ac6dcb97779b0cac6df04fec95da062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_getMagneticField</definition>
+        <argsstring>(TLx493D_t *sensor, double *x, double *y, double *z)</argsstring>
+        <name>TLx493D_A2B6_getMagneticField</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="45" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="216" bodyend="218" declfile="src/TLx493D_A2B6.h" declline="45" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a0b6595002740827f9338a76ce32f357a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TLx493D_A2B6_calculateMagneticFieldAndTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, double *x, double *y, double *z, double *temp)</argsstring>
+        <name>TLx493D_A2B6_calculateMagneticFieldAndTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>temp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="47" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="221" bodyend="224" declfile="src/TLx493D_A2B6.h" declline="47" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1af4e0a9a48dd773a17fd7fdf4e4ccbf32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_getMagneticFieldAndTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, double *x, double *y, double *z, double *temp)</argsstring>
+        <name>TLx493D_A2B6_getMagneticFieldAndTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>temp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="48" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="227" bodyend="229" declfile="src/TLx493D_A2B6.h" declline="48" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a839831380739fe6293d31797da0b802d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_setMeasurement</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_MeasurementType_t mVals)</argsstring>
+        <name>TLx493D_A2B6_setMeasurement</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_MeasurementType_t</type>
+          <declname>mVals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="50" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="232" bodyend="234" declfile="src/TLx493D_A2B6.h" declline="50" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1ac7b22008b47d1b7de4ae942cc44e5935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_setTrigger</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_TriggerType_t trig)</argsstring>
+        <name>TLx493D_A2B6_setTrigger</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_TriggerType_t</type>
+          <declname>trig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="51" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="238" bodyend="240" declfile="src/TLx493D_A2B6.h" declline="51" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a9016aece4e29eb62da88ac7cac817a0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_setSensitivity</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_SensitivityType_t sens)</argsstring>
+        <name>TLx493D_A2B6_setSensitivity</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_SensitivityType_t</type>
+          <declname>sens</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="52" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="243" bodyend="245" declfile="src/TLx493D_A2B6.h" declline="52" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1aa77852f1f8fbe9b98dcda00f7c13da68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_setDefaultConfig</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_setDefaultConfig</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="54" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="268" bodyend="271" declfile="src/TLx493D_A2B6.h" declline="54" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a8f590f0ea6638e5620998d0687d2aae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_setIICAddress</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_IICAddressType_t address)</argsstring>
+        <name>TLx493D_A2B6_setIICAddress</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_IICAddressType_t</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="55" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="274" bodyend="276" declfile="src/TLx493D_A2B6.h" declline="55" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1aef4ee40211a661f37093173fd08ac0f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_enable1ByteReadMode</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_enable1ByteReadMode</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="57" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="279" bodyend="281" declfile="src/TLx493D_A2B6.h" declline="57" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1aea7a3c2f6f47b37dd309535138d18b15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_enableCollisionAvoidance</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_enableCollisionAvoidance</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="60" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="289" bodyend="291" declfile="src/TLx493D_A2B6.h" declline="60" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1adf5f547e9f3f06c54b5de204a3323ecb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_disableCollisionAvoidance</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_disableCollisionAvoidance</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="61" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="294" bodyend="296" declfile="src/TLx493D_A2B6.h" declline="61" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a3c4feadf65de4d3c702b9a3d65715ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_enableInterrupt</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_enableInterrupt</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="63" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="299" bodyend="301" declfile="src/TLx493D_A2B6.h" declline="63" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a70ef20b5562cea0052e7201f955a363e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_disableInterrupt</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_disableInterrupt</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="64" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="304" bodyend="306" declfile="src/TLx493D_A2B6.h" declline="64" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a1633049c87c2a72690767aaf700e1ad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_setPowerMode</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_PowerModeType_t mode)</argsstring>
+        <name>TLx493D_A2B6_setPowerMode</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_PowerModeType_t</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="66" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="309" bodyend="311" declfile="src/TLx493D_A2B6.h" declline="66" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1af447680b8537888edd904e6b31a78448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_setUpdateRate</definition>
+        <argsstring>(TLx493D_t *sensor, TLx493D_UpdateRateType_t rate)</argsstring>
+        <name>TLx493D_A2B6_setUpdateRate</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_UpdateRateType_t</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="67" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="314" bodyend="339" declfile="src/TLx493D_A2B6.h" declline="67" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1aef864e4be1b80fea11aa031eb897ca08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_hasValidData</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_hasValidData</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="69" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="342" bodyend="344" declfile="src/TLx493D_A2B6.h" declline="69" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a31920c17f62ca347467bff92d1dc7478" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_isFunctional</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_isFunctional</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="70" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="347" bodyend="349" declfile="src/TLx493D_A2B6.h" declline="70" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a7710363952af1d71be421f5846a73989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_hasWakeUp</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_hasWakeUp</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="72" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="352" bodyend="356" declfile="src/TLx493D_A2B6.h" declline="72" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a442e063a8020ec60b4431f2062842dc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_isWakeUpEnabled</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_isWakeUpEnabled</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="73" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="359" bodyend="362" declfile="src/TLx493D_A2B6.h" declline="73" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a9d411d850ec4aca8b9fcdc9023f66fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_enableWakeUpMode</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_enableWakeUpMode</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="74" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="364" bodyend="367" declfile="src/TLx493D_A2B6.h" declline="74" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a2cc9f25130f302ac42abb543cb340399" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_disableWakeUpMode</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_disableWakeUpMode</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="75" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="369" bodyend="372" declfile="src/TLx493D_A2B6.h" declline="75" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a3ded4b9abfc8b4d71720e21e1036a67b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_setWakeUpThresholdsAsInteger</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t xlTh, int16_t xhTh, int16_t ylTh, int16_t yhTh, int16_t zlTh, int16_t zhTh)</argsstring>
+        <name>TLx493D_A2B6_setWakeUpThresholdsAsInteger</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>xlTh</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>xhTh</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>ylTh</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>yhTh</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>zlTh</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>zhTh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="77" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="375" bodyend="385" declfile="src/TLx493D_A2B6.h" declline="77" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a2c5b6041fbf504193bc28b7aa0b4a053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_setWakeUpThresholds</definition>
+        <argsstring>(TLx493D_t *sensor, double temperature, double xLow, double xHigh, double yLow, double yHigh, double zLow, double zHigh)</argsstring>
+        <name>TLx493D_A2B6_setWakeUpThresholds</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>temperature</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xLow</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xHigh</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yLow</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yHigh</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zLow</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zHigh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="78" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="387" bodyend="398" declfile="src/TLx493D_A2B6.h" declline="78" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a7eacbb770718d1a2fb6b63b3c59d7544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_softwareReset</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_softwareReset</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="80" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="400" bodyend="403" declfile="src/TLx493D_A2B6.h" declline="80" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a2d8d35fdec64454d8b11019e4d2c9812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_A2B6_calculateFuseParity</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_calculateFuseParity</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="89" column="9" bodyfile="src/TLx493D_A2B6.c" bodystart="406" bodyend="408" declfile="src/TLx493D_A2B6.h" declline="89" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1af13802767b86851c9d65b6e487ee0bf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_A2B6_calculateBusParity</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_calculateBusParity</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="90" column="9" bodyfile="src/TLx493D_A2B6.c" bodystart="411" bodyend="413" declfile="src/TLx493D_A2B6.h" declline="90" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a7a2b855e8c506fe10da6b75f594c30ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_A2B6_calculateConfigurationParity</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_calculateConfigurationParity</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="91" column="9" bodyfile="src/TLx493D_A2B6.c" bodystart="416" bodyend="418" declfile="src/TLx493D_A2B6.h" declline="91" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a5ce247881d371df7e52650d005d6a025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_hasValidFuseParity</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_hasValidFuseParity</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="93" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="421" bodyend="423" declfile="src/TLx493D_A2B6.h" declline="93" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1abafb77c48f495a8566130563cfa09a9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_hasValidBusParity</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_hasValidBusParity</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="94" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="426" bodyend="428" declfile="src/TLx493D_A2B6.h" declline="94" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1af113b5f44b012bd9e01b3f6ba6158f98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_hasValidConfigurationParity</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_hasValidConfigurationParity</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="95" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="431" bodyend="433" declfile="src/TLx493D_A2B6.h" declline="95" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a2a47d2a018edb9f5836fc51b48d25f1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_hasValidWakeUpParity</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_hasValidWakeUpParity</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="97" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="436" bodyend="439" declfile="src/TLx493D_A2B6.h" declline="97" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1ac941732416b0aaceb820f738bd3cde61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_isInTestMode</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_isInTestMode</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="98" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="442" bodyend="445" declfile="src/TLx493D_A2B6.h" declline="98" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1ae74877902125ab0ab12894914d8311a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_hasValidTBit</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_hasValidTBit</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="100" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="448" bodyend="450" declfile="src/TLx493D_A2B6.h" declline="100" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1aae9b8700897c7368dc52f25c99fcc04f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TLx493D_A2B6_hasValidIICadr</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_hasValidIICadr</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="101" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="453" bodyend="455" declfile="src/TLx493D_A2B6.h" declline="101" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a1961cd6a8f84fcd6cfd3ff61744a82a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TLx493D_A2B6_setResetValues</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_setResetValues</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="103" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="478" bodyend="482" declfile="src/TLx493D_A2B6.h" declline="103" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1abd777ef5ad55b2b2e4bf267575ae1eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_A2B6_selectIICAddress</definition>
+        <argsstring>(const TLx493D_t *sensor, TLx493D_IICAddressType_t addr)</argsstring>
+        <name>TLx493D_A2B6_selectIICAddress</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>TLx493D_IICAddressType_t</type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="105" column="9" bodyfile="src/TLx493D_A2B6.c" bodystart="485" bodyend="487" declfile="src/TLx493D_A2B6.h" declline="105" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a01b0b2b84f2f268c6dc2f1548cedeb98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TLx493D_A2B6_calculateRawMagneticFieldAtTemperature</definition>
+        <argsstring>(const TLx493D_t *sensor, int16_t rawTemp, TLx493D_SensitivityType_t sens, double xInmT, double yInmT, double zInmT, int16_t *x, int16_t *y, int16_t *z)</argsstring>
+        <name>TLx493D_A2B6_calculateRawMagneticFieldAtTemperature</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>rawTemp</declname>
+        </param>
+        <param>
+          <type>TLx493D_SensitivityType_t</type>
+          <declname>sens</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xInmT</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yInmT</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zInmT</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="107" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="490" bodyend="494" declfile="src/TLx493D_A2B6.h" declline="107" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1ad71cf140b8888483813527dbcb952e11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double TLx493D_A2B6_getSensitivityScaleFactor</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_getSensitivityScaleFactor</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="111" column="8" bodyfile="src/TLx493D_A2B6.c" bodystart="497" bodyend="499" declfile="src/TLx493D_A2B6.h" declline="111" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="_t_lx493_d___a2_b6_8h_1a959b4c658c36a370b6f57b7caf3b4e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TLx493D_A2B6_printRegisters</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>TLx493D_A2B6_printRegisters</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_A2B6.h" line="113" column="6" bodyfile="src/TLx493D_A2B6.c" bodystart="502" bodyend="504" declfile="src/TLx493D_A2B6.h" declline="113" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TLX493D_A2B6_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TLX493D_A2B6_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>std<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>project<sp/>c<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>common<sp/>to<sp/>all<sp/>sensors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tlx493d_types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>common<sp/>to<sp/>same<sp/>generation<sp/>of<sp/>sensors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>sensor<sp/>specific<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>common<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_init(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_deinit(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_readRegisters(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_readRegistersAndCheck(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TLx493D_A2B6_calculateRawTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*temperature);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_getRawTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*temperature);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TLx493D_A2B6_calculateRawMagneticField(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,<sp/>int16_t<sp/>*z);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_getRawMagneticField(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,<sp/>int16_t<sp/>*z);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TLx493D_A2B6_calculateRawMagneticFieldAndTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,<sp/>int16_t<sp/>*z,<sp/>int16_t<sp/>*temperature);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_getRawMagneticFieldAndTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,<sp/>int16_t<sp/>*z,<sp/>int16_t<sp/>*temperature);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TLx493D_A2B6_calculateTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*temp);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_getTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*temp);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TLx493D_A2B6_calculateMagneticField(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*z);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_getMagneticField(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*z);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TLx493D_A2B6_calculateMagneticFieldAndTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*z,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*temp);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_getMagneticFieldAndTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*z,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*temp);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_setMeasurement(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_MeasurementType_t<sp/>mVals);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_setTrigger(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_TriggerType_t<sp/>trig);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_setSensitivity(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_SensitivityType_t<sp/>sens);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_setDefaultConfig(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_setIICAddress(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_IICAddressType_t<sp/>address);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_enable1ByteReadMode(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bool<sp/>TLx493D_A2B6_disable1ByteReadMode(TLx493D_t<sp/>*sensor);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_enableCollisionAvoidance(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_disableCollisionAvoidance(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_enableInterrupt(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_disableInterrupt(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_setPowerMode(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_PowerModeType_t<sp/>mode);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_setUpdateRate(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_UpdateRateType_t<sp/>rate);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_hasValidData(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_isFunctional(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_hasWakeUp(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_isWakeUpEnabled(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_enableWakeUpMode(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_disableWakeUpMode(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_setWakeUpThresholdsAsInteger(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>xlTh,<sp/>int16_t<sp/>xhTh,<sp/>int16_t<sp/>ylTh,<sp/>int16_t<sp/>yhTh,<sp/>int16_t<sp/>zlTh,<sp/>int16_t<sp/>zhTh);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_setWakeUpThresholds(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temperature,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xLow,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xHigh,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yLow,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yHigh,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zLow,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zHigh);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_softwareReset(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>utilities</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bool<sp/>TLx493D_A2B6_setTC0MagneticTemperatureCompensation(const<sp/>TLx493D_t<sp/>*sensor);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bool<sp/>TLx493D_A2B6_setTC1MagneticTemperatureCompensation(const<sp/>TLx493D_t<sp/>*sensor);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bool<sp/>TLx493D_A2B6_setTC2MagneticTemperatureCompensation(const<sp/>TLx493D_t<sp/>*sensor);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">//<sp/>bool<sp/>TLx493D_A2B6_setTC3MagneticTemperatureCompensation(const<sp/>TLx493D_t<sp/>*sensor);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">uint8_t<sp/>TLx493D_A2B6_calculateFuseParity(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">uint8_t<sp/>TLx493D_A2B6_calculateBusParity(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">uint8_t<sp/>TLx493D_A2B6_calculateConfigurationParity(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_hasValidFuseParity(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_hasValidBusParity(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_hasValidConfigurationParity(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_hasValidWakeUpParity(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_isInTestMode(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_hasValidTBit(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TLx493D_A2B6_hasValidIICadr(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TLx493D_A2B6_setResetValues(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">uint8_t<sp/>TLx493D_A2B6_selectIICAddress(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>TLx493D_IICAddressType_t<sp/>addr);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TLx493D_A2B6_calculateRawMagneticFieldAtTemperature(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>rawTemp,<sp/>TLx493D_SensitivityType_t<sp/>sens,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xInmT,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>yInmT,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zInmT,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,<sp/>int16_t<sp/>*z);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>TLx493D_A2B6_getSensitivityScaleFactor(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TLx493D_A2B6_printRegisters(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight></codeline>
+    </programlisting>
+    <location file="src/TLx493D_A2B6.h"/>
+  </compounddef>
+</doxygen>

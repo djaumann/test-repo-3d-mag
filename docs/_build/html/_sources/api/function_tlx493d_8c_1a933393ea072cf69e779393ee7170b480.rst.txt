@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d_8c_1a933393ea072cf69e779393ee7170b480:
+
+Function tlx493d_enableCollisionAvoidance(TLx493D_t \*)
+=======================================================
+
+- Defined in :ref:`file_src_tlx493d.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_enableCollisionAvoidance(TLx493D_t *)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

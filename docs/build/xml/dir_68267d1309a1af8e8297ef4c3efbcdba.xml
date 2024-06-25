@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>src</compoundname>
+    <innerfile refid="_board_support_using_kit2_go_8cpp">BoardSupportUsingKit2Go.cpp</innerfile>
+    <innerfile refid="_board_support_using_kit2_go_8hpp">BoardSupportUsingKit2Go.hpp</innerfile>
+    <innerfile refid="_communication_interface_8cpp">CommunicationInterface.cpp</innerfile>
+    <innerfile refid="_communication_interface_8h">CommunicationInterface.h</innerfile>
+    <innerfile refid="_i_i_c_using_two_wire_8cpp">IICUsingTwoWire.cpp</innerfile>
+    <innerfile refid="_i_i_c_using_two_wire_8hpp">IICUsingTwoWire.hpp</innerfile>
+    <innerfile refid="_kit2_go_board_support_8hpp">Kit2GoBoardSupport.hpp</innerfile>
+    <innerfile refid="_logger_8cpp">Logger.cpp</innerfile>
+    <innerfile refid="_logger_8h">Logger.h</innerfile>
+    <innerfile refid="pal_8h">pal.h</innerfile>
+    <innerfile refid="_s_p_i_class_wrapper_8hpp">SPIClassWrapper.hpp</innerfile>
+    <innerfile refid="_s_p_i_using_s_p_i_class_8cpp">SPIUsingSPIClass.cpp</innerfile>
+    <innerfile refid="_s_p_i_using_s_p_i_class_8hpp">SPIUsingSPIClass.hpp</innerfile>
+    <innerfile refid="tlx493d_8c">tlx493d.c</innerfile>
+    <innerfile refid="tlx493d_8h">tlx493d.h</innerfile>
+    <innerfile refid="_t_lx493_d_8hpp">TLx493D.hpp</innerfile>
+    <innerfile refid="_t_lx493_d___a1_b6_8c">TLx493D_A1B6.c</innerfile>
+    <innerfile refid="_t_lx493_d___a1_b6_8h">TLx493D_A1B6.h</innerfile>
+    <innerfile refid="_t_lx493_d___a1_b6__defines_8h">TLx493D_A1B6_defines.h</innerfile>
+    <innerfile refid="_t_lx493_d___a1_b6__enums_8h">TLx493D_A1B6_enums.h</innerfile>
+    <innerfile refid="_t_lx493_d___a2_b6_8c">TLx493D_A2B6.c</innerfile>
+    <innerfile refid="_t_lx493_d___a2_b6_8h">TLx493D_A2B6.h</innerfile>
+    <innerfile refid="_t_lx493_d___a2_b6__defines_8h">TLx493D_A2B6_defines.h</innerfile>
+    <innerfile refid="_t_lx493_d___a2_b6__enums_8h">TLx493D_A2B6_enums.h</innerfile>
+    <innerfile refid="tlx493d__common_8c">tlx493d_common.c</innerfile>
+    <innerfile refid="tlx493d__common_8h">tlx493d_common.h</innerfile>
+    <innerfile refid="tlx493d__common__defines_8h">tlx493d_common_defines.h</innerfile>
+    <innerfile refid="tlx493d__gen__2__common_8c">tlx493d_gen_2_common.c</innerfile>
+    <innerfile refid="tlx493d__gen__2__common_8h">tlx493d_gen_2_common.h</innerfile>
+    <innerfile refid="tlx493d__gen__2__common__defines_8h">tlx493d_gen_2_common_defines.h</innerfile>
+    <innerfile refid="tlx493d__gen__3__common_8c">tlx493d_gen_3_common.c</innerfile>
+    <innerfile refid="tlx493d__gen__3__common_8h">tlx493d_gen_3_common.h</innerfile>
+    <innerfile refid="tlx493d__gen__3__common__defines_8h">tlx493d_gen_3_common_defines.h</innerfile>
+    <innerfile refid="_t_lx493_d__inc_8hpp">TLx493D_inc.hpp</innerfile>
+    <innerfile refid="_t_lx493_d___p2_b6_8c">TLx493D_P2B6.c</innerfile>
+    <innerfile refid="_t_lx493_d___p2_b6_8h">TLx493D_P2B6.h</innerfile>
+    <innerfile refid="_t_lx493_d___p2_b6__defines_8h">TLx493D_P2B6_defines.h</innerfile>
+    <innerfile refid="_t_lx493_d___p2_b6__enums_8h">TLx493D_P2B6_enums.h</innerfile>
+    <innerfile refid="_t_lx493_d___p3_b6_8c">TLx493D_P3B6.c</innerfile>
+    <innerfile refid="_t_lx493_d___p3_b6_8h">TLx493D_P3B6.h</innerfile>
+    <innerfile refid="_t_lx493_d___p3_b6__defines_8h">TLx493D_P3B6_defines.h</innerfile>
+    <innerfile refid="_t_lx493_d___p3_b6__enums_8h">TLx493D_P3B6_enums.h</innerfile>
+    <innerfile refid="_t_lx493_d___p3_i8_8c">TLx493D_P3I8.c</innerfile>
+    <innerfile refid="_t_lx493_d___p3_i8_8h">TLx493D_P3I8.h</innerfile>
+    <innerfile refid="_t_lx493_d___p3_i8__defines_8h">TLx493D_P3I8_defines.h</innerfile>
+    <innerfile refid="_t_lx493_d___p3_i8__enums_8h">TLx493D_P3I8_enums.h</innerfile>
+    <innerfile refid="tlx493d__types_8h">tlx493d_types.h</innerfile>
+    <innerfile refid="_t_lx493_d___w2_b6_8c">TLx493D_W2B6.c</innerfile>
+    <innerfile refid="_t_lx493_d___w2_b6_8h">TLx493D_W2B6.h</innerfile>
+    <innerfile refid="_t_lx493_d___w2_b6__defines_8h">TLx493D_W2B6_defines.h</innerfile>
+    <innerfile refid="_t_lx493_d___w2_b6__enums_8h">TLx493D_W2B6_enums.h</innerfile>
+    <innerfile refid="_t_lx493_d___w2_b_w_8c">TLx493D_W2BW.c</innerfile>
+    <innerfile refid="_t_lx493_d___w2_b_w_8h">TLx493D_W2BW.h</innerfile>
+    <innerfile refid="_t_lx493_d___w2_b_w__defines_8h">TLx493D_W2BW_defines.h</innerfile>
+    <innerfile refid="_t_lx493_d___w2_b_w__enums_8h">TLx493D_W2BW_enums.h</innerfile>
+    <innerfile refid="_t_lx493_d_base_8hpp">TLx493DBase.hpp</innerfile>
+    <innerfile refid="_two_wire_wrapper_8hpp">TwoWireWrapper.hpp</innerfile>
+    <innerfile refid="types_8hpp">types.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/"/>
+  </compounddef>
+</doxygen>

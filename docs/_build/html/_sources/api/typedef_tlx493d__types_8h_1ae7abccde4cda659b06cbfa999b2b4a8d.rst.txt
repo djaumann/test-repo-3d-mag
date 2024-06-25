@@ -1,0 +1,14 @@
+.. _exhale_typedef_tlx493d__types_8h_1ae7abccde4cda659b06cbfa999b2b4a8d:
+
+Typedef TLx493D_SetWakeUpThresholdsAsIntegerFuncPtr
+===================================================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_SetWakeUpThresholdsAsIntegerFuncPtr
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

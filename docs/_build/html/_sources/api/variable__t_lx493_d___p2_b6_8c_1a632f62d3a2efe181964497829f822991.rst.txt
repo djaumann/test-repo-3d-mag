@@ -1,0 +1,14 @@
+.. _exhale_variable__t_lx493_d___p2_b6_8c_1a632f62d3a2efe181964497829f822991:
+
+Variable TLx493D_P2B6_regDef
+============================
+
+- Defined in :ref:`file_src_TLx493D_P2B6.c`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: TLx493D_P2B6_regDef
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

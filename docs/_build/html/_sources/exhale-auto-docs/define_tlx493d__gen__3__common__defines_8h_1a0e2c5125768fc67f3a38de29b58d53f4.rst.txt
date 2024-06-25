@@ -1,0 +1,14 @@
+.. _exhale_define_tlx493d__gen__3__common__defines_8h_1a0e2c5125768fc67f3a38de29b58d53f4:
+
+Define GEN_3_STD_IIC_ADDR_WRITE_A3
+==================================
+
+- Defined in :ref:`file_src_tlx493d_gen_3_common_defines.h`
+
+
+Define Documentation
+--------------------
+
+
+.. doxygendefine:: GEN_3_STD_IIC_ADDR_WRITE_A3
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

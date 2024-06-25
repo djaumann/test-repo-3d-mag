@@ -1,0 +1,342 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Getting Started &mdash; XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="_static/collapsible-lists\css\tree_view.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/collapsible-lists\js\CollapsibleLists.compressed.js"></script>
+        <script src="_static/collapsible-lists\js\apply-collapsible-lists.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Hardware Platforms" href="hw-platforms.html" />
+    <link rel="prev" title="Home" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library
+          
+
+          
+            
+            <img src="_static/ifx_logo_white_green_s.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Content</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#required-hardware">Required Hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#required-software">Required Software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#software-installation">Software Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hardware-setup">Hardware Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ready-to-go">Ready To Go!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-s-next">What’s next?</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="hw-platforms.html">Hardware Platforms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lib-install.html">Library installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Getting Started</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/getting_started.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<p>In this quick tutorial we will go through one of the XENSIV™ 3D Magnetic Sensors TLx493D library examples, which is available for all the sensors supported by this Arduino library.
+We will use the XMC 2Go as microcontroller, but you can choose any of the <a class="reference external" href="link">supported platforms</a> in order to get this example working.</p>
+<section id="required-hardware">
+<h2>Required Hardware<a class="headerlink" href="#required-hardware" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Picture</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d_tle493dw2b6-a0/">XENSIV™ 3D Magnetic Sensor TLE493D-W2B6</a></p></td>
+<td><a class="reference internal image-reference" href="_images/TLE493D_W2B6_2GO.jpg"><img alt="_images/TLE493D_W2B6_2GO.jpg" src="_images/TLE493D_W2B6_2GO.jpg" style="height: 50px;" /></a>
+</td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc_2go_xmc1100_v1/">XMC 2Go</a> (only needed if you chose a shield 2Go)</p></td>
+<td><a class="reference internal image-reference" href="_images/xmc2go.jpg"><img alt="_images/xmc2go.jpg" src="_images/xmc2go.jpg" style="height: 60px;" /></a>
+</td>
+</tr>
+<tr class="row-even"><td><p>Magnet</p></td>
+<td><a class="reference external image-reference" href="https://www.digikey.de/de/products/detail/radial-magnets-inc/8170/5400486"><img alt="_images/magnet.jpg" src="_images/magnet.jpg" style="height: 60px;" /></a>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Pin headers (included with the XMC 2Go)</p></td>
+<td><a class="reference external image-reference" href="https://www.digikey.de/de/products/detail/te-connectivity-amp-connectors/5-146280-4/5008688"><img alt="_images/pin_headers.jpg" src="_images/pin_headers.jpg" style="height: 60px;" /></a>
+</td>
+</tr>
+<tr class="row-even"><td><p>Micro-USB to USB-A cable</p></td>
+<td><a class="reference external image-reference" href="https://www.digikey.de/de/products/detail/molex/0687840002/1952431"><img alt="_images/usb_cable.jpg" src="_images/usb_cable.jpg" style="height: 60px;" /></a>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="required-software">
+<h2>Required Software<a class="headerlink" href="#required-software" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.segger.com/downloads/jlink">Segger J-Link</a></p></li>
+<li><p><a class="reference external" href="https://www.arduino.cc/en/main/software">Arduino IDE</a></p></li>
+<li><p><a class="reference external" href="https://github.com/Infineon/XMC-for-Arduino">XMC-for-Arduino</a></p></li>
+<li><p><a class="reference external" href="test">XENSIV™ 3D Magnetic Sensors TLx493D Arduino Library</a></p></li>
+</ul>
+</section>
+<section id="software-installation">
+<h2>Software Installation<a class="headerlink" href="#software-installation" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple" start="0">
+<li><p><strong>Install the Arduino IDE</strong></p></li>
+</ol>
+<p>If you are new to Arduino, please <a class="reference external" href="https://www.arduino.cc/en/Main/Software">download</a>
+the program and install it first.</p>
+<ol class="arabic simple">
+<li><p><strong>Install the XMC Board</strong></p></li>
+</ol>
+<p>The official Arduino boards are already available in the Arduino IDE, but other third party boards
+,like the Infineon MCUs, need to be explicitly included in order to use them. Follow the instructions in the <a href="#id1"><span class="problematic" id="id2">`link &lt;&gt;`_</span></a> to add the
+XMC MCU family to the Arduino IDE. Do not forget to install the the J-Link-Software as well.</p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Install the library</strong></p></li>
+</ol>
+<p>In the Arduino IDE, go to the menu <em>Sketch &gt; Include Library &gt; Library Manager</em>. Type <em>XENSIV 3D Magnetic Sensor TLx493D</em>
+and install the library.</p>
+<a class="reference internal image-reference" href="_images/img"><img alt="_images/img" src="_images/img" style="width: 500px;" /></a>
+</section>
+<section id="hardware-setup">
+<h2>Hardware Setup<a class="headerlink" href="#hardware-setup" title="Permalink to this headline">¶</a></h2>
+<p>For this example we will use the I2C interface of the MCU. In order to connect the sensor properly to the XMC 2Go you have to solder
+pins to the XMC 2Go as well as to the XENSIV™ 3D Magnetic Sensor TLE493D-W2B6. If that is done we can stack the XENSIV™ 3D Magnetic Sensor TLE493D-W2B6
+on top of the XMC 2Go. Please look at the picture below in order to plug the sensor correctly into the XMC 2Go.</p>
+<a class="reference internal image-reference" href="_images/xmc2go_sensor.png"><img alt="_images/xmc2go_sensor.png" src="_images/xmc2go_sensor.png" style="width: 500px;" /></a>
+<p>If that is done you just have to connect the USB-cable to the sensor as well as to the computer and get a magnet.</p>
+</section>
+<section id="ready-to-go">
+<h2>Ready To Go!<a class="headerlink" href="#ready-to-go" title="Permalink to this headline">¶</a></h2>
+<p>With everything prepared we’re ready to flash the first library example to the microcontroller.
+In order to do that you have to perform the following steps in the Arduino IDE:</p>
+<ol class="arabic simple">
+<li><p><strong>Select the right board</strong></p></li>
+</ol>
+<p>Once you have installed the XMC board family, you can select one of the supported boards from the menu: <em>Tools &gt; Board &gt; Infineon’s XMC Microcontroller V2.x</em>.
+In our case we have to choose the <em>XMC1100 XMC2Go</em> in order to select the correct board. Depending on which XMC-for-Arduino version you have installed the selection
+in the board menu can look a bit different.</p>
+<ol class="arabic simple" start="2">
+<li><p><strong>Open the example</strong></p></li>
+</ol>
+<p>With the library installed in the Arduino IDE you can simply open one the examples that are coming with the library. To do that you have to go to menu: <em>File &gt;
+Examples &gt; xensiv-3d-magnetic-sensor-tlx493d</em> and choose the example <em>include right example</em>.</p>
+<ol class="arabic simple" start="3">
+<li><p><strong>Build and run the example</strong></p></li>
+</ol>
+<p>Please make sure that you have chosen the right COM-port. You can choose it from the menu: <em>Tool &gt; Port</em>. If you’re not sure if you have selected the correct COM-port
+you can do a simple trick. Just remove the USB-Cable from your computer and check all the available COM-ports. With that done connect the board again and check the available COM-ports again.
+The one that has newly appeared in the list is the correct one to choose.</p>
+<p>Now we can use the <em>verify button</em> <a class="reference internal" href="_images/ard-verify-button.png"><img alt="ver-but" src="_images/ard-verify-button.png" style="width: 17px;" /></a> to check if the code is correct and compiles without errors. If the compilation passes you can upload the sketch via the <em>upload button</em> <a class="reference internal" href="_images/ard-upload-button.png"><img alt="upl-but" src="_images/ard-upload-button.png" style="width: 17px;" /></a>
+to the XMC 2Go.</p>
+<p>After the upload is complete open the serial monitor with the <em>serial monitor button</em> <a class="reference internal" href="_images/ard-serial-button.png"><img alt="ser-but" src="_images/ard-serial-button.png" style="width: 17px;" /></a>. If you just see a bunch of strange symbols you probably forgot to choose the correct baudrate for the
+serial terminal. You can find the baudrate inside the Serial.begin() function call of the Arduino-Sketch. If everything is correctly set you should see the magnetic values of the measured magnetic field
+in X, Y, Z-direction as well as the temperature on the serial monitor.</p>
+</section>
+<section id="what-s-next">
+<h2>What’s next?<a class="headerlink" href="#what-s-next" title="Permalink to this headline">¶</a></h2>
+<p>This was only one of the available library examples - <a href="#id3"><span class="problematic" id="id4">`check out the others! &lt;&gt;`_</span></a>. The other examples will show much more of the sensor’s available functionality. If you need more details about the library functions
+check out the <a href="#id5"><span class="problematic" id="id6">`API reference section &lt;&gt;`_</span></a> of this documentation.</p>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="hw-platforms.html" class="btn btn-neutral float-right" title="Hardware Platforms" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Home" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2024, Infineon Technologies AG
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

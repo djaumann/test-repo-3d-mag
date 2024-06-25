@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p3_i8_8h_1af73ee7eecd4a856cd4332a87475f2191:
+
+Function TLx493D_P3I8_calculateRawMagneticFieldAtTemperature(const TLx493D_t \*, int16_t, TLx493D_SensitivityType_t, double, double, double, int16_t \*, int16_t \*, int16_t \*)
+================================================================================================================================================================================
+
+- Defined in :ref:`file_src_TLx493D_P3I8.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P3I8_calculateRawMagneticFieldAtTemperature(const TLx493D_t *, int16_t, TLx493D_SensitivityType_t, double, double, double, int16_t *, int16_t *, int16_t *)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

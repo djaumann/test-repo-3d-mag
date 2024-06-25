@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___w2_b6_8h_1a743340fd0b6492abf1109973d942791e:
+
+Function TLx493D_W2B6_setTrigger(TLx493D_t \*, TLx493D_TriggerType_t)
+=====================================================================
+
+- Defined in :ref:`file_src_TLx493D_W2B6.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_W2B6_setTrigger(TLx493D_t *, TLx493D_TriggerType_t)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

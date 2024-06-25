@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d__gen__3__common_8c_1a5368b5e8da9cca8ad17f60ccab3f7263:
+
+Function tlx493d_gen_3_hasValidFuseParity(const TLx493D_t \*, uint8_t)
+======================================================================
+
+- Defined in :ref:`file_src_tlx493d_gen_3_common.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_gen_3_hasValidFuseParity(const TLx493D_t *, uint8_t)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

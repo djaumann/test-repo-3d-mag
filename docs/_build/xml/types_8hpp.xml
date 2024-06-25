@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="types_8hpp" kind="file" language="C++">
+    <compoundname>types.hpp</compoundname>
+    <includes local="no">Arduino.h</includes>
+    <includes local="no">SPI.h</includes>
+    <includes local="no">Wire.h</includes>
+    <includes refid="_kit2_go_board_support_8hpp" local="yes">Kit2GoBoardSupport.hpp</includes>
+    <includes refid="_t_lx493_d_8hpp" local="yes">TLx493D.hpp</includes>
+    <includes refid="tlx493d__types_8h" local="yes">tlx493d_types.h</includes>
+    <includedby refid="_board_support_using_kit2_go_8cpp" local="yes">src/BoardSupportUsingKit2Go.cpp</includedby>
+    <includedby refid="_communication_interface_8cpp" local="yes">src/CommunicationInterface.cpp</includedby>
+    <includedby refid="_i_i_c_using_two_wire_8cpp" local="yes">src/IICUsingTwoWire.cpp</includedby>
+    <includedby refid="_s_p_i_using_s_p_i_class_8cpp" local="yes">src/SPIUsingSPIClass.cpp</includedby>
+    <includedby refid="_t_lx493_d_8hpp" local="yes">src/TLx493D.hpp</includedby>
+    <includedby refid="_t_lx493_d_base_8hpp" local="yes">src/TLx493DBase.hpp</includedby>
+    <includedby refid="_t_lx493_d__inc_8hpp" local="yes">src/TLx493D_inc.hpp</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>Arduino.h</label>
+      </node>
+      <node id="9">
+        <label>BoardSupportUsingKit2Go.hpp</label>
+        <link refid="_board_support_using_kit2_go_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>CommunicationInterface.h</label>
+        <link refid="_communication_interface_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>IICUsingTwoWire.hpp</label>
+        <link refid="_i_i_c_using_two_wire_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Kit2GoBoardSupport.hpp</label>
+        <link refid="_kit2_go_board_support_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>SPIClassWrapper.hpp</label>
+        <link refid="_s_p_i_class_wrapper_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>SPIUsingSPIClass.hpp</label>
+        <link refid="_s_p_i_using_s_p_i_class_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>TLx493D.hpp</label>
+        <link refid="_t_lx493_d_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>TLx493DBase.hpp</label>
+        <link refid="_t_lx493_d_base_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>TwoWireWrapper.hpp</label>
+        <link refid="_two_wire_wrapper_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>pal.h</label>
+        <link refid="pal_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>tlx493d.h</label>
+        <link refid="tlx493d_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>tlx493d_types.h</label>
+        <link refid="tlx493d__types_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/types.hpp</label>
+        <link refid="types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>SPI.h</label>
+      </node>
+      <node id="4">
+        <label>Wire.h</label>
+      </node>
+      <node id="7">
+        <label>cstdbool</label>
+      </node>
+      <node id="8">
+        <label>cstdint</label>
+      </node>
+      <node id="11">
+        <label>stdbool.h</label>
+      </node>
+      <node id="12">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>src/TLx493D.hpp</label>
+        <link refid="_t_lx493_d_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>src/TLx493DBase.hpp</label>
+        <link refid="_t_lx493_d_base_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>src/TLx493D_inc.hpp</label>
+        <link refid="_t_lx493_d__inc_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>src/types.hpp</label>
+        <link refid="types_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceifx">ifx</innernamespace>
+    <innernamespace refid="namespaceifx_1_1tlx493d">ifx::tlx493d</innernamespace>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="types_8hpp_1ad1c858b2c377f664b90d8db6b1743a17" prot="public" static="no">
+        <type>TLx493D_I2CObject_t { <ref refid="classifx_1_1tlx493d_1_1_two_wire_wrapper" kindref="compound">ifx::tlx493d::TwoWireWrapper</ref> wire</type>
+        <definition>using TLx493D_I2CObject_t =  TLx493D_I2CObject_t { ifx::tlx493d::TwoWireWrapper wire</definition>
+        <argsstring></argsstring>
+        <name>TLx493D_I2CObject_t</name>
+        <briefdescription>
+<para>Structure to hold the I2C-object, needed for communication. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Arduino includes. project cpp includes. project c includes. common to all sensors. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/types.hpp" line="20" column="1" bodyfile="src/types.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="types_8hpp_1a3a4f8bc6d4c932148d91e7a49e9a8c23" prot="public" static="no">
+        <type>TLx493D_SPIObject_t { <ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" kindref="compound">ifx::tlx493d::SPIClassWrapper</ref> spi</type>
+        <definition>using TLx493D_SPIObject_t =  TLx493D_SPIObject_t { ifx::tlx493d::SPIClassWrapper spi</definition>
+        <argsstring></argsstring>
+        <name>TLx493D_SPIObject_t</name>
+        <briefdescription>
+<para>Structure to hold the SPI-object, needed for communication. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/types.hpp" line="30" column="1" bodyfile="src/types.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="types_8hpp_1ac5a28093c0f9786f651a9daedb59ab79" prot="public" static="no">
+        <type>TLx493D_Kit2GoBoardSupportObject_t { <ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">ifx::tlx493d::Kit2GoBoardSupport</ref> *k2go</type>
+        <definition>using TLx493D_Kit2GoBoardSupportObject_t =  TLx493D_Kit2GoBoardSupportObject_t { ifx::tlx493d::Kit2GoBoardSupport *k2go</definition>
+        <argsstring></argsstring>
+        <name>TLx493D_Kit2GoBoardSupportObject_t</name>
+        <briefdescription>
+<para>Structure to hold the Kit2GoBoardSupportObject. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/types.hpp" line="40" column="1" bodyfile="src/types.hpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TLX493D_ARDUINO_TYPES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TLX493D_ARDUINO_TYPES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Arduino.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;SPI.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Wire.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Kit2GoBoardSupport.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;TLx493D.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tlx493d_types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TLx493D_I2CObject_t<sp/>=<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">TLx493D_I2CObject_t<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classifx_1_1tlx493d_1_1_two_wire_wrapper" kindref="compound">ifx::tlx493d::TwoWireWrapper</ref><sp/>wire;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ifx::tlx493d::TwoWireWrapper<sp/>*wire;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>bool<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isToBeDeleted;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TLx493D_SPIObject_t<sp/>=<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">TLx493D_SPIObject_t<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" kindref="compound">ifx::tlx493d::SPIClassWrapper</ref><sp/>spi;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>ifx::tlx493d::SPIClassWrapper<sp/>*spi;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>bool<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isToBeDeleted;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TLx493D_Kit2GoBoardSupportObject_t<sp/>=<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">TLx493D_Kit2GoBoardSupportObject_t<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classifx_1_1tlx493d_1_1_kit2_go_board_support" kindref="compound">ifx::tlx493d::Kit2GoBoardSupport</ref><sp/><sp/>*k2go;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>bool<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isToBeDeleted;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceifx" kindref="compound">ifx</ref><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">tlx493d<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TLx493D_A1B6<sp/>=<sp/>TLx493D&lt;Kit2GoBoardSupport,<sp/>TwoWireWrapper,<sp/>TLx493D_A1B6_e&gt;;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TLx493D_A2B6<sp/>=<sp/>TLx493D&lt;Kit2GoBoardSupport,<sp/>TwoWireWrapper,<sp/>TLx493D_A2B6_e&gt;;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TLx493D_P2B6<sp/>=<sp/>TLx493D&lt;Kit2GoBoardSupport,<sp/>TwoWireWrapper,<sp/>TLx493D_P2B6_e&gt;;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TLx493D_W2B6<sp/>=<sp/>TLx493D&lt;Kit2GoBoardSupport,<sp/>TwoWireWrapper,<sp/>TLx493D_W2B6_e&gt;;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TLx493D_W2BW<sp/>=<sp/>TLx493D&lt;Kit2GoBoardSupport,<sp/>TwoWireWrapper,<sp/>TLx493D_W2BW_e&gt;;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TLx493D_P3B6<sp/>=<sp/>TLx493D&lt;Kit2GoBoardSupport,<sp/>TwoWireWrapper,<sp/>TLx493D_P3B6_e&gt;;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>using<sp/>TLx493D_P3I8<sp/>=<sp/>TLx493D&lt;Kit2GoBoardSupport,<sp/>SPIClass,<sp/>TLx493D_P3I8_e&gt;;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">TLx493D_P3I8<sp/>=<sp/>TLx493D&lt;Kit2GoBoardSupport,<sp/>SPIClassWrapper,<sp/>TLx493D_P3I8_e&gt;;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>TLX493D_ARDUINO_TYPES_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/types.hpp"/>
+  </compounddef>
+</doxygen>

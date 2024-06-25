@@ -1,0 +1,14 @@
+.. _exhale_typedef_tlx493d__types_8h_1a3f071e23be86e54ae6f2db98eca088db:
+
+Typedef TLx493D_Enable1ByteReadModeFuncPtr
+==========================================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_Enable1ByteReadModeFuncPtr
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

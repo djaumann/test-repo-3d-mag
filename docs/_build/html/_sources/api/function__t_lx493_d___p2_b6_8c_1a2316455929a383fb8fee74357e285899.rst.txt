@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p2_b6_8c_1a2316455929a383fb8fee74357e285899:
+
+Function TLx493D_P2B6_setPowerMode(TLx493D_t \*, TLx493D_PowerModeType_t)
+=========================================================================
+
+- Defined in :ref:`file_src_TLx493D_P2B6.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P2B6_setPowerMode(TLx493D_t *, TLx493D_PowerModeType_t)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

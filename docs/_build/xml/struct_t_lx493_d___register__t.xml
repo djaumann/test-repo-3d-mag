@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_t_lx493_d___register__t" kind="struct" language="C++" prot="public">
+    <compoundname>TLx493D_Register_t</compoundname>
+    <includes refid="tlx493d__types_8h" local="no">tlx493d_types.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_t_lx493_d___register__t_1aba37da5729c6251b12aef58ae1216db9" prot="public" static="no" mutable="no">
+        <type>TLx493D_RegisterAccessModeType_t</type>
+        <definition>TLx493D_RegisterAccessModeType_t TLx493D_Register_t::accessMode</definition>
+        <argsstring></argsstring>
+        <name>accessMode</name>
+        <qualifiedname>TLx493D_Register_t::accessMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_types.h" line="172" column="39" bodyfile="src/tlx493d_types.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_lx493_d___register__t_1a3d2cdf2db76e5569e98fe55fd30f9f41" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_Register_t::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <qualifiedname>TLx493D_Register_t::address</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_types.h" line="173" column="39" bodyfile="src/tlx493d_types.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_lx493_d___register__t_1af7f35dfac47f777887779b6f14fa7245" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_Register_t::mask</definition>
+        <argsstring></argsstring>
+        <name>mask</name>
+        <qualifiedname>TLx493D_Register_t::mask</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_types.h" line="174" column="39" bodyfile="src/tlx493d_types.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_lx493_d___register__t_1ac157efdcaa5d8930d45d452fb5f94253" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_Register_t::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <qualifiedname>TLx493D_Register_t::offset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_types.h" line="175" column="39" bodyfile="src/tlx493d_types.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_lx493_d___register__t_1a0c32acf609c5e808f65cac06687ebabf" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t TLx493D_Register_t::numBits</definition>
+        <argsstring></argsstring>
+        <name>numBits</name>
+        <qualifiedname>TLx493D_Register_t::numBits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_types.h" line="176" column="39" bodyfile="src/tlx493d_types.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The structure <computeroutput><ref refid="struct_t_lx493_d___register__t" kindref="compound">TLx493D_Register_t</ref></computeroutput> is used to store name, access mode, address, mask and offset of registers. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/tlx493d_types.h" line="170" column="1" bodyfile="src/tlx493d_types.h" bodystart="170" bodyend="177"/>
+    <listofallmembers>
+      <member refid="struct_t_lx493_d___register__t_1aba37da5729c6251b12aef58ae1216db9" prot="public" virt="non-virtual"><scope>TLx493D_Register_t</scope><name>accessMode</name></member>
+      <member refid="struct_t_lx493_d___register__t_1a3d2cdf2db76e5569e98fe55fd30f9f41" prot="public" virt="non-virtual"><scope>TLx493D_Register_t</scope><name>address</name></member>
+      <member refid="struct_t_lx493_d___register__t_1af7f35dfac47f777887779b6f14fa7245" prot="public" virt="non-virtual"><scope>TLx493D_Register_t</scope><name>mask</name></member>
+      <member refid="struct_t_lx493_d___register__t_1a0c32acf609c5e808f65cac06687ebabf" prot="public" virt="non-virtual"><scope>TLx493D_Register_t</scope><name>numBits</name></member>
+      <member refid="struct_t_lx493_d___register__t_1ac157efdcaa5d8930d45d452fb5f94253" prot="public" virt="non-virtual"><scope>TLx493D_Register_t</scope><name>offset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

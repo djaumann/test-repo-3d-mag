@@ -1,0 +1,14 @@
+.. _exhale_typedef_tlx493d__types_8h_1ab5d6170d500064a9b2b0ce7ea71f710a:
+
+Typedef TLx493D_SetReadAddressFuncPtr
+=====================================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_SetReadAddressFuncPtr
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

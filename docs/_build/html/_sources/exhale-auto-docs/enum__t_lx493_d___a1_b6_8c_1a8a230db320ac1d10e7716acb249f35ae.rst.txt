@@ -1,0 +1,14 @@
+.. _exhale_enum__t_lx493_d___a1_b6_8c_1a8a230db320ac1d10e7716acb249f35ae:
+
+Enum TLx493D_A1B6_Reg_Temp_NEN
+==============================
+
+- Defined in :ref:`file_src_TLx493D_A1B6.c`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: TLx493D_A1B6_Reg_Temp_NEN
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

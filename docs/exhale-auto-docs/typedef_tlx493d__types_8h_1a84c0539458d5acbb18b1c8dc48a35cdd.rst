@@ -1,0 +1,14 @@
+.. _exhale_typedef_tlx493d__types_8h_1a84c0539458d5acbb18b1c8dc48a35cdd:
+
+Typedef TLx493D_GetRawTemperatureFuncPtr
+========================================
+
+- Defined in :ref:`file_src_tlx493d_types.h`
+
+
+Typedef Documentation
+---------------------
+
+
+.. doxygentypedef:: TLx493D_GetRawTemperatureFuncPtr
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

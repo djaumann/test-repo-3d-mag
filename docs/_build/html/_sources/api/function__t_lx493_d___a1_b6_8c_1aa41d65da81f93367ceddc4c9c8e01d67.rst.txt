@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___a1_b6_8c_1aa41d65da81f93367ceddc4c9c8e01d67:
+
+Function TLx493D_A1B6_isFunctional(const TLx493D_t \*)
+======================================================
+
+- Defined in :ref:`file_src_TLx493D_A1B6.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_A1B6_isFunctional(const TLx493D_t *)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

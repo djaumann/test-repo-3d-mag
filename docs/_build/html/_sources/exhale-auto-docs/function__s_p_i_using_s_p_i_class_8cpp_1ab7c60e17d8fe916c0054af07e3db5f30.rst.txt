@@ -1,0 +1,14 @@
+.. _exhale_function__s_p_i_using_s_p_i_class_8cpp_1ab7c60e17d8fe916c0054af07e3db5f30:
+
+Function ifx::tlx493d::initSPI
+==============================
+
+- Defined in :ref:`file_src_SPIUsingSPIClass.cpp`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: ifx::tlx493d::initSPI(TLx493D_t *)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

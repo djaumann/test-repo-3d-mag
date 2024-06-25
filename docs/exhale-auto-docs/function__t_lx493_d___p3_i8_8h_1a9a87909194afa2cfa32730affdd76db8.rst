@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p3_i8_8h_1a9a87909194afa2cfa32730affdd76db8:
+
+Function TLx493D_P3I8_setIICAddress(TLx493D_t \*, TLx493D_IICAddressType_t)
+===========================================================================
+
+- Defined in :ref:`file_src_TLx493D_P3I8.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P3I8_setIICAddress(TLx493D_t *, TLx493D_IICAddressType_t)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

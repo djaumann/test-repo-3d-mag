@@ -1,0 +1,1169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="tlx493d__common_8c" kind="file" language="C++">
+    <compoundname>tlx493d_common.c</compoundname>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="tlx493d__types_8h" local="yes">tlx493d_types.h</includes>
+    <includes refid="tlx493d__common__defines_8h" local="yes">tlx493d_common_defines.h</includes>
+    <includes refid="tlx493d__common_8h" local="yes">tlx493d_common.h</includes>
+    <includes refid="tlx493d_8h" local="yes">tlx493d.h</includes>
+    <includes refid="_logger_8h" local="yes">Logger.h</includes>
+    <incdepgraph>
+      <node id="9">
+        <label>CommunicationInterface.h</label>
+        <link refid="_communication_interface_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Logger.h</label>
+        <link refid="_logger_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>pal.h</label>
+        <link refid="pal_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>tlx493d.h</label>
+        <link refid="tlx493d_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>src/tlx493d_common.c</label>
+        <link refid="tlx493d__common_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>tlx493d_common.h</label>
+        <link refid="tlx493d__common_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>tlx493d_common_defines.h</label>
+        <link refid="tlx493d__common__defines_8h_source"/>
+      </node>
+      <node id="7">
+        <label>tlx493d_types.h</label>
+        <link refid="tlx493d__types_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>stdarg.h</label>
+      </node>
+      <node id="2">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>stdlib.h</label>
+      </node>
+      <node id="6">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="tlx493d__common_8c_1a25e2abfc0742e38e53d250d691b86b58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_common_init</definition>
+        <argsstring>(TLx493D_t *sensor, uint8_t regMapSize, TLx493D_Register_t *regDef, TLx493D_CommonFunctions_t *commonFuncs, TLx493D_SupportedSensorType_t sensorType, TLx493D_SupportedComLibraryInterfaceType_t comIFType)</argsstring>
+        <name>tlx493d_common_init</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>regMapSize</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_t_lx493_d___register__t" kindref="compound">TLx493D_Register_t</ref> *</type>
+          <declname>regDef</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_t_lx493_d___common_functions__t" kindref="compound">TLx493D_CommonFunctions_t</ref> *</type>
+          <declname>commonFuncs</declname>
+        </param>
+        <param>
+          <type>TLx493D_SupportedSensorType_t</type>
+          <declname>sensorType</declname>
+        </param>
+        <param>
+          <type>TLx493D_SupportedComLibraryInterfaceType_t</type>
+          <declname>comIFType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="19" column="6" bodyfile="src/tlx493d_common.c" bodystart="19" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a58cb94344ba2e2034edf3374757b0d3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_common_deinit</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_common_deinit</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="43" column="6" bodyfile="src/tlx493d_common.c" bodystart="43" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a9cf24d85e0ce87437519ccb075ef648d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool tlx493d_hasNotOnly0xFFInRegmap</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_hasNotOnly0xFFInRegmap</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="58" column="13" bodyfile="src/tlx493d_common.c" bodystart="58" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a059f065e28b16c1c51d76b3962224196" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_common_readRegisters</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_common_readRegisters</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="72" column="6" bodyfile="src/tlx493d_common.c" bodystart="72" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a9f1d27f88441a5220c0477184a67187e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_common_readRegistersAndCheck</definition>
+        <argsstring>(TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_common_readRegistersAndCheck</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="100" column="6" bodyfile="src/tlx493d_common.c" bodystart="100" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a93d1a67186780d3046b19e87ceeb2066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_common_calculateRawTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, uint8_t tempMSBBF, uint8_t tempLSBBF, int16_t *temperature)</argsstring>
+        <name>tlx493d_common_calculateRawTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>tempMSBBF</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>tempLSBBF</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="151" column="6" bodyfile="src/tlx493d_common.c" bodystart="151" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a07c3b3e023c814d6813e60125ba6eb3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_common_getRawTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *temperature)</argsstring>
+        <name>tlx493d_common_getRawTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="156" column="6" bodyfile="src/tlx493d_common.c" bodystart="156" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a620d6f7c2b14dce43d3ae97a049b8eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_common_calculateRawMagneticField</definition>
+        <argsstring>(TLx493D_t *sensor, uint8_t bxMSBBF, uint8_t bxLSBBF, uint8_t byMSBBF, uint8_t byLSBBF, uint8_t bzMSBBF, uint8_t bzLSBBF, int16_t *x, int16_t *y, int16_t *z)</argsstring>
+        <name>tlx493d_common_calculateRawMagneticField</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bxMSBBF</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bxLSBBF</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>byMSBBF</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>byLSBBF</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bzMSBBF</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bzLSBBF</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="170" column="6" bodyfile="src/tlx493d_common.c" bodystart="170" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1ae57452cabd59c4cd485cf95f9404c3be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_common_getRawMagneticField</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *x, int16_t *y, int16_t *z)</argsstring>
+        <name>tlx493d_common_getRawMagneticField</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="179" column="6" bodyfile="src/tlx493d_common.c" bodystart="179" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a8db8a7238ee7b8e423feb3b273b799cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_common_getRawMagneticFieldAndTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, int16_t *x, int16_t *y, int16_t *z, int16_t *temperature)</argsstring>
+        <name>tlx493d_common_getRawMagneticFieldAndTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="189" column="6" bodyfile="src/tlx493d_common.c" bodystart="189" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a6b6622557a711fa5aab5058fde2453de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_common_getTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, double *temperature)</argsstring>
+        <name>tlx493d_common_getTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="203" column="6" bodyfile="src/tlx493d_common.c" bodystart="203" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1afdd76cc7f189d03494b9f0abcc7e85be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_common_getMagneticField</definition>
+        <argsstring>(TLx493D_t *sensor, double *x, double *y, double *z)</argsstring>
+        <name>tlx493d_common_getMagneticField</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="216" column="6" bodyfile="src/tlx493d_common.c" bodystart="216" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a7a249f55cb128bd7bc4699a49dd0ac4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_common_getMagneticFieldAndTemperature</definition>
+        <argsstring>(TLx493D_t *sensor, double *x, double *y, double *z, double *temperature)</argsstring>
+        <name>tlx493d_common_getMagneticFieldAndTemperature</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>temperature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="229" column="6" bodyfile="src/tlx493d_common.c" bodystart="229" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a834b770a489733ee73e42cb74d32820a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t tlx493d_common_returnBitfield</definition>
+        <argsstring>(const TLx493D_t *sensor, uint8_t bitField)</argsstring>
+        <name>tlx493d_common_returnBitfield</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bitField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="239" column="9" bodyfile="src/tlx493d_common.c" bodystart="239" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a4beca21c03a1a8bb8d0ae121fc61efb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_common_getBitfield</definition>
+        <argsstring>(const TLx493D_t *sensor, uint8_t bitField, uint8_t *bitFieldValue)</argsstring>
+        <name>tlx493d_common_getBitfield</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bitField</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>bitFieldValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="251" column="6" bodyfile="src/tlx493d_common.c" bodystart="251" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a072c757facf5a696cb104412da0f9ca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_common_setBitfield</definition>
+        <argsstring>(TLx493D_t *sensor, uint8_t bitField, uint8_t newBitFieldValue)</argsstring>
+        <name>tlx493d_common_setBitfield</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bitField</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>newBitFieldValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="256" column="6" bodyfile="src/tlx493d_common.c" bodystart="256" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a5213c4719882e39f73972f6849004142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tlx493d_common_writeRegister</definition>
+        <argsstring>(TLx493D_t *sensor, uint8_t bitField)</argsstring>
+        <name>tlx493d_common_writeRegister</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bitField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="270" column="6" bodyfile="src/tlx493d_common.c" bodystart="270" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a9f532e4ebda31e6f149dd6dc1f1cb76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t tlx493d_common_calculateParity</definition>
+        <argsstring>(uint8_t dataIn)</argsstring>
+        <name>tlx493d_common_calculateParity</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>dataIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="283" column="9" bodyfile="src/tlx493d_common.c" bodystart="283" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a42275fc93723a730a2d70897af21e2c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t tlx493d_common_getOddParity</definition>
+        <argsstring>(uint8_t parity)</argsstring>
+        <name>tlx493d_common_getOddParity</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="292" column="9" bodyfile="src/tlx493d_common.c" bodystart="292" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1afe2b377c8c1c303b9d4bb16ff3312092" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t tlx493d_common_getEvenParity</definition>
+        <argsstring>(uint8_t parity)</argsstring>
+        <name>tlx493d_common_getEvenParity</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="297" column="9" bodyfile="src/tlx493d_common.c" bodystart="297" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a553de0607832d99adf3f4f2bf2554381" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_common_concatBytes</definition>
+        <argsstring>(TLx493D_t *sensor, uint8_t msbBitfield, uint8_t lsbBitfield, int16_t *result)</argsstring>
+        <name>tlx493d_common_concatBytes</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>msbBitfield</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>lsbBitfield</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>More generic version wrt size and offsets of MSB and LSB. Register values are in two&apos;s complement form. Assumptions :<itemizedlist>
+<listitem><para>registers are 8 bits wide </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="307" column="6" bodyfile="src/tlx493d_common.c" bodystart="307" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a31b9785ddaf75f908d122dbb76c870f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * tlx493d_common_getTypeAsString</definition>
+        <argsstring>(const TLx493D_t *sensor)</argsstring>
+        <name>tlx493d_common_getTypeAsString</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="317" column="12" bodyfile="src/tlx493d_common.c" bodystart="317" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1aafff13866fb4b87aa31bdf3fe49c4e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_common_setIICAddress</definition>
+        <argsstring>(TLx493D_t *sensor, uint8_t addr)</argsstring>
+        <name>tlx493d_common_setIICAddress</name>
+        <param>
+          <type><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="346" column="6" bodyfile="src/tlx493d_common.c" bodystart="346" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a55cdd7ee8c8825c93dbf3dbc5c5db6d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_warnFeatureNotAvailableForSensorType</definition>
+        <argsstring>(const TLx493D_t *sensor, const char *featureName)</argsstring>
+        <name>tlx493d_warnFeatureNotAvailableForSensorType</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>featureName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="356" column="6" bodyfile="src/tlx493d_common.c" bodystart="356" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1ada5e98fb287893e712b6c3044a5fdc47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_errorBitfieldNotReadableForSensorType</definition>
+        <argsstring>(const TLx493D_t *sensor, uint8_t bf)</argsstring>
+        <name>tlx493d_errorBitfieldNotReadableForSensorType</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="361" column="6" bodyfile="src/tlx493d_common.c" bodystart="361" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a9f9fd2daeecf3fc9de2addb364b48dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_errorBitfieldNotWritableForSensorType</definition>
+        <argsstring>(const TLx493D_t *sensor, uint8_t bf)</argsstring>
+        <name>tlx493d_errorBitfieldNotWritableForSensorType</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>bf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="366" column="6" bodyfile="src/tlx493d_common.c" bodystart="366" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1ae16f4554e2d4c0d7cd80e919d53ebd71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_errorFunctionNotSupportedForSensorType</definition>
+        <argsstring>(const TLx493D_t *sensor, const char *func)</argsstring>
+        <name>tlx493d_errorFunctionNotSupportedForSensorType</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="371" column="6" bodyfile="src/tlx493d_common.c" bodystart="371" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="tlx493d__common_8c_1a1888d41d20176c33b3b16b6bbb92182a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tlx493d_errorSelectionNotSupportedForSensorType</definition>
+        <argsstring>(const TLx493D_t *sensor, uint8_t sel, const char *selType)</argsstring>
+        <name>tlx493d_errorSelectionNotSupportedForSensorType</name>
+        <param>
+          <type>const <ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref> *</type>
+          <declname>sensor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>sel</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>selType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_common.c" line="376" column="6" bodyfile="src/tlx493d_common.c" bodystart="376" bodyend="378"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>std<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>project<sp/>c<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>common<sp/>to<sp/>all<sp/>sensors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tlx493d_types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tlx493d_common_defines.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tlx493d_common.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tlx493d.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Logger.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">/***</highlight></codeline>
+<codeline lineno="18"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_common_init(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>uint8_t<sp/>regMapSize,<sp/><ref refid="struct_t_lx493_d___register__t" kindref="compound">TLx493D_Register_t</ref><sp/>*regDef,<sp/><ref refid="struct_t_lx493_d___common_functions__t" kindref="compound">TLx493D_CommonFunctions_t</ref><sp/>*commonFuncs,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TLx493D_SupportedSensorType_t<sp/>sensorType,<sp/>TLx493D_SupportedComLibraryInterfaceType_t<sp/>comIFType)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;regMap<sp/><sp/><sp/><sp/><sp/>=<sp/>(uint8_t*)<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(uint8_t)<sp/>*<sp/>regMapSize);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;regDef<sp/><sp/><sp/><sp/><sp/>=<sp/>regDef;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;functions<sp/><sp/>=<sp/>commonFuncs;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;regMapSize<sp/>=<sp/>regMapSize;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;sensorType<sp/>=<sp/>sensorType;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;comIFType<sp/><sp/>=<sp/>comIFType;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;comInterface.comLibFuncs<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;comInterface.comLibObj.iic_obj<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;boardSupportInterface.boardSupportObj.k2go_obj<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>(void)<sp/>memset(sensor-&gt;regMap,<sp/>0,<sp/>sensor-&gt;regMapSize);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;functions-&gt;setResetValues(sensor);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/***</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_common_deinit(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>sensor-&gt;regMap<sp/>!=<sp/>NULL<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(sensor-&gt;regMap);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sensor-&gt;regMap<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;comInterface.comLibFuncs<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;comInterface.comLibObj.iic_obj<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;boardSupportInterface.boardSupportObj.k2go_obj<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_hasNotOnly0xFFInRegmap(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Skip<sp/>address<sp/>0<sp/>!<sp/>Seems<sp/>to<sp/>be<sp/>ok<sp/>even<sp/>if<sp/>other<sp/>entries<sp/>are<sp/>not.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(uint8_t<sp/>i<sp/>=<sp/>1;<sp/>i<sp/>&lt;<sp/>sensor-&gt;regMapSize;<sp/>++i)<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>sensor-&gt;regMap[i]<sp/>!=<sp/>0xFFU<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">/***</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>Generations<sp/>2<sp/>and<sp/>3,<sp/>not<sp/>1.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_common_readRegisters(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor)<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isOk<sp/><sp/>=<sp/>tlx493d_transfer(sensor,<sp/>NULL,<sp/>0,<sp/>sensor-&gt;regMap,<sp/>sensor-&gt;regMapSize);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>isOk<sp/><sp/><sp/><sp/><sp/><sp/>&amp;=<sp/>tlx493d_hasNotOnly0xFFInRegmap(sensor);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>//<sp/>if(<sp/>!<sp/>isOk<sp/>)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>logPrintln(&quot;tlx493d_common_readRegisters<sp/><sp/><sp/>isOk<sp/>=<sp/>%d&quot;,<sp/>isOk);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>logPrintln(&quot;hasValidData<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidData(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>logPrintln(&quot;hasValidBusParity<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidBusParity(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>logPrintln(&quot;hasValidTBit<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidTBit(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>//<sp/>logPrintln(&quot;isInTestMode<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;isInTestMode(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>logPrintln(&quot;isFunctional<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;isFunctional(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>logPrintln(&quot;hasValidFuseParity<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidFuseParity(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>logPrintln(&quot;hasValidConfigurationParity<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidConfigurationParity(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>tlx493d_printRegisters(sensor);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>//<sp/>logFlush();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>//<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isOk;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">/***</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*<sp/>Generations<sp/>2<sp/>and<sp/>3,<sp/>not<sp/>1.</highlight></codeline>
+<codeline lineno="99"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_common_readRegistersAndCheck(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor)<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>buf[sensor-&gt;regMapSize];</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>(void)<sp/>memcpy(buf,<sp/>sensor-&gt;regMap,<sp/>sensor-&gt;regMapSize);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isOk<sp/><sp/>=<sp/>tlx493d_transfer(sensor,<sp/>NULL,<sp/>0,<sp/>sensor-&gt;regMap,<sp/>sensor-&gt;regMapSize);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isOk<sp/>&amp;=<sp/>tlx493d_hasNotOnly0xFFInRegmap(sensor);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;isOk<sp/>=<sp/>%d&quot;,<sp/>isOk);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;hasValidData<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidData(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;hasValidBusParity<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidBusParity(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;hasValidTBit<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidTBit(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>//<sp/>logPrintln(&quot;isInTestMode<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;isInTestMode(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;isFunctional<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;isFunctional(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;hasValidFuseParity<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidFuseParity(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;hasValidConfigurationParity<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidConfigurationParity(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>sensor-&gt;functions-&gt;printRegisters(sensor);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>!<sp/>(isOk<sp/>&amp;&amp;<sp/>sensor-&gt;functions-&gt;<ref refid="struct_t_lx493_d___common_functions__t_1a080b12aaef950ab0a0ce681537895749" kindref="member">hasValidData</ref>(sensor)<sp/>&amp;&amp;<sp/>sensor-&gt;functions-&gt;isFunctional(sensor))<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;tlx493d_common_readRegistersAndCheck<sp/><sp/><sp/><sp/>--------<sp/><sp/><sp/>isOk<sp/>=<sp/>%d&quot;,<sp/>isOk);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;hasValidData<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidData(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;hasValidBusParity<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidBusParity(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;hasValidTBit<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidTBit(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;isInTestMode<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;isInTestMode(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;isFunctional<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;isFunctional(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;hasValidFuseParity<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidFuseParity(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>logPrintln(&quot;hasValidConfigurationParity<sp/>=<sp/>%d&quot;,<sp/>sensor-&gt;functions-&gt;hasValidConfigurationParity(sensor));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>tlx493d_printRegisters(sensor);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)<sp/>memcpy(sensor-&gt;regMap,<sp/>buf,<sp/>sensor-&gt;regMapSize);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>}<sp/>while(<sp/>!<sp/>(isOk<sp/>&amp;&amp;<sp/>sensor-&gt;functions-&gt;hasValidData(sensor))<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>}<sp/>while(<sp/>!<sp/>(isOk<sp/>&amp;&amp;<sp/>sensor-&gt;functions-&gt;hasValidData(sensor)<sp/>&amp;&amp;<sp/>sensor-&gt;functions-&gt;isFunctional(sensor))<sp/>);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_common_calculateRawTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>uint8_t<sp/>tempMSBBF,<sp/>uint8_t<sp/>tempLSBBF,<sp/>int16_t<sp/>*temperature)<sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>tlx493d_common_concatBytes(sensor,<sp/>tempMSBBF,<sp/>tempLSBBF,<sp/>temperature);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_common_getRawTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*temperature)<sp/>{</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>sensor-&gt;functions-&gt;readRegistersAndCheck(sensor)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sensor-&gt;functions-&gt;calculateRawTemperature(sensor,<sp/>temperature);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>return<sp/>true;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>return<sp/>false;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>b;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_common_calculateRawMagneticField(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>uint8_t<sp/>bxMSBBF,<sp/>uint8_t<sp/>bxLSBBF,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>byMSBBF,<sp/>uint8_t<sp/>byLSBBF,<sp/>uint8_t<sp/>bzMSBBF,<sp/>uint8_t<sp/>bzLSBBF,</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,<sp/>int16_t<sp/>*z)<sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>tlx493d_common_concatBytes(sensor,<sp/>bxMSBBF,<sp/>bxLSBBF,<sp/>x);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>tlx493d_common_concatBytes(sensor,<sp/>byMSBBF,<sp/>byLSBBF,<sp/>y);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>tlx493d_common_concatBytes(sensor,<sp/>bzMSBBF,<sp/>bzLSBBF,<sp/>z);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_common_getRawMagneticField(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,<sp/>int16_t<sp/>*z)<sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>sensor-&gt;functions-&gt;readRegistersAndCheck(sensor)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sensor-&gt;functions-&gt;calculateRawMagneticField(sensor,<sp/>x,<sp/>y,<sp/>z);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_common_getRawMagneticFieldAndTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>int16_t<sp/>*x,<sp/>int16_t<sp/>*y,<sp/>int16_t<sp/>*z,</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>*temperature)<sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>sensor-&gt;functions-&gt;readRegistersAndCheck(sensor)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sensor-&gt;functions-&gt;calculateRawMagneticFieldAndTemperature(sensor,<sp/>x,<sp/>y,<sp/>z,<sp/>temperature);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="comment">/***</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_common_getTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*temperature)<sp/>{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>sensor-&gt;functions-&gt;readRegistersAndCheck(sensor)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sensor-&gt;functions-&gt;calculateTemperature(sensor,<sp/>temperature);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="comment">/***</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="215"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_common_getMagneticField(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*z<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>sensor-&gt;functions-&gt;readRegistersAndCheck(sensor)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sensor-&gt;functions-&gt;calculateMagneticField(sensor,<sp/>x,<sp/>y,<sp/>z);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">/***</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="228"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_common_getMagneticFieldAndTemperature(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*z,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*temperature)<sp/>{</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>sensor-&gt;functions-&gt;readRegistersAndCheck(sensor)<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sensor-&gt;functions-&gt;calculateMagneticFieldAndTemperature(sensor,<sp/>x,<sp/>y,<sp/>z,<sp/>temperature);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal">uint8_t<sp/>tlx493d_common_returnBitfield(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>uint8_t<sp/>bitField)<sp/>{</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d___register__t" kindref="compound">TLx493D_Register_t</ref><sp/>*bf<sp/>=<sp/>&amp;sensor-&gt;regDef[bitField];</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((bf-&gt;accessMode<sp/>==<sp/>TLx493D_READ_MODE_e)<sp/>||<sp/>(bf-&gt;accessMode<sp/>==<sp/>TLx493D_READ_WRITE_MODE_e))<sp/>{</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(sensor-&gt;regMap[bf-&gt;address]<sp/>&amp;<sp/>bf-&gt;mask)<sp/>&gt;&gt;<sp/>bf-&gt;offset;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>tlx493d_errorBitfieldNotReadableForSensorType(sensor,<sp/>bitField);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0U;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_common_getBitfield(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>uint8_t<sp/>bitField,<sp/>uint8_t<sp/>*bitFieldValue)<sp/>{</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>*bitFieldValue<sp/>=<sp/>tlx493d_common_returnBitfield(sensor,<sp/>bitField);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_common_setBitfield(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>uint8_t<sp/>bitField,<sp/>uint8_t<sp/>newBitFieldValue)<sp/>{</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d___register__t" kindref="compound">TLx493D_Register_t</ref><sp/>*bf<sp/>=<sp/>&amp;sensor-&gt;regDef[bitField];</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((bf-&gt;accessMode<sp/>==<sp/>TLx493D_WRITE_MODE_e)<sp/>||<sp/>(bf-&gt;accessMode<sp/>==<sp/>TLx493D_READ_WRITE_MODE_e))<sp/>{</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>sensor-&gt;regMap[bf-&gt;address]<sp/>=<sp/>(sensor-&gt;regMap[bf-&gt;address]<sp/>&amp;<sp/>((uint8_t)<sp/>~bf-&gt;mask))<sp/>|<sp/>(((uint8_t)<sp/>(newBitFieldValue<sp/>&lt;&lt;<sp/>bf-&gt;offset))<sp/>&amp;<sp/>((uint8_t)<sp/>bf-&gt;mask));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>sensor-&gt;regMap[bf-&gt;address]<sp/>=<sp/>(uint8_t)<sp/>((sensor-&gt;regMap[bf-&gt;address]<sp/>&amp;<sp/>~bf-&gt;mask)<sp/>|<sp/>((newBitFieldValue<sp/>&lt;&lt;<sp/>bf-&gt;offset)<sp/>&amp;<sp/>bf-&gt;mask));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sensor-&gt;regMap[bf-&gt;address]<sp/>=<sp/>(uint8_t)<sp/>((sensor-&gt;regMap[bf-&gt;address]<sp/>&amp;<sp/>((uint8_t)<sp/>~bf-&gt;mask))<sp/>|<sp/>((newBitFieldValue<sp/>&lt;&lt;<sp/>bf-&gt;offset)<sp/>&amp;<sp/>bf-&gt;mask));</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tlx493d_errorBitfieldNotWritableForSensorType(sensor,<sp/>bitField);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>tlx493d_common_writeRegister(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref>*<sp/>sensor,<sp/>uint8_t<sp/>bitField)<sp/>{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d___register__t" kindref="compound">TLx493D_Register_t</ref><sp/>*bf<sp/>=<sp/>&amp;sensor-&gt;regDef[bitField];</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((bf-&gt;accessMode<sp/>==<sp/>TLx493D_WRITE_MODE_e)<sp/>||<sp/>(bf-&gt;accessMode<sp/>==<sp/>TLx493D_READ_WRITE_MODE_e))<sp/>{</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>transBuffer[2]<sp/>=<sp/>{<sp/>bf-&gt;address,<sp/>sensor-&gt;regMap[bf-&gt;address]<sp/>};</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tlx493d_transfer(sensor,<sp/>transBuffer,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(transBuffer),<sp/>NULL,<sp/>0);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="280"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal">uint8_t<sp/>tlx493d_common_calculateParity(uint8_t<sp/>dataIn)<sp/>{</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>data<sp/>=<sp/>dataIn;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>data<sp/>^=<sp/>data<sp/>&gt;&gt;<sp/>4;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>data<sp/>^=<sp/>data<sp/>&gt;&gt;<sp/>2;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/>data<sp/>^=<sp/>data<sp/>&gt;&gt;<sp/>1;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data<sp/>&amp;<sp/>1U;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal">uint8_t<sp/>tlx493d_common_getOddParity(uint8_t<sp/>parity)<sp/>{</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(parity<sp/>^<sp/>1U)<sp/>&amp;<sp/>1U;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal">uint8_t<sp/>tlx493d_common_getEvenParity(uint8_t<sp/>parity)<sp/>{</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parity<sp/>&amp;<sp/>1U;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_common_concatBytes(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>uint8_t<sp/>msbBitfield,<sp/>uint8_t<sp/>lsbBitfield,<sp/>int16_t<sp/>*result)<sp/>{</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d___register__t" kindref="compound">TLx493D_Register_t</ref><sp/>*msb<sp/>=<sp/>&amp;sensor-&gt;regDef[msbBitfield];</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d___register__t" kindref="compound">TLx493D_Register_t</ref><sp/>*lsb<sp/>=<sp/>&amp;sensor-&gt;regDef[lsbBitfield];</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>*result<sp/><sp/><sp/>=<sp/>((sensor-&gt;regMap[msb-&gt;address]<sp/>&amp;<sp/>msb-&gt;mask)<sp/>&lt;&lt;<sp/>(16U<sp/>-<sp/>msb-&gt;numBits<sp/>-<sp/>msb-&gt;offset));<sp/></highlight><highlight class="comment">//<sp/>Set<sp/>minus<sp/>flag<sp/>if<sp/>highest<sp/>bit<sp/>is<sp/>set</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>*result<sp/>&gt;&gt;=<sp/>(16U<sp/>-<sp/>msb-&gt;numBits<sp/>-<sp/>lsb-&gt;numBits);<sp/></highlight><highlight class="comment">//<sp/>shift<sp/>back<sp/>and<sp/>make<sp/>space<sp/>for<sp/>LSB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>*result<sp/><sp/>|=<sp/>((int16_t)<sp/>((sensor-&gt;regMap[lsb-&gt;address]<sp/>&amp;<sp/>lsb-&gt;mask)<sp/>&gt;&gt;<sp/>lsb-&gt;offset));<sp/></highlight><highlight class="comment">//<sp/>OR<sp/>with<sp/>LSB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tlx493d_common_getTypeAsString(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor)<sp/>{</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(sensor-&gt;sensorType)<sp/>{</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TLx493D_A1B6_e<sp/>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;TLx493D_A1B6&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TLx493D_A2B6_e<sp/>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;TLx493D_A2B6&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TLx493D_P2B6_e<sp/>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;TLx493D_P2B6&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TLx493D_W2B6_e<sp/>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;TLx493D_W2B6&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TLx493D_W2BW_e<sp/>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;TLx493D_W2BW&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TLx493D_P3B6_e<sp/>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;TLx493D_P3B6&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>TLx493D_P3I8_e<sp/>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;TLx493D_P3I8&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>default<sp/>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;ERROR<sp/>:<sp/>Unknown<sp/>sensorType<sp/>!&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="343"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_common_setIICAddress(<ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>uint8_t<sp/>addr)<sp/>{</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor-&gt;comInterface.comLibParams.iic_params.address<sp/>=<sp/>addr;</highlight></codeline>
+<codeline lineno="348"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight><highlight class="comment">//<sp/>void<sp/>tlx493d_common_calculateRawMagneticFieldAtTemperature(TLx493D_t<sp/>*sensor,<sp/>int16_t<sp/>rawTemp,<sp/>TLx493D_SensitivityType_t<sp/>sens,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>double<sp/>mT,<sp/>int16_t<sp/>*rawMF)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight><highlight class="comment">//<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_warnFeatureNotAvailableForSensorType(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*featureName)<sp/>{</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/>logWarn(</highlight><highlight class="stringliteral">&quot;Feature<sp/>&apos;%s&apos;<sp/>not<sp/>available<sp/>for<sp/>sensor<sp/>type<sp/>&apos;%s&apos;<sp/>!&quot;</highlight><highlight class="normal">,<sp/>featureName,<sp/>tlx493d_common_getTypeAsString(sensor));</highlight></codeline>
+<codeline lineno="358"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_errorBitfieldNotReadableForSensorType(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>uint8_t<sp/>bf)<sp/>{</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/>logError(</highlight><highlight class="stringliteral">&quot;Bitfield<sp/>&apos;%d&apos;<sp/>not<sp/>readable<sp/>for<sp/>sensor<sp/>type<sp/>&apos;%s&apos;<sp/>!&quot;</highlight><highlight class="normal">,<sp/>bf,<sp/>tlx493d_common_getTypeAsString(sensor));</highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_errorBitfieldNotWritableForSensorType(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>uint8_t<sp/>bf)<sp/>{</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/>logError(</highlight><highlight class="stringliteral">&quot;Bitfield<sp/>&apos;%d&apos;<sp/>not<sp/>writable<sp/>for<sp/>sensor<sp/>type<sp/>&apos;%s&apos;<sp/>!&quot;</highlight><highlight class="normal">,<sp/>bf,<sp/>tlx493d_common_getTypeAsString(sensor));</highlight></codeline>
+<codeline lineno="368"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_errorFunctionNotSupportedForSensorType(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*func)<sp/>{</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/>logError(</highlight><highlight class="stringliteral">&quot;Function<sp/>&apos;%s&apos;<sp/>not<sp/>supported<sp/>for<sp/>sensor<sp/>type<sp/>&apos;%s&apos;<sp/>!&quot;</highlight><highlight class="normal">,<sp/>func,<sp/>tlx493d_common_getTypeAsString(sensor));</highlight></codeline>
+<codeline lineno="373"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tlx493d_errorSelectionNotSupportedForSensorType(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_t_lx493_d__t" kindref="compound">TLx493D_t</ref><sp/>*sensor,<sp/>uint8_t<sp/>sel,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*selType)<sp/>{</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/>logError(</highlight><highlight class="stringliteral">&quot;Selection<sp/>&apos;%d&apos;<sp/>for<sp/>type<sp/>&apos;%s&apos;<sp/>not<sp/>supported<sp/>for<sp/>sensor<sp/>type<sp/>&apos;%s&apos;<sp/>!&quot;</highlight><highlight class="normal">,<sp/>sel,<sp/>selType,<sp/>tlx493d_common_getTypeAsString(sensor));</highlight></codeline>
+<codeline lineno="378"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/tlx493d_common.c"/>
+  </compounddef>
+</doxygen>

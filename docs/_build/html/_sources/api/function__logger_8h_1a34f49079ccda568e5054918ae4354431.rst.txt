@@ -1,0 +1,14 @@
+.. _exhale_function__logger_8h_1a34f49079ccda568e5054918ae4354431:
+
+Function logWarn(const char \*, ...)
+====================================
+
+- Defined in :ref:`file_src_Logger.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: logWarn(const char *, ...)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

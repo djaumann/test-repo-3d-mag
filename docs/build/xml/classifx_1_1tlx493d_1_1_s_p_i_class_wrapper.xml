@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" kind="class" language="C++" prot="public">
+    <compoundname>ifx::tlx493d::SPIClassWrapper</compoundname>
+    <includes refid="_s_p_i_class_wrapper_8hpp" local="no">SPIClassWrapper.hpp</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a25aa5d6e30df8901d86ca76736feea46" prot="public" static="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPIClass</ref></type>
+        <definition>using ifx::tlx493d::SPIClassWrapper::BusType =  SPIClass</definition>
+        <argsstring></argsstring>
+        <name>BusType</name>
+        <qualifiedname>ifx::tlx493d::SPIClassWrapper::BusType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the bus type to SPI. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIClassWrapper.hpp" line="23" column="17" bodyfile="src/SPIClassWrapper.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1ab99fdee06cae8857c02a93948b62f6c7" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">constexpr</ref> <ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+        <definition>constexpr uint8_t ifx::tlx493d::SPIClassWrapper::TLX493D_SPI_READ_BIT_ON</definition>
+        <argsstring></argsstring>
+        <name>TLX493D_SPI_READ_BIT_ON</name>
+        <qualifiedname>ifx::tlx493d::SPIClassWrapper::TLX493D_SPI_READ_BIT_ON</qualifiedname>
+        <initializer>= 0x80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIClassWrapper.hpp" line="26" column="42" bodyfile="src/SPIClassWrapper.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a1e9a36a9ecab734410d8f3c46cd2b10b" prot="private" static="no" mutable="no">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPIClass</ref> *</type>
+        <definition>SPIClass* ifx::tlx493d::SPIClassWrapper::spi</definition>
+        <argsstring></argsstring>
+        <name>spi</name>
+        <qualifiedname>ifx::tlx493d::SPIClassWrapper::spi</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SPIClass object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIClassWrapper.hpp" line="143" column="26" bodyfile="src/SPIClassWrapper.hpp" bodystart="143" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a507f25be7d16ec089e83fb3f98cdcbb5" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ifx::tlx493d::SPIClassWrapper::SPIClassWrapper</definition>
+        <argsstring>()</argsstring>
+        <name>SPIClassWrapper</name>
+        <qualifiedname>ifx::tlx493d::SPIClassWrapper::SPIClassWrapper</qualifiedname>
+        <briefdescription>
+<para>Constructor of the <computeroutput><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" kindref="compound">SPIClassWrapper</ref></computeroutput>class with no parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIClassWrapper.hpp" line="36" column="26" bodyfile="src/SPIClassWrapper.hpp" bodystart="36" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a9b0d9a43e752bff17c8d4f8a335787df" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ifx::tlx493d::SPIClassWrapper::SPIClassWrapper</definition>
+        <argsstring>(SPIClass &amp;bus)</argsstring>
+        <name>SPIClassWrapper</name>
+        <qualifiedname>ifx::tlx493d::SPIClassWrapper::SPIClassWrapper</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPIClass</ref> &amp;</type>
+          <declname>bus</declname>
+        </param>
+        <briefdescription>
+<para>Constructor of the <computeroutput><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" kindref="compound">SPIClassWrapper</ref></computeroutput>class with a <computeroutput>SPIClass</computeroutput> parameter. Can be used to pass a desired SPI instance to the wrapper. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIClassWrapper.hpp" line="43" column="26" bodyfile="src/SPIClassWrapper.hpp" bodystart="43" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a2f6f0743cefa6d5c9495d7c8fb55e4b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ifx::tlx493d::SPIClassWrapper::~SPIClassWrapper</definition>
+        <argsstring>()</argsstring>
+        <name>~SPIClassWrapper</name>
+        <qualifiedname>ifx::tlx493d::SPIClassWrapper::~SPIClassWrapper</qualifiedname>
+        <briefdescription>
+<para>Destructor of the <computeroutput><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" kindref="compound">SPIClassWrapper</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIClassWrapper.hpp" line="49" column="17" bodyfile="src/SPIClassWrapper.hpp" bodystart="49" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a3d1280034f4c5c8d52f6baabf09d1f07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::SPIClassWrapper::init</definition>
+        <argsstring>(const SPISettings &amp;settings)</argsstring>
+        <name>init</name>
+        <qualifiedname>ifx::tlx493d::SPIClassWrapper::init</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">const</ref> <ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPISettings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>The SPIClass::init does not include the setting of the data mode, bit order and baudrate, all of which is done in SPIClass::beginTransaction(SPISettings ). But we do not know about such details at this level. Therefore <ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a3d1280034f4c5c8d52f6baabf09d1f07" kindref="member">init()</ref> is not sufficient to restart a SPIClass object after a reset ! </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">settings</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Settings for the SPI communication interface. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIClassWrapper.hpp" line="60" column="22" bodyfile="src/SPIClassWrapper.hpp" bodystart="60" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1adcc5dc889115ae1fab86fc60587b79b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::SPIClassWrapper::deinit</definition>
+        <argsstring>()</argsstring>
+        <name>deinit</name>
+        <qualifiedname>ifx::tlx493d::SPIClassWrapper::deinit</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>deinit</computeroutput> de-initializes the SPI interface. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIClassWrapper.hpp" line="72" column="22" bodyfile="src/SPIClassWrapper.hpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a7c5b08d9612965c854ea2553ebad84ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">bool</ref></type>
+        <definition>bool ifx::tlx493d::SPIClassWrapper::transfer</definition>
+        <argsstring>(uint8_t *txBuffer, uint8_t txLen, uint8_t *rxBuffer, uint8_t rxLen, uint8_t readAddress)</argsstring>
+        <name>transfer</name>
+        <qualifiedname>ifx::tlx493d::SPIClassWrapper::transfer</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref> *</type>
+          <declname>txBuffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>txLen</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref> *</type>
+          <declname>rxBuffer</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>rxLen</declname>
+        </param>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">uint8_t</ref></type>
+          <declname>readAddress</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>transfer</computeroutput> is used to transfer data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">txBuffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Transmit buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">txLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Length of the data that should be transmitted. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rxBuffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Receive buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">rxLen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Length of the data that should be received. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">readAddress</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Desired address where the device should read from.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Function returns a boolean value to indicate if the transfer was successful or not. </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Error. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIClassWrapper.hpp" line="90" column="22" bodyfile="src/SPIClassWrapper.hpp" bodystart="90" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a45f2d5dbc0e52c06e42de04dc33cb17f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPIClass</ref> &amp;</type>
+        <definition>SPIClass &amp; ifx::tlx493d::SPIClassWrapper::getBus</definition>
+        <argsstring>()</argsstring>
+        <name>getBus</name>
+        <qualifiedname>ifx::tlx493d::SPIClassWrapper::getBus</qualifiedname>
+        <briefdescription>
+<para>The function <computeroutput>getBus</computeroutput> is used to retrieve a pointer to the wrapper&apos;s bus-object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A pointer to the current SPI bus-object of the wrapper. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIClassWrapper.hpp" line="127" column="26" bodyfile="src/SPIClassWrapper.hpp" bodystart="127" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a1fd5fcdf796658ae6d17329b233c1227" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">void</ref></type>
+        <definition>void ifx::tlx493d::SPIClassWrapper::setBus</definition>
+        <argsstring>(SPIClass &amp;spiObj)</argsstring>
+        <name>setBus</name>
+        <qualifiedname>ifx::tlx493d::SPIClassWrapper::setBus</qualifiedname>
+        <param>
+          <type><ref refid="classifx_1_1tlx493d_1_1_t_lx493_d" kindref="compound">SPIClass</ref> &amp;</type>
+          <declname>spiObj</declname>
+        </param>
+        <briefdescription>
+<para>The function <computeroutput>setBus</computeroutput> is used to set the <computeroutput>SPIClass</computeroutput> object of the wrapper. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">spiObj</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the desired <computeroutput>SPIClass</computeroutput> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/SPIClassWrapper.hpp" line="136" column="22" bodyfile="src/SPIClassWrapper.hpp" bodystart="136" bodyend="138"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The class <computeroutput><ref refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper" kindref="compound">SPIClassWrapper</ref></computeroutput> is used to make the generic <computeroutput>SPIClass</computeroutput> compatible with Arduino. It wraps the required functions into the Arduino API calls. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/SPIClassWrapper.hpp" line="18" column="9" bodyfile="src/SPIClassWrapper.hpp" bodystart="18" bodyend="144"/>
+    <listofallmembers>
+      <member refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a25aa5d6e30df8901d86ca76736feea46" prot="public" virt="non-virtual"><scope>ifx::tlx493d::SPIClassWrapper</scope><name>BusType</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1adcc5dc889115ae1fab86fc60587b79b4" prot="public" virt="non-virtual"><scope>ifx::tlx493d::SPIClassWrapper</scope><name>deinit</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a45f2d5dbc0e52c06e42de04dc33cb17f" prot="public" virt="non-virtual"><scope>ifx::tlx493d::SPIClassWrapper</scope><name>getBus</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a3d1280034f4c5c8d52f6baabf09d1f07" prot="public" virt="non-virtual"><scope>ifx::tlx493d::SPIClassWrapper</scope><name>init</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a1fd5fcdf796658ae6d17329b233c1227" prot="public" virt="non-virtual"><scope>ifx::tlx493d::SPIClassWrapper</scope><name>setBus</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a1e9a36a9ecab734410d8f3c46cd2b10b" prot="private" virt="non-virtual"><scope>ifx::tlx493d::SPIClassWrapper</scope><name>spi</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a507f25be7d16ec089e83fb3f98cdcbb5" prot="public" virt="non-virtual"><scope>ifx::tlx493d::SPIClassWrapper</scope><name>SPIClassWrapper</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a9b0d9a43e752bff17c8d4f8a335787df" prot="public" virt="non-virtual"><scope>ifx::tlx493d::SPIClassWrapper</scope><name>SPIClassWrapper</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1ab99fdee06cae8857c02a93948b62f6c7" prot="public" virt="non-virtual"><scope>ifx::tlx493d::SPIClassWrapper</scope><name>TLX493D_SPI_READ_BIT_ON</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a7c5b08d9612965c854ea2553ebad84ac" prot="public" virt="non-virtual"><scope>ifx::tlx493d::SPIClassWrapper</scope><name>transfer</name></member>
+      <member refid="classifx_1_1tlx493d_1_1_s_p_i_class_wrapper_1a2f6f0743cefa6d5c9495d7c8fb55e4b8" prot="public" virt="non-virtual"><scope>ifx::tlx493d::SPIClassWrapper</scope><name>~SPIClassWrapper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d_8h_1a8496fe017c7a42c475b17aadc6773144:
+
+Function tlx493d_deinit(TLx493D_t \*)
+=====================================
+
+- Defined in :ref:`file_src_tlx493d.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_deinit(TLx493D_t *)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

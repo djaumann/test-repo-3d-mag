@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p2_b6_8h_1a04ad95b20eb60f34b10e66b598363400:
+
+Function TLx493D_P2B6_setTrigger(TLx493D_t \*, TLx493D_TriggerType_t)
+=====================================================================
+
+- Defined in :ref:`file_src_TLx493D_P2B6.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P2B6_setTrigger(TLx493D_t *, TLx493D_TriggerType_t)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

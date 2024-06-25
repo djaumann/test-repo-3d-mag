@@ -1,0 +1,14 @@
+.. _exhale_variable__s_p_i_using_s_p_i_class_8cpp_1a1cdd5eed8c0970c27c01efadc62fec63:
+
+Variable ifx::tlx493d::spiReadAddress
+=====================================
+
+- Defined in :ref:`file_src_SPIUsingSPIClass.cpp`
+
+
+Variable Documentation
+----------------------
+
+
+.. doxygenvariable:: ifx::tlx493d::spiReadAddress
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

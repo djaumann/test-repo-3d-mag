@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_t_lx493_d___p2_b6__enums_8h" kind="file" language="C++">
+    <compoundname>TLx493D_P2B6_enums.h</compoundname>
+    <includedby refid="_t_lx493_d___p2_b6_8c" local="yes">src/TLx493D_P2B6.c</includedby>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TLx493D_P2B6_registerNames_te</name>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a2137796def823278a264a5550dcecd1b" prot="public">
+          <name>P2B6_BX_MSBS_e</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a87e1645929c56fa83b397ff58263d30f" prot="public">
+          <name>P2B6_BY_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a523850476591433f495d05347a3fe8e4" prot="public">
+          <name>P2B6_BZ_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a8887f0362b3e5d446e2d07170715f0dc" prot="public">
+          <name>P2B6_TEMP_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1aed629454a92ad869874c47cddf5aea4c" prot="public">
+          <name>P2B6_BX_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a685ab0f4cc40870ce31a8e03d317a594" prot="public">
+          <name>P2B6_BY_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a0995a17ff15946e337675e6caf8ddb50" prot="public">
+          <name>P2B6_TEMP_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a5db8144e7e085de9bfc3639b0c3c058f" prot="public">
+          <name>P2B6_ID_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1ae174c8038871cc8b6bc0b4bb438c749a" prot="public">
+          <name>P2B6_BZ_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1ace0d93c05b430619f5a8de5c484593bb" prot="public">
+          <name>P2B6_P_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a33b61df5276dcccafbc40b0f6fa0fb77" prot="public">
+          <name>P2B6_FF_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a52cd8d5f25eeebe15dc7e7253993a5b8" prot="public">
+          <name>P2B6_CF_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1aa9c98c58ac4fc01e101b7d1234abc689" prot="public">
+          <name>P2B6_T_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a8d8b473cd7d7cea2902a76b17b440e25" prot="public">
+          <name>P2B6_PD3_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1ab62dad9b10c54830805d1b11f38fc066" prot="public">
+          <name>P2B6_PD0_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1af958017c4f2c7c3c02b183c81d1d0ecf" prot="public">
+          <name>P2B6_FRM_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a42d61bf44905fc459167d73441149ec2" prot="public">
+          <name>P2B6_XL_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a54f640d42b47a93dfb7bf85f041b6feb" prot="public">
+          <name>P2B6_XH_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1aa7bd8d0fdaa0be054274141b0f9fcbbf" prot="public">
+          <name>P2B6_YL_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1acb557e09aa0a816dea453215d2fe2bf6" prot="public">
+          <name>P2B6_YH_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1aceebf1f4f8b5226a05cf14d1871e27d4" prot="public">
+          <name>P2B6_ZL_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a2b7f672f1fb318c9d958cee49322ced7" prot="public">
+          <name>P2B6_ZH_MSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a19c915615a16c879d7d4bf551939e18f" prot="public">
+          <name>P2B6_WA_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a4eba58f82f4e6eb5ccd553fb4e53a5e9" prot="public">
+          <name>P2B6_WU_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a8301d934cd75f4a5187d0002b7488118" prot="public">
+          <name>P2B6_XH_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a520e0b0478d54d0fdb2cf1168be60d01" prot="public">
+          <name>P2B6_XL_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a851542e354736f8e12bbfe66c958832b" prot="public">
+          <name>P2B6_TST_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a00f45fc3ae82a55511472a8e2a3285e0" prot="public">
+          <name>P2B6_YH_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1aa01e591ab6ec57e233fbbcb4d99d4dfc" prot="public">
+          <name>P2B6_YL_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a41a889a5b27ed9e1a4829a51ace32260" prot="public">
+          <name>P2B6_PH_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1af787baadbfa8eed64d8d610799fe361c" prot="public">
+          <name>P2B6_ZH_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1abec8ce8bb2e951b9a65273bdded51caa" prot="public">
+          <name>P2B6_ZL_LSBS_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a95aaaaf4a6c324231c7ee46135c9190d" prot="public">
+          <name>P2B6_DT_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1ad384cb1a8252faddd21de65ff2a079a8" prot="public">
+          <name>P2B6_AM_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1af8b9746261e4a5ac2e379e4797b76181" prot="public">
+          <name>P2B6_TRIG_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a26971ec404b4a6876a52cf7423386adc" prot="public">
+          <name>P2B6_X2_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a32dd139b66eadc8795a25d3d8df0cd53" prot="public">
+          <name>P2B6_TL_MAG_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a72c9f63f883e462e73d4d5a91eb19ba7" prot="public">
+          <name>P2B6_CP_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1acfdf129943dac6c5cd142913d15d76b1" prot="public">
+          <name>P2B6_FP_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a5705572e6f37eb616c946af6daae4148" prot="public">
+          <name>P2B6_IICADR_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a262cb1929e3216bcd2f6f4430335c244" prot="public">
+          <name>P2B6_PR_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a039866da758d30d237b503d1975fb665" prot="public">
+          <name>P2B6_CA_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1ae9c3ecb1dc24326cd769a28b06803092" prot="public">
+          <name>P2B6_INT_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a4581ad1d19b8410c99caf31d8940c554" prot="public">
+          <name>P2B6_MODE_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a7ac2fbba72e690d179da95482f135396" prot="public">
+          <name>P2B6_PRD_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a3a9000931162ad988031723edc4bca91" prot="public">
+          <name>P2B6_TYPE_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1afbfa5f9b98bcbcbba8890dda6a2f64a1a3aef841cc4157c16aa1dedd9d0273267" prot="public">
+          <name>P2B6_HWV_e</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_P2B6_enums.h" line="9" column="1" bodyfile="src/TLx493D_P2B6_enums.h" bodystart="9" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="enum" id="_t_lx493_d___p2_b6__enums_8h_1a9c7ded2f659bdeab6d92135c668be308" prot="public" static="no" strong="no">
+        <type></type>
+        <name>TLx493D_P2B6_SpecialRegisters_te</name>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1a9c7ded2f659bdeab6d92135c668be308ac2314dc08b34c72e44cab91f589ccacb" prot="public">
+          <name>P2B6_TEMP2_REG_e</name>
+          <initializer>= 0x05</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1a9c7ded2f659bdeab6d92135c668be308a250a6fd1c20c09c374c5a77ca85e4929" prot="public">
+          <name>P2B6_DIAG_REG_e</name>
+          <initializer>= 0x06</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1a9c7ded2f659bdeab6d92135c668be308a5faf97da7efe16a34d4e8391dec3ccc6" prot="public">
+          <name>P2B6_CONFIG_REG_e</name>
+          <initializer>= 0x10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1a9c7ded2f659bdeab6d92135c668be308ac6a2bd481dfc67416e4e56f2ed4a1848" prot="public">
+          <name>P2B6_MOD1_REG_e</name>
+          <initializer>= 0x11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1a9c7ded2f659bdeab6d92135c668be308adcc843d66455f6ef314f13dc82fb253b" prot="public">
+          <name>P2B6_MOD2_REG_e</name>
+          <initializer>= 0x13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_t_lx493_d___p2_b6__enums_8h_1a9c7ded2f659bdeab6d92135c668be308a2c3259c1e03f057f3be8c92d03b48aba" prot="public">
+          <name>P2B6_VER_REG_e</name>
+          <initializer>= 0x16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/TLx493D_P2B6_enums.h" line="60" column="1" bodyfile="src/TLx493D_P2B6_enums.h" bodystart="60" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TLX493D_P2B6_ENUMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TLX493D_P2B6_ENUMS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>Listing<sp/>of<sp/>all<sp/>register<sp/>names<sp/>for<sp/>this<sp/>sensor.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>Used<sp/>to<sp/>index<sp/>&quot;TLx493D_P2B6_regDef&quot;<sp/>defined<sp/>below,<sp/>so<sp/>index<sp/>values<sp/>must<sp/>match<sp/>!</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_BX_MSBS_e<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_BY_MSBS_e,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_BZ_MSBS_e,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_TEMP_MSBS_e,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_BX_LSBS_e,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_BY_LSBS_e,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_TEMP_LSBS_e,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_ID_e,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_BZ_LSBS_e,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_P_e,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_FF_e,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_CF_e,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_T_e,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_PD3_e,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_PD0_e,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_FRM_e,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_XL_MSBS_e,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_XH_MSBS_e,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_YL_MSBS_e,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_YH_MSBS_e,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_ZL_MSBS_e,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_ZH_MSBS_e,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_WA_e,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_WU_e,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_XH_LSBS_e,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_XL_LSBS_e,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_TST_e,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_YH_LSBS_e,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_YL_LSBS_e,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_PH_e,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_ZH_LSBS_e,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_ZL_LSBS_e,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_DT_e,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_AM_e,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_TRIG_e,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_X2_e,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_TL_MAG_e,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_CP_e,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_FP_e,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_IICADR_e,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_PR_e,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_CA_e,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_INT_e,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_MODE_e,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_PRD_e,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_TYPE_e,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_HWV_e,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}<sp/>TLx493D_P2B6_registerNames_te;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_TEMP2_REG_e<sp/><sp/>=<sp/>0x05,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_DIAG_REG_e<sp/><sp/><sp/>=<sp/>0x06,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_CONFIG_REG_e<sp/>=<sp/>0x10,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_MOD1_REG_e<sp/><sp/><sp/>=<sp/>0x11,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_MOD2_REG_e<sp/><sp/><sp/>=<sp/>0x13,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P2B6_VER_REG_e<sp/><sp/><sp/><sp/>=<sp/>0x16,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}<sp/>TLx493D_P2B6_SpecialRegisters_te;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>TLX493D_P2B6_ENUMS_H</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/TLx493D_P2B6_enums.h"/>
+  </compounddef>
+</doxygen>

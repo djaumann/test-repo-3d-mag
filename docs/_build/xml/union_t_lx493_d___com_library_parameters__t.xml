@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="union_t_lx493_d___com_library_parameters__t" kind="union" language="C++" prot="public">
+    <compoundname>TLx493D_ComLibraryParameters_t</compoundname>
+    <includes refid="tlx493d__types_8h" local="no">tlx493d_types.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="union_t_lx493_d___com_library_parameters__t_1a6da72ddc80e5bb86a42259b455413ca9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_t_lx493_d___s_p_i_parameters__t" kindref="compound">TLx493D_SPIParameters_t</ref></type>
+        <definition>TLx493D_SPIParameters_t TLx493D_ComLibraryParameters_t::spi_params</definition>
+        <argsstring></argsstring>
+        <name>spi_params</name>
+        <qualifiedname>TLx493D_ComLibraryParameters_t::spi_params</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_types.h" line="233" column="30" bodyfile="src/tlx493d_types.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_t_lx493_d___com_library_parameters__t_1ac6780f416c0244fa8234c05323e18eb8" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_t_lx493_d___i2_c_parameters__t" kindref="compound">TLx493D_I2CParameters_t</ref></type>
+        <definition>TLx493D_I2CParameters_t TLx493D_ComLibraryParameters_t::iic_params</definition>
+        <argsstring></argsstring>
+        <name>iic_params</name>
+        <qualifiedname>TLx493D_ComLibraryParameters_t::iic_params</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_types.h" line="234" column="30" bodyfile="src/tlx493d_types.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The structure <computeroutput><ref refid="union_t_lx493_d___com_library_parameters__t" kindref="compound">TLx493D_ComLibraryParameters_t</ref></computeroutput> is used to store the necessary parameters for both interface (I2C, SPI). </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>TLx493D_ComLibraryParameters_t</label>
+        <link refid="union_t_lx493_d___com_library_parameters__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>spi_params</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>iic_params</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>TLx493D_I2CParameters_t</label>
+        <link refid="struct_t_lx493_d___i2_c_parameters__t"/>
+      </node>
+      <node id="2">
+        <label>TLx493D_SPIParameters_t</label>
+        <link refid="struct_t_lx493_d___s_p_i_parameters__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/tlx493d_types.h" line="232" column="1" bodyfile="src/tlx493d_types.h" bodystart="232" bodyend="235"/>
+    <listofallmembers>
+      <member refid="union_t_lx493_d___com_library_parameters__t_1ac6780f416c0244fa8234c05323e18eb8" prot="public" virt="non-virtual"><scope>TLx493D_ComLibraryParameters_t</scope><name>iic_params</name></member>
+      <member refid="union_t_lx493_d___com_library_parameters__t_1a6da72ddc80e5bb86a42259b455413ca9" prot="public" virt="non-virtual"><scope>TLx493D_ComLibraryParameters_t</scope><name>spi_params</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

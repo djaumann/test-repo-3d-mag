@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d__gen__2__common_8c_1a3cfe9c8dac82d54830f0a025154a0fea:
+
+Function tlx493d_gen_2_hasValidIICadr(const TLx493D_t \*, uint8_t, uint8_t)
+===========================================================================
+
+- Defined in :ref:`file_src_tlx493d_gen_2_common.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_gen_2_hasValidIICadr(const TLx493D_t *, uint8_t, uint8_t)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

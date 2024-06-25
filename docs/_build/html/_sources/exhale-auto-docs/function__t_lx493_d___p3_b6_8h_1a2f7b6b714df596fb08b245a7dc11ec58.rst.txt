@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p3_b6_8h_1a2f7b6b714df596fb08b245a7dc11ec58:
+
+Function TLx493D_P3B6_isInTestMode(const TLx493D_t \*)
+======================================================
+
+- Defined in :ref:`file_src_TLx493D_P3B6.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P3B6_isInTestMode(const TLx493D_t *)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

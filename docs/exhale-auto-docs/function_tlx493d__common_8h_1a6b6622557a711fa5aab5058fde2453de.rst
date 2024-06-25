@@ -1,0 +1,14 @@
+.. _exhale_function_tlx493d__common_8h_1a6b6622557a711fa5aab5058fde2453de:
+
+Function tlx493d_common_getTemperature(TLx493D_t \*, double \*)
+===============================================================
+
+- Defined in :ref:`file_src_tlx493d_common.h`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: tlx493d_common_getTemperature(TLx493D_t *, double *)
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

@@ -1,0 +1,384 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>File TLx493D_W2BW.h &mdash; XENSIV 3D Magnetic Sensors Arduino Library 1.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/collapsible-lists\css\tree_view.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/collapsible-lists\js\CollapsibleLists.compressed.js"></script>
+        <script src="../_static/collapsible-lists\js\apply-collapsible-lists.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> XENSIV 3D Magnetic Sensors Arduino Library
+          
+
+          
+            
+            <img src="../_static/ifx_logo_white_green_s.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart-guide.html">Quickstart Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hw-platforms.html">Hardware Platforms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lib-install.html">Library Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples.html">Examples</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">XENSIV 3D Magnetic Sensors Arduino Library</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>File TLx493D_W2BW.h</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/exhale-auto-docs/file_src_TLx493D_W2BW.h.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="file-tlx493d-w2bw-h">
+<span id="file-src-tlx493d-w2bw-h"></span><h1>File TLx493D_W2BW.h<a class="headerlink" href="#file-tlx493d-w2bw-h" title="Permalink to this headline">¶</a></h1>
+<p>↰ <a class="reference internal" href="dir_src.html#dir-src"><span class="std std-ref">Parent directory</span></a> (<code class="docutils literal notranslate"><span class="pre">src</span></code>)</p>
+<p>Definiton of the complete sensor functionality.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#definition-src-tlx493d-w2bw-h" id="id1">Definition (<code class="docutils literal notranslate"><span class="pre">src\TLx493D_W2BW.h</span></code>)</a></p></li>
+<li><p><a class="reference internal" href="#detailed-description" id="id2">Detailed Description</a></p></li>
+<li><p><a class="reference internal" href="#includes" id="id3">Includes</a></p></li>
+<li><p><a class="reference internal" href="#included-by" id="id4">Included By</a></p></li>
+<li><p><a class="reference internal" href="#functions" id="id5">Functions</a></p></li>
+</ul>
+</div>
+<section id="definition-src-tlx493d-w2bw-h">
+<h2>Definition (<code class="docutils literal notranslate"><span class="pre">src\TLx493D_W2BW.h</span></code>)<a class="headerlink" href="#definition-src-tlx493d-w2bw-h" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="program_listing_file_src_TLx493D_W2BW.h.html">Program Listing for File TLx493D_W2BW.h</a></li>
+</ul>
+</div>
+</section>
+<section id="detailed-description">
+<h2>Detailed Description<a class="headerlink" href="#detailed-description" title="Permalink to this headline">¶</a></h2>
+<p>Infineon Technologies AG</p>
+<p>Copyright (c) 2023 Infineon Technologies AG</p>
+<p>SPDX-License-Identifier: MIT</p>
+</section>
+<section id="includes">
+<h2>Includes<a class="headerlink" href="#includes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">stdbool.h</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">stdint.h</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tlx493d_types.h</span></code> (<a class="reference internal" href="file_src_tlx493d_types.h.html#file-src-tlx493d-types-h"><span class="std std-ref">File tlx493d_types.h</span></a>)</p></li>
+</ul>
+</section>
+<section id="included-by">
+<h2>Included By<a class="headerlink" href="#included-by" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="file_src_TLx493D_W2BW.c.html#file-src-tlx493d-w2bw-c"><span class="std std-ref">File TLx493D_W2BW.c</span></a></p></li>
+<li><p><a class="reference internal" href="file_src_TLx493D_inc.hpp.html#file-src-tlx493d-inc-hpp"><span class="std std-ref">File TLx493D_inc.hpp</span></a></p></li>
+<li><p><a class="reference internal" href="file_src_tlx493d.c.html#file-src-tlx493d-c"><span class="std std-ref">File tlx493d.c</span></a></p></li>
+</ul>
+</section>
+<section id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1aa09426a69f03693448369aa2afc6a726.html#exhale-function-t-lx493-d-w2-b-w-8h-1aa09426a69f03693448369aa2afc6a726"><span class="std std-ref">Function TLx493D_W2BW_calculateBusParity(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1ae810c443f5700065becc2918f52efb3a.html#exhale-function-t-lx493-d-w2-b-w-8h-1ae810c443f5700065becc2918f52efb3a"><span class="std std-ref">Function TLx493D_W2BW_calculateConfigurationParity(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a64bb45a7a4172b70e67eae156be14793.html#exhale-function-t-lx493-d-w2-b-w-8h-1a64bb45a7a4172b70e67eae156be14793"><span class="std std-ref">Function TLx493D_W2BW_calculateFuseParity(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a607f7f8a9dd393c4791e0462620c503b.html#exhale-function-t-lx493-d-w2-b-w-8h-1a607f7f8a9dd393c4791e0462620c503b"><span class="std std-ref">Function TLx493D_W2BW_calculateMagneticField(TLx493D_t *, double *, double *, double *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1ac64d5ec783ea7c5770d965775a42a3af.html#exhale-function-t-lx493-d-w2-b-w-8h-1ac64d5ec783ea7c5770d965775a42a3af"><span class="std std-ref">Function TLx493D_W2BW_calculateMagneticFieldAndTemperature(TLx493D_t *, double *, double *, double *, double *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a4d1feeb1b6b2f0b8e5c4bb9fd3b4c7b9.html#exhale-function-t-lx493-d-w2-b-w-8h-1a4d1feeb1b6b2f0b8e5c4bb9fd3b4c7b9"><span class="std std-ref">Function TLx493D_W2BW_calculateRawMagneticField(TLx493D_t *, int16_t *, int16_t *, int16_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a91ff804f00bebe5d705ef70cfe7fdbbe.html#exhale-function-t-lx493-d-w2-b-w-8h-1a91ff804f00bebe5d705ef70cfe7fdbbe"><span class="std std-ref">Function TLx493D_W2BW_calculateRawMagneticFieldAndTemperature(TLx493D_t *, int16_t *, int16_t *, int16_t *, int16_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1ac4b16782d5e2b8fa1abdf01df60d7a4b.html#exhale-function-t-lx493-d-w2-b-w-8h-1ac4b16782d5e2b8fa1abdf01df60d7a4b"><span class="std std-ref">Function TLx493D_W2BW_calculateRawMagneticFieldAtTemperature(const TLx493D_t *, int16_t, TLx493D_SensitivityType_t, double, double, double, int16_t *, int16_t *, int16_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a3be9d8c72924a6a731ed4a1f504cd53f.html#exhale-function-t-lx493-d-w2-b-w-8h-1a3be9d8c72924a6a731ed4a1f504cd53f"><span class="std std-ref">Function TLx493D_W2BW_calculateRawTemperature(TLx493D_t *, int16_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a4df7475b2b34d60e047a8aa6bfb35260.html#exhale-function-t-lx493-d-w2-b-w-8h-1a4df7475b2b34d60e047a8aa6bfb35260"><span class="std std-ref">Function TLx493D_W2BW_calculateTemperature(TLx493D_t *, double *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a8fcbd8496dc0cef99263f38a2d308345.html#exhale-function-t-lx493-d-w2-b-w-8h-1a8fcbd8496dc0cef99263f38a2d308345"><span class="std std-ref">Function TLx493D_W2BW_deinit(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a305a46fc718c113a6b2b68f1e14a397a.html#exhale-function-t-lx493-d-w2-b-w-8h-1a305a46fc718c113a6b2b68f1e14a397a"><span class="std std-ref">Function TLx493D_W2BW_disableCollisionAvoidance(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1af1c76312a28dccadee8b70b61447185e.html#exhale-function-t-lx493-d-w2-b-w-8h-1af1c76312a28dccadee8b70b61447185e"><span class="std std-ref">Function TLx493D_W2BW_disableInterrupt(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a8961c9fc778fcaa62f434a8c2bef7425.html#exhale-function-t-lx493-d-w2-b-w-8h-1a8961c9fc778fcaa62f434a8c2bef7425"><span class="std std-ref">Function TLx493D_W2BW_disableWakeUpMode(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a6669c59c81bb67306de52a1778bc4546.html#exhale-function-t-lx493-d-w2-b-w-8h-1a6669c59c81bb67306de52a1778bc4546"><span class="std std-ref">Function TLx493D_W2BW_enable1ByteReadMode(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1af01c35c349c900a2294355022d28ef60.html#exhale-function-t-lx493-d-w2-b-w-8h-1af01c35c349c900a2294355022d28ef60"><span class="std std-ref">Function TLx493D_W2BW_enableCollisionAvoidance(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a0bd2883614684b2705cb97504a6f3cc3.html#exhale-function-t-lx493-d-w2-b-w-8h-1a0bd2883614684b2705cb97504a6f3cc3"><span class="std std-ref">Function TLx493D_W2BW_enableInterrupt(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1aa0ef8910cdc4620b47d790fb610db76f.html#exhale-function-t-lx493-d-w2-b-w-8h-1aa0ef8910cdc4620b47d790fb610db76f"><span class="std std-ref">Function TLx493D_W2BW_enableWakeUpMode(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a9e1f6fd9da0a9fb62389dc10a14f6686.html#exhale-function-t-lx493-d-w2-b-w-8h-1a9e1f6fd9da0a9fb62389dc10a14f6686"><span class="std std-ref">Function TLx493D_W2BW_getMagneticField(TLx493D_t *, double *, double *, double *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a70ffc16b13f6861f63529e20ad6fce78.html#exhale-function-t-lx493-d-w2-b-w-8h-1a70ffc16b13f6861f63529e20ad6fce78"><span class="std std-ref">Function TLx493D_W2BW_getMagneticFieldAndTemperature(TLx493D_t *, double *, double *, double *, double *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a3eb6481ea652d82bcc6feda50c829c78.html#exhale-function-t-lx493-d-w2-b-w-8h-1a3eb6481ea652d82bcc6feda50c829c78"><span class="std std-ref">Function TLx493D_W2BW_getRawMagneticField(TLx493D_t *, int16_t *, int16_t *, int16_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a95153bca8a93961386a77e486a0ed15e.html#exhale-function-t-lx493-d-w2-b-w-8h-1a95153bca8a93961386a77e486a0ed15e"><span class="std std-ref">Function TLx493D_W2BW_getRawMagneticFieldAndTemperature(TLx493D_t *, int16_t *, int16_t *, int16_t *, int16_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1ad0a1ad3ef7a444f7bac9fdd8eae46868.html#exhale-function-t-lx493-d-w2-b-w-8h-1ad0a1ad3ef7a444f7bac9fdd8eae46868"><span class="std std-ref">Function TLx493D_W2BW_getRawTemperature(TLx493D_t *, int16_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1af39bc029974efd89a3221f9bdc2f6965.html#exhale-function-t-lx493-d-w2-b-w-8h-1af39bc029974efd89a3221f9bdc2f6965"><span class="std std-ref">Function TLx493D_W2BW_getSensitivityScaleFactor(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a8a124e3d8b451cc5978164fb33d18e03.html#exhale-function-t-lx493-d-w2-b-w-8h-1a8a124e3d8b451cc5978164fb33d18e03"><span class="std std-ref">Function TLx493D_W2BW_getTemperature(TLx493D_t *, double *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a302ee12db31ee22db22a08305d0cf240.html#exhale-function-t-lx493-d-w2-b-w-8h-1a302ee12db31ee22db22a08305d0cf240"><span class="std std-ref">Function TLx493D_W2BW_hasValidBusParity(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a55a915b1ef61753f3219d6fea7451bd5.html#exhale-function-t-lx493-d-w2-b-w-8h-1a55a915b1ef61753f3219d6fea7451bd5"><span class="std std-ref">Function TLx493D_W2BW_hasValidConfigurationParity(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a2484a9df4ce87e553b3b305509b5ee11.html#exhale-function-t-lx493-d-w2-b-w-8h-1a2484a9df4ce87e553b3b305509b5ee11"><span class="std std-ref">Function TLx493D_W2BW_hasValidData(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a727c3ed4af02e65fb5ecd160d8accda0.html#exhale-function-t-lx493-d-w2-b-w-8h-1a727c3ed4af02e65fb5ecd160d8accda0"><span class="std std-ref">Function TLx493D_W2BW_hasValidFuseParity(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1ad4cb1fe4b2310104986447a5b51de7f2.html#exhale-function-t-lx493-d-w2-b-w-8h-1ad4cb1fe4b2310104986447a5b51de7f2"><span class="std std-ref">Function TLx493D_W2BW_hasValidIICadr(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a9576dfc7940befc794b5c79b3d0ce269.html#exhale-function-t-lx493-d-w2-b-w-8h-1a9576dfc7940befc794b5c79b3d0ce269"><span class="std std-ref">Function TLx493D_W2BW_hasValidTBit(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a8792fdc895ad71f3671182b1fc27e404.html#exhale-function-t-lx493-d-w2-b-w-8h-1a8792fdc895ad71f3671182b1fc27e404"><span class="std std-ref">Function TLx493D_W2BW_hasValidWakeUpParity(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a1c9a88f721dbf1de0ded1a2b069a08b1.html#exhale-function-t-lx493-d-w2-b-w-8h-1a1c9a88f721dbf1de0ded1a2b069a08b1"><span class="std std-ref">Function TLx493D_W2BW_hasWakeUp(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1ac6d0ba9c0ff5e882408302944e009d2b.html#exhale-function-t-lx493-d-w2-b-w-8h-1ac6d0ba9c0ff5e882408302944e009d2b"><span class="std std-ref">Function TLx493D_W2BW_init(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1abdade8a5edd92fb71800cccff6f6eb33.html#exhale-function-t-lx493-d-w2-b-w-8h-1abdade8a5edd92fb71800cccff6f6eb33"><span class="std std-ref">Function TLx493D_W2BW_isFunctional(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1ad15ddb335bc069e84887e00f318d7084.html#exhale-function-t-lx493-d-w2-b-w-8h-1ad15ddb335bc069e84887e00f318d7084"><span class="std std-ref">Function TLx493D_W2BW_isInTestMode(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a4ab6c0d220a3c5c3510f8b5795f23331.html#exhale-function-t-lx493-d-w2-b-w-8h-1a4ab6c0d220a3c5c3510f8b5795f23331"><span class="std std-ref">Function TLx493D_W2BW_isWakeUpEnabled(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a0ed09f7270c1ef0c3c8918a3d2706d66.html#exhale-function-t-lx493-d-w2-b-w-8h-1a0ed09f7270c1ef0c3c8918a3d2706d66"><span class="std std-ref">Function TLx493D_W2BW_printRegisters(const TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1ad8eb3399dff1a5294f5944bf1a8090e8.html#exhale-function-t-lx493-d-w2-b-w-8h-1ad8eb3399dff1a5294f5944bf1a8090e8"><span class="std std-ref">Function TLx493D_W2BW_readRegisters(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a456b7ba1539e4d4155e5348a6f635f7c.html#exhale-function-t-lx493-d-w2-b-w-8h-1a456b7ba1539e4d4155e5348a6f635f7c"><span class="std std-ref">Function TLx493D_W2BW_readRegistersAndCheck(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a334454a9938dd9dc186b4cee73b595b5.html#exhale-function-t-lx493-d-w2-b-w-8h-1a334454a9938dd9dc186b4cee73b595b5"><span class="std std-ref">Function TLx493D_W2BW_selectIICAddress(const TLx493D_t *, TLx493D_IICAddressType_t)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a78a98e6a5f4894146c42435cbc6cc3e8.html#exhale-function-t-lx493-d-w2-b-w-8h-1a78a98e6a5f4894146c42435cbc6cc3e8"><span class="std std-ref">Function TLx493D_W2BW_setDefaultConfig(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a936d9b0c8d9c37a15334b9a2a982d92a.html#exhale-function-t-lx493-d-w2-b-w-8h-1a936d9b0c8d9c37a15334b9a2a982d92a"><span class="std std-ref">Function TLx493D_W2BW_setIICAddress(TLx493D_t *, TLx493D_IICAddressType_t)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a387444ded8cf3eaa460e0cc191e74c39.html#exhale-function-t-lx493-d-w2-b-w-8h-1a387444ded8cf3eaa460e0cc191e74c39"><span class="std std-ref">Function TLx493D_W2BW_setMeasurement(TLx493D_t *, TLx493D_MeasurementType_t)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a4672fb1637cc59c2e90711ffedb9656e.html#exhale-function-t-lx493-d-w2-b-w-8h-1a4672fb1637cc59c2e90711ffedb9656e"><span class="std std-ref">Function TLx493D_W2BW_setPowerMode(TLx493D_t *, uint8_t)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a756ea47847d3e0fab09c43c1a0c0b9b7.html#exhale-function-t-lx493-d-w2-b-w-8h-1a756ea47847d3e0fab09c43c1a0c0b9b7"><span class="std std-ref">Function TLx493D_W2BW_setResetValues(TLx493D_t *)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1aee7972f760694f4d3de423ac5f64855c.html#exhale-function-t-lx493-d-w2-b-w-8h-1aee7972f760694f4d3de423ac5f64855c"><span class="std std-ref">Function TLx493D_W2BW_setSensitivity(TLx493D_t *, TLx493D_SensitivityType_t)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1af499a6c6efa3a31cd2eea69ef25b2a50.html#exhale-function-t-lx493-d-w2-b-w-8h-1af499a6c6efa3a31cd2eea69ef25b2a50"><span class="std std-ref">Function TLx493D_W2BW_setTrigger(TLx493D_t *, TLx493D_TriggerType_t)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1ac5794ddaebc3502370acdd88111931b8.html#exhale-function-t-lx493-d-w2-b-w-8h-1ac5794ddaebc3502370acdd88111931b8"><span class="std std-ref">Function TLx493D_W2BW_setUpdateRate(TLx493D_t *, TLx493D_UpdateRateType_t)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1afd90896fa538407556c434f1c7aadd20.html#exhale-function-t-lx493-d-w2-b-w-8h-1afd90896fa538407556c434f1c7aadd20"><span class="std std-ref">Function TLx493D_W2BW_setWakeUpThresholds(TLx493D_t *, double, double, double, double, double, double, double)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a0317ced33d8614b1daadb05fe22a7421.html#exhale-function-t-lx493-d-w2-b-w-8h-1a0317ced33d8614b1daadb05fe22a7421"><span class="std std-ref">Function TLx493D_W2BW_setWakeUpThresholdsAsInteger(TLx493D_t *, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t)</span></a></p></li>
+<li><p><a class="reference internal" href="function__t_lx493_d___w2_b_w_8h_1a6fdddcb026c331955fa1ae80950c1848.html#exhale-function-t-lx493-d-w2-b-w-8h-1a6fdddcb026c331955fa1ae80950c1848"><span class="std std-ref">Function TLx493D_W2BW_softwareReset(TLx493D_t *)</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2024, Infineon Technologies AG
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    
+
+  <style>
+    /* Sidebar header (and topbar for mobile) */
+    .wy-side-nav-search, .wy-nav-top {
+      background: #5EA290;
+    }
+    /* Sidebar */
+    .wy-nav-side {
+      background: #5EA290;
+    }
+
+    /* span.caption-text {
+      color: white;
+    } */
+
+    .wy-menu-vertical header, .wy-menu-vertical p.caption {
+    color: white;
+    height: 32px;
+    display: inline-block;
+    line-height: 32px;
+    padding: 0 1.618em;
+    margin: 12px 0 0 0;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 85%;
+    white-space: nowrap;
+    }
+
+    /*
+    .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {
+    color: #3a7ca8;
+    font-size: 100%;
+    font-weight: bold;
+    display: inline-block;
+    padding: 4px 6px;
+    margin-bottom: .809em;
+    }
+    */
+    
+    .wy-menu-vertical header, .wy-menu-vertical p.caption {
+    color: white;
+    height: 32px;
+    display: inline-block;
+    line-height: 32px;
+    padding: 0 1.618em;
+    margin: 12px 0 0 0;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 85%;
+    white-space: nowrap;
+    }
+
+    .rst-versions {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    color: #fcfcfc;
+    background: #812161;
+    font-family: "Lato","proxima-nova", "Helvetica Neue", Arial,sans-serif;
+    z-index: 400;
+    justify-content: stretch;
+    }
+
+  </style>
+
+
+</body>
+</html>

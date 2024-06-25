@@ -1,0 +1,14 @@
+.. _exhale_enum__t_lx493_d___a2_b6__enums_8h_1a52619710e0e7136f3c9a5587b31470c3:
+
+Enum TLx493D_A2B6_registerNames_t
+=================================
+
+- Defined in :ref:`file_src_TLx493D_A2B6_enums.h`
+
+
+Enum Documentation
+------------------
+
+
+.. doxygenenum:: TLx493D_A2B6_registerNames_t
+   :project: XENSIV 3D Magnetic Sensors Arduino Library

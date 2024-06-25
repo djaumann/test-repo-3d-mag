@@ -1,0 +1,14 @@
+.. _exhale_function__t_lx493_d___p3_i8_8c_1a1b40dbb8b6bf28e5af33e9fc9837fce8:
+
+Function TLx493D_P3I8_getSensitivityScaleFactor(const TLx493D_t \*)
+===================================================================
+
+- Defined in :ref:`file_src_TLx493D_P3I8.c`
+
+
+Function Documentation
+----------------------
+
+
+.. doxygenfunction:: TLx493D_P3I8_getSensitivityScaleFactor(const TLx493D_t *)
+   :project: XENSIV™ 3D Magnetic Sensors Tlx493D Arduino Library

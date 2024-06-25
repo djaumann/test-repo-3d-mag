@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct_t_lx493_d___communication_interface__t" kind="struct" language="C++" prot="public">
+    <compoundname>TLx493D_CommunicationInterface_t</compoundname>
+    <includes refid="tlx493d__types_8h" local="no">tlx493d_types.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_t_lx493_d___communication_interface__t_1a4624a04afdf088432ced43e6d59e9dd8" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_t_lx493_d___com_library_functions__t" kindref="compound">TLx493D_ComLibraryFunctions_t</ref> *</type>
+        <definition>TLx493D_ComLibraryFunctions_t* TLx493D_CommunicationInterface_t::comLibFuncs</definition>
+        <argsstring></argsstring>
+        <name>comLibFuncs</name>
+        <qualifiedname>TLx493D_CommunicationInterface_t::comLibFuncs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_types.h" line="253" column="37" bodyfile="src/tlx493d_types.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_lx493_d___communication_interface__t_1af079ad521f9a3612d69bf26391085c58" prot="public" static="no" mutable="no">
+        <type><ref refid="union_t_lx493_d___com_library_parameters__t" kindref="compound">TLx493D_ComLibraryParameters_t</ref></type>
+        <definition>TLx493D_ComLibraryParameters_t TLx493D_CommunicationInterface_t::comLibParams</definition>
+        <argsstring></argsstring>
+        <name>comLibParams</name>
+        <qualifiedname>TLx493D_CommunicationInterface_t::comLibParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_types.h" line="254" column="38" bodyfile="src/tlx493d_types.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_t_lx493_d___communication_interface__t_1afea0a2e24ea8f4d1a1e88aaed76ddfba" prot="public" static="no" mutable="no">
+        <type><ref refid="union_t_lx493_d___com_library_object__t" kindref="compound">TLx493D_ComLibraryObject_t</ref></type>
+        <definition>TLx493D_ComLibraryObject_t TLx493D_CommunicationInterface_t::comLibObj</definition>
+        <argsstring></argsstring>
+        <name>comLibObj</name>
+        <qualifiedname>TLx493D_CommunicationInterface_t::comLibObj</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/tlx493d_types.h" line="255" column="38" bodyfile="src/tlx493d_types.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The structure <computeroutput><ref refid="struct_t_lx493_d___communication_interface__t" kindref="compound">TLx493D_CommunicationInterface_t</ref></computeroutput> contains all the important parameters to properly use the communication interface. It uses the previously defined structures <computeroutput><ref refid="struct_t_lx493_d___com_library_functions__t" kindref="compound">TLx493D_ComLibraryFunctions_t</ref></computeroutput>, <computeroutput><ref refid="union_t_lx493_d___com_library_parameters__t" kindref="compound">TLx493D_ComLibraryParameters_t</ref></computeroutput> and <computeroutput><ref refid="union_t_lx493_d___com_library_object__t" kindref="compound">TLx493D_ComLibraryObject_t</ref></computeroutput>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6">
+        <label>TLx493D_BoardSupportInterface_t</label>
+        <link refid="struct_t_lx493_d___board_support_interface__t"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>boardSupportObj</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>TLx493D_BoardSupportObject_t</label>
+        <link refid="union_t_lx493_d___board_support_object__t"/>
+      </node>
+      <node id="2">
+        <label>TLx493D_ComLibraryFunctions_t</label>
+        <link refid="struct_t_lx493_d___com_library_functions__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>iic_deinit</edgelabel>
+          <edgelabel>iic_init</edgelabel>
+          <edgelabel>iic_setReadAddress</edgelabel>
+          <edgelabel>iic_transfer</edgelabel>
+          <edgelabel>spi_deinit</edgelabel>
+          <edgelabel>spi_init</edgelabel>
+          <edgelabel>spi_setReadAddress</edgelabel>
+          <edgelabel>spi_transfer</edgelabel>
+        </childnode>
+      </node>
+      <node id="11">
+        <label>TLx493D_ComLibraryObject_t</label>
+        <link refid="union_t_lx493_d___com_library_object__t"/>
+      </node>
+      <node id="8">
+        <label>TLx493D_ComLibraryParameters_t</label>
+        <link refid="union_t_lx493_d___com_library_parameters__t"/>
+        <childnode refid="9" relation="usage">
+          <edgelabel>spi_params</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>iic_params</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>TLx493D_CommonFunctions_t</label>
+        <link refid="struct_t_lx493_d___common_functions__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>calculateBusParity</edgelabel>
+          <edgelabel>calculateConfigurationParity</edgelabel>
+          <edgelabel>calculateFuseParity</edgelabel>
+          <edgelabel>calculateMagneticField</edgelabel>
+          <edgelabel>calculateMagneticFieldAndTemperature</edgelabel>
+          <edgelabel>calculateRawMagneticField</edgelabel>
+          <edgelabel>calculateRawMagneticFieldAndTemperature</edgelabel>
+          <edgelabel>calculateRawMagneticFieldAtTemperature</edgelabel>
+          <edgelabel>calculateRawTemperature</edgelabel>
+          <edgelabel>calculateTemperature</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>TLx493D_CommunicationInterface_t</label>
+        <link refid="struct_t_lx493_d___communication_interface__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>comLibFuncs</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>comLibParams</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>comLibObj</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>TLx493D_I2CParameters_t</label>
+        <link refid="struct_t_lx493_d___i2_c_parameters__t"/>
+      </node>
+      <node id="4">
+        <label>TLx493D_Register_t</label>
+        <link refid="struct_t_lx493_d___register__t"/>
+      </node>
+      <node id="9">
+        <label>TLx493D_SPIParameters_t</label>
+        <link refid="struct_t_lx493_d___s_p_i_parameters__t"/>
+      </node>
+      <node id="3">
+        <label>TLx493D_t</label>
+        <link refid="struct_t_lx493_d__t"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>regDef</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>functions</edgelabel>
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>comInterface</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>boardSupportInterface</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/tlx493d_types.h" line="252" column="1" bodyfile="src/tlx493d_types.h" bodystart="252" bodyend="256"/>
+    <listofallmembers>
+      <member refid="struct_t_lx493_d___communication_interface__t_1a4624a04afdf088432ced43e6d59e9dd8" prot="public" virt="non-virtual"><scope>TLx493D_CommunicationInterface_t</scope><name>comLibFuncs</name></member>
+      <member refid="struct_t_lx493_d___communication_interface__t_1afea0a2e24ea8f4d1a1e88aaed76ddfba" prot="public" virt="non-virtual"><scope>TLx493D_CommunicationInterface_t</scope><name>comLibObj</name></member>
+      <member refid="struct_t_lx493_d___communication_interface__t_1af079ad521f9a3612d69bf26391085c58" prot="public" virt="non-virtual"><scope>TLx493D_CommunicationInterface_t</scope><name>comLibParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
