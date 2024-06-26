@@ -14,6 +14,7 @@ XENSIV™ TLV493D-A1B6 Shield2Go
 .. image:: img/TLV493D_A1B6_2GO.jpg
     :width: 200
 
+
 * `XENSIV™ 3D Magnetic Sensor TLV493D-A1B6 Shield2Go Product Page <https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d-sense_tlv493d/>`_
 * `XENSIV™ 3D Magnetic Sensor TLV493D-A1B6 Shield2Go Quick Start Guide <https://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-3DSense-Shield2Go_QS_July18-GS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164c5e70a39048e>`_
 
