@@ -32,6 +32,19 @@ release = '1.0.0'
 # ones.
 extensions = [
     'sphinx_rtd_theme'
+    'sphinx.ext.autodoc',
+    'sphinxemoji.sphinxemoji',
+    'sphinx_tabs.tabs',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.autosectionlabel',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+    'sphinx.ext.viewcode',
+    'sphinx_sitemap',
+    'sphinx.ext.graphviz',
+    'sphinx.ext.inheritance_diagram'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
