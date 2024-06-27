@@ -3,3 +3,4 @@ sphinxcontrib.jquery==4.1
 sphinx-tabs
 sphinxemoji==0.1.8
 sphinx-rtd-theme
+sphinx-sitemap
