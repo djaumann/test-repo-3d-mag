@@ -10,10 +10,13 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+from recommonmark.parser import CommonMarkParser
+from sphinx.builders.html import StandaloneHTMLBuilder
+import subprocess, os, sys
+import textwrap
 
+# Check if we're running on Read the Docs' servers
+read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 
 # -- Project information -----------------------------------------------------
 
@@ -47,6 +50,14 @@ extensions = [
     'sphinx.ext.inheritance_diagram'
 ]
 
+autosectionlabel_prefix_document = True
+
+source_suffix = [
+    '.rst',
+]
+
+suppress_warnings = ['autosectionlabel.*', 'epub.duplicated_toc_entry']
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -55,6 +66,7 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+highlight_language = 'c++'
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -62,6 +74,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
+
+html_logo = 'img/ifx_logo_white_green_s.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
