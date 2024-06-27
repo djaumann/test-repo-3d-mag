@@ -15,8 +15,8 @@ XENSIV™ TLV493D-A1B6 Shield2Go
     :width: 200
 
 
-* `XENSIV™ 3D Magnetic Sensor TLV493D-A1B6 Shield2Go Product Page <https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d-sense_tlv493d/>`_
-* `XENSIV™ 3D Magnetic Sensor TLV493D-A1B6 Shield2Go Quick Start Guide <https://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-3DSense-Shield2Go_QS_July18-GS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164c5e70a39048e>`_
+* `Product Page - XENSIV™ 3D Magnetic Sensor TLV493D-A1B6 Shield2Go <https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d-sense_tlv493d/>`_
+* `Quick Start Guide - XENSIV™ 3D Magnetic Sensor TLV493D-A1B6 Shield2Go <https://www.infineon.com/dgdl/Infineon-TLV493D-A1B6-3DSense-Shield2Go_QS_July18-GS-v01_00-EN.pdf?fileId=5546d46264a8de7e0164c5e70a39048e>`_
 
 Pinout Diagram
 ^^^^^^^^^^^^^^
@@ -50,8 +50,8 @@ XENSIV™ TLV493D-A1B6 2GO Kit
 .. image:: img/TLV493D_A1B6_MS2GO.png
     :width: 200
 
-* `XENSIV™ 3D Magnetic Sensor TLV493D-A1B6 2GO Kit Product Page <https://www.infineon.com/cms/en/product/evaluation-boards/tlv493d-a1b6-ms2go/>`_
-* `XENSIV™ 3D Magnetic Sensor TLV493D-A1B6 2GO Kit User Manual <https://www.infineon.com/dgdl/Infineon-Infineon-3DMS2GO_TLv493D-A1B6-UM-v01_02-EN-UM-v01-UserManual-v01_02-EN.pdf?fileId=5546d462525dbac40152ac4ca1d318c2>`_
+* `Product Page - XENSIV™ 3D Magnetic Sensor TLV493D-A1B6 2GO Kit  <https://www.infineon.com/cms/en/product/evaluation-boards/tlv493d-a1b6-ms2go/>`_
+* `User Manual - XENSIV™ 3D Magnetic Sensor TLV493D-A1B6 2GO Kit <https://www.infineon.com/dgdl/Infineon-Infineon-3DMS2GO_TLv493D-A1B6-UM-v01_02-EN-UM-v01-UserManual-v01_02-EN.pdf?fileId=5546d462525dbac40152ac4ca1d318c2>`_
 
 Pinout Diagram
 ^^^^^^^^^^^^^^
@@ -110,7 +110,7 @@ XENSIV™ TLE493D-W2B6 Shield2Go
 .. image:: img/TLE493D_W2B6_2GO.jpg
     :width: 200
 
-* `XENSIV™ TLE493D-W2B6 Shield2Go Product Page <https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d_tle493dw2b6-a0/>`_
+* `Product Page - XENSIV™ TLE493D-W2B6 Shield2Go <https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d_tle493dw2b6-a0/>`_
 
 Pinout Diagram
 ^^^^^^^^^^^^^^
@@ -147,8 +147,8 @@ XENSIV™ TLE493D-W2B6 2GO Kit
 .. image:: img/TLV493D_A1B6_MS2GO.png
     :width: 200
 
-* `XENSIV™ TLE493D-W2B6 2GO Kit Product Page <https://www.infineon.com/cms/en/product/evaluation-boards/tle493d-w2b6-ms2go/>`_
-* `XENSIV™ TLE493D-W2B6 2GO Kit User Manual <https://www.infineon.com/dgdl/Infineon-Infineon-3DMS2GO_TLE493D-W2B6-UM-v01_01-EN-UserManual-v01_01-EN.pdf?fileId=5546d462636cc8fb016418342fea3f54>`_
+* `Product Page - XENSIV™ TLE493D-W2B6 2GO Kit <https://www.infineon.com/cms/en/product/evaluation-boards/tle493d-w2b6-ms2go/>`_
+* `User Manual - XENSIV™ TLE493D-W2B6 2GO Kit <https://www.infineon.com/dgdl/Infineon-Infineon-3DMS2GO_TLE493D-W2B6-UM-v01_01-EN-UserManual-v01_01-EN.pdf?fileId=5546d462636cc8fb016418342fea3f54>`_
   
 Pinout Diagram
 ^^^^^^^^^^^^^^
@@ -207,8 +207,8 @@ XENSIV™ TLI493D-W2BW Shield2Go
 .. image:: img/TLI493D_w2BW_2GO.jpg
     :width: 200
 
-* `XENSIV™ TLI493D-W2BW Shield2Go Product Page <https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d_tli493dw2bw-a0/>`_
-* `XENSIV™ TLI493D-W2BW Shield2Go Quick Start Guide <https://www.infineon.com/dgdl/Infineon-TLI493D-W2BW_Shield2Go-GettingStarted-v01_00-EN.pdf?fileId=5546d462737c45b9017395f019797123>`_
+* `Product Page - XENSIV™ TLI493D-W2BW Shield2Go <https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d_tli493dw2bw-a0/>`_
+* `Quick Start Guide - XENSIV™ TLI493D-W2BW Shield2Go <https://www.infineon.com/dgdl/Infineon-TLI493D-W2BW_Shield2Go-GettingStarted-v01_00-EN.pdf?fileId=5546d462737c45b9017395f019797123>`_
 
 Pinout Diagram
 ^^^^^^^^^^^^^^
@@ -247,8 +247,8 @@ XENSIV™ TLE493D-P2B6 2GO Kit
 .. image:: img/TLV493D_A1B6_MS2GO.png
     :width: 200
 
-* `XENSIV™ TLE493D-P2B6 2GO Kit Product Page <https://www.infineon.com/cms/en/product/evaluation-boards/tle493d-p2b6ms2go/>`_
-* `XENSIV™ TLE493D-P2B6 2GO Kit User Manual <https://www.infineon.com/dgdl/Infineon-3DMS2GO_TLE493D-P2B6-UserManual-v01_00-EN.pdf?fileId=5546d4627aa5d4f5017aaa6e84cb0eca>`_
+* `Product Page - XENSIV™ TLE493D-P2B6 2GO Kit <https://www.infineon.com/cms/en/product/evaluation-boards/tle493d-p2b6ms2go/>`_
+* `User Manual - XENSIV™ TLE493D-P2B6 2GO Kit <https://www.infineon.com/dgdl/Infineon-3DMS2GO_TLE493D-P2B6-UserManual-v01_00-EN.pdf?fileId=5546d4627aa5d4f5017aaa6e84cb0eca>`_
 
 Pinout Diagram
 ^^^^^^^^^^^^^^
@@ -303,6 +303,8 @@ Pin Description
 
 Supported MCU Platforms
 -----------------------
+
+.. _supported-hw:
 
 In principle, the library can be used with any Arduino compatible MCU platform, as long as its Arduino core is implemented with the `Arduino Reference Language <https://www.arduino.cc/reference/en/>`_. Below you will find a list of the boards we have tested with the library.
 
