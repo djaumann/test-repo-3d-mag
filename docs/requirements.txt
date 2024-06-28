@@ -1,6 +1,9 @@
-sphinx~=7.2.6
-sphinxcontrib.jquery==4.1
+sphinx
+sphinxcontrib.jquery
 sphinx-tabs
-sphinxemoji==0.1.8
+sphinxemoji
 sphinx-rtd-theme
 sphinx-sitemap
+recommonmark
+breahte
+exhale
