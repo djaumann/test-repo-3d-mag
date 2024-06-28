@@ -48,7 +48,7 @@ extensions = [
     'sphinx_sitemap',
     'sphinx.ext.graphviz',
     'sphinx.ext.inheritance_diagram',
-    'breath',
+    'breathe',
     'exhale'
 ]
 
