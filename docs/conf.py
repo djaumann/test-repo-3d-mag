@@ -47,7 +47,9 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx_sitemap',
     'sphinx.ext.graphviz',
-    'sphinx.ext.inheritance_diagram'
+    'sphinx.ext.inheritance_diagram',
+    'breath',
+    'exhale'
 ]
 
 autosectionlabel_prefix_document = True
