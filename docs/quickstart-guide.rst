@@ -4,7 +4,7 @@ Quickstart Guide
 ================
 
 In this quick tutorial we will go through one of the |TM| library examples, which is available for all the sensors supported by this Arduino library.
-We will use the XMC 2Go as microcontroller, but you can choose any of the `supported platforms <>`_ in order to get this example working.
+We will use the XMC 2Go as microcontroller, but you can choose any of the `supported platforms <_supported-hw>`_ in order to get this example working.
 
 Required Hardware
 -----------------
@@ -58,7 +58,7 @@ The official Arduino boards are already available in the Arduino IDE, but other 
 2. **Install the library**
 
 In the Arduino IDE, go to the menu *Sketch > Include Library > Library Manager*. Type *XENSIV 3D Magnetic Sensor TLx493D*
-and install the library. Click on *install* and wait for the library to be installed.
+and wait for the tool to find it. Click on *install* and give the IDE a moment to install the library.
 
 .. image:: img/tbd.jpg
   :width: 500
@@ -118,7 +118,7 @@ What's next?
 
 .. TODO: Link to API reference
 
-This was only one of the available library examples. The other :ref:`examples <supported-hw>` will show much more of the sensor's available functionality. If you need more details about the library functions check out the `API reference section <>`_ of this documentation.
+This was only one of the available library examples. The other :ref:`examples <examples>` will show much more of the sensor's available functionality. If you need more details about the library functions check out the `API reference section <>`_ of this documentation.
 
 .. |TM| replace:: XENSIV™ 3D Magnetic Sensors TLx493D
 .. _TM: https:://infineon.com/

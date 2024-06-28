@@ -58,6 +58,31 @@ source_suffix = [
 
 suppress_warnings = ['autosectionlabel.*', 'epub.duplicated_toc_entry']
 
+# Setup the exhale extension
+exhale_args = {
+    # These arguments are required
+    "containmentFolder":     "./exhale-auto-docs",
+    "rootFileName":          "api_list.rst",
+    "rootFileTitle":         "API List",
+    "doxygenStripFromPath":  "..",
+    # Suggested optional arguments
+    "createTreeView":        True,
+    "exhaleExecutesDoxygen": True,
+    "exhaleDoxygenStdin":    textwrap.dedent('''
+        INPUT            = ../src
+        GENERATE_LATEX   = NO
+        GENERATE_HTML    = NO
+        GENERATE_XML     = YES
+        RECURSIVE        = YES
+        VERBATIM_HEADERS = YES                                      
+    '''),
+
+    # Configure what not to show in the API index page
+    "unabridgedOrphanKinds": {"function", "define", "dir","file", "variable", "namespace"},
+    "fullToctreeMaxDepth" : 4
+    
+}
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -81,3 +106,11 @@ html_logo = 'img/infineon_logo_white.png'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# -- Breathe configuration -------------------------------------------------
+
+breathe_projects = {
+	"XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library": "build/xml/"
+}
+breathe_default_project = "XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library"
+breathe_default_members = ('members', 'undoc-members')

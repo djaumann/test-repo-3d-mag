@@ -22,6 +22,7 @@ Welcome to the |TM| library documentation! On this website you will find all the
    hw-platforms
    lib-install
    examples
+   api-ref
    
 License
 =======
