@@ -4,12 +4,12 @@ Quickstart Guide
 ================
 
 In this quick tutorial we will go through one of the |TM| library examples, which is available for all the sensors supported by this Arduino library.
-We will use the XMC 2Go as microcontroller, but you can choose any of the `supported platforms <_supported-hw>`_ in order to get this example working.
+We will use the XMC 2Go as microcontroller, but you can choose any of the :ref:`supported platforms<supported-hw>` in order to get this example working.
 
 Required Hardware
 -----------------
 
-.. list-table:: 
+.. list-table::
   :widths: 50 50
   :header-rows: 1
 
@@ -45,7 +45,7 @@ Required Software
 Software Installation
 ---------------------
 
-0. **Install the Arduino IDE**
+1. **Install the Arduino IDE**
 
 If you are new to Arduino, please `download <https://www.arduino.cc/en/Main/Software>`_
 the program and install it first.
@@ -76,7 +76,7 @@ Here is another picture how the complete setup should look like.
 .. image:: img/tbd.jpg
   :width: 500
 
-If that is done you just have to connect the USB-cable to the XMC 2Go as well as to the computer and get ready to use your magnet.
+If that is done you just have to connect the USB cable to the XMC 2Go as well as to the computer and get ready to use your magnet.
 
 Ready To Go!
 ------------
@@ -94,7 +94,7 @@ With the library installed in the Arduino IDE you can simply open one of the exa
 
 3. **Build and run the example**
 
-Please make sure that you have chosen the right COM-port. You can choose it from the menu: *Tool > Port* or again from the drop down menu (new Arduino IDE). If you're not sure that you have selected the correct COM-port you can do a simple trick. Just remove the USB-Cable from your computer and check all the available COM-ports. With that done connect the board again and check the available COM-ports again. There should be a new one now that has not been there before, this port is the right one to choose.
+Please make sure that you have chosen the right COM port. You can choose it from the menu: *Tool > Port* or again from the drop down menu (new Arduino IDE). If you're not sure that you have selected the correct COM port you can do a simple trick. Just remove the USB cable from your computer and check all the available COM ports. With that done connect the board again and check the available COM ports again. There should be a new one now that has not been there before, this port is the right one to choose.
 
 Now we can use the *verify button* |ver-but| to check if the code is correct and compiles without errors. If the compilation passes you can upload the sketch via the *upload button* |upl-but| to the XMC 2Go.
 

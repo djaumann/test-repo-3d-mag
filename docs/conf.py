@@ -102,7 +102,7 @@ highlight_language = 'c++'
 #
 html_theme = "sphinx_rtd_theme"
 
-html_logo = 'img/infineon_logo_white.png'
+html_logo = 'img/infineon_logo_white_green_s.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

@@ -17,13 +17,13 @@ The following examples are provided in the library:
         | different sensors with I2C interface at the same time.
     * - Read 3 equal IIC senors
       - | This examples demonstrates how you can read out 3
-        | equal sensors wiht I2C interface at the same time.
+        | equal sensors with I2C interface at the same time.
     * - Read IIC A1B6 extended addresses
       - | This examples demonstrates how you can use the extended
         | sensor addresses feature of the A1B6. 
     * - Read IIC sensor
       - | This examples demonstrates how you can read out data
-        | from a sensor wiht I2C. 
+        | from a sensor with I2C. 
     * - Read IIC sensor C style
       - | This examples demonstrates how you can read out data
         | from a sensor with I2C, but with a C-Code style.

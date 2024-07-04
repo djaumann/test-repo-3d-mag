@@ -204,7 +204,7 @@ Pin Description
 XENSIV™ TLI493D-W2BW Shield2Go
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: img/TLI493D_w2BW_2GO.jpg
+.. image:: img/TLI493D_W2BW_2GO.jpg
     :width: 200
 
 * `Product Page - XENSIV™ TLI493D-W2BW Shield2Go <https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d_tli493dw2bw-a0/>`_
