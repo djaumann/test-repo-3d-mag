@@ -4,7 +4,7 @@ Quickstart Guide
 ================
 
 In this quick tutorial we will go through one of the |TM| library examples, which is available for all the sensors supported by this Arduino library.
-We will use the XMC 2Go as microcontroller, but you can choose any of the :ref:`supported platforms<supported-hw>` in order to get this example working.
+We will use the XMC 2Go as microcontroller, but you can choose any of the :ref:`supported platforms<Supported HW>` in order to get this example working.
 
 Required Hardware
 -----------------

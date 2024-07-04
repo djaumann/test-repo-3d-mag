@@ -301,10 +301,10 @@ Pin Description
 
 ----------------------------------------------------------------------
 
+.. _Supported HW:
+
 Supported MCU Platforms
 -----------------------
-
-.. _supported-hw:
 
 In principle, the library can be used with any Arduino compatible MCU platform, as long as its Arduino core is implemented with the `Arduino Reference Language <https://www.arduino.cc/reference/en/>`_. Below you will find a list of the boards we have tested with the library.
 
