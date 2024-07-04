@@ -15,7 +15,7 @@ Required Hardware
 
   * - Name
     - Picture
-  * - `XENSIV™ 3D Magnetic Sensor TLE493D-W2B6 <https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d_tle493dw2b6-a0/>`_
+  * - `XENSIV™ 3D Magnetic Sensor TLE493D-W2B6 Shield2Go <https://www.infineon.com/cms/en/product/evaluation-boards/s2go_3d_tle493dw2b6-a0/>`_
     - .. image:: img/TLE493D_W2B6_2GO.jpg
           :height: 50
   * - `XMC 2Go <https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc_2go_xmc1100_v1/>`_ (only needed if you chose a shield 2Go)
@@ -37,7 +37,6 @@ Required Hardware
 Required Software
 -----------------
 
-- `Segger J-Link <https://www.segger.com/downloads/jlink>`_
 - `Arduino IDE <https://www.arduino.cc/en/main/software>`_
 - `XMC-for-Arduino <https://github.com/Infineon/XMC-for-Arduino>`_
 - `XENSIV™ 3D Magnetic Sensors TLx493D Arduino Library <test>`_
@@ -98,7 +97,7 @@ Please make sure that you have chosen the right COM port. You can choose it from
 
 Now we can use the *verify button* |ver-but| to check if the code is correct and compiles without errors. If the compilation passes you can upload the sketch via the *upload button* |upl-but| to the XMC 2Go.
 
-After the upload is complete open the serial monitor with the *serial monitor button* |ser-but|. If you just see a bunch of strange symbols, you probably forgot to choose the correct baudrate for the serial terminal. You can find the needed baudrate inside the Serial.begin() function call of the Arduino-Sketch. If everything is correctly set, you should see the magnetic values of the measured magnetic field in X, Y, Z-direction, as well as the temperature on the serial monitor.
+After the upload is complete open the serial monitor with the *serial monitor button* |ser-but|. If you just see a bunch of strange symbols, you probably forgot to choose the correct baudrate for the serial terminal. You can find the needed baudrate inside the :code:`Serial.begin()` function call of the Arduino-Sketch. If everything is correctly set, you should see the magnetic values of the measured magnetic field in X, Y, Z-direction, as well as the temperature on the serial monitor.
 
 .. TODO: Bild einfügen vom Serial Monitor aus der Arduino IDE
 
