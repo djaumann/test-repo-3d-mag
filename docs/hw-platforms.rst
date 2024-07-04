@@ -6,7 +6,7 @@ Hardware Platforms
 Supported Sensor Boards
 -----------------------
 
-This library support almost the complete XENSIV™ 3D Magnetic Sensors Tlx493d family. This includes the Shields2Go as well as the 2GO Kits of the sensors. Following you will see a list of boards which are supported by this library.
+This library supports almost the complete XENSIV™ 3D Magnetic Sensors Tlx493d family. This includes the Shield2Go boards, as well as the 2GO Kits of the sensors. Following you will see a list of boards which are supported by this library.
 
 XENSIV™ TLV493D-A1B6 Shield2Go
 """"""""""""""""""""""""""""""

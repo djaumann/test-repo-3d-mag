@@ -7,7 +7,7 @@ The library can be installed in several ways, here are a few options:
 * Arduino IDE import .zip-library
 * Arduino IDE manual installation
 
-These installation methods are conveniently described in the official `Arduino website <https://www.arduino.cc/en/guide/libraries>`_.
+These installation methods are conveniently described in the official `Arduino website <https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/>`_.
 
 Library Manager
 ---------------
@@ -20,7 +20,8 @@ In order to install the library via the Arduino library manager open the Arduino
 If you prefer to install the library manually via a .zip-file go to the `release section <>`_ of the repository and get the .zip- or tar.gz-file from the desired release.
 As soon as you downloaded the file you can go back to the Arduino IDE and choose *Sketch > Include Library > Add .ZIP library* from the menu.
 
-|:warning:| As a general recommendation, direct downloads from the master branch should be avoided. Even if it should not, it could contain incomplete or faulty code. So please stick to the releases. |:warning:|
+.. warning:: 
+    As a general recommendation, direct downloads from the master branch should be avoided. Even if it should not, it could contain incomplete or faulty code. So please stick to the releases.
 
 .. Include image of the Arduino library manager
 
