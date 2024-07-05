@@ -22,11 +22,11 @@ Required Hardware
     - .. image:: img/xmc2go.jpg
           :height: 60
   * - Magnet (diametrically magnetized)
-    - For example something like `this<https://www.digikey.de/de/products/detail/radial-magnets-inc/8170/5400486>`_
+    - For example something like `this <https://www.digikey.de/de/products/detail/radial-magnets-inc/8170/5400486>`_
   * - Pin headers (8 pins, male and female) 
-    - For example something like this `this<https://www.digikey.de/de/products/detail/te-connectivity-amp-connectors/5-146280-4/5008688>`_ 
+    - For example something like this `this <https://www.digikey.de/de/products/detail/te-connectivity-amp-connectors/5-146280-4/5008688>`_ 
   * - Micro-USB to USB-A cable
-    - For example something like `this<https://www.digikey.de/de/products/detail/molex/0687840002/1952431>`_
+    - For example something like `this <https://www.digikey.de/de/products/detail/molex/0687840002/1952431>`_
 
 Required Software
 -----------------
