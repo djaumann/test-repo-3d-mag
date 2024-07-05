@@ -27,7 +27,7 @@ Welcome to the |TM| library documentation! On this website you will find all the
 License
 =======
 
-Find the license for this library `here <https://github.com/Infineon/arduino-pas-co2-sensor/blob/master/LICENSE>`_.
+Find the license for this library `here <../LICENSE.md>`_.
 
 .. |TM| replace:: XENSIV™ 3D Magnetic Sensors TLx493D
 .. _TM: https:://infineon.com/
