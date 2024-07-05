@@ -24,9 +24,9 @@ Required Hardware
   * - Magnet (diametrically magnetized)
     - For example something like `this <https://www.digikey.de/de/products/detail/radial-magnets-inc/8170/5400486>`_
   * - Pin headers (8 pins, male and female) 
-    - For example something like `that <https://www.digikey.de/de/products/detail/te-connectivity-amp-connectors/5-146280-4/5008688>`_ 
+    - For example something like `this <https://www.digikey.de/de/products/detail/te-connectivity-amp-connectors/5-146280-4/5008688>`_ 
   * - Micro-USB to USB-A cable
-    - For example something like `<https://www.digikey.de/de/products/detail/molex/0687840002/1952431>`_ 
+    - For example something like `this <https://www.digikey.de/de/products/detail/molex/0687840002/1952431>`_ 
 
 Required Software
 -----------------
@@ -66,7 +66,7 @@ For this example we will use the I2C interface of the MCU. In order to connect t
 
 Here is another picture how the complete setup should look like.
 
-.. image:: img/tbd.jpg
+.. image:: img/xmc2go_tle493d_stacked.jpg
   :width: 500
 
 If that is done you just have to connect the USB cable to the XMC 2Go as well as to the computer and get ready to use your magnet.
@@ -83,19 +83,18 @@ Once you have installed the XMC board family, you can select one of the supporte
 
 2. **Open the example**
 
-With the library installed in the Arduino IDE you can simply open one of the examples that are part of the library. To do that you have to go to the menu: *File > Examples > xensiv-3d-magnetic-sensor-tlx493d* and choose the example *read_iic_sensor*. 
+With the library installed in the Arduino IDE you can simply open one of the examples that are part of the library. To do that you have to go to the menu: *File > Examples > XENSIV 3D Magnetic Sensor TLx493D * and choose the example *read_iic_sensor*. 
 
 3. **Build and run the example**
 
 Please make sure that you have chosen the right COM port. You can choose it from the menu: *Tool > Port* or again from the drop down menu (new Arduino IDE). If you're not sure that you have selected the correct COM port you can do a simple trick. Just remove the USB cable from your computer and check all the available COM ports. With that done connect the board again and check the available COM ports again. There should be a new one now that has not been there before, this port is the right one to choose.
 
-Now we can use the *verify button* |ver-but| to check if the code is correct and compiles without errors. If the compilation passes you can upload the sketch via the *upload button* |upl-but| to the XMC 2Go.
+Now we can use the *verify button* |ver-but| to check if the code is correct and compiles without errors. If the compilation is successful you can upload the sketch via the *upload button* |upl-but| to the XMC 2Go.
 
 After the upload is complete open the serial monitor with the *serial monitor button* |ser-but|. If you just see a bunch of strange symbols, you probably forgot to choose the correct baudrate for the serial terminal. You can find the needed baudrate inside the :code:`Serial.begin()` function call of the Arduino-Sketch. If everything is correctly set, you should see the magnetic values of the measured magnetic field in X, Y, Z-direction, as well as the temperature on the serial monitor.
 
-.. TODO: Bild einfügen vom Serial Monitor aus der Arduino IDE
-
-.. image:: img/tbd.jpg
+.. image:: img/serial_monitor.png
+  :width: 500
 
 .. |ver-but| image:: img/ard-verify-button.png
   :width: 17
