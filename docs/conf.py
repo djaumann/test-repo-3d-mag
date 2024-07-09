@@ -72,7 +72,7 @@ exhale_args = {
     "exhaleExecutesDoxygen": True,
     "verboseBuild": True,
     "exhaleDoxygenStdin":    textwrap.dedent('''
-        INPUT            = ../src
+        INPUT            = ../src/*.h ../src/*.hpp
         GENERATE_LATEX   = NO
         GENERATE_HTML    = NO
         GENERATE_XML     = YES
@@ -116,4 +116,3 @@ breathe_projects = {
 }
 breathe_default_project = "XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library"
 breathe_default_members = ('members', 'undoc-members')
-breathe_implementation_filename_extensions = ['.c', '.cpp']
