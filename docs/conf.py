@@ -72,7 +72,7 @@ exhale_args = {
     "exhaleExecutesDoxygen": True,
     "verboseBuild": True,
     "exhaleDoxygenStdin":    textwrap.dedent('''
-        INPUT            = TLx493D.hpp TLx493DBase.hpp
+        INPUT            = ../src/TLx493DBase.hpp
         GENERATE_LATEX   = NO
         GENERATE_HTML    = NO
         GENERATE_XML     = YES
