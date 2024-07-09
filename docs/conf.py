@@ -116,3 +116,4 @@ breathe_projects = {
 }
 breathe_default_project = "XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library"
 breathe_default_members = ('members', 'undoc-members')
+breathe_implementation_filename_extensions = ['.c', '.cpp']
