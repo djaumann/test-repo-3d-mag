@@ -36,7 +36,7 @@ The following sections shows you the specific implementation of the Tlx493d clas
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 .. doxygenfunction:: end(bool executeDeinit = false)
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
-.. doxygenfunction:: setPowerPin(uint8_t pinNumber, uint8_t pinDriveDirection, uint8_t pinTristateDirection, uint8_t pinEnableValue, pinDisableValue, uint32_t delayAfterEnable = 0, uint32_t delayAfterDisable = 0)
+.. doxygenfunction:: TLx493D.setPowerPin(uint8_t pinNumber, uint8_t pinDriveDirection, uint8_t pinTristateDirection, uint8_t pinEnableValue, pinDisableValue, uint32_t delayAfterEnable = 0, uint32_t delayAfterDisable = 0)
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 .. doxygenfunction:: unsetPowerPin()
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
