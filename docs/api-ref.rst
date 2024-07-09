@@ -22,6 +22,14 @@ The following sections shows you the specific implementation of the Tlx493d clas
 .. doxygenclass:: ifx::tlx493d::TLx493D
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
    :members:
+   :protected-members:
+   :undoc-members:
+.. doxygenfunction:: TLx493D
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+.. doxygenfunction:: ~TLx493D
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+.. doxygenfunction:: init
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 
 Logger API
 ----------
