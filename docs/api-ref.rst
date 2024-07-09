@@ -18,14 +18,33 @@ TLx493D 3D Magnetic Sensor Arduino API
 --------------------------------------
 
 The following sections shows you the specific implementation of the Tlx493d classes for Arduino. The classes are inheriting most of their functionality from the Tlx493Base class, but also define the necessary interfaces (SPI, I2C) depending on the sensor.
-.. doxygenfile:: Tlx493D.hpp
+
+.. doxygenclass:: ifx::tlx493d::TLX493D
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+   :members:
+   :protected-members:
+   :undoc-members:
 
 Logger API
 ----------
 
 The following section shows you all the available logger functions, which can be utilized for debugging or printing out important information of the sensors, for example the internal register map.
 
-.. doxygenfile:: Logger.h
+.. doxygenfunction:: logPrintRegisters
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+.. doxygenfunction:: logPrintDouble
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+.. doxygenfunction:: logPrint
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+.. doxygenfunction:: logPrintln
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+.. doxygenfunction:: logInfo
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+.. doxygenfunction:: logWarn
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+.. doxygenfunction:: logError
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+.. doxygenfunction:: logFlush
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 
 Communication Interface
@@ -33,7 +52,11 @@ Communication Interface
 
 The following section shows you the important high-level functions of the communication interface. The :code:`tlx493d_transfer()` function is implemented for every sensor depending on its available interface (I2C, SPI).
 
-.. doxygenfile:: CommunicationInterface.h
+.. doxygenfunction:: tlx493d_transfer
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+.. doxygenfunction:: tlx493d_setReadAddress
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+.. doxygenfunction:: deinitCommunication
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 
 Kit2GoBoardSupport
@@ -49,5 +72,5 @@ Common Defines
 
 The following section shows you the common defines off the different, available sensors. These defines can be used to exclude specific sensors from the compilation.
 
-.. doxygenfile:: tlx493d_commmon_defines.h
+.. doxygenfile:: tlx493d_common_defines.h
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
