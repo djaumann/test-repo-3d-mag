@@ -13,3 +13,7 @@ TLx493D Magnetic Angle Sensor Arduino API
    :members:
    :protected-members:
    :undoc-members:
+
+.. doxygenfile:: Logger.h
+   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
+

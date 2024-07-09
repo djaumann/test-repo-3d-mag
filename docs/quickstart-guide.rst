@@ -99,7 +99,7 @@ After the upload is complete open the serial monitor with the *serial monitor bu
 .. |ver-but| image:: img/ard-verify-button.png
   :width: 17
 
-.. |upl-but| image:: img/ard-upload-button.png
+.. |upl-but| image:: img/ard-upload-button.pngw
   :width: 17
 
 .. |ser-but| image:: img/ard-serial-button.png
