@@ -24,11 +24,11 @@ The following sections shows you the specific implementation of the Tlx493d clas
    :members:
    :protected-members:
    :undoc-members:
-.. doxygenfunction:: Tlx493::TLx493D
+.. doxygenfunction:: TLx493D(BusType &busObj, TLx493D_IICAddressType_t iicAdr = TLx493D_IIC_ADDR_A0_e) : busWrapper(busObj), iicAddress(iicAdr)
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 .. doxygenfunction:: ~TLx493D
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
-.. doxygenfunction:: init
+.. doxygenfunction:: init(bool enablePower = true, bool enableSelect = false, bool enableExtendedAdress = false, bool executeInit = true)
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 
 Logger API
