@@ -72,12 +72,13 @@ exhale_args = {
     "exhaleExecutesDoxygen": True,
     "verboseBuild": True,
     "exhaleDoxygenStdin":    textwrap.dedent('''
-        INPUT            = ../src/*.h ../src/*.hpp
+        INPUT            = ../src
         GENERATE_LATEX   = NO
         GENERATE_HTML    = NO
         GENERATE_XML     = YES
         RECURSIVE        = YES
-        VERBATIM_HEADERS = YES                                      
+        VERBATIM_HEADERS = YES
+        FILE_PATTERNS = *.h *.hpp                                      
     '''),
 
     # Configure what not to show in the API index page
