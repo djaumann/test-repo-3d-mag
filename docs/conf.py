@@ -70,6 +70,7 @@ exhale_args = {
     # Suggested optional arguments
     "createTreeView":        True,
     "exhaleExecutesDoxygen": True,
+    "verboseBuild": True,
     "exhaleDoxygenStdin":    textwrap.dedent('''
         INPUT            = ../src
         GENERATE_LATEX   = NO
@@ -82,7 +83,6 @@ exhale_args = {
     # Configure what not to show in the API index page
     "unabridgedOrphanKinds": {"function", "define", "dir","file", "variable", "namespace"},
     "fullToctreeMaxDepth" : 4
-    
 }
 
 # Add any paths that contain templates here, relative to this directory.
