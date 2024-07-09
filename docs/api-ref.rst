@@ -19,7 +19,7 @@ TLx493D 3D Magnetic Sensor Arduino API
 
 The following sections shows you the specific implementation of the Tlx493d classes for Arduino. The classes are inheriting most of their functionality from the Tlx493Base class, but also define the necessary interfaces (SPI, I2C) depending on the sensor.
 
-.. doxygenclass:: ifx::tlx493d::TLX493D
+.. doxygenclass:: ifx::tlx493d::TLx493D
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
    :members:
    :protected-members:
@@ -56,7 +56,7 @@ The following section shows you the important high-level functions of the commun
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 .. doxygenfunction:: tlx493d_setReadAddress
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
-.. doxygenfunction:: deinitCommunication
+.. doxygenfunction:: ifx::tlx493d::deinitCommunication
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 
 Kit2GoBoardSupport
