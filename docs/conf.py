@@ -77,7 +77,8 @@ exhale_args = {
         GENERATE_HTML    = NO
         GENERATE_XML     = YES
         RECURSIVE        = YES
-        VERBATIM_HEADERS = YES                                    
+        VERBATIM_HEADERS = YES
+        EXTRACT_ALL = NO                                  
     '''),
 
     # Configure what not to show in the API index page
