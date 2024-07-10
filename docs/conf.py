@@ -70,15 +70,13 @@ exhale_args = {
     # Suggested optional arguments
     "createTreeView":        True,
     "exhaleExecutesDoxygen": True,
-    "verboseBuild": True,
     "exhaleDoxygenStdin":    textwrap.dedent('''
         INPUT            = ../src/TLx493DBase.hpp ../src/TLx493D.hpp ../src/Logger.h ../src/Kit2GoBoardSupport.hpp ../src/CommunicationInterface.h ../src/tlx493d_common_defines.h
         GENERATE_LATEX   = NO
         GENERATE_HTML    = NO
         GENERATE_XML     = YES
         RECURSIVE        = YES
-        VERBATIM_HEADERS = YES
-        EXTRACT_ALL = NO                                  
+        VERBATIM_HEADERS = YES                                
     '''),
 
     # Configure what not to show in the API index page
