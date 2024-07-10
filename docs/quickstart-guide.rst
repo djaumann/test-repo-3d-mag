@@ -83,7 +83,7 @@ Once you have installed the XMC board family, you can select one of the supporte
 
 2. **Open the example**
 
-With the library installed in the Arduino IDE you can simply open one of the examples that are part of the library. To do that you have to go to the menu: *File > Examples > XENSIV 3D Magnetic Sensor TLx493D * and choose the example *read_iic_sensor*. 
+With the library installed in the Arduino IDE you can simply open one of the examples that are part of the library. To do that you have to go to the menu: *File > Examples > XENSIV 3D Magnetic Sensor TLx493D* and choose the example *read_iic_sensor*. 
 
 3. **Build and run the example**
 
@@ -99,7 +99,7 @@ After the upload is complete open the serial monitor with the *serial monitor bu
 .. |ver-but| image:: img/ard-verify-button.png
   :width: 17
 
-.. |upl-but| image:: img/ard-upload-button.pngw
+.. |upl-but| image:: img/ard-upload-button.png
   :width: 17
 
 .. |ser-but| image:: img/ard-serial-button.png
