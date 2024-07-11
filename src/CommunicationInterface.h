@@ -2,7 +2,6 @@
 #define TLX493D_COMMUNICATION_INTERFACE_H
 
 
-/** std includes. */
 #include <stdbool.h>
 #include <stdint.h>
 

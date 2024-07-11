@@ -49,11 +49,7 @@ Communication Interface
 
 The following section shows you the important high-level functions of the communication interface. The :code:`tlx493d_transfer()` function is implemented for every sensor depending on its available interface (I2C, SPI).
 
-.. doxygenfunction:: tlx493d_transfer
-   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
-.. doxygenfunction:: tlx493d_setReadAddress
-   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
-.. doxygenfunction:: ifx::tlx493d::deinitCommunication
+.. doxygenfile:: CommunicationInterface.h
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
 
 Kit2GoBoardSupport
@@ -62,12 +58,4 @@ Kit2GoBoardSupport
 The following section shows you how you can utilize the board support class for your applications. The Kit2GoBoardSupport class eases the usage of Kit2Go boards by giving the opportunity define for example power pins, which can be used to power up and power down the sensor. Or by defining chip select pins in case of a SPI interface.
 
 .. doxygenfile:: Kit2GoBoardSupport.hpp
-   :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library
-
-Common Defines
---------------
-
-The following section shows you the common defines off the different, available sensors. These defines can be used to exclude specific sensors from the compilation.
-
-.. doxygenfile:: tlx493d_common_defines.h
    :project: XENSIV™ 3D Magnetic Sensor TLx493D Arduino Library

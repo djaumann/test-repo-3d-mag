@@ -2,7 +2,6 @@
 #define TLX493D_HPP
 
 
-/** std includes. */
 #ifdef __AVR__
 
     #include <stdbool.h>
@@ -16,14 +15,12 @@
 #endif
 
 
-/** project cpp includes. */
 #include "types.hpp"
 #include "BoardSupportUsingKit2Go.hpp"
 #include "IICUsingTwoWire.hpp"
 #include "SPIUsingSPIClass.hpp"
 #include "TLx493DBase.hpp"
 
-/** project c includes. */
 #include "tlx493d_types.h"
 #include "tlx493d.h"
 #include "CommunicationInterface.h"
