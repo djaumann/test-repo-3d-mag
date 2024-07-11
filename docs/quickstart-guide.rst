@@ -83,7 +83,7 @@ Once you have installed the XMC board family, you can select one of the supporte
 
 2. **Open the example**
 
-With the library installed in the Arduino IDE you can simply open one of the examples that are part of the library. To do that you have to go to the menu: *File > Examples > XENSIV 3D Magnetic Sensor TLx493D* and choose the example *read_iic_sensor*. 
+With the library installed in the Arduino IDE you can simply open one of the examples that are part of the library. To do that you have to go to the menu: *File > Examples > XENSIV 3D Magnetic Sensor TLx493D* and choose the example *read_iic_sensor*.
 
 3. **Build and run the example**
 
