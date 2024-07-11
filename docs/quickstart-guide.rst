@@ -110,7 +110,7 @@ What's next?
 
 .. TODO: Link to API reference
 
-This was only one of the available library examples. The other :ref:`examples <examples>` will show much more of the sensor's available functionality. If you need more details about the library functions check out the `API reference section <>`_ of this documentation.
+This was only one of the available library examples. The other :ref:`examples <examples>` will show much more of the sensor's available functionality. If you need more details about the library functions check out the :ref:`API reference section <api-ref>` of this documentation.
 
 .. |TM| replace:: XENSIV™ 3D Magnetic Sensors TLx493D
 .. _TM: https:://infineon.com/
