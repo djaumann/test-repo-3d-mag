@@ -1,4 +1,3 @@
-/** std includes. */
 #ifdef __AVR__
 
     #include <stddef.h>
@@ -13,10 +12,8 @@
 #endif
 
 
-/** project c includes. */
 #include "tlx493d_types.h"
 
-/** project cpp includes. */
 #include "types.hpp"
 #include "IICUsingTwoWire.hpp"
 #include "Logger.h"

@@ -1,4 +1,3 @@
-/** std includes. */
 #ifdef __AVR__
 
     #include <stdarg.h>
@@ -14,10 +13,8 @@
 #endif
 
 
-/** Arduino includes. */
 #include <Arduino.h>
 
-/** project c includes. */
 #include "tlx493d_types.h"
 #include "Logger.h"
 

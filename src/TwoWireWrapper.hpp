@@ -2,7 +2,6 @@
 #define TLX493D_TWOWIRE_WRAPPER_HPP
 
 
-/** Arduino includes. */
 #include <Arduino.h>
 #include <Wire.h>
 

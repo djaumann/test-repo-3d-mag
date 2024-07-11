@@ -1,17 +1,14 @@
-/** std includes. */
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
 
-/** project c includes. */
 #include "tlx493d.h"
 #include "tlx493d_types.h"
 #include "tlx493d_common_defines.h"
 #include "tlx493d_common.h"
 
-/** sensor specific includes. */
 #include "TLx493D_A1B6.h"
 #include "TLx493D_A2B6.h"
 #include "TLx493D_P2B6.h"

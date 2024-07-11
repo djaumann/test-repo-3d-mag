@@ -1,10 +1,8 @@
-/** std includes. */
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
 
-/** project c includes. */
 #include "CommunicationInterface.h"
 #include "Logger.h"
 
@@ -15,7 +13,6 @@
 #include "tlx493d_gen_2_common_defines.h"
 #include "tlx493d_gen_2_common.h"
 
-/** sensor specicifc includes. */
 #include "TLx493D_P2B6_defines.h"
 #include "TLx493D_P2B6_enums.h"
 #include "TLx493D_P2B6.h"

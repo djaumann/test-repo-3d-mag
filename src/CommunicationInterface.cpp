@@ -1,4 +1,3 @@
-/** std includes. */
 #ifdef __AVR__
 
     #include <stdbool.h>
@@ -10,10 +9,8 @@
 #endif
 
 
-/** project cpp includes. */
 #include "CommunicationInterface.h"
 
-/** project c includes. */
 #include "tlx493d_types.h"
 
 

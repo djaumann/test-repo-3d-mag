@@ -5,7 +5,6 @@
 #ifdef __cplusplus
 
 
-/** std includes. */
 #ifdef __AVR__
 
     #include <stdarg.h>
@@ -21,10 +20,8 @@ extern "C" {
 
 #else
 
-/** std includes. */
 #include <stdarg.h>
 
-/** project c includes. */
 #include "tlx493d_types.h"
 
 #endif

@@ -2,7 +2,6 @@
 #define TLX493D_INCLUDES_HPP
 
 
-/** project cpp includes. */
 #include "baseTypes.hpp"
 #include "types.hpp"
 #include "Kit2GoBoardSupport.hpp"
@@ -10,7 +9,6 @@
 #include "TLx493D.hpp"
 #include "IICUsingTwoWire.hpp"
 
-/** project c includes. */
 #include "tlx493d.h"
 #include "tlx493d_types.h"
 

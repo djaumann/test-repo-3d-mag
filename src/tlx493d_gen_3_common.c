@@ -1,10 +1,8 @@
-/** std includes. */
 #include <math.h>
 #include <stdbool.h>
 #include <stddef.h>
 #include <string.h>
 
-/** project c includes. */
 #include "tlx493d_types.h"
 #include "tlx493d_common_defines.h"
 #include "tlx493d_common.h"

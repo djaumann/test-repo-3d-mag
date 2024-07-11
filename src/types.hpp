@@ -2,10 +2,8 @@
 #define TLX493D_ARDUINO_TYPES_H
 
 
-/** Arduino includes. */
 #include <Arduino.h>
 
-/** project cpp includes. */
 #include "baseTypes.hpp"
 #include "TLx493D.hpp"
 

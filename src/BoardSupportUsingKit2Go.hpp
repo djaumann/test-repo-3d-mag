@@ -14,10 +14,8 @@
 #endif
 
 
-/** project c includes. */
 #include "tlx493d_types.h"
 
-/** project cpp includes. */
 #include "Kit2GoBoardSupport.hpp"
 
 

@@ -1,11 +1,9 @@
 #ifndef TLX493D_GEN_2_COMMON_H
 #define TLX493D_GEN_2_COMMON_H
 
-/** std includes. */
 #include <stdbool.h>
 
 
-/** project c includes. */
 #include "tlx493d_types.h"
 
 

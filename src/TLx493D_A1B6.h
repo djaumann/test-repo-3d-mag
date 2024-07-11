@@ -2,11 +2,9 @@
 #define TLx493D_A1B6_H
 
 
-/** std includes. */
 #include <stdbool.h>
 #include <stdint.h>
 
-/** project c includes. */
 #include "tlx493d_types.h"
 
 

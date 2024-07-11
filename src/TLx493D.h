@@ -9,7 +9,6 @@ extern "C" {
 #endif
 
 
-/** project c includes. */
 #include "tlx493d_types.h"
 
 

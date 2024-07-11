@@ -1,4 +1,3 @@
-/** std includes. */
 #ifdef __AVR__
 
     #include <stddef.h>
@@ -13,13 +12,11 @@
 #endif
 
 
-/** project c includes. */
 #include "tlx493d_types.h"
 
 /** TODO: fix XMCLib SPISettings incompatibilities ! P3I8 will not work for any other platform other than XMCLib ! */
 #include "tlx493d_common_defines.h"
 
-/** project cpp includes. */
 #include "types.hpp"
 #include "SPIUsingSPIClass.hpp"
 

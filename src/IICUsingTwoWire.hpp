@@ -2,7 +2,6 @@
 #define TLX493D_IIC_USING_TWOWIRE_HPP
 
 
-/** std includes. */
 #ifdef __AVR__
 
     #include <stdbool.h>
@@ -14,13 +13,10 @@
 #endif
 
 
-/** Arduino includes. */
 #include <Arduino.h>
 
-/** project c includes. */
 #include "tlx493d_types.h"
 
-/** project cpp includes. */
 #include "TwoWireWrapper.hpp"
 
 
