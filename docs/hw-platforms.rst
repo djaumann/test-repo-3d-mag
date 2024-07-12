@@ -301,6 +301,15 @@ Pin Description
 
 ----------------------------------------------------------------------
 
+Additional Supported Sensors
+----------------------------
+
+This library also supports the two following sensor variants:
+* TLE493 A2B6
+* TLI493 A2B6
+* TLV493D A2BW
+Since they are not available as Kit2Go or as Shield2Go we just listed them here, but they are supported by library. If you want to use one of these sensors in your project please refer to the corresponding data sheet for a pinout of the sensor.
+  
 .. _Supported HW:
 
 Supported MCU Platforms
@@ -320,6 +329,5 @@ The library example have been built and successfully executed with the following
     * - `XMC 2Go <https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc_2go_xmc1100_v1/>`_
     * - `XMC1100 Boot Kit <https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc11_boot_001/>`_
     * - `XMC4700 Relax Kit <https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc47_relax_v1/>`_
-    * - `XMC4700 Relax Kit for 5V Shields <https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc47_relax_5v_ad_v1/>`_
     * - `XMC4700 Relax Lite Kit <https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc47_relax_lite_v1/>`_ 
     * - `Arduino Uno Rev3 <https://store.arduino.cc/products/arduino-uno-rev3>`_
