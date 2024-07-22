@@ -334,7 +334,7 @@ Verified MCU and Sensor Combinations
 In the following table you find an extensive list of examples we have verified. For each example we also mentioned the used MCU board. Please be aware that we can only guarantee that the library fully functions with these MCU and sensor combinations. But all the examples should work with any of the MCU boards mentioned above and the corresponding senors of these examples.
 
 .. warning:: 
-  Some of the examples have been tested with experimental boards. This means that you cannot buy these boards directly from Infineon. If you're really interested to try out these examples you can order one of the available boards with the same senor package and replace the sensor on the board with the desired one.
+  Some of the examples have been tested with experimental boards. This means that you cannot buy these boards directly from Infineon. If you're really interested to try out these examples, you can order one of the available boards with the same sensor package and replace the sensor on the board with the desired one.
 
 .. list-table::
   :header-rows: 1
