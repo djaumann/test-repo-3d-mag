@@ -305,8 +305,8 @@ Additional Supported Sensors
 ----------------------------
 
 This library also supports the two following sensor variants:
-* TLE493 A2B6
-* TLI493 A2B6
+* TLE493D A2B6
+* TLI493D A2B6
 * TLV493D A2BW
 Since they are not available as Kit2Go or as Shield2Go we just listed them here, but they are supported by library. If you want to use one of these sensors in your project please refer to the corresponding data sheet for a pinout of the sensor.
   
@@ -315,12 +315,7 @@ Since they are not available as Kit2Go or as Shield2Go we just listed them here,
 Supported MCU Platforms
 -----------------------
 
-In principle, the library can be used with any Arduino compatible MCU platform, as long as its Arduino core is implemented with the `Arduino Reference Language <https://www.arduino.cc/reference/en/>`_. Below you will find a list of the boards we have tested with the library.
-
-Verified MCU Boards
-"""""""""""""""""""
-
-The library example have been built and successfully executed with the following hardware platforms:
+In principle, the library can be used with any Arduino compatible MCU platform, as long as its Arduino core is implemented with the `Arduino Reference Language <https://www.arduino.cc/reference/en/>`_. Below you will find a list of the boards which should be compatible with the library.
 
 .. list-table::
     :header-rows: 1
@@ -331,3 +326,101 @@ The library example have been built and successfully executed with the following
     * - `XMC4700 Relax Kit <https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc47_relax_v1/>`_
     * - `XMC4700 Relax Lite Kit <https://www.infineon.com/cms/de/product/evaluation-boards/kit_xmc47_relax_lite_v1/>`_ 
     * - `Arduino Uno Rev3 <https://store.arduino.cc/products/arduino-uno-rev3>`_
+    * - `Arduino Uno R4 Minima <https://store.arduino.cc/products/uno-r4-minima>`_
+
+Verified MCU and Sensor Combinations
+====================================
+
+In the following table you find an extensive list of examples we have verified. For each example we also mentioned the used MCU board. Please be aware that we can only guarantee that the library fully functions with these MCU and sensor combinations. But all the examples should also work with the MCU boards mentioned above.
+
+.. warning:: 
+  Some of the examples have been tested with experimental boards. This means that you cannot buy these boards directly from Infineon. If you're really interested to try out these examples you can order one of the available boards with the same senor package and replace the sensor on the board with the desired one.
+
+.. list-table::
+  :header-rows: 1
+
+  * - Status
+    - Board Type
+    - Sensor
+    - Tests
+    - Comment
+  * - pass
+    - Kit2Go
+    - A1B6
+    - Test suite, read_icc
+    - arduino-cli 0.34.0 wih xmc 2.2.0.
+  * - pass
+    - Kit2Go
+    - A2B6
+    - Test suite, read_icc
+    - arduino-cli 0.34.0 wih xmc 2.2.0.
+  * - pass
+    - Kit2Go
+    - P2B6
+    - Test suite, read_icc
+    - arduino-cli 0.34.0 wih xmc 2.2.0.
+  * - pass
+    - Kit2Go
+    - W2B6
+    - Test suite, read_icc
+    - arduino-cli 0.34.0 wih xmc 2.2.0.
+  * - pass
+    - Kit2Go
+    - P3I8
+    - Test suite, read_spi_sensor
+    - arduino-cli 0.34.0 wih xmc 2.2.0. Experimental board, which is not for sale yet.
+  * - pass
+    - S2Go
+    - A1B6
+    - read_iic_a1b6_extended_addresses
+    - arduino-cli 0.34.0 wih xmc 2.2.0.
+  * - pass
+    - S2Go
+    - A2BW
+    - Test suite
+    - arduino-cli 0.34.0 wih xmc 2.2.0. Experimental board with W2B6 as base board. Not for sale.
+  * - pass
+    - S2Go
+    - W2B6
+    - Test suite
+    - arduino-cli 0.34.0 wih xmc 2.2.0.
+  * - pass
+    - S2Go
+    - W2BW
+    - Test suite
+    - arduino-cli 0.34.0 wih xmc 2.2.0.
+  * - pass
+    - XMC4700 Relax Kit Lite
+    - W2BW, W2B6, P3B6
+    - read_3_different_iic_sensors
+    - arduino-cli 0.34.0 wih xmc 2.2.0.
+  * - pass
+    - XMC4700 Relax Kit Lite
+    - W2B6
+    - read_3_equal_iic_sensors
+    - arduino-cli 0.34.0 wih xmc 2.2.0.
+  * - pass
+    - XMC4700 Relax Kit Lite
+    - W2BW
+    - read_iic_sensor_with_wakeup
+    - arduino-cli 0.34.0 wih xmc 2.2.0.
+  * - pass
+    - S2Go
+    - P3B6
+    - Test suite
+    - arduino-cli 0.34.0 wih xmc 2.2.0. Experimental board with W2B6 as base board. Not yet for sale.
+  * - pass
+    - Uno R3
+    - W2B6
+    - read_iic
+    - arduino-cli 0.34.0 with AVR 1.8.6 and Arduino IDE 2.3.2
+  * - pass
+    - Uno R3
+    - W2BW
+    - read_iic
+    - arduino-cli 0.34.0 with AVR 1.8.6 and Arduino IDE 2.3.2
+  * - pass
+    - Uno R4 Minima
+    - W2BW
+    - Test suite, read_iic
+    - arduino-cli 0.34.0 with UNO R4 and Arduino IDE 2.3.2
