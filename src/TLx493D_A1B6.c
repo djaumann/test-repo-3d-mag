@@ -1,21 +1,21 @@
+/** std includes. */
 #include <math.h>
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
 
+/** project c includes. */
 #include "CommunicationInterface.h"
 #include "Logger.h"
 #include "tlx493d_types.h"
 #include "tlx493d_common_defines.h"
 #include "tlx493d_common.h"
 
+/** sensor specicifc includes. */
 #include "TLx493D_A1B6_defines.h"
 #include "TLx493D_A1B6_enums.h"
 #include "TLx493D_A1B6.h"
-
-
-#ifdef USE_TLx493D_A1B6      
 
 
 /** register enums. */
@@ -692,6 +692,3 @@ bool TLx493D_A1B6_hasValidPDBit(const TLx493D_t *sensor) {
 void TLx493D_A1B6_printRegisters(const TLx493D_t *sensor) {
     logPrintRegisters(sensor, TLX493D_A1B6_REGISTER_HEADLINE); 
 }
-
-
-#endif

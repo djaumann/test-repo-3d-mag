@@ -2,9 +2,11 @@
 #define TLX493D_TYPES_H
 
 
+/** std includes. */
 #include <stdbool.h>
 #include <stdint.h>
 
+/** project c includes. */
 #include "tlx493d_enums.h"
 
 
@@ -12,12 +14,14 @@
 
 typedef struct TLx493D_t  TLx493D_t;
 
+/** project cpp includes. */
 #include "baseTypes.hpp"
 
 extern "C" {
 
 #else
 
+/** project c includes. */
 #include "pal.h"
 
 #endif

@@ -1,4 +1,2 @@
 .vscode
-doc/build
-doc/exhale-auto-docs
-docs/_build
+release_script.py

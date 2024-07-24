@@ -2,8 +2,7 @@
 #define TLX493D_ARDUINO_BASETYPES_H
 
 
-#include <Arduino.h>
-
+/** project cpp includes. */
 #include "Kit2GoBoardSupport.hpp"
 #include "SPIClassWrapper.hpp"
 #include "TwoWireWrapper.hpp"

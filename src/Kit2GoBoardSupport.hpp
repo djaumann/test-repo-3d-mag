@@ -11,6 +11,7 @@
 #define TLX493D_KIT2GO_BOARD_SUPPORT_HPP
 
 
+/** Arduino includes. */
 #include <Arduino.h>
 
 //

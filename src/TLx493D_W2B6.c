@@ -1,8 +1,10 @@
+/** std includes. */
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
 
+/** project c includes. */
 #include "CommunicationInterface.h"
 #include "Logger.h"
 
@@ -13,12 +15,10 @@
 #include "tlx493d_gen_2_common_defines.h"
 #include "tlx493d_gen_2_common.h"
 
+/** sensor specicifc includes. */
 #include "TLx493D_W2B6_defines.h"
 #include "TLx493D_W2B6_enums.h"
 #include "TLx493D_W2B6.h"
-
-
-#ifdef USE_TLx493D_W2B6      
 
 
 static TLx493D_Register_t TLx493D_W2B6_regDef[] = {
@@ -441,6 +441,3 @@ double TLx493D_W2B6_getSensitivityScaleFactor(const TLx493D_t *sensor) {
 void TLx493D_W2B6_printRegisters(const TLx493D_t *sensor) {
     logPrintRegisters(sensor, TLX493D_W2B6_REGISTER_HEADLINE); 
 }
-
-
-#endif

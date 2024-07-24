@@ -1,9 +1,11 @@
 #ifndef TLX493D_GEN_2_COMMON_H
 #define TLX493D_GEN_2_COMMON_H
 
+/** std includes. */
 #include <stdbool.h>
 
 
+/** project c includes. */
 #include "tlx493d_types.h"
 
 
@@ -39,6 +41,7 @@ bool tlx493d_gen_2_setCollisionAvoidance(TLx493D_t *sensor, uint8_t caBF, uint8_
 bool tlx493d_gen_2_setInterrupt(TLx493D_t *sensor, uint8_t intBF, uint8_t fpBF, uint8_t irq);
 
 bool tlx493d_gen_2_setPowerMode(TLx493D_t *sensor, uint8_t modeBF, uint8_t fpBF, TLx493D_PowerModeType_t val);
+bool tlx493d_gen_2_setUpdateRateFastSlow(TLx493D_t *sensor, uint8_t fpBF, uint8_t prdBF, TLx493D_UpdateRateType_t val);
 bool tlx493d_gen_2_setUpdateRate(TLx493D_t *sensor, uint8_t fpBF, uint8_t prdBF, TLx493D_UpdateRateType_t val);
 
 bool tlx493d_gen_2_hasValidData(const TLx493D_t *sensor, uint8_t modeBF, uint8_t pd3BF, uint8_t pd0BF);

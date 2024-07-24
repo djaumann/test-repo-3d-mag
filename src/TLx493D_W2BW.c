@@ -1,8 +1,10 @@
+/** std includes. */
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
 
+/** project c includes. */
 #include "CommunicationInterface.h"
 #include "Logger.h"
 
@@ -13,12 +15,10 @@
 #include "tlx493d_gen_2_common_defines.h"
 #include "tlx493d_gen_2_common.h"
 
+/** sensor specicifc includes. */
 #include "TLx493D_W2BW_defines.h"
 #include "TLx493D_W2BW_enums.h"
 #include "TLx493D_W2BW.h"
-
-
-#ifdef USE_TLx493D_W2BW      
 
 
 static TLx493D_Register_t TLx493D_W2BW_regDef[] = {
@@ -290,7 +290,6 @@ bool TLx493D_W2BW_setSensitivity(TLx493D_t *sensor, TLx493D_SensitivityType_t va
 
 bool TLx493D_W2BW_setDefaultConfig(TLx493D_t *sensor) {
     return tlx493d_gen_2_setDefaultConfig(sensor, W2BW_CP_e, W2BW_CA_e, W2BW_INT_e);
-    /** return tlx493d_gen_2_setDefaultConfig(sensor, W2BW_CONFIG_REG_e, W2BW_MOD1_REG_e, W2BW_MOD2_REG_e, W2BW_CP_e, W2BW_CA_e, W2BW_INT_e); */
 }
 
 
@@ -487,6 +486,3 @@ double TLx493D_W2BW_getSensitivityScaleFactor(const TLx493D_t *sensor) {
 void TLx493D_W2BW_printRegisters(const TLx493D_t *sensor) {
     logPrintRegisters(sensor, TLX493D_W2BW_REGISTER_HEADLINE); 
 }
-
-
-#endif

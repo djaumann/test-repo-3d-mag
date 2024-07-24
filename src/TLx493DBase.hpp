@@ -2,6 +2,7 @@
 #define TLX493D_BASE_HPP
 
 
+/** std includes. */
 #ifdef __AVR__
 
     #include <stdint.h>
@@ -13,6 +14,7 @@
 #endif
 
 
+/** project c includes. */
 #include "tlx493d_types.h"
 #include "tlx493d.h"
 
@@ -578,7 +580,6 @@ namespace ifx {
             private:
 
                 using BusType = typename BusWrapper::BusType;
-                // typedef typename BusWrapper::BusType BusType;
 
 
                 TLx493D();

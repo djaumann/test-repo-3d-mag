@@ -87,17 +87,17 @@ shutil.copytree(test_path, dst_test_path, dirs_exist_ok=True)
 shutil.rmtree(dst_test_path + "unit/src/framework/mtb/", onerror=onerror)
 
 
-# Get repository meta data
-repo = git.Repo("./")
-tag_version = str(repo.tags[-1]) # Get tag
-tag_hash = str(repo.rev_parse("master")) # Get hash
+# # Get repository meta data
+# repo = git.Repo("./")
+# tag_version = str(repo.tags[-1]) # Get tag
+# tag_hash = str(repo.rev_parse("master")) # Get hash
 
-if os.path.exists(dst_version_file):
-    os.remove(dst_version_file)
+# if os.path.exists(dst_version_file):
+#     os.remove(dst_version_file)
     
-with open(dst_version_file, "w") as f:
-    f.write("Current tag of the repository is: \t\t" + tag_version + "\n")
-    f.write("Current hash of the repository is: \t\t" + tag_hash)
+# with open(dst_version_file, "w") as f:
+#     f.write("Current tag of the repository is: \t\t" + tag_version + "\n")
+#     f.write("Current hash of the repository is: \t\t" + tag_hash)
 
 # Remove temporary files
 shutil.rmtree("./temp", onerror=onerror)

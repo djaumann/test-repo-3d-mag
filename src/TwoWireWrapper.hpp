@@ -2,6 +2,7 @@
 #define TLX493D_TWOWIRE_WRAPPER_HPP
 
 
+/** Arduino includes. */
 #include <Arduino.h>
 #include <Wire.h>
 
@@ -16,7 +17,6 @@ namespace ifx {
             public:
 
                 using BusType = TwoWire;
-                // typedef TwoWire BusType;
 
 
                 /**
@@ -63,8 +63,8 @@ namespace ifx {
                  * @param[in] rxLen Length of the data that should be received.
                  * 
                  * @return The functions returns a boolean to indicate if the the transfer was successful.
-                 * @retval 0 Error.
-                 * @retval 1 Success.
+                 * @retval false Error.
+                 * @retval true Success.
                  */
                 bool transfer(uint8_t iicAddress, uint8_t *txBuffer, uint8_t txLen, uint8_t *rxBuffer, uint8_t rxLen) {
                     if( (txLen > 0) && (txBuffer != NULL) ) {

@@ -1,5 +1,7 @@
+/** Arduino includes. */
 #include <Arduino.h>
 
+/** project cpp includes. */
 #include "Kit2GoBoardSupport.hpp"
 
 
